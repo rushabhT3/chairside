@@ -1,0 +1,20 @@
+{
+  "name": "chairside-worker-oauth",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "OAuth 2.1 proxy in front of the chairside-mcp Xano MCP server (Cloudflare Worker)",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@cloudflare/workers-oauth-provider": "^0.10.3"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^5.20260903.1",
+    "typescript": "^5.9.0",
+    "wrangler": "^4.128.0"
+  }
+}

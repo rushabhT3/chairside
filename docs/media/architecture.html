@@ -1,0 +1,73 @@
+<!doctype html><meta charset="utf-8">
+<style>
+  :root{--ink:#221610;--cream:#F5F1EA;--brown:#4A2C1A;--copper:#B5713A;--line:#D8CCBC;--deny:#8C2B18;--ok:#2F6B4F}
+  *{box-sizing:border-box;margin:0}
+  body{width:1600px;height:1000px;background:var(--cream);font-family:"Segoe UI",system-ui,sans-serif;color:var(--ink);padding:44px 52px;overflow:hidden}
+  h1{font-size:40px;letter-spacing:-.02em;font-weight:800}
+  h1 small{display:block;font-size:20px;font-weight:600;color:var(--copper);letter-spacing:.1em;text-transform:uppercase;margin-bottom:8px}
+  .grid{display:grid;grid-template-columns:300px 300px 1fr 330px;gap:22px;margin-top:26px;align-items:start}
+  .col h2{font-size:17px;letter-spacing:.16em;text-transform:uppercase;color:var(--copper);font-weight:700;margin-bottom:12px}
+  .box{background:#fff;border:2px solid var(--line);border-radius:14px;padding:14px 16px;margin-bottom:12px}
+  .box b{display:block;font-size:21px;font-weight:700;line-height:1.25}
+  .box span{display:block;font-size:16px;color:#5B4A3D;margin-top:5px;line-height:1.35}
+  .accent{border-color:var(--copper);background:#fff8f1}
+  .core{border-color:var(--brown);background:#fff}
+  .deny{border-color:var(--deny);background:#fdf1ee}
+  .deny b{color:var(--deny)}
+  .flow{display:flex;align-items:center;gap:10px;font-size:16px;font-weight:700;color:var(--brown);margin:2px 0 12px}
+  .arrow{flex:1;height:3px;background:var(--copper);position:relative;border-radius:2px}
+  .arrow::after{content:"";position:absolute;right:-2px;top:-5px;border-left:11px solid var(--copper);border-top:7px solid transparent;border-bottom:7px solid transparent}
+  .vendors{display:grid;grid-template-columns:1fr 1fr;gap:9px}
+  .v{background:#fff;border:2px solid var(--line);border-radius:11px;padding:9px 11px;font-size:16px;font-weight:700}
+  .v small{display:block;font-weight:600;color:#5B4A3D;font-size:14px;margin-top:2px}
+  .live{border-color:var(--ok)}
+  .live small{color:var(--ok)}
+  .legend{display:flex;gap:22px;margin-top:20px;font-size:17px;font-weight:600;align-items:center}
+  .dot{display:inline-block;width:14px;height:14px;border-radius:4px;margin-right:8px;vertical-align:-2px}
+</style>
+<h1><small>Chairside · architecture</small>The model narrates. The code decides. The agent holds no signing key.</h1>
+<div class="grid">
+  <div class="col">
+    <h2>Surfaces</h2>
+    <div class="box"><b>Mirror</b><span>Client PWA. Camera, one-face check, resize, SHA-256, consent.</span></div>
+    <div class="box"><b>Floor</b><span>Stylist console. Chairs, consultations, ledger verified in the browser.</span></div>
+    <div class="box"><b>Storefront</b><span>The salon's public site, deployed on its own domain.</span></div>
+    <div class="box accent"><b>Render worker</b><span>Cloudflare. Holds the YouCam key so the browser never does.</span></div>
+  </div>
+  <div class="col">
+    <h2>Agents</h2>
+    <div class="box"><b>Onboarding agent</b><span>Domain, consents, catalogue, market prices, storefront.</span></div>
+    <div class="box"><b>Consultation agent</b><span>Analyse, plan, render, price, consent, order, rebook.</span></div>
+    <div class="box core"><b>Five pure functions</b><span>Plan · price policy · consent template · shade map · quarantine. No model output reaches these.</span></div>
+    <div class="box"><b>Event writer</b><span>Every step is an event. Console, ledger and replay are projections.</span></div>
+  </div>
+  <div class="col">
+    <h2>Xano · system of record</h2>
+    <div class="box core"><b>Tables and auth</b><span>Salons, clients, staff, catalogue, consultations, envelopes, audit chain.</span></div>
+    <div class="box core"><b>Price engine</b><span>Nightly refresh against the market snapshot.</span></div>
+    <div class="box deny"><b>Commit gate</b><span>POST /commit/envelopes/:id/send. Refuses an agent token, a client token, a draft document, unreviewed onboarding, an unready consent, and no token.</span></div>
+    <div class="box core"><b>MCP server</b><span>Other agents can book through it.</span></div>
+    <div class="flow"><span>agent</span><div class="arrow"></div><span>401 / 403</span></div>
+    <div class="box deny"><b>eSign credential</b><span>Lives only here, as a workspace variable. The agent process never receives it.</span></div>
+  </div>
+  <div class="col">
+    <h2>Vendors</h2>
+    <div class="vendors">
+      <div class="v live">YouCam<small>live · renders</small></div>
+      <div class="v live">SerpApi<small>live · 5 calls</small></div>
+      <div class="v live">Nutrient<small>live · extraction</small></div>
+      <div class="v live">Foxit PDF<small>live · MCP</small></div>
+      <div class="v live">name.com<small>live · lookups</small></div>
+      <div class="v live">Xano<small>live · backend</small></div>
+      <div class="v">Foxit eSign<small>Xano only</small></div>
+      <div class="v">Doctavian<small>fixtures</small></div>
+    </div>
+    <div class="box" style="margin-top:12px"><b>Cassettes</b><span>Every adapter has a live path and a fixtures path. Recorded responses replay so the whole flow runs on zero credits.</span></div>
+    <div class="box"><b>Audit chain</b><span>SHA-256 over canonical JSON. Tamper with a row and the browser catches it.</span></div>
+  </div>
+</div>
+<div class="legend">
+  <span><i class="dot" style="background:#2F6B4F"></i>recorded from the live API today</span>
+  <span><i class="dot" style="background:#8C2B18"></i>credential boundary the agent cannot cross</span>
+  <span><i class="dot" style="background:#4A2C1A"></i>deterministic, never model output</span>
+</div>

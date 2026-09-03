@@ -118,18 +118,37 @@ https://github.com/rushabhT3/chairside
 https://chairside-mirror-render.insidious-stop.workers.dev/health
 ```
 
+### Project thumbnail
+
+Upload `docs/media/project-thumbnail.png`. It is 1200 by 800, the 3:2 ratio Devpost asks for, under 5 MB.
+
 ### Image gallery
 
-Take these four screenshots at 3:2 if there is time, otherwise upload whatever you have:
+Upload `docs/media/architecture.png` first, so it sits at the top of the gallery. Then add screenshots as time allows:
 
-1. Mirror simulate screen with a face rendered in a salon shade.
-2. Floor ledger showing the hash chain with the `redteam.esign_denied` row.
-3. Terminal showing `redteam esign` returning HTTP 401.
-4. Floor chairs view.
+1. `docs/media/architecture.png` — the architecture diagram, explained below.
+2. Mirror simulate screen with a face rendered in a salon shade.
+3. Floor ledger showing the hash chain with the `redteam.esign_denied` row.
+4. Terminal showing `redteam esign` returning HTTP 401.
+5. Floor chairs view.
+
+### What the architecture diagram shows
+
+Paste this as the caption on the diagram, or drop it into the story under "How we built it".
+
+The diagram reads left to right, and the whole point is the third column.
+
+**Surfaces.** Mirror is the client's phone: it opens the camera, checks exactly one face is in frame, resizes, hashes the bytes and collects consent. Floor is the stylist's console and re-verifies the audit chain in the browser. Storefront is the salon's public site. The render worker sits beside them because a browser cannot hold a vendor API key, so a Cloudflare Worker holds it, takes the scan and returns the render.
+
+**Agents.** Two of them, onboarding and consultation. Between them sit five pure functions that own the plan, the price policy, the consent template, the shade mapping and the quarantine verdict. Nothing a language model returns reaches those functions. The model narrates what they decided. Every step either agent takes is written as an event, and the console, the ledger and `replay` are three projections of that one stream.
+
+**Xano.** The system of record, the auth, the nightly price engine and an MCP server other agents can book through. Two boxes are outlined in red. The commit gate refuses to send a signing envelope six different ways: an agent service token, a client token, a document still in draft, an onboarding whose documents are unreviewed, a consent that is not ready, and no token at all. Below it, the eSign credential exists only as a Xano workspace variable. The arrow shows the agent trying and being told 401 or 403. That refusal is the product, not a limitation of it.
+
+**Vendors.** Six of the seven integrations replay responses recorded against the live APIs on 3 September 2026, marked in green. Foxit eSign is deliberately unreachable from the agent. Doctavian issues credentials by email and stayed on fixtures. Every adapter has both a live path and a fixtures path, so the entire flow runs on zero credits, and the audit chain means a judge can tamper with any row and watch the page catch it.
 
 ### Video demo link
 
-The YouTube URL, public, not unlisted.
+The YouTube URL, public, not unlisted. Use `docs/media/yt-thumbnail.png` as the video's custom thumbnail, it is 1280 by 720.
 
 ---
 

@@ -1,0 +1,44 @@
+<!doctype html><meta charset="utf-8">
+<style>
+  :root{--ink:#221610;--cream:#F5F1EA;--brown:#4A2C1A;--copper:#B5713A;--line:#D8CCBC}
+  *{box-sizing:border-box;margin:0}
+  body{width:1280px;height:720px;background:var(--cream);font-family:"Segoe UI",system-ui,sans-serif;color:var(--ink);display:grid;grid-template-columns:1fr 420px;overflow:hidden}
+  .left{padding:74px 56px 56px 74px;display:flex;flex-direction:column;justify-content:space-between}
+  .kicker{font-size:23px;letter-spacing:.24em;text-transform:uppercase;color:var(--copper);font-weight:700}
+  h1{font-size:104px;line-height:.95;letter-spacing:-.035em;font-weight:800;margin:26px 0 0}
+  h1 span{display:block;color:var(--brown)}
+  .rule{width:132px;height:7px;background:var(--copper);margin:30px 0 26px;border-radius:4px}
+  p{font-size:33px;line-height:1.32;max-width:660px;font-weight:500}
+  p b{font-weight:800}
+  .foot{display:flex;gap:14px;flex-wrap:wrap}
+  .tag{border:2px solid var(--line);border-radius:999px;padding:9px 20px;font-size:19px;font-weight:600;color:var(--brown);background:#fff}
+  .right{position:relative;background:var(--brown);display:flex;align-items:center;justify-content:center}
+  .right::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(181,113,58,.42),rgba(34,22,16,.6))}
+  .card{position:relative;z-index:2;width:300px;background:var(--cream);border-radius:20px;padding:26px;box-shadow:0 26px 60px rgba(0,0,0,.42)}
+  .card h2{font-size:20px;letter-spacing:.16em;text-transform:uppercase;color:var(--copper);margin-bottom:16px}
+  .row{display:flex;justify-content:space-between;font-size:21px;padding:9px 0;border-bottom:1px solid var(--line);font-weight:600}
+  .row:last-child{border:0}
+  .deny{margin-top:16px;background:#8C2B18;color:#fff;border-radius:12px;padding:13px 16px;font-size:20px;font-weight:800;text-align:center}
+</style>
+<div class="left">
+  <div>
+    <div class="kicker">API World Hackathon 2026</div>
+    <h1>Chairside<span>one selfie.</span></h1>
+    <div class="rule"></div>
+    <p>The salon consultation, rendered on your own face. And an agent that <b>cannot sign anything.</b></p>
+  </div>
+  <div class="foot">
+    <span class="tag">YouCam</span><span class="tag">Xano</span><span class="tag">SerpApi</span>
+    <span class="tag">Nutrient</span><span class="tag">Foxit</span><span class="tag">name.com</span>
+  </div>
+</div>
+<div class="right">
+  <div class="card">
+    <h2>Commit gate</h2>
+    <div class="row"><span>agent token</span><b>403</b></div>
+    <div class="row"><span>client token</span><b>403</b></div>
+    <div class="row"><span>draft doc</span><b>403</b></div>
+    <div class="row"><span>no token</span><b>401</b></div>
+    <div class="deny">esign_denied</div>
+  </div>
+</div>

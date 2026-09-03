@@ -143,6 +143,8 @@ git clone https://github.com/foxitsoftware/foxit-pdf-api-mcp-server.git vendor/f
 
 Version 0.2.3 ships a console script pointing at a module the wheel does not contain, so `adapters/foxit_pdf.py` starts the server by its real module path instead.
 
+So YouCam, SerpApi, Nutrient extraction, and Foxit PDF Services all replay real responses recorded on 3 Sep 2026. name.com, Doctavian, and Foxit eSign stay on hand-written cassettes: a name.com sandbox token answers `Permission Denied` until the account is approved for API access, Doctavian issues credentials by email, and the eSign credential is deliberately held by Xano alone, where the agent cannot reach it.
+
 ```bash
 cd agent && uv sync --group dev
 uv run pytest -q

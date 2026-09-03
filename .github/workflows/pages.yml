@@ -30,7 +30,7 @@ jobs:
       - run: npm ci
       - run: npm run build
         env:
-          VITE_RENDER_PROXY_URL: https://chairside-render.legend-safflower.workers.dev
+          VITE_RENDER_PROXY_URL: https://chairside-mirror-render.insidious-stop.workers.dev
       - run: npm run build:storefront
       - uses: actions/upload-pages-artifact@v3
         with:

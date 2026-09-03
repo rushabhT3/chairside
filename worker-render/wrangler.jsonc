@@ -1,5 +1,5 @@
 {
-  "name": "chairside-render",
+  "name": "chairside-mirror-render",
   "main": "src/index.ts",
   "compatibility_date": "2025-08-01",
   "observability": { "enabled": true }

@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # Deploys the render worker with the YouCam key read from ../.env, so the key never reaches a shell history.
+# Pass --temporary to deploy to a throwaway Cloudflare account instead of the logged-in one.
 set -euo pipefail
 
 cd "$(dirname "$0")"
@@ -9,4 +10,4 @@ if [ -z "$KEY" ]; then
   exit 1
 fi
 
-npx wrangler deploy --temporary --var "PERFECTCORP_API_KEY:$KEY" 2>&1 | sed "s/$KEY/<key>/g"
+npx wrangler deploy "$@" --var "PERFECTCORP_API_KEY:$KEY" 2>&1 | sed "s/$KEY/<key>/g"

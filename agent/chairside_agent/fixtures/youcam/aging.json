@@ -2,54 +2,90 @@
   "vendor": "youcam",
   "primitive": "aging",
   "variant": "default",
-  "recorded_at": "2026-09-03T09:00:00+00:00",
+  "recorded_at": "2026-09-03T13:45:58+00:00",
   "request": {
-    "src_file_url": "https://fixtures.chairside.local/uploads/scan-camille-01.jpg"
+    "src_file_url": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?fit=facearea&facepad=3&w=1024&h=1024&q=85&fm=jpg"
   },
   "response": {
     "status": 200,
     "data": {
-      "task_status": "success",
       "error": null,
       "results": {
-        "age": 31,
-        "agd_idx": 2,
-        "age_min": 12,
-        "age_max": 70,
-        "num_of_photos": 7,
         "output": [
           {
-            "url": "https://fixtures.chairside.local/renders/aging-12.jpg",
-            "res_age": 12
+            "res_age": 12.0,
+            "url": "https://yce-us.s3-accelerate.amazonaws.com/ttl30/498475094977283420/118849540545/v2/aeMNNB0KmUIP8rnQ996tC5Q/83fdfef9-b89d-4054-8365-9026745dd8f5.jpg"
           },
           {
-            "url": "https://fixtures.chairside.local/renders/aging-21.jpg",
-            "res_age": 21
+            "res_age": 16.0,
+            "url": "https://yce-us.s3-accelerate.amazonaws.com/ttl30/498475094977283420/118849540545/v2/aeMNNB0KmUIP8rnQ996tC5Q/f1675cc9-0f29-4fd7-a846-06ff1ea95f06.jpg"
           },
           {
-            "url": "https://fixtures.chairside.local/renders/aging-31.jpg",
-            "res_age": 31
+            "res_age": 20.0,
+            "url": "https://yce-us.s3-accelerate.amazonaws.com/ttl30/498475094977283420/118849540545/v2/aeMNNB0KmUIP8rnQ996tC5Q/49ef7631-4619-45be-b62f-1f6ace7108bd.jpg"
           },
           {
-            "url": "https://fixtures.chairside.local/renders/aging-40.jpg",
-            "res_age": 40
+            "res_age": 24.0,
+            "url": "https://yce-us.s3-accelerate.amazonaws.com/ttl30/498475094977283420/118849540545/v2/aeMNNB0KmUIP8rnQ996tC5Q/146f6896-b372-4d6a-88a3-02d33c3508f7.jpg"
           },
           {
-            "url": "https://fixtures.chairside.local/renders/aging-50.jpg",
-            "res_age": 50
+            "res_age": 27.0,
+            "url": "https://yce-us.s3-accelerate.amazonaws.com/ttl30/498475094977283420/118849540545/v2/aeMNNB0KmUIP8rnQ996tC5Q/0c67b3c5-ffac-47b4-b82d-cb58335ba322.jpg"
           },
           {
-            "url": "https://fixtures.chairside.local/renders/aging-60.jpg",
-            "res_age": 60
+            "res_age": 31.0,
+            "url": "https://yce-us.s3-accelerate.amazonaws.com/ttl30/498475094977283420/118849540545/v2/aeMNNB0KmUIP8rnQ996tC5Q/b69a632f-9e99-4a7f-9701-785e50512c7c.jpg"
           },
           {
-            "url": "https://fixtures.chairside.local/renders/aging-70.jpg",
-            "res_age": 70
+            "res_age": 35.0,
+            "url": "https://yce-us.s3-accelerate.amazonaws.com/ttl30/498475094977283420/118849540545/v2/aeMNNB0KmUIP8rnQ996tC5Q/10929d0f-f3b8-4fdd-a169-958fce25aa65.jpg"
+          },
+          {
+            "res_age": 39.0,
+            "url": "https://yce-us.s3-accelerate.amazonaws.com/ttl30/498475094977283420/118849540545/v2/aeMNNB0KmUIP8rnQ996tC5Q/9e60a732-6c31-4c31-ba84-c89825dad9cc.jpg"
+          },
+          {
+            "res_age": 43.0,
+            "url": "https://yce-us.s3-accelerate.amazonaws.com/ttl30/498475094977283420/118849540545/v2/aeMNNB0KmUIP8rnQ996tC5Q/2bcda1d3-005b-4d82-9c0f-65f8707156b0.jpg"
+          },
+          {
+            "res_age": 47.0,
+            "url": "https://yce-us.s3-accelerate.amazonaws.com/ttl30/498475094977283420/118849540545/v2/aeMNNB0KmUIP8rnQ996tC5Q/0a1930b4-4ff0-414e-aefe-7a80f165b8fe.jpg"
+          },
+          {
+            "res_age": 51.0,
+            "url": "https://yce-us.s3-accelerate.amazonaws.com/ttl30/498475094977283420/118849540545/v2/aeMNNB0KmUIP8rnQ996tC5Q/19df76e4-d1f1-49e8-b1f5-6083fcc645ad.jpg"
+          },
+          {
+            "res_age": 55.0,
+            "url": "https://yce-us.s3-accelerate.amazonaws.com/ttl30/498475094977283420/118849540545/v2/aeMNNB0KmUIP8rnQ996tC5Q/6274eefe-bc6c-46df-b7bb-a4b17cbf27fe.jpg"
+          },
+          {
+            "res_age": 58.0,
+            "url": "https://yce-us.s3-accelerate.amazonaws.com/ttl30/498475094977283420/118849540545/v2/aeMNNB0KmUIP8rnQ996tC5Q/72ed7263-782a-48d4-8fbf-fa4bc4f0c958.jpg"
+          },
+          {
+            "res_age": 62.0,
+            "url": "https://yce-us.s3-accelerate.amazonaws.com/ttl30/498475094977283420/118849540545/v2/aeMNNB0KmUIP8rnQ996tC5Q/3055f2fe-5494-4517-bf36-008e36c9b1db.jpg"
+          },
+          {
+            "res_age": 66.0,
+            "url": "https://yce-us.s3-accelerate.amazonaws.com/ttl30/498475094977283420/118849540545/v2/aeMNNB0KmUIP8rnQ996tC5Q/506db6ad-f5dd-4bb4-9067-b6faec8bc912.jpg"
+          },
+          {
+            "res_age": 70.0,
+            "url": "https://yce-us.s3-accelerate.amazonaws.com/ttl30/498475094977283420/118849540545/v2/aeMNNB0KmUIP8rnQ996tC5Q/b69ef856-4860-46a7-bc88-973cfe41dd72.jpg"
           }
-        ]
-      }
+        ],
+        "agd_idx": 3,
+        "age_min": 12.0,
+        "age": 25.0,
+        "num_of_photos": 16,
+        "age_max": 70.0
+      },
+      "task_status": "success"
     }
   },
   "units": 2,
-  "latency_ms": 8340
+  "latency_ms": 16958
 }

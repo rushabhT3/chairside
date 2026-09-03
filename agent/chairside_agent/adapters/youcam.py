@@ -66,6 +66,8 @@ REST_FEATURE: dict[str, tuple[str, str]] = {
     TOOL_HAIR_VOLUME: ("v2.0", "hair-vol"),
 }
 
+FACE_FEATURES: tuple[str, ...] = ("faceShape", "horizontalThird", "faceAspectRatio")
+
 HD_ACTIONS: tuple[str, ...] = tuple(f"hd_{c}" for c in SKIN_CONCERNS if c != "spot") + (
     "hd_age_spot",
 )
@@ -176,7 +178,7 @@ def parse_color_tones(payload: dict[str, Any]) -> ColorTones:
         skin_tone=color["skin_color"],
         undertone=undertone_from_hex(color["skin_color"]),
         eye_color=color.get("eye_color_name") or color["eye_color"],
-        hair_color_hex=color["hair_color"],
+        hair_color_hex=color.get("hair_color") or color["eyebrow_color"],
     )
 
 
@@ -349,15 +351,16 @@ class YouCamAdapter(VendorAdapter):
     async def hair_diagnostics(
         self, image_url: str, *, variant: str = "default"
     ) -> HairDiagnostics:
-        args = {"src_file_url": image_url}
+        # Type and frizziness take front, right, and left views; one selfie stands in for all three.
+        three_views = {"src_file_urls": [image_url, image_url, image_url]}
         hair_type, _ = await self._invoke(
-            "hair_type", TOOL_HAIR_TYPE, args, units=2, variant=variant
+            "hair_type", TOOL_HAIR_TYPE, three_views, units=2, variant=variant
         )
         density, _ = await self._invoke(
-            "hair_density", TOOL_HAIR_DENSITY, args, units=2, variant=variant
+            "hair_density", TOOL_HAIR_DENSITY, {"src_file_url": image_url}, units=2, variant=variant
         )
         frizz, _ = await self._invoke(
-            "hair_frizziness", TOOL_HAIR_FRIZZ, args, units=2, variant=variant
+            "hair_frizziness", TOOL_HAIR_FRIZZ, three_views, units=2, variant=variant
         )
         return parse_hair_diagnostics(hair_type, density, frizz)
 
@@ -365,7 +368,7 @@ class YouCamAdapter(VendorAdapter):
         payload, _ = await self._invoke(
             "face_attributes",
             TOOL_FACE_ATTRIBUTES,
-            {"src_file_url": image_url},
+            {"src_file_url": image_url, "features": list(FACE_FEATURES)},
             units=20,
             variant=variant,
         )
@@ -396,7 +399,13 @@ class YouCamAdapter(VendorAdapter):
         return await self._render(
             "hair_color",
             TOOL_HAIR_COLOR,
-            {"src_file_url": image_url, "pattern": "full", "palettes": [hex.upper()]},
+            {
+                "src_file_url": image_url,
+                "pattern": {"name": "full"},
+                "palettes": [
+                    {"color": hex.upper(), "color_intensity": 100, "shine_intensity": 100}
+                ],
+            },
             units=1,
             variant=variant,
         )

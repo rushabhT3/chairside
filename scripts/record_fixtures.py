@@ -72,19 +72,24 @@ async def record_nutrient(rt: Runtime) -> None:
 
 
 async def record_youcam(rt: Runtime) -> None:
+    """Skin analysis wants the face over 60% of the frame; the renders want hair and shoulders.
+
+    RECORD_IMAGE_URL is the tight crop, RECORD_PORTRAIT_URL the loose one. Hair type, density,
+    and frizziness need front, right, and left views, so they stay on the hand-written cassettes.
+    """
     image = _url("RECORD_IMAGE_URL")
     if not image:
         print("skip youcam: set RECORD_IMAGE_URL to a public selfie URL")
         return
+    portrait = _url("RECORD_PORTRAIT_URL") or image
     await rt.youcam.list_tools()
     await rt.youcam.color_tones(image)
     await rt.youcam.skin_hd(image)
-    await rt.youcam.hair_diagnostics(image)
     await rt.youcam.face_attributes(image)
-    await rt.youcam.hair_color_tryon(image, rt.seed.shade_map[0].hex)
-    await rt.youcam.skin_simulation(image, "hydration")
-    await rt.youcam.hairstyle_tryon(image, "long_layers")
-    await rt.youcam.aging_simulation(image, 10)
+    await rt.youcam.hair_color_tryon(portrait, rt.seed.shade_map[0].hex)
+    await rt.youcam.skin_simulation(image, "brightening")
+    await rt.youcam.hairstyle_tryon(portrait, "female_s_wave_brunette")
+    await rt.youcam.aging_simulation(portrait, 10)
 
 
 async def record_foxit(rt: Runtime) -> None:

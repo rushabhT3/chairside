@@ -2,16 +2,25 @@
   "vendor": "youcam",
   "primitive": "face_attributes",
   "variant": "default",
-  "recorded_at": "2026-09-03T09:00:00+00:00",
+  "recorded_at": "2026-09-03T13:45:06+00:00",
   "request": {
-    "src_file_url": "https://fixtures.chairside.local/uploads/scan-camille-01.jpg"
+    "src_file_url": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?fit=facearea&facepad=1.5&w=1000&h=1000&q=85&fm=jpg",
+    "features": [
+      "faceShape",
+      "horizontalThird",
+      "faceAspectRatio"
+    ]
   },
   "response": {
     "status": 200,
     "data": {
-      "task_status": "success",
       "error": null,
       "results": {
+        "nose": {},
+        "agegender": {},
+        "eyelid": {},
+        "eyebrow": {},
+        "color": {},
         "face_quality": {
           "has_face": true,
           "area": "good",
@@ -19,49 +28,23 @@
           "lighting": "good",
           "faceangle": "good"
         },
+        "cheekbone": {},
         "faceshape": "Oval",
         "facialratio": {
           "horizontal_third": [
-            32,
-            34,
-            34
-          ],
-          "vertical_fifth": [
-            19,
-            21,
-            20,
-            21,
-            19
+            33,
+            30,
+            37
           ],
           "face_aspect_ratio": [
             1,
-            1.42
+            1.419
           ]
-        },
-        "cheekbone": {
-          "left": "High Cheekbone",
-          "right": "High Cheekbone"
-        },
-        "nose": {
-          "width": "Average",
-          "length": "Average"
-        },
-        "color": {
-          "skin_color": "#C9A27E",
-          "eye_color": "#5B3A21",
-          "eye_color_name": "Brown",
-          "lip_color": "#B85C6A",
-          "eyebrow_color": "#3B2A1E",
-          "hair_color": "#42280E",
-          "hair_color_name": "Brown"
-        },
-        "agegender": {
-          "age": 31,
-          "gender": "female"
         }
-      }
+      },
+      "task_status": "success"
     }
   },
   "units": 20,
-  "latency_ms": 2380
+  "latency_ms": 8058
 }

@@ -2,26 +2,22 @@
   "vendor": "youcam",
   "primitive": "skin_simulation",
   "variant": "default",
-  "recorded_at": "2026-09-03T09:00:00+00:00",
+  "recorded_at": "2026-09-03T13:47:46+00:00",
   "request": {
-    "src_file_url": "https://fixtures.chairside.local/uploads/scan-camille-01.jpg",
+    "src_file_url": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?fit=facearea&facepad=2&w=1400&h=1400&q=85&fm=jpg",
     "radiance": 1.0,
     "spots": 0.8
   },
   "response": {
     "status": 200,
     "data": {
-      "task_status": "success",
       "error": null,
       "results": {
-        "output": [
-          {
-            "url": "https://fixtures.chairside.local/renders/skin-brightening.jpg"
-          }
-        ]
-      }
+        "url": "https://yce-us.s3-accelerate.amazonaws.com/ttl30/498475094977283420/118849656605/v2/aeMNNB0KmUIP8rnQ996tC5Q/927a96de-ce0e-4e12-9ce2-0b9067dabbbb.png"
+      },
+      "task_status": "success"
     }
   },
   "units": 4,
-  "latency_ms": 6120
+  "latency_ms": 8822
 }

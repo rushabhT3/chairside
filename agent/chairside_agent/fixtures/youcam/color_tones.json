@@ -2,35 +2,33 @@
   "vendor": "youcam",
   "primitive": "color_tones",
   "variant": "default",
-  "recorded_at": "2026-09-03T09:00:00+00:00",
+  "recorded_at": "2026-09-03T13:44:36+00:00",
   "request": {
-    "src_file_url": "https://fixtures.chairside.local/uploads/scan-camille-01.jpg"
+    "src_file_url": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?fit=facearea&facepad=1.5&w=1000&h=1000&q=85&fm=jpg"
   },
   "response": {
     "status": 200,
     "data": {
-      "task_status": "success",
       "error": null,
       "results": {
+        "color": {
+          "eye_color": "#1b110f",
+          "eye_color_name": "Brown",
+          "lip_color": "#c62d33",
+          "eyebrow_color": "#5b575a",
+          "skin_color": "#b69379"
+        },
         "face_quality": {
           "has_face": true,
           "area": "good",
           "frontal": "good",
           "lighting": "good",
           "faceangle": "good"
-        },
-        "color": {
-          "skin_color": "#C9A27E",
-          "eye_color": "#5B3A21",
-          "eye_color_name": "Brown",
-          "lip_color": "#B85C6A",
-          "eyebrow_color": "#3B2A1E",
-          "hair_color": "#42280E",
-          "hair_color_name": "Brown"
         }
-      }
+      },
+      "task_status": "success"
     }
   },
   "units": 20,
-  "latency_ms": 2140
+  "latency_ms": 8707
 }

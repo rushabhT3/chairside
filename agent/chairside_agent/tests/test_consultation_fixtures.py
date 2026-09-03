@@ -48,7 +48,7 @@ async def test_consult_completes_and_orders(rt: Runtime) -> None:
     p = await ConsultationAgent(rt).run(ConsultOptions(client_id="cl-01", chair=2, stylist="Léa"))
 
     assert p["state"] == "done"
-    assert p["order"]["total_cents"] == 14700 < p["plan"]["total_cents"]
+    assert p["order"]["total_cents"] == 13200 < p["plan"]["total_cents"]
     assert p["order"]["stylist"] == "Léa" and p["order"]["chair"] == 2
     assert p["booking"]["when"]
     assert p["consent"]["envelope"]["state"] == "signed"

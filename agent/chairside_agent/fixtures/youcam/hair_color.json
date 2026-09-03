@@ -2,28 +2,30 @@
   "vendor": "youcam",
   "primitive": "hair_color",
   "variant": "default",
-  "recorded_at": "2026-09-03T09:00:00+00:00",
+  "recorded_at": "2026-09-03T13:45:23+00:00",
   "request": {
-    "src_file_url": "https://fixtures.chairside.local/uploads/scan-camille-01.jpg",
-    "pattern": "full",
+    "src_file_url": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?fit=facearea&facepad=3&w=1024&h=1024&q=85&fm=jpg",
+    "pattern": {
+      "name": "full"
+    },
     "palettes": [
-      "#A8804F"
+      {
+        "color": "#2B1D16",
+        "color_intensity": 100,
+        "shine_intensity": 100
+      }
     ]
   },
   "response": {
     "status": 200,
     "data": {
-      "task_status": "success",
       "error": null,
       "results": {
-        "output": [
-          {
-            "url": "https://fixtures.chairside.local/renders/hair-color-7.31.jpg"
-          }
-        ]
-      }
+        "url": "https://yce-us.s3-accelerate.amazonaws.com/ttl30/498475094977283420/118849505022/v2/aeMNNB0KmUIP8rnQ996tC5Q/9346ed82-f501-48c0-92fa-cebf15cec18b.jpg"
+      },
+      "task_status": "success"
     }
   },
   "units": 1,
-  "latency_ms": 5230
+  "latency_ms": 16964
 }

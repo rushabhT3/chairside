@@ -2,21 +2,21 @@
   "vendor": "youcam",
   "primitive": "hairstyle",
   "variant": "default",
-  "recorded_at": "2026-09-03T09:00:00+00:00",
+  "recorded_at": "2026-09-03T13:45:42+00:00",
   "request": {
-    "src_file_url": "https://fixtures.chairside.local/uploads/scan-camille-01.jpg",
-    "template_id": "oval_long_layers"
+    "src_file_url": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?fit=facearea&facepad=3&w=1024&h=1024&q=85&fm=jpg",
+    "template_id": "female_s_wave_brunette"
   },
   "response": {
     "status": 200,
     "data": {
-      "task_status": "success",
       "error": null,
       "results": {
-        "url": "https://fixtures.chairside.local/renders/hairstyle-long-layers.jpg"
-      }
+        "url": "https://yce-us.s3-accelerate.amazonaws.com/ttl30/498475094977283420/118849523538/v2/aeMNNB0KmUIP8rnQ996tC5Q/c0551236-81b8-4190-8053-513284376b67.jpg"
+      },
+      "task_status": "success"
     }
   },
   "units": 2,
-  "latency_ms": 7910
+  "latency_ms": 16981
 }

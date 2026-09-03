@@ -32,12 +32,17 @@ FOXIT_MCP_SERVER_DIR = Path(
         ),
     )
 )
+# Upstream 0.2.3 points its console script at foxit_pdf_api_mcp.main, a module the wheel does not
+# ship, so the packaged entry point raises ModuleNotFoundError; call the real module instead.
+FOXIT_MCP_ENTRY_POINT = "from foxit_pdf_api_mcp_server.main import main; main()"
 FOXIT_MCP_COMMAND: tuple[str, ...] = (
     "uv",
     "--directory",
     str(FOXIT_MCP_SERVER_DIR),
     "run",
-    "foxit-pdf-api-mcp-server",
+    "python",
+    "-c",
+    FOXIT_MCP_ENTRY_POINT,
 )
 
 TOOL_UPLOAD = "upload_document"
@@ -71,10 +76,18 @@ class FoxitError(RuntimeError):
     pass
 
 
+def _unwrap(structured: dict[str, Any]) -> dict[str, Any]:
+    """FastMCP nests a tool's return under "result", as a JSON string when the tool returns text."""
+    if set(structured) != {"result"}:
+        return structured
+    inner = structured["result"]
+    return json.loads(inner) if isinstance(inner, str) else inner
+
+
 def _tool_json(result: Any) -> dict[str, Any]:
     structured = getattr(result, "structured_content", None)
     if structured:
-        return structured
+        return _unwrap(structured)
     for item in getattr(result, "content", []) or []:
         text = getattr(item, "text", None)
         if text:

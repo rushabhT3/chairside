@@ -12,3 +12,6 @@ web/dist/
 .DS_Store
 seed/clients/*.jpg
 .chairside/
+
+# third-party MCP server checkouts
+vendor/

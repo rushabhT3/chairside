@@ -3,6 +3,7 @@ import pytest
 from chairside_agent.adapters._pdf import minimal_pdf
 from chairside_agent.adapters.foxit_pdf import (
     FOXIT_MCP_COMMAND,
+    FOXIT_MCP_ENTRY_POINT,
     TOOL_MERGE,
     TOOL_OCR,
     FoxitPdfAdapter,
@@ -21,7 +22,8 @@ def _tool_events(ledger: LocalLedger) -> list[dict]:
 
 def test_command_matches_readme() -> None:
     assert FOXIT_MCP_COMMAND[0] == "uv"
-    assert FOXIT_MCP_COMMAND[-1] == "foxit-pdf-api-mcp-server"
+    assert FOXIT_MCP_COMMAND[-2:] == ("-c", FOXIT_MCP_ENTRY_POINT)
+    assert "foxit_pdf_api_mcp_server.main" in FOXIT_MCP_ENTRY_POINT
 
 
 async def test_list_tools_includes_reversible_operations(foxit: FoxitPdfAdapter) -> None:
@@ -37,7 +39,7 @@ async def test_merge_returns_pdf_and_logs_mcp_foxit(
 ) -> None:
     merged = await foxit.merge([minimal_pdf(["a"]), minimal_pdf(["b"])])
 
-    assert merged.startswith(b"%PDF-1.4")
+    assert merged.startswith(b"%PDF")
     last = _tool_events(ledger)[-1]
     assert last["server"] == "mcp/foxit"
     assert last["tool"] == TOOL_MERGE
@@ -60,7 +62,8 @@ async def test_ocr_default_and_adversarial(foxit: FoxitPdfAdapter, ledger: Local
     clean = await foxit.ocr(minimal_pdf(["scan"]))
     adversarial = await foxit.ocr(minimal_pdf(["scan"]), variant="adversarial")
 
-    assert "Camille Roux" in clean.text
+    assert "OLX-77812" in clean.text
+    assert "Atelier Noor" in clean.text
     assert "Ignore previous instructions" in adversarial.text
     assert clean.pdf.startswith(b"%PDF")
     assert _tool_events(ledger)[-1]["tool"] == TOOL_OCR

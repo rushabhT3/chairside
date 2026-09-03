@@ -1553,8 +1553,8 @@
           "sku_code": "MAJ-7.31",
           "hex": "#A88A5F",
           "label": "7.31 Medium Blonde Gold Ash",
-          "before_url": "/renders/amira-before.svg",
-          "after_url": "/renders/amira-hair-731.svg",
+          "before_url": "/renders/amira-before.jpg",
+          "after_url": "/renders/amira-hair-731.png",
           "as_of": "2026-09-03T12:34:06.000Z"
         },
         {
@@ -1564,8 +1564,8 @@
           "sku_code": null,
           "hex": null,
           "label": "Skin plan · pores and oil balance",
-          "before_url": "/renders/amira-before.svg",
-          "after_url": "/renders/amira-skin-plan.svg",
+          "before_url": "/renders/amira-before.jpg",
+          "after_url": "/renders/amira-skin-plan.png",
           "as_of": "2026-09-03T12:34:12.000Z"
         },
         {
@@ -1575,8 +1575,8 @@
           "sku_code": null,
           "hex": null,
           "label": "Long layers · oval face",
-          "before_url": "/renders/amira-before.svg",
-          "after_url": "/renders/amira-style-layers.svg",
+          "before_url": "/renders/amira-before.jpg",
+          "after_url": "/renders/amira-style-layers.jpg",
           "as_of": "2026-09-03T12:34:09.000Z"
         }
       ],

@@ -187,18 +187,18 @@ if (!shade731) throw new Error("shade 7.31 missing from seed");
 const amiraSimulations: Simulation[] = [
   {
     tool: "AI_Hair_Color_Virtual_Try_On", server: "mcp/beauty", tab: "hair", sku_code: "MAJ-7.31", hex: shade731.hex,
-    label: "7.31 Medium Blonde Gold Ash", before_url: "/renders/amira-before.svg",
-    after_url: "/renders/amira-hair-731.svg", as_of: `${DAY}T12:34:06.000Z`,
+    label: "7.31 Medium Blonde Gold Ash", before_url: "/renders/amira-before.jpg",
+    after_url: "/renders/amira-hair-731.png", as_of: `${DAY}T12:34:06.000Z`,
   },
   {
     tool: "AI_Skin_simulation", server: "mcp/beauty", tab: "skin", sku_code: null, hex: null,
-    label: "Skin plan · pores and oil balance", before_url: "/renders/amira-before.svg",
-    after_url: "/renders/amira-skin-plan.svg", as_of: `${DAY}T12:34:12.000Z`,
+    label: "Skin plan · pores and oil balance", before_url: "/renders/amira-before.jpg",
+    after_url: "/renders/amira-skin-plan.png", as_of: `${DAY}T12:34:12.000Z`,
   },
   {
     tool: "AI_Hair_Style_Virtual_Try_On", server: "mcp/beauty", tab: "style", sku_code: null, hex: null,
-    label: "Long layers · oval face", before_url: "/renders/amira-before.svg",
-    after_url: "/renders/amira-style-layers.svg", as_of: `${DAY}T12:34:09.000Z`,
+    label: "Long layers · oval face", before_url: "/renders/amira-before.jpg",
+    after_url: "/renders/amira-style-layers.jpg", as_of: `${DAY}T12:34:09.000Z`,
   },
 ];
 

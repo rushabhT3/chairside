@@ -49,8 +49,9 @@ async function render(request: Request, env: Env, origin: string | null): Promis
     const url = await youcamRender(env.PERFECTCORP_API_KEY, image, kind, shade, template);
     return json({ url }, 200, origin);
   } catch (error) {
-    const message = error instanceof YouCamError ? error.message : "render failed";
-    return json({ error: message }, 502, origin);
+    if (error instanceof YouCamError) return json({ error: error.message }, 502, origin);
+    const detail = error instanceof Error ? error.message : String(error);
+    return json({ error: `render failed: ${detail}` }, 502, origin);
   }
 }
 

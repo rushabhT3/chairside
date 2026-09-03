@@ -1,6 +1,7 @@
 const API_BASE = "https://yce-api-01.makeupar.com/s2s";
-const POLL_INTERVAL_MS = 2000;
-const POLL_ATTEMPTS = 30;
+// A Worker gets 50 subrequests, and three go on the upload and the task, so poll slower rather than more.
+const POLL_INTERVAL_MS = 4000;
+const POLL_ATTEMPTS = 42;
 
 export class YouCamError extends Error {}
 

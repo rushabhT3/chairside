@@ -6,6 +6,7 @@ import { resizeForUpload } from "../../lib/resize";
 import { mirrorApi } from "../../lib/xano";
 import { Button } from "../components/Button";
 import { Notice } from "../components/Notice";
+import { PhotoPicker } from "../components/PhotoPicker";
 import { Skeleton } from "../components/Skeleton";
 import { StepList } from "../components/StepList";
 import type { StepItem } from "../components/StepList";
@@ -95,22 +96,37 @@ export function Capture() {
     setPhase("analysing");
   };
 
+  const failScan = (error: unknown) => {
+    setBlockReason(error instanceof Error ? error.message : "The scan could not be read.");
+    setPhase("blocked");
+  };
+
   const onScan = async () => {
     const video = videoRef.current;
     if (!video) return;
-    const frame = await captureFrame(video);
-    stopStream(streamRef.current);
-    await processImage(frame);
+    try {
+      const frame = await captureFrame(video);
+      stopStream(streamRef.current);
+      await processImage(frame);
+    } catch (error) {
+      failScan(error);
+    }
   };
 
   const onFile = async (file: File | undefined) => {
-    if (file) await processImage(file);
+    if (!file) return;
+    try {
+      await processImage(file);
+    } catch (error) {
+      failScan(error);
+    }
   };
 
   if (phase === "blocked") {
     return (
       <Notice tone="error" title={blockReason ?? "One client per scan."} action={{ label: "Try again", onClick: () => setPhase("camera") }}>
         <p>Step into the oval alone, then scan again.</p>
+        <PhotoPicker onPick={(file) => void onFile(file)} />
       </Notice>
     );
   }
@@ -137,16 +153,7 @@ export function Capture() {
       {cameraError ? (
         <Notice tone="quiet" title="Camera unavailable on this device.">
           <p>{cameraError}</p>
-          <label className="file-pick">
-            <span className="btn btn-secondary">Choose a photo</span>
-            <input
-              className="file-input"
-              type="file"
-              accept="image/*"
-              capture="user"
-              onChange={(event) => void onFile(event.target.files?.[0])}
-            />
-          </label>
+          <PhotoPicker onPick={(file) => void onFile(file)} />
         </Notice>
       ) : (
         <div className="capture-actions">

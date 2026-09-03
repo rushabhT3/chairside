@@ -27,6 +27,9 @@ export function stopStream(stream: MediaStream | null): void {
 }
 
 export function captureFrame(video: HTMLVideoElement): Promise<Blob> {
+  if (video.videoWidth === 0 || video.videoHeight === 0) {
+    return Promise.reject(new Error("The camera is still starting. Wait a moment, then scan again."));
+  }
   const canvas = document.createElement("canvas");
   canvas.width = video.videoWidth;
   canvas.height = video.videoHeight;

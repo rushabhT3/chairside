@@ -82,9 +82,12 @@ export function countFaceBlobs(mask: Uint8Array): number {
 
 export async function countFaces(source: HTMLVideoElement | ImageBitmap): Promise<number> {
   if (window.FaceDetector) {
-    const detector = new window.FaceDetector({ maxDetectedFaces: maxFaces });
-    const faces = await detector.detect(source);
-    return faces.length;
+    try {
+      const detector = new window.FaceDetector({ maxDetectedFaces: maxFaces });
+      return (await detector.detect(source)).length;
+    } catch {
+      // Chrome exposes FaceDetector on some desktops where the platform detector is missing and detect() throws.
+    }
   }
   return countFaceBlobs(skinMask(source));
 }

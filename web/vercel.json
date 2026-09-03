@@ -1,6 +1,0 @@
-{
-  "buildCommand": "npm run build && npm run build:storefront",
-  "outputDirectory": "dist",
-  "cleanUrls": false,
-  "trailingSlash": true
-}

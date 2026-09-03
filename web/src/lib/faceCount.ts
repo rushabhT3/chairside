@@ -17,6 +17,7 @@ declare global {
 const sampleSize = 64;
 const minBlobArea = 40;
 const maxFaces = 4;
+const secondaryFaceRatio = 0.5;
 
 function isSkin(r: number, g: number, b: number): boolean {
   const y = 0.299 * r + 0.587 * g + 0.114 * b;
@@ -40,9 +41,9 @@ function skinMask(source: CanvasImageSource): Uint8Array {
   return mask;
 }
 
-function countBlobs(mask: Uint8Array): number {
+function blobAreas(mask: Uint8Array): number[] {
   const seen = new Uint8Array(mask.length);
-  let blobs = 0;
+  const areas: number[] = [];
   for (let start = 0; start < mask.length; start += 1) {
     if (!mask[start] || seen[start]) continue;
     const stack = [start];
@@ -66,9 +67,17 @@ function countBlobs(mask: Uint8Array): number {
         }
       }
     }
-    if (area >= minBlobArea) blobs += 1;
+    if (area >= minBlobArea) areas.push(area);
   }
-  return blobs;
+  return areas;
+}
+
+/** Hands, neck, and lit wall patches read as skin too; only blobs comparable to the largest one count as faces. */
+export function countFaceBlobs(mask: Uint8Array): number {
+  const areas = blobAreas(mask);
+  if (areas.length === 0) return 0;
+  const largest = Math.max(...areas);
+  return areas.filter((area) => area >= largest * secondaryFaceRatio).length;
 }
 
 export async function countFaces(source: HTMLVideoElement | ImageBitmap): Promise<number> {
@@ -77,5 +86,5 @@ export async function countFaces(source: HTMLVideoElement | ImageBitmap): Promis
     const faces = await detector.detect(source);
     return faces.length;
   }
-  return countBlobs(skinMask(source));
+  return countFaceBlobs(skinMask(source));
 }

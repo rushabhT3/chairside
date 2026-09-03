@@ -15,6 +15,8 @@ from chairside_agent.events import EventType, EventWriter, LocalLedger
 
 KAYA = "ChIJ2Y7xMfBv5kcRk3YV8jXbQ5o"
 MARAIS = "ChIJq0dXt-9v5kcR3aH1oXkq6Lw"
+SEQUENCE = "ChIJa20AB-tx5kcR9O2MelhIe1c"
+ANISSA = "ChIJv3trOO9v5kcREWHQz42jTC4"
 NOW = datetime(2026, 9, 3, 9, 0, tzinfo=UTC)
 
 
@@ -40,11 +42,11 @@ def tool_calls(ledger: LocalLedger) -> list[dict]:
 async def test_lens_identifies_bottle_in_hand(adapter, ledger) -> None:
     result = await adapter.lens("https://fixture.chairside.local/scans/olaplex-in-hand.jpg")
 
-    assert result.brand == "Olaplex"
-    assert result.product == "Olaplex No.3 Hair Perfector 100 ml"
-    assert result.visual_matches[0].price_cents == 2990
-    assert result.visual_matches[0].in_stock is True
-    assert result.visual_matches[4].price_cents is None
+    assert result.brand == "OLAPLEX"
+    assert "OLAPLEX" in result.product
+    assert len(result.visual_matches) == 59
+    assert result.visual_matches[0].price_cents is None
+    assert result.visual_matches[4].price_cents == 2400
     (call,) = tool_calls(ledger)
     assert call["server"] == "rest/serpapi"
     assert call["tool"] == "google_lens"
@@ -56,9 +58,9 @@ async def test_shopping_builds_snapshot_from_offers(adapter, ledger) -> None:
 
     snapshot = result.snapshot
     assert snapshot.sku_code == "OLX-03"
-    assert (snapshot.min_cents, snapshot.median_cents, snapshot.max_cents) == (2270, 2990, 3145)
+    assert (snapshot.min_cents, snapshot.median_cents, snapshot.max_cents) == (1212, 7316, 33175)
     assert snapshot.source == "google_shopping"
-    assert len(result.offers) == 7
+    assert len(result.offers) == 29
     assert tool_calls(ledger)[0]["tool"] == "google_shopping"
 
 
@@ -94,9 +96,9 @@ def test_news_flag_detection_and_window() -> None:
 async def test_maps_nearby_returns_two_nearest(adapter, ledger) -> None:
     competitors = await adapter.maps_nearby()
 
-    assert [c.place_id for c in competitors] == [KAYA, MARAIS]
-    assert competitors[0].name == "Maison Kaya Coiffure"
-    assert competitors[0].rating == 4.7
+    assert [c.place_id for c in competitors] == [SEQUENCE, ANISSA]
+    assert competitors[0].name == "Sequence Paris International Hair Salon"
+    assert competitors[0].rating == 4.6
     assert tool_calls(ledger)[0]["tool"] == "google_maps"
 
 

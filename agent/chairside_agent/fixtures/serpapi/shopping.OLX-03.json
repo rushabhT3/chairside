@@ -2,134 +2,1009 @@
   "vendor": "serpapi",
   "primitive": "shopping",
   "variant": "OLX-03",
-  "recorded_at": "2026-09-03T08:30:00+00:00",
+  "recorded_at": "2026-09-03T14:00:25+00:00",
   "request": {
     "engine": "google_shopping",
-    "q": "Olaplex No. 3 Hair Perfector 100ml",
+    "q": "Olaplex Olaplex No. 3 Hair Perfector 100ml",
     "gl": "fr",
     "hl": "fr"
   },
   "response": {
     "search_metadata": {
-      "id": "68b7f2b3d4e5f60718293a4d",
+      "id": "6a997d04a89e024d47671642",
       "status": "Success",
-      "json_endpoint": "https://serpapi.com/searches/68b7f2b3d4e5f60718293a4d.json",
-      "created_at": "2026-09-03 08:30:12 UTC",
-      "processed_at": "2026-09-03 08:30:12 UTC",
-      "total_time_taken": 2.41
+      "json_endpoint": "https://serpapi.com/searches/4rXQzaV5J_or-mHXJNIJyG3lBFcpYHhwC1bzFNXKXJE/6a997d04a89e024d47671642.json",
+      "markdown_endpoint": "https://serpapi.com/searches/4rXQzaV5J_or-mHXJNIJyG3lBFcpYHhwC1bzFNXKXJE/6a997d04a89e024d47671642.md",
+      "created_at": "2026-09-03 13:58:28 UTC",
+      "processed_at": "2026-09-03 13:58:28 UTC",
+      "google_shopping_url": "https://www.google.com/search?udm=28&q=Olaplex+Olaplex+No.+3+Hair+Perfector+100ml&hl=fr&gl=fr",
+      "raw_html_file": "https://serpapi.com/searches/4rXQzaV5J_or-mHXJNIJyG3lBFcpYHhwC1bzFNXKXJE/6a997d04a89e024d47671642.html",
+      "total_time_taken": 10.18
     },
     "search_parameters": {
       "engine": "google_shopping",
-      "q": "Olaplex No. 3 Hair Perfector 100ml",
-      "gl": "fr",
+      "q": "Olaplex Olaplex No. 3 Hair Perfector 100ml",
+      "google_domain": "google.com",
       "hl": "fr",
-      "google_domain": "google.fr"
+      "gl": "fr",
+      "device": "desktop"
     },
     "search_information": {
-      "query_displayed": "Olaplex No. 3 Hair Perfector 100ml",
+      "query_displayed": "Olaplex Olaplex No. 3 Hair Perfector 100ml",
+      "total_results": 10,
+      "time_taken_displayed": 0.29,
       "shopping_results_state": "Results for exact spelling"
     },
     "shopping_results": [
       {
         "position": 1,
-        "title": "Olaplex No.3 Hair Perfector 100 ml",
-        "product_link": "https://www.sephora.fr/p/olaplex-no-3-hair-perfector-P10012345.html",
-        "product_id": "4780000000137",
-        "serpapi_product_api": "https://serpapi.com/search.json?engine=google_product&product_id=4780000000137&gl=fr&hl=fr",
-        "source": "Sephora",
-        "price": "29,90 €",
-        "extracted_price": 29.9,
-        "rating": 4.4,
-        "reviews": 157,
-        "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9Gc68b7f2b31",
-        "delivery": "Livraison gratuite"
+        "title": "Hair Perfector Olaplex",
+        "product_id": "4240738081621895635",
+        "product_link": "https://www.google.com/search?ibp=oshop&q=Olaplex Olaplex No. 3 Hair Perfector 100ml&prds=catalogid:4240738081621895635,productid:7897911085185189245,headlineOfferDocid:2301140881454262965,imageDocid:5514586076476557187,rds:PC_1245439681566266126|PROD_PC_1245439681566266126,gpcid:1245439681566266126,mid:576462748840773357,pvt:hg&hl=fr&gl=fr&udm=28",
+        "immersive_product_page_token": "l_gY8XicbVI5ruNGELV9Agc-wMT-kMEm2Vw8-IEo7hK35iomQotNiRRXUaQ2-DR_FmAMOBkHTn2NmcBnsT4MZwMUqoB6tbx6qH---_ElL_-SdTrFZ7m0CMc1Y-XO8Nnde9SnfujIlI0l-ZMXRF4EgBIgeDWRZuGnDI-47vYPlKVZimcESgAc_QAhx8DPRY5JXba5s9vlg9xljzKaoQBgKUEALGRpjhY5-HvZ4H3-HwzhIy9wFM-xPAchDwT-3UBOX2h3sQGPhSwjcgKAHEdzHKC531zkyJtvYx-OUz7cvvzs1Liv8-vT_9HufnlinnRcDk9uPuzybOyGJ0BRTf1h379y-Masd01JPsMHKY7mWUF4XMozDOTf9efxpdi_n6Y6__tlX7_shpfi1X_scH_eZV9_-EnpLvLidFl4Yd9HMqICPaID1axxhPStpu62lLjLF-C2poyrrahSdgNUUFf3LX2l8zgc_UCicAi1WFe7MJBcEpqQVH0RxBaw6zUdHGpEEpKgxrusw9RNmD4KGgFgRRhRmE5YQQAldudVpuNHte9RcIorWIYxibOa7BDT6yEtUBGN1HUtGqEqSvHBLoMQWlmiIg_UC3xHhaV3NNHqigSFa8fGZRXZ90AnZ6ut2EevZtUql4YWQ5g-fd29ra42BpJuyykXJdIxjUgSKusxUhGdq8VpFZuPOVBHSqGhIKoiOV3GC1DkbW3YmumvmchZJTbOVdJswwvAtHqMWymKq8LdyqTLW4-JmitFQnvy7zaLQzPAzQmumULZVuIhPcxvJL4ykQ9GpO0ZooqWRfeM1apnTNfVQxMrSJAWad1l24xaWqdjGltXOyF1rl0dfKibrLVvmFZ8lUKGVfcFqVAfxB5tN4DCYD6uk9RLgXLRSlNCun1z4hT59NVMDwhmYZ3mLbGiOzlsQ7OxHgpbMVmlSdq-v56G3RdqrsLRd_gq431Y2m1vWX5StufMjJxsTPYlO_8V8I9ne_wi4AHgP2ZdV5X51-__2Gz8PJuGfOYHyH2e2016wSCwuHZYG1FXC2Djgxtca1Tgzmxav-d4GlZW4FDwFt42S6EfjHsU94YTebfphCTJsu3ZcJq4ttaiVaDk2tG0aGObkZvXus7-7RtfmaOFvvHnluIbgfK82HsGzSnS2zdzZfE8J2ak4HMl3m9aXyeZHVBOFjYn6RBdoVLsOXsqaHcmThZ_kGcyN5zkHorzxFxe3r6xDfkZMuxzWORxuQqANFEmt71nclGkcLtlZjE7w2jDzoz8urAdwYdOtBD7eX-clhzZwKWJt9JGcVdcmxigVFMiep41L2YqUtJlWFjZ8bLe-_XqdDnVbMTub87aUk1VdiB_3Dk2KowL1EOrksQbq93Vi7fknWhazPWIGTghUNDyfnKIutlFS9xtEpyEGlLF8XrX26JsixDhM76vWeUggGOT8QfeZ-QN52a0T5ZUZ_wLhjrEoQ",
+        "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=l_gY8XicbVI5ruNGELV9Agc-wMT-kMEm2Vw8-IEo7hK35iomQotNiRRXUaQ2-DR_FmAMOBkHTn2NmcBnsT4MZwMUqoB6tbx6qH---_ElL_-SdTrFZ7m0CMc1Y-XO8Nnde9SnfujIlI0l-ZMXRF4EgBIgeDWRZuGnDI-47vYPlKVZimcESgAc_QAhx8DPRY5JXba5s9vlg9xljzKaoQBgKUEALGRpjhY5-HvZ4H3-HwzhIy9wFM-xPAchDwT-3UBOX2h3sQGPhSwjcgKAHEdzHKC531zkyJtvYx-OUz7cvvzs1Liv8-vT_9HufnlinnRcDk9uPuzybOyGJ0BRTf1h379y-Masd01JPsMHKY7mWUF4XMozDOTf9efxpdi_n6Y6__tlX7_shpfi1X_scH_eZV9_-EnpLvLidFl4Yd9HMqICPaID1axxhPStpu62lLjLF-C2poyrrahSdgNUUFf3LX2l8zgc_UCicAi1WFe7MJBcEpqQVH0RxBaw6zUdHGpEEpKgxrusw9RNmD4KGgFgRRhRmE5YQQAldudVpuNHte9RcIorWIYxibOa7BDT6yEtUBGN1HUtGqEqSvHBLoMQWlmiIg_UC3xHhaV3NNHqigSFa8fGZRXZ90AnZ6ut2EevZtUql4YWQ5g-fd29ra42BpJuyykXJdIxjUgSKusxUhGdq8VpFZuPOVBHSqGhIKoiOV3GC1DkbW3YmumvmchZJTbOVdJswwvAtHqMWymKq8LdyqTLW4-JmitFQnvy7zaLQzPAzQmumULZVuIhPcxvJL4ykQ9GpO0ZooqWRfeM1apnTNfVQxMrSJAWad1l24xaWqdjGltXOyF1rl0dfKibrLVvmFZ8lUKGVfcFqVAfxB5tN4DCYD6uk9RLgXLRSlNCun1z4hT59NVMDwhmYZ3mLbGiOzlsQ7OxHgpbMVmlSdq-v56G3RdqrsLRd_gq431Y2m1vWX5StufMjJxsTPYlO_8V8I9ne_wi4AHgP2ZdV5X51-__2Gz8PJuGfOYHyH2e2016wSCwuHZYG1FXC2Djgxtca1Tgzmxav-d4GlZW4FDwFt42S6EfjHsU94YTebfphCTJsu3ZcJq4ttaiVaDk2tG0aGObkZvXus7-7RtfmaOFvvHnluIbgfK82HsGzSnS2zdzZfE8J2ak4HMl3m9aXyeZHVBOFjYn6RBdoVLsOXsqaHcmThZ_kGcyN5zkHorzxFxe3r6xDfkZMuxzWORxuQqANFEmt71nclGkcLtlZjE7w2jDzoz8urAdwYdOtBD7eX-clhzZwKWJt9JGcVdcmxigVFMiep41L2YqUtJlWFjZ8bLe-_XqdDnVbMTub87aUk1VdiB_3Dk2KowL1EOrksQbq93Vi7fknWhazPWIGTghUNDyfnKIutlFS9xtEpyEGlLF8XrX26JsixDhM76vWeUggGOT8QfeZ-QN52a0T5ZUZ_wLhjrEoQ",
+        "source": "Cosmetic World",
+        "source_icon": "https://serpapi.com/searches/6a997d04a89e024d47671642/images/ojJbTPUgjhLC60_3rNNCEJRe6UOI1t5DdYRt2i-4drA.png",
+        "multiple_sources": true,
+        "price": "24,95 €",
+        "extracted_price": 24.95,
+        "rating": 4.6,
+        "reviews": 50000,
+        "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQ7UBgcY9Z-wTw1nCTCxuBccVl6zxlHZZVD5uq_2Sr8NyrriSIyc65gUq29XHfhNqJW2OU8ItBB3WvLBi6iGNTxSOTDMPPb8NsLTzSXyZma-dBMrT7JBLUlaA",
+        "serpapi_thumbnail": "https://serpapi.com/images/url/PZGH9XicDclRCoIwAADQE5mkaCpEuIIsdBpOLX_CpunA5jZnuU7VdbpNvd_3_XRSstHT9YZioZhsak3eqLloR1lJghd4eOhjNzBGaLvh6_95PqzdPT6tMtDii1tqL_Ra0i3azhPAOO_t99wHZZnvrIlfjVQ4UAlB0oPCttVm3HDPwb2D_FgYceYcJABm8QwBsckeojmN0S5KkpsDxxC907MqH5VWg0ig1RGEWV_5P6VKPlM",
+        "thumbnails": [
+          "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQ7UBgcY9Z-wTw1nCTCxuBccVl6zxlHZZVD5uq_2Sr8NyrriSIyc65gUq29XHfhNqJW2OU8ItBB3WvLBi6iGNTxSOTDMPPb8NsLTzSXyZma-dBMrT7JBLUlaA",
+          "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcR4zw2YsbgKmsJwGWqyKfjoyPZiczmyhGau2t4R7KfxSo6c74wXVDqMZ_a1XV_0fO-gYdhT1pNbcDIh0zB6j9wROMbU1GgXUq8MPLEIPom7H2LHsiDqD0sErQ",
+          "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQNm1VKnGGoW_TmJOZUkXZILuydrYalfyJ5UWQbIEzsTJPBrp--Xl5mnfQp9cTyTA7ExvuryrHcTxmpJ7KKtgSdjrheO5rql6bs1Gs0Ai97",
+          "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTD55tV2EU_xl2xFmqJB9-5nskZydun3pQHHfJCjiSlMdCaONM5B2HReLkTQy-_-gWem-6x5mQV3cyp1caq1uHW8zFHh4_WDQfVqYiPzpeOhnoN2S50oOP5Yw",
+          "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQMTDjuQ9aH3TE3xeklcWIvn2IZiVcD_rSYrwmlS6W3d6fIxEdM0m5xPmgcB6xHIZ7QK-HboXnbCQ0r0oFcD2CvBhuLPuOA2mdE4HdXZc3760bzS1483Ak8"
+        ],
+        "serpapi_thumbnails": [
+          "https://serpapi.com/images/url/PZGH9XicDclRCoIwAADQE5mkaCpEuIIsdBpOLX_CpunA5jZnuU7VdbpNvd_3_XRSstHT9YZioZhsak3eqLloR1lJghd4eOhjNzBGaLvh6_95PqzdPT6tMtDii1tqL_Ra0i3azhPAOO_t99wHZZnvrIlfjVQ4UAlB0oPCttVm3HDPwb2D_FgYceYcJABm8QwBsckeojmN0S5KkpsDxxC907MqH5VWg0ig1RGEWV_5P6VKPlM",
+          "https://serpapi.com/images/url/jK0uunicDcltD0JAAADgX5S3GbG1VtOQl6RIvhiHOzbuzl0Tv6q_07-p5-vz_SDOCTNFsRnBtBDe1BtejZIAGS95BwSAB5EhTEg3wj3d_c88hLVhg1hdZ-XJKugN7DzbD7p4bY-XKO_AOizILl8KV2Pda983rAFdnbPUokFelHKWFlJ72cBnje4yCStguUhaj1pvzPElqBLZhllCt0Hkn9wID7qj-A7rLGpJ7DRdfxCdPyA",
+          "https://serpapi.com/images/url/QDjdq3icDcldCoIwAADgE6n5YKIQYSDLGZo003wJnb_l5txmuI7TrbpNfa_f99NLyYRrGA3FXDHZ1JqsqKl3QpZywDqeiCH6ibGBdvt59z_Xi2oH4CQi5jWkAEzZHREYF-kzL4LTomp-K8dWQSvNkirw3wLB84EzTctHi9A2YQ5GCnm2v74WrvgRo5UwaIeh7C71g_dNbPF53FbCBGLjDY79A530O08",
+          "https://serpapi.com/images/url/-SntrXicDclJDoIwAADAFxWkWCMkxohbQ2RThOCFYCmLQClSIvgqv-NvdK7z_RRC8F6XZcrIc-KCpkDcGZTyXiSiJBJpG7kvWs5Llq-71f_0jZ1qR-LvEBIB3F_jsYbjoelMQwOI9dVtSgemcg_jzNw-ykttpdvEsS1kQHymp8r3JhCDPKQNWIyo8QKVTFwhSacMOFy-D7iYx-HOy4IuKt03p07BWhte0Kx1XBS9fn_lPk4",
+          "https://serpapi.com/images/url/g3RJonicDcndEoFAGADQJ1Jps2jGmP6o8dtklG6M_TaV7JbaEg_lfbwN5_Z8P5kQVaPLcsKhflUioQNBOJLSRlxEDhKUTG6ysqpyns4fs__pxpZOl-BvDvat9acXFx0c1CfFHUKv46oX50ewz3Vwqp_sHuAQUXz1eoduFDbq9ywFE_euF4_91cAlZcSJ5Su1Ui7AVq3OzNr1vt0ZKqOO5tIoBjTGCnkHQ22CjGLyAxnYPJc"
+        ]
       },
       {
         "position": 2,
-        "title": "OLAPLEX N°3 Hair Perfector 100ml",
-        "product_link": "https://www.nocibe.fr/olaplex-n-3-hair-perfector-100ml-s239412",
-        "product_id": "4780000000274",
-        "serpapi_product_api": "https://serpapi.com/search.json?engine=google_product&product_id=4780000000274&gl=fr&hl=fr",
-        "source": "Nocibé",
-        "price": "28,50 €",
-        "extracted_price": 28.5,
-        "rating": 4.5,
-        "reviews": 277,
-        "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9Gc68b7f2b32",
-        "delivery": "Livraison 3,99 €"
+        "title": "Olaplex Hair Perfector n°3 100ml",
+        "product_id": "15956053610119744651",
+        "product_link": "https://www.google.com/search?ibp=oshop&q=Olaplex Olaplex No. 3 Hair Perfector 100ml&prds=catalogid:15956053610119744651,productid:9616621620356687031,headlineOfferDocid:16224124801202150181,imageDocid:13464130344673408714,rds:PC_11500323720977068792|PROD_PC_11500323720977068792,gpcid:11500323720977068792,mid:576462896520929036,pvt:hg&hl=fr&gl=fr&udm=28",
+        "immersive_product_page_token": "b7zyonicdVHJruNEFAW-gAUf0Guegqo8lG1ab5HEQ-zE5XgqJ95EFZcTz3EcO5P4mteD1EhsGiS2_Eb3gm8hjWAHm3sXZ7jn6vz51bcvaf67OuNielZzmyFU9-VyRM_LvQs-tN2BDUmfs18VBBHiIOIALyIkS4CHHxLa0-qwz9lvUFREBEQeQQChIgkCEuHHLKWsypvU2e3STj0kX3iI4wTICTKAHOCgCKAMf85ruk__wXkBCZAH_MNB4gUgS1B407HTJ2E53cAHH_AcL3FAkSTwCKFwPy09R938D_juOKTd7dP3TkXbKr0-_bvx4Ycn_mlG8-5pmXa7NOkP3RMEoK7e7du_Y_yH2Zs6Zx9FCQmIkxUkPhBOATx60577l2z_dhiq9I-XffWy616yL_P9gbbnXfL5m--0w0Wdni5TN2xbonog0DSBRkykJc7c2louIqjaQAFb1dox3upjfbJeB55DCRP8Ws-D0qNhE1s0DEFQ9sttKdZuCVGk4xgXa7it5Z4GsZFwbeYR5ZiE18wudDMqrYas8ENMENMSMS0vNzcilGhi7xXVgZWHW6zqultYNuaqS9wwC9fXmjXxjZTXwL3rxAPZOZnCOo36u1ewRQir8xYQjpTETYvJ8NA4LmQD0T36uOv6QBBCLnNi3jO2tT4LAJm7xSQnpTclhu5HRbV2mxhufThNZ8xjmrdgagJx9fi99la2RsItl0VuJMKg0ms7JBrTZJ6GCtkW-Lpe4dLWcIdrYqYkHhwj7snMqnBZubjs84DXBO8eU8brqzCSb4sIF9io1LisHBzEMImyS2zELQvZPCmFB66rKZH5oGDXNT9-9NJbiZrh1Ah7Ftp8uKoytnJ9HXimXbUZK702iFwO1xBQOO7Xq9iNoXYxcmvizfDNieIwbrw-akzoV63-0BukYWBd6zubYICN2EyrCf_2eup2n8BYF3vfkcpE8sUcN61t-6u8OScWcZJ-tc-F8Y9QkmVB4BUoQSi9Tw6HMk8_f_3LZuOnydClIz_wls9jXMcXCgMbNd3aJIdKhhsf3sS1AYLlCHOze0qHbmEHDhBv4W0zl9vOvJOoNR3i3oaTN5nYGI-604CaR-BFoKXG0bI5c5uwm9ssnf3rV7429qazjT-2Nd8MtOfp3jU5pE1evxpr0-cxs4hGz6VyvxlttUpwAJwkrE-TglxFLdsjPGTccqQMtlSoIxV1J7UVlfHKml9ev8Km-izywnOYpVG-COBkABba3h9FZLG43fKjSBhRbyOMzPQ6xY7siw6ZKu24PQ5zxDbi3KLbyUZbLlCzMmGux0xxXXucjXRPi-dhZifHy3rvV4vT5VQJRNjfnLWtW7rqiNJx52AvMy_iLLTLiXITjLt-ceeSQ4bpeEb4DsmB5s3vJ4fpmx2Z08NmRVeh4elKf73PmixvstCjZ3pfC1ohw2OdSIXk8-oGLRPOZ3NwMP8CKYDG8A",
+        "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=b7zyonicdVHJruNEFAW-gAUf0Guegqo8lG1ab5HEQ-zE5XgqJ95EFZcTz3EcO5P4mteD1EhsGiS2_Eb3gm8hjWAHm3sXZ7jn6vz51bcvaf67OuNielZzmyFU9-VyRM_LvQs-tN2BDUmfs18VBBHiIOIALyIkS4CHHxLa0-qwz9lvUFREBEQeQQChIgkCEuHHLKWsypvU2e3STj0kX3iI4wTICTKAHOCgCKAMf85ruk__wXkBCZAH_MNB4gUgS1B407HTJ2E53cAHH_AcL3FAkSTwCKFwPy09R938D_juOKTd7dP3TkXbKr0-_bvx4Ycn_mlG8-5pmXa7NOkP3RMEoK7e7du_Y_yH2Zs6Zx9FCQmIkxUkPhBOATx60577l2z_dhiq9I-XffWy616yL_P9gbbnXfL5m--0w0Wdni5TN2xbonog0DSBRkykJc7c2louIqjaQAFb1dox3upjfbJeB55DCRP8Ws-D0qNhE1s0DEFQ9sttKdZuCVGk4xgXa7it5Z4GsZFwbeYR5ZiE18wudDMqrYas8ENMENMSMS0vNzcilGhi7xXVgZWHW6zqultYNuaqS9wwC9fXmjXxjZTXwL3rxAPZOZnCOo36u1ewRQir8xYQjpTETYvJ8NA4LmQD0T36uOv6QBBCLnNi3jO2tT4LAJm7xSQnpTclhu5HRbV2mxhufThNZ8xjmrdgagJx9fi99la2RsItl0VuJMKg0ms7JBrTZJ6GCtkW-Lpe4dLWcIdrYqYkHhwj7snMqnBZubjs84DXBO8eU8brqzCSb4sIF9io1LisHBzEMImyS2zELQvZPCmFB66rKZH5oGDXNT9-9NJbiZrh1Ah7Ftp8uKoytnJ9HXimXbUZK702iFwO1xBQOO7Xq9iNoXYxcmvizfDNieIwbrw-akzoV63-0BukYWBd6zubYICN2EyrCf_2eup2n8BYF3vfkcpE8sUcN61t-6u8OScWcZJ-tc-F8Y9QkmVB4BUoQSi9Tw6HMk8_f_3LZuOnydClIz_wls9jXMcXCgMbNd3aJIdKhhsf3sS1AYLlCHOze0qHbmEHDhBv4W0zl9vOvJOoNR3i3oaTN5nYGI-604CaR-BFoKXG0bI5c5uwm9ssnf3rV7429qazjT-2Nd8MtOfp3jU5pE1evxpr0-cxs4hGz6VyvxlttUpwAJwkrE-TglxFLdsjPGTccqQMtlSoIxV1J7UVlfHKml9ev8Km-izywnOYpVG-COBkABba3h9FZLG43fKjSBhRbyOMzPQ6xY7siw6ZKu24PQ5zxDbi3KLbyUZbLlCzMmGux0xxXXucjXRPi-dhZifHy3rvV4vT5VQJRNjfnLWtW7rqiNJx52AvMy_iLLTLiXITjLt-ceeSQ4bpeEb4DsmB5s3vJ4fpmx2Z08NmRVeh4elKf73PmixvstCjZ3pfC1ohw2OdSIXk8-oGLRPOZ3NwMP8CKYDG8A",
+        "source": "Jérémy et Pierrick Coiffeurs-Coloristes",
+        "source_icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAGFBMVEVHcEwAAAAAAAAAAAAAAAAAAAAAAAAAAABoAtTLAAAACHRSTlMANh0RKUVSYYfPrDkAAABgSURBVDiN7Y9RCsAwCEONRr3_jZfBWsbYPvY1Bg1qRR-hmi39QTGbUMvLQgVjgK7qzi4gmEB1lh60H0AmmPsEpABtSVDgsJjusJPv08ecRneFO3gDeLgyFCHk1dFLn2sDaOsBIrsNmYUAAAAASUVORK5CYII.png",
+        "multiple_sources": true,
+        "price": "20,65 €",
+        "extracted_price": 20.65,
+        "rating": 4.7,
+        "reviews": 4000,
+        "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSPhDgO8dWTImzKq3Xb4swcnzC09AhjI6eW1C0R87FM5GAGLkOPOwnCLnUIrfeR6Dyg5tPllLUe7sovHpMRCdNRmuYstfD3UB1Xsv18UX4ZFuVZfxCzOfZg",
+        "serpapi_thumbnail": "https://serpapi.com/images/url/tImUx3icDcltEkJAAADQE0WKfMw0jdYkkzBqS_5lraWyll0Vh-o-3abe3_f9lEIwbskypqgbmMD5RGR0JhEurqJCEmpqmZcNYxUlq3b5P8sOctNFh6h0SGjk56NXj7t2nmQqfyE6gqlplzdvgc8KmMaGvtlrru369zAKXxT4FHpdgeOFMxBNRI-HD7HOm-eW7WOQB3HdX7gonDlcKwl_KgZM1HTTn9LiDcawSMkP_ks95A",
+        "thumbnails": [
+          "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSPhDgO8dWTImzKq3Xb4swcnzC09AhjI6eW1C0R87FM5GAGLkOPOwnCLnUIrfeR6Dyg5tPllLUe7sovHpMRCdNRmuYstfD3UB1Xsv18UX4ZFuVZfxCzOfZg",
+          "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcReWP3c1LkO-J8PMV2QOy3fmhrye1x8henkJm94keH4ETxphbRgfucSnoZyGjY3KzcrC4kIaHxWgumAfso_f8-jIyjTZ0L8pXmz3EzVeLJ3cvMBKlEYPUfqyQ",
+          "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRf27uhmIL2DnN7i0cJxUACcfSbh23hGbVplRNvUMOZx0Q0YOLMiXmcZO-WeGV7thr7L1jGZ4D1pRCcdfgg6CN1qurvaApVDz6ur0234LUUFRWi-N5oWaTPXNPQ",
+          "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTTjmorDii87w97CUj_7kdmvXSZW3Qg_AYqbMszYOHKirF-bXESL10UOf2Y33OgpUl8fDKteKxipvR8K0XrKjphuhJYYxfvRUt27IFe_LM",
+          "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSsLcrzqeyUWFVR-OW11klSSJngqGnLk-ttfqiE0Ix_jKFzeqp05JtNE_kN6iewoj-Py6l10BhFQp4AgJ1SOh1NsvaoLapc24eghcS0enA"
+        ],
+        "serpapi_thumbnails": [
+          "https://serpapi.com/images/url/tImUx3icDcltEkJAAADQE0WKfMw0jdYkkzBqS_5lraWyll0Vh-o-3abe3_f9lEIwbskypqgbmMD5RGR0JhEurqJCEmpqmZcNYxUlq3b5P8sOctNFh6h0SGjk56NXj7t2nmQqfyE6gqlplzdvgc8KmMaGvtlrru369zAKXxT4FHpdgeOFMxBNRI-HD7HOm-eW7WOQB3HdX7gonDlcKwl_KgZM1HTTn9LiDcawSMkP_ks95A",
+          "https://serpapi.com/images/url/5OsRanicDcldEkJAAADgEyGtB8w0TTWGUNGfeGnYdi3atdga61Rdp9vU9_p9P0QIPtiahhjsJRfooYiC6Wo5iFxUUIUt1QbScl6xctkt_mev9g_LhUeURADqYXNQfDPaXefxQQJMSS-RPpoEscanltEgz3DOIyfFscQveGJtJt06BcEE-43RbHNvTMoXXeGhvWNTqbeyPmez0OQ3OgFnuqLQB_C9WwdPJ40uuJPxD8qiP88",
+          "https://serpapi.com/images/url/mtB7unicDclJDoIwAADAF7EUECKJMQRio4GyKIvcoCytEShQCPosf-NvdK7z_RDO2WxKUt3j6cV4XQm87IHYzrzgFIt46KSZDIzRvj2Oh_-ZFqr2EEeNYiykO7uK0yODyviyxZaNm2tJFJXAMmHPCK2x5-ebHMp33_Vo1uHcF9IaJgYnk-GCB8w1B7DIxlXTtrqNwLhMa2GxxHnryyQrqubG8SlKqYB2Q1rcggwF4Q_hUD4R",
+          "https://serpapi.com/images/url/vcrA5nicDclJDoIwAADAF7EfCiTGEBWXgkSWSL0QKVCKAoVWRH_js_yNznW-n1oIxm1FKTs8vpgoC0nknSYTLq6CYhn3rcLrnjHakeWw-J_tHAtri-O4aftxTakJnhZYJU0GbkU7pdHlbJxI5qAh9_kbBTtIR1fK003kaWoSVDoyjICw5G5WayhKOFM2hSZU0xE2rH7UB4TmagoToYO9W2ae_wMpdzn2",
+          "https://serpapi.com/images/url/X3fOKnicDcndCoIwGADQJ1K3MiEhwkAlE61GeSk21-ZPc3Mflb5Nj9Xb1Lk9348AUMZ3HCbpOClgtQU3ubS5gQoaatPh4RgxKNVIvtWb__lBVq9jSkxKx1mz6VJE17OVFxh3PSGJ5DqWaWcB3HUTov27bA_RzLRCqwSysOwyr2GvobWOk9djtBPRSbkBTzDJBc7MsxrSStGFy7igBDEZ_ABTyDow"
+        ]
       },
       {
         "position": 3,
-        "title": "Olaplex No. 3 Hair Perfector 100 ml",
-        "product_link": "https://www.amazon.fr/dp/B00SNM5US4",
-        "product_id": "4780000000411",
-        "serpapi_product_api": "https://serpapi.com/search.json?engine=google_product&product_id=4780000000411&gl=fr&hl=fr",
-        "source": "Amazon.fr",
-        "price": "24,99 €",
-        "extracted_price": 24.99,
+        "title": "Olaplex N°3 Plus",
+        "product_id": "17256131587048785757",
+        "product_link": "https://www.google.com/search?ibp=oshop&q=Olaplex Olaplex No. 3 Hair Perfector 100ml&prds=catalogid:17256131587048785757,productid:14092666403842970638,headlineOfferDocid:12817612541113614075,imageDocid:10413822845227358694,rds:PC_14397830527965846392|PROD_PC_14397830527965846392,gpcid:14397830527965846392,mid:576462878783326463,pvt:hg&hl=fr&gl=fr&udm=28",
+        "immersive_product_page_token": "_H2GvHicdVLJruJGFE3yBVnkA3qdJ6Iqz07rLQAPGHB5rLLxBhnbYHB5wGCwrf6a14PUkbJpRco2v9G9yLeEjpJdsrn3SOfq3On8-c33L9nxd2XBRPFNOZqpIJTXwp7EN_vggI9NW6ddcj2mv0EOyIwgCBxgJY6RRSCw0sckvsa0PnylRYYXIAt5SQScJEq8yIuf8ixO6bHKrP0-a5U6-VrHSFAUIMNzEEJWeKiK_C_HMj5k__CAg6zEMBLHM4zI8pIgc2_b9PKZs-dbyLGyKLGAZ0RZ4CVOYGXmje1ayvZ_yPfnLmuHzz9aNG5o1j_9m1H90xP7tIiP7ZOdtfssudbtEwSgpO8Pzd9j_IfY2_KYfuJFgROYx4IPlmUemH3b3K4v-eFd19Hsj5cDfdm3L_nX-KGOm9s--fLdD2p9V-aX-9zBTUMUF_hKGm6CxktI3iRYrjFLOk9rqqgiN6Req2yRLlOtsb0xWkW6pq1x7rmUUhJqfjAHvKdfF1HlYkt3rhuaCmlAmBDm8Q6jMoL0HvvUDvy8QgrhSJX0pkJ5r3BZDPIAVZFB9H6PFbVH5NDvKs3GgOODImJcXXaDYjnsThtglhpxaH72dDneBBjEo1Yg4jD4NLtEekpimFcRmzDxAFgvzHmnKB59iIUCd5Gp5ILH9JawDTJHZGGaDFY4a3cVCT0f4bjMH0grMc4jwiLfVQ5wB6MqKElnqtezr-RcCqIeQ_m-xnDtlc3KD6iP2ZpLNNlwQR-avqalZeonVbTHgHaxGoWIac7rQCYpi84emS0DPz0lAbqYBR0RA9HOp0u8UPuI5nmgINMZtdo50XZDcmFHtSEiWhSEs6MbaMgH_RhBGaCg1wPf8DTgGiZt8rRwGz9wGFRCEMPpdRNGTgTVu35cztwFGqwgcklIqkyJGovUfKDMghi7zK7ogVmkC7yI7lEhV-_6S7v_DKYaf_UssWMWo_4wxSFIz-VQzXzGExWqC4zt_AxFSeIefoQihPKHpK6LY_bl21-3Wy9LujabeL5rP08fn7_H0DeFqt0YpKYS3Hpw4Dc68O0JeshncdeuTd8C_ICH7UpqWmMkQWNYxBm6izubmQhN2ksnVFQna1_N9PPSZIxdkg5OZVuH1688derOF1tvaqqe4avP84NjMII6e_1qqs6fp-mSqPGtkMdBb2iYPC5oJbi8zE6k59X8IKAuZ-yJ3JniSZkoQntRGl6ehsvV_fUrZCjPPMs94zwLjmsfzjqwFHZjouR5xO927CTgJrG75SZG1s-RJXm8ReZyM23O3UpIt_xqGe9mW9VeC1VowKMWpbLjmNN8orlqtMK5mZzvm4NH15f7hXKEOwzWxtSWmmLx4nlvITc37vwCm8VMHjh91O7OSrRIN58uCNsKkq-6q_Fipdp2T1ZxvQ3jEOuuJl_7cVHlxyrHbnyLxw2nniR4LhPxJHqsshXshPHSFaiNvwB1GMg_",
+        "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=_H2GvHicdVLJruJGFE3yBVnkA3qdJ6Iqz07rLQAPGHB5rLLxBhnbYHB5wGCwrf6a14PUkbJpRco2v9G9yLeEjpJdsrn3SOfq3On8-c33L9nxd2XBRPFNOZqpIJTXwp7EN_vggI9NW6ddcj2mv0EOyIwgCBxgJY6RRSCw0sckvsa0PnylRYYXIAt5SQScJEq8yIuf8ixO6bHKrP0-a5U6-VrHSFAUIMNzEEJWeKiK_C_HMj5k__CAg6zEMBLHM4zI8pIgc2_b9PKZs-dbyLGyKLGAZ0RZ4CVOYGXmje1ayvZ_yPfnLmuHzz9aNG5o1j_9m1H90xP7tIiP7ZOdtfssudbtEwSgpO8Pzd9j_IfY2_KYfuJFgROYx4IPlmUemH3b3K4v-eFd19Hsj5cDfdm3L_nX-KGOm9s--fLdD2p9V-aX-9zBTUMUF_hKGm6CxktI3iRYrjFLOk9rqqgiN6Req2yRLlOtsb0xWkW6pq1x7rmUUhJqfjAHvKdfF1HlYkt3rhuaCmlAmBDm8Q6jMoL0HvvUDvy8QgrhSJX0pkJ5r3BZDPIAVZFB9H6PFbVH5NDvKs3GgOODImJcXXaDYjnsThtglhpxaH72dDneBBjEo1Yg4jD4NLtEekpimFcRmzDxAFgvzHmnKB59iIUCd5Gp5ILH9JawDTJHZGGaDFY4a3cVCT0f4bjMH0grMc4jwiLfVQ5wB6MqKElnqtezr-RcCqIeQ_m-xnDtlc3KD6iP2ZpLNNlwQR-avqalZeonVbTHgHaxGoWIac7rQCYpi84emS0DPz0lAbqYBR0RA9HOp0u8UPuI5nmgINMZtdo50XZDcmFHtSEiWhSEs6MbaMgH_RhBGaCg1wPf8DTgGiZt8rRwGz9wGFRCEMPpdRNGTgTVu35cztwFGqwgcklIqkyJGovUfKDMghi7zK7ogVmkC7yI7lEhV-_6S7v_DKYaf_UssWMWo_4wxSFIz-VQzXzGExWqC4zt_AxFSeIefoQihPKHpK6LY_bl21-3Wy9LujabeL5rP08fn7_H0DeFqt0YpKYS3Hpw4Dc68O0JeshncdeuTd8C_ICH7UpqWmMkQWNYxBm6izubmQhN2ksnVFQna1_N9PPSZIxdkg5OZVuH1688derOF1tvaqqe4avP84NjMII6e_1qqs6fp-mSqPGtkMdBb2iYPC5oJbi8zE6k59X8IKAuZ-yJ3JniSZkoQntRGl6ehsvV_fUrZCjPPMs94zwLjmsfzjqwFHZjouR5xO927CTgJrG75SZG1s-RJXm8ReZyM23O3UpIt_xqGe9mW9VeC1VowKMWpbLjmNN8orlqtMK5mZzvm4NH15f7hXKEOwzWxtSWmmLx4nlvITc37vwCm8VMHjh91O7OSrRIN58uCNsKkq-6q_Fipdp2T1ZxvQ3jEOuuJl_7cVHlxyrHbnyLxw2nniR4LhPxJHqsshXshPHSFaiNvwB1GMg_",
+        "source": "Primor",
+        "source_icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAwFBMVEUAAAD___8BAQF9fX1fX1_39_ecnJz8_PwHBwcAAAPY2NiBgYFPT08nJyefn59jY2NXV1dvb29BQUGKiorf39-xsbEiIiKQkJA7Ozvm5uYwMDD8HiR1EhRHR0c2NjbOzs7w8PAbGxunp6e9vb0SEhJta2oADQ4kChBwFBq4GBrWHiDEGxybFhk1CgsACgShICJaFhekFBjAIyvRJi3_ICuxGR9eDg_tHyZ8ExZDDA7hICeHEBMdBgf_HiBLDg2PHSPCJYPoAAABzElEQVQ4jbVSa3eiMBCdSUDCwyq-UINVtGsLtlV3i27ttv3__2pnkoA9-7Vn5wDJTe5M7twA8O3opx5Frz_oAghYGERwcat4VwAMI_R9H4PVaDwASJeMAoKzKKZ9QQxYImLiRfSVhG54LJKOjxiZEsIsTaA7QpxNAWJCHu1kGODQEjq01OVUsyIJ9YgwnSEujY6GwClZQxAwp4qjOatsCGsroqmwWFEFaCsUUDgN0mnoONFuGks6cpWAJWSeHCP6a-ODJQToz9YJ9W0IQUCfKGl8YMLcFnMEb8EZhcFXkdyyI_RgQ4yNzbA-3LkKTReTiBgdk2EI_vXyJO1Qm32WMrEqb0ybTcSWYIyN7PLGabCREUpp5LthZyGljsmidWHuxWM_0R9Ti1OebQbwI5OxlHFWmPP6GQFCbFka02RwVac4WiS2trEQtkIJZUMIfniE-4eyulS7x6dn2If__KQhiIdS690-P-TH6if8qpzHbRxK_VKf7GnqANv6_JsMC0PBtoVwKl90_dqyn0HBo96dGnyqz--UAO25CkjsU6Uv9Vuev5UXrc9H4W7ZERS1_ye_6Het6T2XH7wffqmgQsN__TzW9T5X4G7wSvj_8Re23x7rs1Q4KAAAAABJRU5ErkJggg.png",
+        "multiple_sources": true,
+        "price": "22,93 €",
+        "extracted_price": 22.93,
+        "old_price": "Prix habituel : 25 €",
+        "extracted_old_price": 25,
         "rating": 4.6,
-        "reviews": 397,
-        "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9Gc68b7f2b33",
-        "delivery": "Livraison gratuite"
+        "reviews": 14000,
+        "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQc8tfltVBg-hYijOigEZAr46agbGSBOLW7ADkiGiU1_iPtX3e1LdImLpmrOQWfA6A5Cf2N8QXsGnXx-kY742J6CG1Ii9upaojroZzwGI8Ee9sa5fEuBnRV6Q",
+        "serpapi_thumbnail": "https://serpapi.com/images/url/Pyg9JXicDcndCoIwGADQJzLRzD-ImCbDEM0itW5Cp85ZzuW-6Oepep3eps7t-X46ACFdVW04mV4CmlqBiuszKqEERmZkHFTZjUIwTle35f9cFNcOJimxob1C5lGlO7I-YTQ4ockwS1rhvZdEuYXWF4bZQTuzLRTzRovqcIjEMCVp3iITLfxWj-20kJgXT-VytAx9Y_pYC5lzF-XYT-Pp_cChHTSOLBdtcPf4LjPTH4IDPdM",
+        "thumbnails": [
+          "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQc8tfltVBg-hYijOigEZAr46agbGSBOLW7ADkiGiU1_iPtX3e1LdImLpmrOQWfA6A5Cf2N8QXsGnXx-kY742J6CG1Ii9upaojroZzwGI8Ee9sa5fEuBnRV6Q",
+          "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSdszrD-kEAJ78ZA68Oyd7iczhl0pUjHQ-5fOQqZoP6oZ2AlCy8EKdLO7BlGtircK9baEzhOaa2irbO69rxFRWMTBKqG_zpjMKPHsaQeaikGsGRq2fJKoxE",
+          "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcR1gdbO6ERanTmlR_9rXtYqMhGVOoB4xbqbOaeUW_c4BUbsbVhDDzA81HKOs5cD1a8CnoTObaXkius22RoYtR5KEOTjaHRxKAZUDCp_dJ6P",
+          "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTrmMYVkCI1tiv1MEHhrn1KkbSnrSAgSiWb2TXD-oOMolTyE2egzOt_iylMCnQtFCQavFOTxisEG_j5mK1e6nvuyCsj991ap0VqTFpf_guNFRo2UAqUNc8RvQ",
+          "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRKAbQZcPGHGHoy-utpiLoEFW7au3qJ0jfsHQeOtdTIkdtQ9NoIBt_z1FW20JfTwPwaU6S9SWmzpgnpcowWW1XKicXrbzLvwHfYy_rppYaIf6L3wtb3XmqO"
+        ],
+        "serpapi_thumbnails": [
+          "https://serpapi.com/images/url/Pyg9JXicDcndCoIwGADQJzLRzD-ImCbDEM0itW5Cp85ZzuW-6Oepep3eps7t-X46ACFdVW04mV4CmlqBiuszKqEERmZkHFTZjUIwTle35f9cFNcOJimxob1C5lGlO7I-YTQ4ockwS1rhvZdEuYXWF4bZQTuzLRTzRovqcIjEMCVp3iITLfxWj-20kJgXT-VytAx9Y_pYC5lzF-XYT-Pp_cChHTSOLBdtcPf4LjPTH4IDPdM",
+          "https://serpapi.com/images/url/t7aZHnicDcnbDoIgAADQL1KbW17aWqMyXGSo1dp8aQheKBMEHtSP6n_6mzqv5_tpjZF65ThVT9UkTcUsU_au3WhDDKc2FW9Ht0JK3jebYf2_FTizENIL07PaW68IHP2gAF6AJ-ZzOrfdQt6ecWYta5wNhUg9Ubig201BhNgJ-9sOGq4oCksSzS0mxOWqxF6oxkN-T65bNMDHLJ8JSmNNsorwF9QwH9z6iMQY_QANRT4w",
+          "https://serpapi.com/images/url/2tPWvHicDcnbCoIwAADQL0pTVFSI8IaS1GKoaS-yi6iV23QLrM_pr_qbOq_n-xmUEtLX9Y6R5SVURzcKs63WS4XUSDTCJ10OXIiR9ft59z8_OFEvJdDoKQZOAhErpgdsvaVWzXwc0grw0FrxjAHqyktLrLDEEldDHL8D18hyIG0SG8iNGC8ARvV9fErThLxR0M4TUNxQBtc8uJZxJFp6cM4_Yf451w",
+          "https://serpapi.com/images/url/H2PAOnicDcndCoIwGADQJ0qbUKQQIeYqQsVcf1eiy-ZMt-m-RvZUvU5vU-f2fD81gNKebVeCDqOC6jaBUjgW01AApxaVna1rqRQXbNUv_-f58c3dUDJ00fX0CHYIuEFRuK0HgfaPMhND5rOMn0uHXNYTmUSyJWPoVOydQM7HNgpECjhIC4MT8uI63OTNrNujai7Mcwx047qoUNNTT7C65-wZ44N0jn5_jOniYNIf-T8_7A",
+          "https://serpapi.com/images/url/-Jr5Z3icDclbCoJAFADQFZWmYChEGOQbHz0Y7Ud0fBY6V7026KLaT7up83u-nwYRJk0Qyp6OC2BZbDDvpW09YYYt3VLWCVPDANq-Pg6H_2m6X6gmvbh6Hj1oaFqmxZbNjNB67GyQfTbLgyM-q8mKygCLm_0qMFJ9Zp8wXXcGkUSnuvGQZ3flql5Jt0LdA2WckF3stjQe89V7c6tKlnQESDK7UjyZYy7H3RD8AGhvP-I"
+        ],
+        "tag": "PRIX BAS",
+        "extensions": [
+          "PRIX BAS"
+        ]
       },
       {
         "position": 4,
-        "title": "OLAPLEX No.3 Hair Perfector 100ml",
-        "product_link": "https://www.lookfantastic.fr/olaplex-no.3-hair-perfector-100ml/11202150.html",
-        "product_id": "4780000000548",
-        "serpapi_product_api": "https://serpapi.com/search.json?engine=google_product&product_id=4780000000548&gl=fr&hl=fr",
-        "source": "Lookfantastic",
-        "price": "31,45 €",
-        "extracted_price": 31.45,
-        "rating": 4.3,
-        "reviews": 517,
-        "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9Gc68b7f2b34",
-        "delivery": "Livraison 3,99 €"
+        "title": "Olaplex - No. 3 Plus Ultimate Repair Treatment - Soin Réparateur Pour Cheveux Abîmés - 100ml - Réparation à 360° - Technologie OLAPLEX",
+        "product_id": "5364295398957743637",
+        "product_link": "https://www.google.com/search?ibp=oshop&q=Olaplex Olaplex No. 3 Hair Perfector 100ml&prds=productid:5364295398957743637,headlineOfferDocid:5364295398957743637,imageDocid:3813269053724918765,rds:PC_14397830527965846392|PROD_PC_14397830527965846392,pvt:hg&hl=fr&gl=fr&udm=28",
+        "immersive_product_page_token": "iazrpHicdZLNjqNGFIUzb5BHmHVaHvFXYDLqhTGUDW7-CigMG4QpbDAFxmBsg_Iwo54faSJlkyyyzWvMKMqzpEdRdsnm3MWnc3Tv1fnru--f8_J3dc3F6VUtTSKK9aVyZunVObjM57Y7kSG7lOQ3wIsCJwNenstAkgRe5KXPWXpJ6elQkne_FnlKaNnk9n6fd-op-2_Hz2WdHvJ_MD9neU6UGcBLnCCzc0kE7zvSfxGcZcIKvCzNeQZwkiyCuSDyMveTg2w1-R_48Tzk3fjlB5umLc3vD_9O6_TmgX9Yp2X34OTdPs8up-6BZZiafjy0L1u8e19_k_Z6eS4OH4aB5n88H-jzvnsuvumnU9pe99nXV39qg75cnvWlG7QtVhHjVUbpazFjMkUQamzjM4WBGCiasI3zI-6iYzyZfmz6PgQYosmk0Mka6tghG9uw5YPwvsxVqqBtdtkFaLS4FqEKtGEIkVtB3goxb4dQy3jFsHFxMz0WpGtlaa4VjqxYb9e0bVT3t2iCAwkKHNYVEzOWScK2jlhU2Wto7GjhE87CGYNDl2IvDmGNJw2gCV9dHm1M1hxjbPW5xggWRcCtMi4MCMV1bKPm5bYGW35gtORIFJOjYfbitho4kbC_WJPh7FbYQQ284sC955CqJsRnoiqi17TH3Ra5ZLLKIJRB7lvrgNPYqNJumMu4XXVfRw1BsWZgN-iZjMqBd4w3fgOHXUBP4dZSAlg8BSru_GPAIkyAiWmcVZaKNM2DDNJN2hakQq0fupxVs0zKLi7RNnZjVrutSkNBa2u0w9jLIVyhEBh-cGDikMSpSkDA9WxECffyg8o9oubDve_2X5gFBBfPlgZuPa3INjqE5FyPjeJznqTSlcg57o-sNJ8LL_VjJZaVP2WnU1XmX1_9kiReng1dPvN85DwurDq-paxvik0X6fhE52zisSOIVozvzKyX-DwduifTtxkwBmOymbedPuGw1W3sjkOPFMW0rFnXD2JDV_jJ1_LV2TA5fZeR0W0c-_D2tact0HKdeAtT83Rfe1weXJ0TNeXt64W2fFwQA2vptZKncdXSbWb5jJ0Fda8c8R1oxUG0hoJzZvJgSkd1popdr7ZAXmyNze3ta0tXHwEvPAZFHpZPPqsMjCHupkwtihjsdvwsFGYpSoSZnt-Xlj33gI2Xcrtoz8NGJAnYGOlOSTTnSWy2OlvCmMiuay6KGURavAkKMzvfooNHn_pbTwUsHEY7MqEBVRtI571toUK_gXVgVoo8CqsJ3tyNZONhuVhjvhPnvoY2U28TmOzxJj0l23QbrBCUL_dp3RRlUwQovaZTJGjHOXuuM-koebyaiE7GeWTDnPS_AdOXppo",
+        "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=iazrpHicdZLNjqNGFIUzb5BHmHVaHvFXYDLqhTGUDW7-CigMG4QpbDAFxmBsg_Iwo54faSJlkyyyzWvMKMqzpEdRdsnm3MWnc3Tv1fnru--f8_J3dc3F6VUtTSKK9aVyZunVObjM57Y7kSG7lOQ3wIsCJwNenstAkgRe5KXPWXpJ6elQkne_FnlKaNnk9n6fd-op-2_Hz2WdHvJ_MD9neU6UGcBLnCCzc0kE7zvSfxGcZcIKvCzNeQZwkiyCuSDyMveTg2w1-R_48Tzk3fjlB5umLc3vD_9O6_TmgX9Yp2X34OTdPs8up-6BZZiafjy0L1u8e19_k_Z6eS4OH4aB5n88H-jzvnsuvumnU9pe99nXV39qg75cnvWlG7QtVhHjVUbpazFjMkUQamzjM4WBGCiasI3zI-6iYzyZfmz6PgQYosmk0Mka6tghG9uw5YPwvsxVqqBtdtkFaLS4FqEKtGEIkVtB3goxb4dQy3jFsHFxMz0WpGtlaa4VjqxYb9e0bVT3t2iCAwkKHNYVEzOWScK2jlhU2Wto7GjhE87CGYNDl2IvDmGNJw2gCV9dHm1M1hxjbPW5xggWRcCtMi4MCMV1bKPm5bYGW35gtORIFJOjYfbitho4kbC_WJPh7FbYQQ284sC955CqJsRnoiqi17TH3Ra5ZLLKIJRB7lvrgNPYqNJumMu4XXVfRw1BsWZgN-iZjMqBd4w3fgOHXUBP4dZSAlg8BSru_GPAIkyAiWmcVZaKNM2DDNJN2hakQq0fupxVs0zKLi7RNnZjVrutSkNBa2u0w9jLIVyhEBh-cGDikMSpSkDA9WxECffyg8o9oubDve_2X5gFBBfPlgZuPa3INjqE5FyPjeJznqTSlcg57o-sNJ8LL_VjJZaVP2WnU1XmX1_9kiReng1dPvN85DwurDq-paxvik0X6fhE52zisSOIVozvzKyX-DwduifTtxkwBmOymbedPuGw1W3sjkOPFMW0rFnXD2JDV_jJ1_LV2TA5fZeR0W0c-_D2tact0HKdeAtT83Rfe1weXJ0TNeXt64W2fFwQA2vptZKncdXSbWb5jJ0Fda8c8R1oxUG0hoJzZvJgSkd1popdr7ZAXmyNze3ta0tXHwEvPAZFHpZPPqsMjCHupkwtihjsdvwsFGYpSoSZnt-Xlj33gI2Xcrtoz8NGJAnYGOlOSTTnSWy2OlvCmMiuay6KGURavAkKMzvfooNHn_pbTwUsHEY7MqEBVRtI571toUK_gXVgVoo8CqsJ3tyNZONhuVhjvhPnvoY2U28TmOzxJj0l23QbrBCUL_dp3RRlUwQovaZTJGjHOXuuM-koebyaiE7GeWTDnPS_AdOXppo",
+        "source": "Sephora.fr",
+        "source_icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8_9hAAAA60lEQVQ4jYWTu3HDMAyGv2MWYCYQNhBLl9wgGUGjxBNYnsAuUyobaINQE5itpqAL0T6LEmjeoSD-BwEcCNvjgR64ASnHP3ABZIf_PBY4vYgSkKy1qcidMncjDqUYSCKyyeWKViabl4HUdZ1m8KgEcl-7pGEYagYJ8Ab40YbSNA0i1bl9G6DVUGstzrmawZcBqoy2Vf0BxNTQaZrw3tcoGCBq4DiO72YQDPCnoiEQo-r_NBg0NMb4zuD4wdLCJ3AoURFhnmdCCHviM_D7uFiW9VwtinNOW6CA8h96RfAa_Z54VTlwLSq6ZaEvyXc5F3TvrBZhrQAAAABJRU5ErkJggg.png",
+        "price": "69,00 €",
+        "extracted_price": 69.0,
+        "rating": 4.6,
+        "reviews": 14000,
+        "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQOHM1U0UABFspgeGuT0fZZ4lzUzVzdN7J-N8LDPXj2eZN-uT-nq7JKpTiTwCcqcYSRck5br1KrMvzbzrCm0zb74Za4hRdCP6UpSSH47HN1Wwy9UJn0NK_eUQ",
+        "serpapi_thumbnail": "https://serpapi.com/images/url/KvgyZnicDclJDoIwAADAF7EZFCExBjFCQCpbXbgYKBVQKQWKhr7K7_gbnet8PxVjdDAkCRPUT5ThQmA5UcRyYBmrkYjaRhqqltKalOtu9T_DBIVuo_Dg-AqUobnZDbTE9pjItzRVnxzyIy-A5gpgud8G5_sMp0AYE4F0muvRpE7eFurQJY7QY573itf7L57z3mpknmtqmqlVVFjBAtI4dlTNAcrpPenQJTLwrhiGP3UiPek"
       },
       {
         "position": 5,
-        "title": "Olaplex N°3 Hair Perfector - 100 ml",
-        "product_link": "https://www.marionnaud.fr/olaplex-n3-hair-perfector",
-        "product_id": "4780000000685",
-        "serpapi_product_api": "https://serpapi.com/search.json?engine=google_product&product_id=4780000000685&gl=fr&hl=fr",
-        "source": "Marionnaud",
-        "price": "30,90 €",
-        "extracted_price": 30.9,
-        "rating": 4.4,
-        "reviews": 637,
-        "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9Gc68b7f2b35",
-        "delivery": "Livraison gratuite"
+        "title": "Olaplex No 3 Soin Réparateur Capillaire, Concentré pour Cheveux Secs et Abîmés, Répare et Renforce Tous Types de Cheveux, Sans Sulfate, 100 ml",
+        "product_id": "2344936648590728349",
+        "product_link": "https://www.google.com/search?ibp=oshop&q=Olaplex Olaplex No. 3 Hair Perfector 100ml&prds=productid:2344936648590728349,headlineOfferDocid:2344936648590728349,imageDocid:4992552516516962770,rds:PC_14397830527965846392|PROD_PC_14397830527965846392,pvt:hg&hl=fr&gl=fr&udm=28",
+        "immersive_product_page_token": "F6eQrnicdZLLjuNEFIbhDXiEWdMKssu3mFEv4ruTdjm-lC-1iXyL7U45qThxYls8DGpmRhokNrBgy2vMCPEs9AixA-nX9y9-naNzpP-vr755qdrfNQvg7Ka1TimK3fWwXWS3be0xH2l_Kofi2pa_AY7nZU4U-aUgMxJYcrz8sciuGTnVbfnjr02VlaQ9Vu5-X_XaqfjviZ_bLqurf2JeloEgAIEVXyWLQJKYn_ry8onfqjuW52RpyTECkGRRWPIiJ4Mftr6r7f4nfH8eqn769K1LMkqq8eFfh6fvHrgHK2v7h23V76vieuofWIbpyPuavl7x40_dF9Db9aWp3w0Dqf54qcnLvn9pvvDDKaO3ffH56z_1wVbVs616iNJI85mAwRhFNKhMcsSoSdGBiil3GHNtDfwjdlxEE18vT7GmRGgmXaA3-8wyzKiLQKayVno4zCEjp3hGY6aXqh_h3onWKUIEwZhh4xg3MSK6c6BBSOoJM76IOEyjOQI5IGqpOyCIfZgAv40TTwhQeY4N2ct10vqMkeQzJAWi1_AAn3CEbxVZXZ2YRDA8TAEjWDmzVp1nXXC68TkBVAw1CDImBRkaDRTCFpoCznSoFxZWAh3DZI5G3DUtNsglN-g9TvA1jYwhBBSFwLBxJ6OQ0KRIsICStVPF8sUHgoKOvhV1RM9Mww-jw4gNA4fAnoojHfOO7oNovXGsegznKPaO0akApQgnFruGkkImHXOGmXJAfZ80g4PWt8zQA4PxbYfQpjz4NIw9ADuWydjVNU2wh1n9brZrxbfg5MYYuRpUoA45X7_2sBM25WxcIEeOmSmrIbii0CD-u_HS7z8xK0O4Bq40AGs2yySt4_LcTUclBIGkEVMEW-97Vlou-df6sRLLyh-K0-nQVp-__mW3C6pi6KtFEPrbxxXs8D1jQ0c89qkdnciS3QXsJKQmE24X8HV9lQ39kxO6jDChabdZ0t5-fZ_abuRNw8VXFAfCRX8ZxCMxo6dQr8zz2gF2XpSTd9y69ds3gb7yVWsXrBw9sEP9Ua09G4i68vbNSlcfV-U60rPbQZ4nk5KkgCHjFqi7KM_RKOhNLcKhAduFPDjSs7bQxP6iUUFeJevN_e0baGuPAsc_oqaK26eQVQZmLeZzoTUNFvKcW8T8IvN3_MKuRhW6y0BwI1WmK3oeNmK5EzbrLFd2-vZJPCY22xq4lD3PWTULw9fxBjVOcb6ndUCeLvcL4SO-ntzUMdaG5grSee9Cv7HvgoWcgyJPvDkbd28judGgrqyI68VlqPub-eKWxm4fbbLTLskSZPqGfB1n69i0xwb52S2bU15_XrLnrpCepYDTduK2AEG5YU7231Eop6Q",
+        "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=F6eQrnicdZLLjuNEFIbhDXiEWdMKssu3mFEv4ruTdjm-lC-1iXyL7U45qThxYls8DGpmRhokNrBgy2vMCPEs9AixA-nX9y9-naNzpP-vr755qdrfNQvg7Ka1TimK3fWwXWS3be0xH2l_Kofi2pa_AY7nZU4U-aUgMxJYcrz8sciuGTnVbfnjr02VlaQ9Vu5-X_XaqfjviZ_bLqurf2JeloEgAIEVXyWLQJKYn_ry8onfqjuW52RpyTECkGRRWPIiJ4Mftr6r7f4nfH8eqn769K1LMkqq8eFfh6fvHrgHK2v7h23V76vieuofWIbpyPuavl7x40_dF9Db9aWp3w0Dqf54qcnLvn9pvvDDKaO3ffH56z_1wVbVs616iNJI85mAwRhFNKhMcsSoSdGBiil3GHNtDfwjdlxEE18vT7GmRGgmXaA3-8wyzKiLQKayVno4zCEjp3hGY6aXqh_h3onWKUIEwZhh4xg3MSK6c6BBSOoJM76IOEyjOQI5IGqpOyCIfZgAv40TTwhQeY4N2ct10vqMkeQzJAWi1_AAn3CEbxVZXZ2YRDA8TAEjWDmzVp1nXXC68TkBVAw1CDImBRkaDRTCFpoCznSoFxZWAh3DZI5G3DUtNsglN-g9TvA1jYwhBBSFwLBxJ6OQ0KRIsICStVPF8sUHgoKOvhV1RM9Mww-jw4gNA4fAnoojHfOO7oNovXGsegznKPaO0akApQgnFruGkkImHXOGmXJAfZ80g4PWt8zQA4PxbYfQpjz4NIw9ADuWydjVNU2wh1n9brZrxbfg5MYYuRpUoA45X7_2sBM25WxcIEeOmSmrIbii0CD-u_HS7z8xK0O4Bq40AGs2yySt4_LcTUclBIGkEVMEW-97Vlou-df6sRLLyh-K0-nQVp-__mW3C6pi6KtFEPrbxxXs8D1jQ0c89qkdnciS3QXsJKQmE24X8HV9lQ39kxO6jDChabdZ0t5-fZ_abuRNw8VXFAfCRX8ZxCMxo6dQr8zz2gF2XpSTd9y69ds3gb7yVWsXrBw9sEP9Ua09G4i68vbNSlcfV-U60rPbQZ4nk5KkgCHjFqi7KM_RKOhNLcKhAduFPDjSs7bQxP6iUUFeJevN_e0baGuPAsc_oqaK26eQVQZmLeZzoTUNFvKcW8T8IvN3_MKuRhW6y0BwI1WmK3oeNmK5EzbrLFd2-vZJPCY22xq4lD3PWTULw9fxBjVOcb6ndUCeLvcL4SO-ntzUMdaG5grSee9Cv7HvgoWcgyJPvDkbd28judGgrqyI68VlqPub-eKWxm4fbbLTLskSZPqGfB1n69i0xwb52S2bU15_XrLnrpCepYDTduK2AEG5YU7231Eop6Q",
+        "source": "Amazon.fr",
+        "source_icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABe0lEQVRYhe2XMW7CMBSGP5uKibkXaKUwcAfoBQhzWaouVByAFVh7AESlVmIpM3AB0jswwNADlDkTEkmHl9AkEFFKwB34JCtxbOf_37MT6Ski-E9cs6IJ1IASkCMb1sAMGJGnp_oswwG1EX_gHs0LUMhINA0Xj4YaMNwYCMTfTywcx6OuBgxVkPZPTh95Epc8NzrY83OLAxRY0dTIgTNFTSOn3RQlTXaf2l_IaYPiAFwMXAzEDdid7BXsDrSm8OZLS2hsZ2DHpKOYOzDuwvMdLByotmPDV7HeOBCOTgqfHYPdFhOLD2mpBnaZqLZh0pX7uSNR7MOqiKhVkf6kK-taU8lEBOU_4qe-pFjZStmGhSPRWOX4muSccSAebmsio-kGotiddCNp5kLhPfzOQEgYYTG4WmXJwtz5ET6QwwycgH_2I7oYMGRgbVB_rZGKxRQzDYwMGhiZLUw0t1r1WeLROLM4eDTUK18aQA0Y4lEH3DNIu2FdCJHqGMyU599-1oDHJ9NWzAAAAABJRU5ErkJggg.png",
+        "price": "52,00 €",
+        "extracted_price": 52.0,
+        "old_price": "68 €",
+        "extracted_old_price": 68,
+        "rating": 4.6,
+        "reviews": 14000,
+        "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcR0mpl50_BhU7yVgoR7u39PFNO87qRCFti9bdsDwNb6v4IV-LpHxvbqTuFCjIyQdDsZrFQA38gRBJ_qJ0IrBbuABD3L_ZHjBmv4qEOpt-pLyBa_IhpBSrxgRw",
+        "serpapi_thumbnail": "https://serpapi.com/images/url/UDeNNXicDcndEkJAGADQJxITJWaaxpJoDNnKhRtjaRYTvrXr7616nd6mzu35fiohgJuy_OqKYQXxKiVBuu2GcpGLutgUfSvzqgeoO3pix_-ZVlgalwIrLbx3Soaqp74mtMf6qBo3N4wOOsO2K2qDlNyZQ7KfND-RAvCWibDH6NqNv8alw9PBjS31QDG6Zuyq-AMio4UcNchSr0HtpLFzBEKCYEV55leA7sNC8fwDdbI-mA",
+        "tag": "PROMOTION",
+        "extensions": [
+          "PROMOTION"
+        ]
       },
       {
         "position": 6,
-        "title": "Olaplex No.3 Hair Perfector 100ml",
-        "product_link": "https://www.notino.fr/olaplex/n-3-hair-perfector/",
-        "product_id": "4780000000822",
-        "serpapi_product_api": "https://serpapi.com/search.json?engine=google_product&product_id=4780000000822&gl=fr&hl=fr",
-        "source": "Notino",
-        "price": "22,70 €",
-        "extracted_price": 22.7,
+        "title": "Olaplex Bond Maintenance",
+        "product_id": "11092988075120027219",
+        "product_link": "https://www.google.com/search?ibp=oshop&q=Olaplex Olaplex No. 3 Hair Perfector 100ml&prds=catalogid:11092988075120027219,productid:9485150087028665273,headlineOfferDocid:1795202648220757778,imageDocid:13196612142588318530,rds:PC_7755674910182716392|PROD_PC_7755674910182716392,gpcid:9773322044928921578,mid:576462373970013324,pvt:hg&hl=fr&gl=fr&udm=28",
+        "immersive_product_page_token": "jyochHicbVPLrqNGFEzyBVnkA2adK0fdDc0jo7sw5mFsA6aBxmZjYcAGu7Exj4tB-Zo7k0gTKZvJSNnmN2YW-ZY4kbLL5pxFleqUVKf--urb16z4Q52jKH5RCysVhLI9ryfxy_rogg9VfU27pC3S32VewhADIIkASYKAkch9SOI2ZtdjkX6CEMhIliQgYogAQCKC8sc8i1NWXDLncMhq9Zo8VKAoYwSQwEsIPbiiKEq_FmV8zP6FP0EOyoIAEeQRliQOSpgD7-q0-YzWs50oYiyIvAwBlJAIBU5GP62Jo-7-H_v51mX18Pl7h8UVy-5P_237-sMT9zSPi_ppndWHLGmv9RMEoGQ_H6t_PMqiyHEPezwvI0lGEIvSu7JIP2JR4AXEiZwsAgAfFP5d9dK-5sf3XceyP1-P7PVQv-b_zF-ucfVySL5885127dVZ08_coKqoSoBXpixF7LZH-Swet8jSsGOfUn7lkxsNoEc1qtgcc22Dh1vEIouxa2LoKCz1heeT0EL3rWMwxTESzuOScRXmJB31Pj6ljc3sbTyvMNUWBWFK6xty6JU2c09K6wEXbqDSPO70tGybBMraBlYhDUC_8q27N9LBDqowQBJvz-A6Htk2mldxYkRDGqR8drL6MCT3hBE-PBM9AfBk62Tmh0mfAtmJOKVIS9xklwWLUHqJIY2yoC2Ss81vQ1jF6B5vRvbQp6rlUyUJgjE-a9yeLkLPtxsS9jBGuPMAwdGFUovaKKIUE2oN4UkRvI0yEp2pGTtCQhWBgga7TKFueOazEtfWZtsGXNKu6Jl3w_zuzfVyCxc3WuqzFc07H7RcfLaZR9PIojTfc4oSGnc-U5XBR6zPVNKGKsXJvArCkx0F5WK9Gc_QBaanA2JarMrTM6n80EV2CUEMp-12E7kR1HqjWChkbg9OGJF0rlcrWpn2mal-iIckrIRwk3seCgCB9vmRMXl_b-rDZzDVces5Yofmo5FutscwvZXDRfGRJ6rMENDa_RGKksTznAxFCOVfkuv1XGRfvv5tt_OypKuzyeMj1s9Tu4z6GPqWcKm3Jr0yCe48OOCtAfz1xH7IZ3FXryzfAXgIht1SqmpzpGFlOtQduoYoimXbk7rphAsz6MrXMuO2sJC5T9LBvayd49s3njYls_nOm1qaZ_ra8-zomkjQlLdvptrseZouqBa_nOVxMCq2SWwfOElQNsqJ3rGWHwW7y9F6IneWeFInqlA3aoXl6Wax7N--sU31GXP8c5BnYbHyodKBhbAfEzXPI7zfc5OQn8Rkx0_M7D6zHcnDDp3J1bS6dUsh3eHlIt4rO229Ei4bExZ6lMqua03ziU60aBnkVnLrt0ePrZq-YTzlj4OztfSFrjpYvB0cm-Rmj-eBdVbkgTceVXKXokO72XROuVqQfI0sx8ZJ9d2BLuPrbhNvAoPocnsf55e8uOQBiV8eTea1kwRvZSKeRI9Td8I6QV66BFfzb6rSw7w",
+        "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=jyochHicbVPLrqNGFEzyBVnkA2adK0fdDc0jo7sw5mFsA6aBxmZjYcAGu7Exj4tB-Zo7k0gTKZvJSNnmN2YW-ZY4kbLL5pxFleqUVKf--urb16z4Q52jKH5RCysVhLI9ryfxy_rogg9VfU27pC3S32VewhADIIkASYKAkch9SOI2ZtdjkX6CEMhIliQgYogAQCKC8sc8i1NWXDLncMhq9Zo8VKAoYwSQwEsIPbiiKEq_FmV8zP6FP0EOyoIAEeQRliQOSpgD7-q0-YzWs50oYiyIvAwBlJAIBU5GP62Jo-7-H_v51mX18Pl7h8UVy-5P_237-sMT9zSPi_ppndWHLGmv9RMEoGQ_H6t_PMqiyHEPezwvI0lGEIvSu7JIP2JR4AXEiZwsAgAfFP5d9dK-5sf3XceyP1-P7PVQv-b_zF-ucfVySL5885127dVZ08_coKqoSoBXpixF7LZH-Swet8jSsGOfUn7lkxsNoEc1qtgcc22Dh1vEIouxa2LoKCz1heeT0EL3rWMwxTESzuOScRXmJB31Pj6ljc3sbTyvMNUWBWFK6xty6JU2c09K6wEXbqDSPO70tGybBMraBlYhDUC_8q27N9LBDqowQBJvz-A6Htk2mldxYkRDGqR8drL6MCT3hBE-PBM9AfBk62Tmh0mfAtmJOKVIS9xklwWLUHqJIY2yoC2Ss81vQ1jF6B5vRvbQp6rlUyUJgjE-a9yeLkLPtxsS9jBGuPMAwdGFUovaKKIUE2oN4UkRvI0yEp2pGTtCQhWBgga7TKFueOazEtfWZtsGXNKu6Jl3w_zuzfVyCxc3WuqzFc07H7RcfLaZR9PIojTfc4oSGnc-U5XBR6zPVNKGKsXJvArCkx0F5WK9Gc_QBaanA2JarMrTM6n80EV2CUEMp-12E7kR1HqjWChkbg9OGJF0rlcrWpn2mal-iIckrIRwk3seCgCB9vmRMXl_b-rDZzDVces5Yofmo5FutscwvZXDRfGRJ6rMENDa_RGKksTznAxFCOVfkuv1XGRfvv5tt_OypKuzyeMj1s9Tu4z6GPqWcKm3Jr0yCe48OOCtAfz1xH7IZ3FXryzfAXgIht1SqmpzpGFlOtQduoYoimXbk7rphAsz6MrXMuO2sJC5T9LBvayd49s3njYls_nOm1qaZ_ra8-zomkjQlLdvptrseZouqBa_nOVxMCq2SWwfOElQNsqJ3rGWHwW7y9F6IneWeFInqlA3aoXl6Wax7N--sU31GXP8c5BnYbHyodKBhbAfEzXPI7zfc5OQn8Rkx0_M7D6zHcnDDp3J1bS6dUsh3eHlIt4rO229Ei4bExZ6lMqua03ziU60aBnkVnLrt0ePrZq-YTzlj4OztfSFrjpYvB0cm-Rmj-eBdVbkgTceVXKXokO72XROuVqQfI0sx8ZJ9d2BLuPrbhNvAoPocnsf55e8uOQBiV8eTea1kwRvZSKeRI9Td8I6QV66BFfzb6rSw7w",
+        "source": "Easypara",
+        "source_icon": "https://serpapi.com/searches/6a997d04a89e024d47671642/images/ojJbTPUgjhLC60_3rNNCEGSX1ZeoCMBXDfPsfVQ7AMw.png",
+        "multiple_sources": true,
+        "price": "15,85 €",
+        "extracted_price": 15.85,
         "rating": 4.5,
-        "reviews": 757,
-        "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9Gc68b7f2b36",
-        "delivery": "Livraison 3,99 €"
+        "reviews": 44000,
+        "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSJHx8_tMkQZ_bDYWFs8p6APg5JKo2sbYIeEbJTRzqWUgjKaIm3G-rCi7etM-6pjgO6Qh1Y9h-Il9aBq2QxofGooSEIV8Hcoj-TWBtcApTKtZJ8IhtFJiKK",
+        "serpapi_thumbnail": "https://serpapi.com/images/url/Ts8vInicDclLDoIwFADAExUiRgQSY0AB28YPghLcGKjYgkoLfQv1UN7H2-hs5_sRAEp7pll3bHgpqC8Iqs4yuIYSGmYw-TC1kEo1HZ_3s_95_ubixiwlq6dzhvUtOZ2rZZFH2lG2v-MTQqWlqwLXYUWy_bvPD7ylJX6MYzQsmmkNa2Srlm_tRIwKVyB8d8ugt5KnvMZSpiE-OismW5TlATBfZRROxMECItJQ-gMJBD1o",
+        "thumbnails": [
+          "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSJHx8_tMkQZ_bDYWFs8p6APg5JKo2sbYIeEbJTRzqWUgjKaIm3G-rCi7etM-6pjgO6Qh1Y9h-Il9aBq2QxofGooSEIV8Hcoj-TWBtcApTKtZJ8IhtFJiKK",
+          "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRJ5tr7DtsEhFXnxDeudyJbw9wmujqf-WMVMClHVzMdi4HvscNxzFzT388_Wwb2MskciXOoK5zX9An7Q7COVq242XaIYNZfME260GoLKc3CXnDBzcYdzBMr",
+          "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTWoZKLBS3vRDuSy3R0TLLjgiNRETX9v3QtoZcutkkZZyhRDReWDl8jv2Ty_5C4b4Ec6BNG68oPrGVKvNeXLsirTQpOLbXzmbz9ILwuOABB",
+          "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSxR2BiJaLV1Sn751TsOqJnO81OFQ1GZDL_gGJxeOtXOslBaIak021RN3DE1TjQiONfAZ3oc_WQ-kaZr3lTnuk1Fl08xwSUKNifQClhbh1Y3_9yvvNDpSn2AQ",
+          "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSl6sdNH-5UntqDmGBmzlEpkyoKPn_cLPOV-cRT8JEe-jN-bTxZhE5656x3Dy2F0DQC5DGeBpngLkF22dq-N2GStilGZkoJpzlKUzDP9_FgofCAh4aLxT3j"
+        ],
+        "serpapi_thumbnails": [
+          "https://serpapi.com/images/url/Ts8vInicDclLDoIwFADAExUiRgQSY0AB28YPghLcGKjYgkoLfQv1UN7H2-hs5_sRAEp7pll3bHgpqC8Iqs4yuIYSGmYw-TC1kEo1HZ_3s_95_ubixiwlq6dzhvUtOZ2rZZFH2lG2v-MTQqWlqwLXYUWy_bvPD7ylJX6MYzQsmmkNa2Srlm_tRIwKVyB8d8ugt5KnvMZSpiE-OismW5TlATBfZRROxMECItJQ-gMJBD1o",
+          "https://serpapi.com/images/url/PkhiuHicDclXDoIwAADQEzHCECExBhkqWIjGQPXHQAuCo4wWwR7K-3gbfb_v-6kYa6klSQVB_btlBRZYTmTxSlnGaiSi5inRqmnbmlyX3eJ_lh1hc40Ogc56w2XUq3xIJrcY8DvIR3N8DreuFFKQAOexSTjAtbZ5URRN3OdHdT6_pGOuAHpHNYybUOfQtImxN5w46RRNgdn2FJ1L4Ckzed3sQqQ6kLgrjk6Yr0D_A3lbPkU",
+          "https://serpapi.com/images/url/PQ7RVXicDcltCoIwAADQE6WSJipEuBQJx8w5UvwTbYpf6ZZOQ4_TrbpNvb_v-6mlFJOjquXAxlXIsthJOmhKNcmHbJjCeK9ONReiGarT6_g_x0WFHTCS8jyEINEX7M3JqmONQNhWDcI-yexFjyXP2Sy7Ls_XGnu4TL2n1S57st4PZ4MaPjMBCkyLX8fgFi6ozODUjCQWEaTZ1tPNvsD3HLkA_ABT5Top",
+          "https://serpapi.com/images/url/bVAlyHicDcnbDoIgAADQL0pF1lK31izLZQ5G2s0Xh-SFNKSgsr_qd_qbOq_n-2m0lsozzVKw-1vq8jzShbCMWmmqOTNYfzVV00vJRT27Tf_n-ejshiwZtvacRzTeg0RMxiBV-BYJ7AC8IiDMgjivw2gosT5i1c3pmraWDbYIBkuQXgjHqPIz2LP8QEYtze6wS8WjBavOcoZXstsgXpFF1xQNOMHcfT-fKJCJsH3yAy_2PXU",
+          "https://serpapi.com/images/url/0fZPDXicDcldDkMwAADgE5WFVUayLChdELNhD16EMv9tTR9wqN1nt9m-1-_7aYXgiyHLNSXvjYu6AqKkqtQsohAdkQib5KVlnHe0uczn_xlmWOmYxKO2VOEVwJSKGU3YmvbR4cPG_IjmJIhuT0AeyclzatCHoEzWrHWgBrVVRZviHtDdhgjXFqdNMLiKUs0gVHAsuhFnA_P4PvrpjiI9dxv2ss32WARrovY_-2w9Jg"
+        ]
       },
       {
         "position": 7,
-        "title": "Olaplex Hair Perfector No.3 100ml",
-        "product_link": "https://www.douglas.fr/fr/p/olaplex-no-3",
-        "product_id": "4780000000959",
-        "serpapi_product_api": "https://serpapi.com/search.json?engine=google_product&product_id=4780000000959&gl=fr&hl=fr",
-        "source": "Douglas",
-        "price": "29,95 €",
-        "extracted_price": 29.95,
+        "title": "Olaplex No.3 Hair Perfector 100ml",
+        "product_id": "4955243339116724462",
+        "product_link": "https://www.google.com/search?ibp=oshop&q=Olaplex Olaplex No. 3 Hair Perfector 100ml&prds=productid:4955243339116724462,headlineOfferDocid:4955243339116724462,imageDocid:13729287774027481107,pvt:hg&hl=fr&gl=fr&udm=28",
+        "immersive_product_page_token": "w6zysHicbZLLjqNGAEUzf5BP6HVaHlE8TVq9MOZhjHkVUBg2VpnCgI0B87ANX9PqeUgTKZskUrb5jZlFviU9kbLL5tzF1T2r-_cPP76mxZ_yio7xVS5MwvPn_uTM8NXJXOpL09ZkSPqC_M6KHEezDMOIAPACzbI8_SXBPS7rrCAvv-UpJmVRpfbhkLZynfz_4pfijLP03_oPwAi0SM8FQWApWmDnAFDCh5Z0L58uQ9qOX3-yS9yU6f3xv7Tq94_M4woX7aOTtoc06ev2EVDUufyUNW_Glw_n72iu_WuefRyGMv3rNStfD-1r_p2fa9xcD8m3d0elvi2X3U1yg6ZBMqQ80Ix7LWLRiQU-igCcEA7PuWHSwIkrVGzCvIsqkwtKqYBMHu-3i7t_TPpEE6NQI2pQ5RJmLDXwc96nyN0K85isAsbeWq2vNgo8w8YsyQkpMCIaCfxJ8j1VQrGaUC7NTXtE8CYkVRICYB7zk1UptAvmdzxJGAbI9lS4tChVSiZ4sE41i2jzHmp5FIagsYNe8laxgZFlJGU5-ghuTaoGJkMOVsjpUQUHHDZVvNWp5EgUX61vgUxok8o7RGV9sCJ6BEq8Z-JJyYniyWscbWMFB-BkHeOeaL27CVU60Ag0pbpwAzglx_KMVKRZE3QwQDpkVCtQ7o13ti5eZdFm5bIJFY3k9vHetYev1ELles8WBno1aWQbZSG5nMdK8mlPkEuNpx33ZyDM5yz7dhUBAPFzUtenIv327tfdzkuToU1nng-d54V1jm8Y-CZftZGO6nIOdh4YuUijfGdmvelTPLQb07cpbgzGnTFvWn1CYaPbyB2HDkqSaVmzthv4qtTQxldS7bI2aX2fkNGtHDt7evCUBVyudt7CVDzdV56XmavTvCI9PSyU5fOCrJGCrydxGrWm3CaWT9lJcO6kI7pzSp7x1pDTzkwcTOEoz2S-7eSGExfbtXF7erB0-Zlj2OcgT8Ni4wNpoNb8fkrkPI-5_Z6ZhewMwx0709P70rLnHmejpdgsmstg8GTHGWu8l3aKs-GrrQ4KNSai65qLfKZCJTaC3Ewutyjzyk1360oWsdloR6a6VmWbEy4H24K5fuNWgXmSxJHVJvXmGoKNhuVihZiWn_sKNKbOJurugAxc77Z4G2hQFfv7tKryosoDiK94iljlOAeXcyIcBY-Rd7yT0B4xqFr_ByfXdI4",
+        "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=w6zysHicbZLLjqNGAEUzf5BP6HVaHlE8TVq9MOZhjHkVUBg2VpnCgI0B87ANX9PqeUgTKZskUrb5jZlFviU9kbLL5tzF1T2r-_cPP76mxZ_yio7xVS5MwvPn_uTM8NXJXOpL09ZkSPqC_M6KHEezDMOIAPACzbI8_SXBPS7rrCAvv-UpJmVRpfbhkLZynfz_4pfijLP03_oPwAi0SM8FQWApWmDnAFDCh5Z0L58uQ9qOX3-yS9yU6f3xv7Tq94_M4woX7aOTtoc06ev2EVDUufyUNW_Glw_n72iu_WuefRyGMv3rNStfD-1r_p2fa9xcD8m3d0elvi2X3U1yg6ZBMqQ80Ix7LWLRiQU-igCcEA7PuWHSwIkrVGzCvIsqkwtKqYBMHu-3i7t_TPpEE6NQI2pQ5RJmLDXwc96nyN0K85isAsbeWq2vNgo8w8YsyQkpMCIaCfxJ8j1VQrGaUC7NTXtE8CYkVRICYB7zk1UptAvmdzxJGAbI9lS4tChVSiZ4sE41i2jzHmp5FIagsYNe8laxgZFlJGU5-ghuTaoGJkMOVsjpUQUHHDZVvNWp5EgUX61vgUxok8o7RGV9sCJ6BEq8Z-JJyYniyWscbWMFB-BkHeOeaL27CVU60Ag0pbpwAzglx_KMVKRZE3QwQDpkVCtQ7o13ti5eZdFm5bIJFY3k9vHetYev1ELles8WBno1aWQbZSG5nMdK8mlPkEuNpx33ZyDM5yz7dhUBAPFzUtenIv327tfdzkuToU1nng-d54V1jm8Y-CZftZGO6nIOdh4YuUijfGdmvelTPLQb07cpbgzGnTFvWn1CYaPbyB2HDkqSaVmzthv4qtTQxldS7bI2aX2fkNGtHDt7evCUBVyudt7CVDzdV56XmavTvCI9PSyU5fOCrJGCrydxGrWm3CaWT9lJcO6kI7pzSp7x1pDTzkwcTOEoz2S-7eSGExfbtXF7erB0-Zlj2OcgT8Ni4wNpoNb8fkrkPI-5_Z6ZhewMwx0709P70rLnHmejpdgsmstg8GTHGWu8l3aKs-GrrQ4KNSai65qLfKZCJTaC3Ewutyjzyk1360oWsdloR6a6VmWbEy4H24K5fuNWgXmSxJHVJvXmGoKNhuVihZiWn_sKNKbOJurugAxc77Z4G2hQFfv7tKryosoDiK94iljlOAeXcyIcBY-Rd7yT0B4xqFr_ByfXdI4",
+        "source": "amama",
+        "source_icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAhFBMVEVHcEzudQntdgIquwTsdwLsdwKurq7udgLsdwPsdwMvuwQuuwSksavsdwOurq4ouwLsdwOurq7UlHeurq4uuwTsdwPsdwPsdwEvuwQvuwTJmXqos7kA__8AwQCklwAvuwSuuwDsdwKurq4vuwTtdgCqsbTwcwDofBu8o5Pdh0XJmXrCnohFMbb3AAAAIHRSTlMAJ8IMMhY9QKZRcVBJsLM8eP0NJM7p2IvqlLDGA4_0m_cS1iwAAAEJSURBVDiNzZLbUsMgEIaXpJEAObTpyWrUgRxq6_u_n7ssjDUj9c7xv2CZ_b8suwSAP1Pe5nd9MwzD6R7wiMBgwOhUnR0BO1oTRH5609qX0clT-r7VLZ2TJozBYRJmUeCi0e26mOlu3NqiMvFSNc65TbOFVUaZumBfWdb8OjnW0xxSinxpo-ZrIKbLGFIrBOyXRhcVS-wB1jfAjyV8O7b2fY6XqWk8cJ1LNtYQAhw9UAF44kMCf1oygDMLimfsqSLgPU4XAIGX4YEe4GEBHCgchKQK4_l5WzGQCRWAY2zXAzgFAzinZKBYAJslEC8iDUD5GwBqn-6hDj9cSt7gELwRSn57TOl39h_0CWuONyoRY9XyAAAAAElFTkSuQmCC.png",
+        "price": "33,76 €",
+        "extracted_price": 33.76,
+        "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQZGyqe7nb5fzMU8ZQYsvPH02Lxjm2A196qKarP2A8jlZYFuRjTRQM85VFNPVgXOrDGRHcRwpQm5GI-FrDL_k7tSLAlG_LeNPzLEtAdrpdubmfH8iLS8SJY",
+        "serpapi_thumbnail": "https://serpapi.com/images/url/pnYpVnicDclJDoIwAADAFwGKQYuJMU2QohZkUSJciJRdllLqAo_yP_5G5zrfT8E5HdaSlLaEjZSnicDjdiHmA7_xkoika6Sh6Cgt23zbb_63hlaiIuKEaOzTVRsr2WReQOgEw9M2ZjJ-V40M5-qyP96YLUNQ1WGgP9zq7DomUHzdsv38emIacg3ivqjTKGgv6EzD0X3FPQxrFOHUsie84zBhNHnETWaAEnvAOwQ__jY9dw"
+      },
+      {
+        "position": 8,
+        "title": "Olaplex Hair Perfector No.3 100 ml X 2 Adet",
+        "product_id": "9179422440412274648",
+        "product_link": "https://www.google.com/search?ibp=oshop&q=Olaplex Olaplex No. 3 Hair Perfector 100ml&prds=productid:9179422440412274648,headlineOfferDocid:9179422440412274648,imageDocid:11234558478137203980,rds:PC_1245439681566266126|PROD_PC_1245439681566266126,pvt:hg&hl=fr&gl=fr&udm=28",
+        "immersive_product_page_token": "59bYwHicbVJJrttGFIxvkCN4nQ8F3c1JivEXojhLnJpkc9gIFJsSJ0kURWogchjjewAcIJskQLa5ho0gZ4kcIDtv6gGvUPUKhffPd9-_5OWfkoaS9CKVJuX5fV87k_Ti7Fzwqe2OdMj6kv4-g8KMRYhlAQsRElienX7K0j5tjruSvv2tyFPalIfc3m7zTjpm31b8Uu7TXf4f_QeEiGE5bsoKU8gICDCzKXjX0fNn5CzWELEcy8z4KeR4HvE8RPzPDral9be5D6ch7-6ff7CbtG3y29P_0zr--MQ8aWnZPTl5t82z_tg9QQD2zYdd-wjx9t3-K7SX_qXYvR-GJv_rZde8bLuX4it-PKbtZZt9efW3POiLxUlfuEHbEgkDX7OCjUQPQdiOtAqAdWhYs2llSxNxNhp3D-nXUDEBralISgDDqthbilj6AXFyWSGpVmhe3fdJzXXmWKww4laWTM9mEEDqN3UWKhaGSWs1-OLLcZ8QOvrqFYRywsWkaVwis5mWeJu94VLSFpi4I1HElae1V48hJKxhQyIaUb_mMqZZupXBm6N4DAO3D1AB0kOiEwQLzNQjCRJl5WNghQoIJXImNU0slKgJNHqzwoAqZIlH_Ng0LVVpZarGGO5vIIOFkgGobL7mUouCgJjNlBmPI-wmTVLbRDH9oPUzmTNcYvgRSDQcGg5p6I3WnBYGvf-4XQZyMKZIQXmdSERTTpShUoD60KqaOPWJG0eGkUiUSSG-ebLsKQDrj64LWuPWD11k7SFI4byPo8RNoHxVS0PEmnW3wySI_eAaVla4qUTRr3AQA3kMVWw9_JKsbvggMvD727nbfgZzhes9WxiQNqo0inchPe3vB9FHniA1Ko8c9ycoTKfs4_WgAOHsY3Y81mX-5dWv67WXZ0OXTzwfO89za59cU-ib_KGLdXJspnDtwTsXq8B3JtbDPk-HbmX6NuDuwX29nLadPpKw1W3i3oczFkXTsibdeeAPjUpWvpyrJ8NE-iajd_fg2Ls3rz15jhfa2pubsqf78vNi5-qIl8U3r-fy4nlODSKnl3o23tW2iTLLB3YW7M9iRW6cXOx4ayiQM5kNplBJE4nvzlLLzeaRsby-eW3p0jPHsM9BkYflyofiAAx-M2ZSUSTcZsNMQnaS4jU70fPbwrKnHmeTxaydt6dhydM1tzTSjbiWnRV_iHRYKgmdua45LyYKlpNlUJjZ6RrvvGZ1vp4blrC7ux2biqFINiectraFC_3KaYFZi7M7q47K1V0KNhkWc40wHT_1ZbwczzZV1luyTI_rKI0CFSuz_jZqh6I8FAFOL-kYs3I1had9JlSCx0hr3smQR5fgqP8L8KqlpA",
+        "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=59bYwHicbVJJrttGFIxvkCN4nQ8F3c1JivEXojhLnJpkc9gIFJsSJ0kURWogchjjewAcIJskQLa5ho0gZ4kcIDtv6gGvUPUKhffPd9-_5OWfkoaS9CKVJuX5fV87k_Ti7Fzwqe2OdMj6kv4-g8KMRYhlAQsRElienX7K0j5tjruSvv2tyFPalIfc3m7zTjpm31b8Uu7TXf4f_QeEiGE5bsoKU8gICDCzKXjX0fNn5CzWELEcy8z4KeR4HvE8RPzPDral9be5D6ch7-6ff7CbtG3y29P_0zr--MQ8aWnZPTl5t82z_tg9QQD2zYdd-wjx9t3-K7SX_qXYvR-GJv_rZde8bLuX4it-PKbtZZt9efW3POiLxUlfuEHbEgkDX7OCjUQPQdiOtAqAdWhYs2llSxNxNhp3D-nXUDEBralISgDDqthbilj6AXFyWSGpVmhe3fdJzXXmWKww4laWTM9mEEDqN3UWKhaGSWs1-OLLcZ8QOvrqFYRywsWkaVwis5mWeJu94VLSFpi4I1HElae1V48hJKxhQyIaUb_mMqZZupXBm6N4DAO3D1AB0kOiEwQLzNQjCRJl5WNghQoIJXImNU0slKgJNHqzwoAqZIlH_Ng0LVVpZarGGO5vIIOFkgGobL7mUouCgJjNlBmPI-wmTVLbRDH9oPUzmTNcYvgRSDQcGg5p6I3WnBYGvf-4XQZyMKZIQXmdSERTTpShUoD60KqaOPWJG0eGkUiUSSG-ebLsKQDrj64LWuPWD11k7SFI4byPo8RNoHxVS0PEmnW3wySI_eAaVla4qUTRr3AQA3kMVWw9_JKsbvggMvD727nbfgZzhes9WxiQNqo0inchPe3vB9FHniA1Ko8c9ycoTKfs4_WgAOHsY3Y81mX-5dWv67WXZ0OXTzwfO89za59cU-ib_KGLdXJspnDtwTsXq8B3JtbDPk-HbmX6NuDuwX29nLadPpKw1W3i3oczFkXTsibdeeAPjUpWvpyrJ8NE-iajd_fg2Ls3rz15jhfa2pubsqf78vNi5-qIl8U3r-fy4nlODSKnl3o23tW2iTLLB3YW7M9iRW6cXOx4ayiQM5kNplBJE4nvzlLLzeaRsby-eW3p0jPHsM9BkYflyofiAAx-M2ZSUSTcZsNMQnaS4jU70fPbwrKnHmeTxaydt6dhydM1tzTSjbiWnRV_iHRYKgmdua45LyYKlpNlUJjZ6RrvvGZ1vp4blrC7ux2biqFINiectraFC_3KaYFZi7M7q47K1V0KNhkWc40wHT_1ZbwczzZV1luyTI_rKI0CFSuz_jZqh6I8FAFOL-kYs3I1had9JlSCx0hr3smQR5fgqP8L8KqlpA",
+        "source": "ubuy.fr",
+        "source_icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABiklEQVRYhe2Wz04CMRDGv2kRApEnMJjAwcSbNxPfwAuGeDImJhzEE6-gJDwRPAEXD_oQvAEXiZEVO-NhFZf913YD8bK_ZJPdaTvztbOdFigpKflnyKXTatIWV4cMvYzbFEwzq3_F1THEwKqXVHYw4bQB7gKEGaSrAJwXIyEuDjMtk9YMtLwXD54DRbymra8AgEjYJZh2fkxOv44VrxXYF1YB1UTudjN7AFBKmtYUVEkhYJPpJJh2UOvOw_fJMUAaAP3Zou3Tzmbcr233KZBssWm41wGkzyCJX4q8BABwK0geWFPwGa9gKQUl1qGYgPF4fBptGAyeGgBwoHQyQJ4Iq8AYt7d3l816XRDuhsTzMHy8lxxWk3Zes7UdANDv98_Tgp9d9K4AYF8CzFfwtvPj2Idad-6xC3i9_U0EUHS45Yyg8F-iRgu61YM-GQLw2Yaqkh_AelfQQOUQ1DjaBOfFi08dKL73ef2xrF_Pty4qsnjF-vmmsE9njDEjZp6JiDDzzBgz2n_UkhIPvgGItyraEF8JaAAAAABJRU5ErkJggg.png",
+        "price": "104,00 €",
+        "extracted_price": 104.0,
         "rating": 4.6,
-        "reviews": 877,
-        "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9Gc68b7f2b37",
-        "delivery": "Livraison gratuite"
+        "reviews": 50000,
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQGITh0To5cSX8YUN9oNE2-Dn65MCfq2U2083oJ5RCqjvjkLaoIhvkqE0AppHZcm0yi0A6fvkbyhmA4RlTl3EwaDtcEgl1QLpufBpYBh4s",
+        "serpapi_thumbnail": "https://serpapi.com/images/url/rNtbO3icDcnbCoIwAADQL1KXN1SImDrMMEFTyN50XuZ1Wy7Dz-mz-ps6r-f7IUKw1VGUZsHPnYmmlkS1ALlbRSl6LGM6KyuhjPVLd-LH_zkwru0AJ0GYEZBRA9_uVpHHNo2RKvmLaVy9lqu5CiyNXozU48M2jFFJQ7KNHAHI2PmBZ7D3AJrtNlY7maGeTtmkoXfpC4y66ZBE7NW6rHCJvv4Ataw4-w"
+      },
+      {
+        "position": 9,
+        "title": "Produit Olaplex,3 Olaplex Kit Hair Perfector N°3 100 ml + Shampoo N°4 250 ml + Mask N°4-In-1 370 ml",
+        "product_id": "13936158648340569324",
+        "product_link": "https://www.google.com/search?ibp=oshop&q=Olaplex Olaplex No. 3 Hair Perfector 100ml&prds=catalogid:13936158648340569324,productid:12087697443743813791,headlineOfferDocid:9659977439075601127,imageDocid:14962770177958394685,rds:PC_1581403646684670645|PROD_PC_1581403646684670645,gpcid:1581403646684670645,mid:576462808381053009,pvt:hg&hl=fr&gl=fr&udm=28",
+        "immersive_product_page_token": "VrUnfHicbZPJzqNGFIWTPEEWeYBe55cjipm0_oXNZLCZCigwG6tMYcBmMja2QXmavwepI2XTaSnbvEb3Is8Sd6TsenOvdI706Z4j3X---_ElK_9SlnSCr0ppEZ6vL0d3hq9u7lEfur4lQ3opySdAU6LASwLLMgLLiIARJPAhxRdctflXm5EYHnAiz4oMS3G8xNDsxyLDpCqbzNnvs15p05L8KfGcJAkPgkQJHE8BQAu_lzXOs__sT4CVeFoQKCAIEicyEsuL3JuenD_Trrx94AFLMTzL8yLLCxTPcr-50FG23_benYasHz__7FS4q7L70__bbn95Yp6WuOyf3KzfZ-ml7Z8ARdXVu7z7euM3WG_qknzkhIdEi5T4iE9xDEVJb7rr5aXI3w5Dlf39klcv-_6l-Drft7i77tMvP_yktjdFPt9kL-w6pEAqUKoLoisQVIjzdWh4gR374RkgDS3ssGXxkRjpBEscF8VO71wCJD5sTBTTl_s6SlrMdJAgYpMKbpKjNQbH5ILCKvaOqLPqS0wQDLAK1LBJWBKhkzUh86HzsMq5TJXiHdJcC9nNjuYSSJm3UNcinynq9JAUiQxsZ0kOQVQ0vq7xUZ10UVRA3CCMIngIj_eNN9nnpE5KGM8viZZOCWNiGNlOqEnX4JDfYE0cfwkxpoHiLDs5Q52X1CGTHYmMA0SFQeHAQ3UMVcm3ovYeaXacHL0RHQo5C7uVv0QXVILJOkoVoapo19gDVoiaqXDtMVrjTXPGpskKqXa_RlKNGYN1IgmhpZYEen5HUafY0X1EeqE7gXbCqOL8iMSppk6ENofdMXH9g7b2gBYjGVDelMg72iyiWtJsVJg7H_DrOBkTyj74KGnXkeFrFDSsqivIEXZB5NF2DSgM5pdNnHgJUG96aS7g0h6dKIFWYy52lKkTpVgHTApi2uPS5ZzZHcx1ot-dNDSbt_dzv_9MzTXu4jvCQC8nncSbPCKnemwWAe0LSqXztOv9CgRRfHycBAQApPdp2x7L7Mv3f2y3fpYOfTbzA-g-z-06uWEQWHzTbwzUViLY-mDkNjoVuDP7gc_w0K-twKG4MRy3K7HrjelRlOEgbxzOcLGwbHvWnwe-qXS0DtRMP5kWbexSMnqN6-SvX_nqHMrLrT-3VN8I1Gc59wyaVxevX81V-XlOTKTi61GaRr2r4tQOqEfQ-rw4oDunFjlvDwXtzqTBEg7KTOH7s9Jx0jw2V7fXr2xDeeYY9jkssqhcB2AxUCa_m1KlKBJut2NmETvDcMvOjOwu247ocw6SpW7enYYVT7bcysS7xVZ113wTG6DUEiJ5njUvZhpUk1VYWOnptsn9an2-nSsWsfnobCzN1BSHE057x4aFceOWoXVcSCOrT9rNWwkOGuT5EjE9LwYqXE1nh2jbPVrhdhvjONShJl3u07IpyqYIIb7iacOqBxGc6lQ4CD6jbHk3pX2yolrjX4PQxdI",
+        "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=VrUnfHicbZPJzqNGFIWTPEEWeYBe55cjipm0_oXNZLCZCigwG6tMYcBmMja2QXmavwepI2XTaSnbvEb3Is8Sd6TsenOvdI706Z4j3X---_ElK_9SlnSCr0ppEZ6vL0d3hq9u7lEfur4lQ3opySdAU6LASwLLMgLLiIARJPAhxRdctflXm5EYHnAiz4oMS3G8xNDsxyLDpCqbzNnvs15p05L8KfGcJAkPgkQJHE8BQAu_lzXOs__sT4CVeFoQKCAIEicyEsuL3JuenD_Trrx94AFLMTzL8yLLCxTPcr-50FG23_benYasHz__7FS4q7L70__bbn95Yp6WuOyf3KzfZ-ml7Z8ARdXVu7z7euM3WG_qknzkhIdEi5T4iE9xDEVJb7rr5aXI3w5Dlf39klcv-_6l-Drft7i77tMvP_yktjdFPt9kL-w6pEAqUKoLoisQVIjzdWh4gR374RkgDS3ssGXxkRjpBEscF8VO71wCJD5sTBTTl_s6SlrMdJAgYpMKbpKjNQbH5ILCKvaOqLPqS0wQDLAK1LBJWBKhkzUh86HzsMq5TJXiHdJcC9nNjuYSSJm3UNcinynq9JAUiQxsZ0kOQVQ0vq7xUZ10UVRA3CCMIngIj_eNN9nnpE5KGM8viZZOCWNiGNlOqEnX4JDfYE0cfwkxpoHiLDs5Q52X1CGTHYmMA0SFQeHAQ3UMVcm3ovYeaXacHL0RHQo5C7uVv0QXVILJOkoVoapo19gDVoiaqXDtMVrjTXPGpskKqXa_RlKNGYN1IgmhpZYEen5HUafY0X1EeqE7gXbCqOL8iMSppk6ENofdMXH9g7b2gBYjGVDelMg72iyiWtJsVJg7H_DrOBkTyj74KGnXkeFrFDSsqivIEXZB5NF2DSgM5pdNnHgJUG96aS7g0h6dKIFWYy52lKkTpVgHTApi2uPS5ZzZHcx1ot-dNDSbt_dzv_9MzTXu4jvCQC8nncSbPCKnemwWAe0LSqXztOv9CgRRfHycBAQApPdp2x7L7Mv3f2y3fpYOfTbzA-g-z-06uWEQWHzTbwzUViLY-mDkNjoVuDP7gc_w0K-twKG4MRy3K7HrjelRlOEgbxzOcLGwbHvWnwe-qXS0DtRMP5kWbexSMnqN6-SvX_nqHMrLrT-3VN8I1Gc59wyaVxevX81V-XlOTKTi61GaRr2r4tQOqEfQ-rw4oDunFjlvDwXtzqTBEg7KTOH7s9Jx0jw2V7fXr2xDeeYY9jkssqhcB2AxUCa_m1KlKBJut2NmETvDcMvOjOwu247ocw6SpW7enYYVT7bcysS7xVZ113wTG6DUEiJ5njUvZhpUk1VYWOnptsn9an2-nSsWsfnobCzN1BSHE057x4aFceOWoXVcSCOrT9rNWwkOGuT5EjE9LwYqXE1nh2jbPVrhdhvjONShJl3u07IpyqYIIb7iacOqBxGc6lQ4CD6jbHk3pX2yolrjX4PQxdI",
+        "source": "Hairgallery.fr",
+        "source_icon": "https://encrypted-tbn1.gstatic.com/favicon-tbn?q=tbn%3AANd9GcQY0ky18eyUBB3VYxOjoVi4N1rqrq7ZXLTapSI2FhtC_UUpLNCdFgJ0e_LVWC3SDL3PH6JwjtV72xav_pvfwj5NMUA4-SJMyQ",
+        "price": "71,82 €",
+        "extracted_price": 71.82,
+        "rating": 5.0,
+        "reviews": 4,
+        "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQIH8R6YjNWdXR4QrxESevUkFSeA61N9CTpJPi9RISR4DtqJkbeFI_H8uyijB8KH8ZpO-SL46G3uzXQr7Wdqd-ZM2IZQSsTNmziAqViP7lpQ0jSRReqqvNXFw",
+        "serpapi_thumbnail": "https://serpapi.com/images/url/ikbvDHicDclXDoIwAADQEwGihGFiDA6Go9pWBfkxQhsoKrZQB5zK63gbfb_v-ymk5M1Q02iV1S2XlCgyrXQ1b-RZskzN7jetKe6csyofi9H_hi4gjp_BMLCReSxBRGJkwPo9x_S5v3iYuqYOnOmOL7bMQSFGxkyKxSWlXngK7EfLyom9DOyEbxS8Mkx_8OhiWFsREURJ1v0wgbjZgVvHXHFgW-vKYa_ECFEhniD2Xj9I8z4A"
+      },
+      {
+        "position": 10,
+        "title": "NIVEA Olaplex No:3 Bond Hair Perfector - Olaplex Bond Perfector 100 Ml",
+        "product_id": "12849002918502769735",
+        "product_link": "https://www.google.com/search?ibp=oshop&q=Olaplex Olaplex No. 3 Hair Perfector 100ml&prds=productid:12849002918502769735,headlineOfferDocid:12849002918502769735,imageDocid:7395042297986124142,pvt:hg&hl=fr&gl=fr&udm=28",
+        "immersive_product_page_token": "nz3MC3icdZDNjqNGAISzb5BHmHNGrGj-DBnNAQwYbNP8N4aL1QYMmMZgbGzD04xmf6SNlEsSKde8xu4hz5LZSDnm8tWhVCVV_f3Dj6959adqMAm-qpWVCUJzqR0KX53Cpb90fZsN6aXK_gCMyEk0zUhA5GlmJkgzlv-S4gsmbVFlL7-VOc5Idczt_T7v1Tb9n8gvVYOL_F__9xkr8TTHMNJMEgXAcIBjPvTZ-eXTacj78etPNsEdye-P_yls3z-yjwau-kcn7_d5emn7R0DTDflUdG-FLx-a7-iul9ey-DgMJP_rtSCv-_61_M7PLe6u-_Tbu4PW3ubz801xw65Dqkf7tc7HUXbCLDGCOUD4qBO4yOooWLohC1e7SCfrsGNQlE07lXT5EbH-22GZsZyQrtzhIYlDkF7ggZwyII2e3gGsSTCY9HvKAMfXzry7URZQ6_qglhzf0PiQJG6qi3cLpPegBrqnyjcLwQEGZOkedTVmiZI00Ez1eFyjDGIGbeARxW7U3uKGeNHBnGAE6lw3eTdAbtgA32vIMtiQBAFi-s19FU_6JgUKsgyZDYyy27DK5BmeH4b8ZR0RG4eei6OuCup6tCPYaWWm-eoSx5tEwyGo33ZdssXFXUc6Ey4yz1Layg29KT2QJqyBF2oA7Cb9ENI6TLWYS-iys0KIkMZbqV6zrvvxfu73X2lZ5y--PRuK3dicKaBK1NE1Wegn82nh-OtJu_0MZqLIcawEZgCIn9O2rav827tft1s_T4c-p_zAc55l2CQ3DAJLOPaxiVoigq0PRj5e0IFDQcaYcjz0ayuwaX4Mx-1K7HpzQlFn2sgdh7OnKBaEVH8ehCNZoHWg5YvT0mLMXZqN7tGxi6cHX5O9ubH1ZUvzzUB7nheuyQia8vQga_NnOVsiDV9raRoXHdmkMKDtNGzOygHdea0sBDiUjENJgzU7qJQq9Ge14yV5s1zdnh6gqT7zLPcclnlUrQOgDPRS2E2pWpYJv9uxVMRR2NtylJnf59AWfd5Gc6mTu9OwErItv1rinbLVnLVw3Jig0pNMcl1LLind05JVWFrp6RYXPlmfb2fCIa4Y7djSl7pq87PT3oZead54I7RqRRq5xaTf3NXMRsNcNhDbC2KgeavpbGf6do9WuN1u8CZceLp0uU_GsayOZejhK55iTjuI4NSks8PMZ9Wt4KSMn63o1vwHMhB0Pw",
+        "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=nz3MC3icdZDNjqNGAISzb5BHmHNGrGj-DBnNAQwYbNP8N4aL1QYMmMZgbGzD04xmf6SNlEsSKde8xu4hz5LZSDnm8tWhVCVV_f3Dj6959adqMAm-qpWVCUJzqR0KX53Cpb90fZsN6aXK_gCMyEk0zUhA5GlmJkgzlv-S4gsmbVFlL7-VOc5Idczt_T7v1Tb9n8gvVYOL_F__9xkr8TTHMNJMEgXAcIBjPvTZ-eXTacj78etPNsEdye-P_yls3z-yjwau-kcn7_d5emn7R0DTDflUdG-FLx-a7-iul9ey-DgMJP_rtSCv-_61_M7PLe6u-_Tbu4PW3ubz801xw65Dqkf7tc7HUXbCLDGCOUD4qBO4yOooWLohC1e7SCfrsGNQlE07lXT5EbH-22GZsZyQrtzhIYlDkF7ggZwyII2e3gGsSTCY9HvKAMfXzry7URZQ6_qglhzf0PiQJG6qi3cLpPegBrqnyjcLwQEGZOkedTVmiZI00Ez1eFyjDGIGbeARxW7U3uKGeNHBnGAE6lw3eTdAbtgA32vIMtiQBAFi-s19FU_6JgUKsgyZDYyy27DK5BmeH4b8ZR0RG4eei6OuCup6tCPYaWWm-eoSx5tEwyGo33ZdssXFXUc6Ey4yz1Layg29KT2QJqyBF2oA7Cb9ENI6TLWYS-iys0KIkMZbqV6zrvvxfu73X2lZ5y--PRuK3dicKaBK1NE1Wegn82nh-OtJu_0MZqLIcawEZgCIn9O2rav827tft1s_T4c-p_zAc55l2CQ3DAJLOPaxiVoigq0PRj5e0IFDQcaYcjz0ayuwaX4Mx-1K7HpzQlFn2sgdh7OnKBaEVH8ehCNZoHWg5YvT0mLMXZqN7tGxi6cHX5O9ubH1ZUvzzUB7nheuyQia8vQga_NnOVsiDV9raRoXHdmkMKDtNGzOygHdea0sBDiUjENJgzU7qJQq9Ge14yV5s1zdnh6gqT7zLPcclnlUrQOgDPRS2E2pWpYJv9uxVMRR2NtylJnf59AWfd5Gc6mTu9OwErItv1rinbLVnLVw3Jig0pNMcl1LLind05JVWFrp6RYXPlmfb2fCIa4Y7djSl7pq87PT3oZead54I7RqRRq5xaTf3NXMRsNcNhDbC2KgeavpbGf6do9WuN1u8CZceLp0uU_GsayOZejhK55iTjuI4NSks8PMZ9Wt4KSMn63o1vwHMhB0Pw",
+        "source": "GoSupps Beauty",
+        "source_icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAkFBMVEVHcEwgerIab6MAAAAigr8EGycWi8gTfbQxZ5oBCAwlaZwdgr0vap8XfLMjYI4SRGMXXYgpd7AffbYcXosnebMVldYYj88VV30Yh8Mja58tap8bjMoYfbUZk9QrdK0jc6kdjMwrdKwYktIwbcUUmd0wap8ubaIfh8Uod7EtcKgWltclfbgWldcYktMbjs0WltjTjh7vAAAAI3RSTlMAe2UE_iZiZtcLdpyqNjU3QvOMSd_ZgBxSh-bBLOXOQ9jEqcNA1yIAAAEKSURBVDiN7ZLbcoMgEIYXBS2eY6vRHJrDWIEK-P5v14VocpHc9bL9ZsSf_Xd2VxDgnwdF9vZEVjz87Osl2epfxnFUaryjxt1udPvPm58opbKSe3rUCQtRMRcmzg83UgbrLFLK7aJDhoYTlZRYqrh8IOj3ADU6mxTCRMqT6zBNMXA6Je9IP52gmjwxlHRyPQilqEXt6wY0x8dDgAnqEgIhUuBnDIkDbjqMe3KohIgxgVlhQ-AxIWQLgd0DL-s0rfGYUmHdxHxv7ZEvowfWtuvxRMae_eeU2hh9jTypMebYdnnetY02-uAzeTDMWn875hkXfXtrPURLLV41wwua_H5ZIWfxE-xX_8ff4wcRHSH0FjxnTAAAAABJRU5ErkJggg.png",
+        "price": "107,71 €",
+        "extracted_price": 107.71,
+        "alternative_price": {
+          "price": "125 $US",
+          "extracted_price": 125,
+          "currency": "$US"
+        },
+        "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRE6KT5mCK16T2szVLMhn_IxbbCA3SkeUdouUue43noyDIlIPMGnHepCn6YiA09vOIkf4NFGpnYa3M3_VD41c4KaC09-Gj6x4Vaxn2h1OdTRE1wOC6SeXXA",
+        "serpapi_thumbnail": "https://serpapi.com/images/url/mYAKwnicDcndCoIwGADQJ_J_DRQiZNYSM6NM9Cp0LmfW58pV1kP1Pr1Nndvz_Qil5OAZBgd2e0nFa01VYOvNoErVMp31F2MQvZQtNLPr9H-ev65dyrZzHKWTC4ksnNrDO1vFAg7hWFXEd3Yd39f9fX_nyIH-FYTncBNTWHJJABetb7qPJOyOaL2gEorSiZ1DFiCLoagkpqvREx5RVo5gCyup0-3ceiYE73ie-z_VYjwR"
+      },
+      {
+        "position": 11,
+        "title": "Olaplex Set No. 3 + No. 4 + No. 5 + No. 9",
+        "product_id": "5099588321548211576",
+        "product_link": "https://www.google.com/search?ibp=oshop&q=Olaplex Olaplex No. 3 Hair Perfector 100ml&prds=catalogid:5099588321548211576,productid:15471807629985983105,headlineOfferDocid:9544882618812915540,imageDocid:2196598845053103419,rds:PC_12380004617198937043|PROD_PC_12380004617198937043,gpcid:12380004617198937043,mid:576462859585762219,pvt:hg&hl=fr&gl=fr&udm=28",
+        "immersive_product_page_token": "-pfKnHicdVPLrqNGEE3yBVnkA2adK0fdQGPI6C6MeRhswDTQbdhYbRobrgFjbPxA-Zo7yUgTKZtJpGzzGzOLfEscRdklm6qSTumcOqWqP7_4-jUvf9dnQsoueulyWa7P--WIXZa7AHxouwPvs3PJf4NIGkMFjGVBVRWkKiIE6EPGzqw67Er-KwKqihRFFB59igAhGssfi5zxqmxyf7vNO_2QPdpUJEmKIshQUaCgQoQk8HNZs13-DyxAVX5wKxIC6CEgSlB91_HTJ2k5XUNBVAAAkgzHUFVUcQwk8Ycl9vX1_4A_Hfu8u3_61q9YW-W3p3-zd_juSXyasbJ7WubdNs_Oh-4JAlBXP-3a7G-r_0H2ri75x4cpSRYe7pHyKIXHtO_ay_m12P3Y91X-x-uuet12r8Xf8f2BtZdt9vmrb4zDVZ-ertMgbluiYxCKjh7QSgteArAZeMEjcqF7fNzUhRSCBGGxWsaNgeI9P8ait-IQazh2rNBUJbIvYpcqwH1sOI0c7YHXDMa3BU3PkR7fw5cqTFbc38SOnIKqIJY3x0Y1dwVsRhaGPr01eZOKGxHHDJz7hBLmG3yZUvMUxnyxsZyAUrwnJEa5ybVNZRaMeE1MpZtrqHtcGwOpCo9MYeUTvvWEdIhoW4SG2rPBaxLi2CmtdGYUYmzxBbVUlEDTIbrDsIVtzyoCL-ZxRNW5V6UWjXhLH7rMgCURtXPUkMdMkDBRW-H6Bjaz4oKhO-Qz4kU1l5mQ9lyAbhTvRL6qLkSvNA8gOxnsc6qbL2mNLosYnxh0NBdqNNrDnohmF9BC4NQEdH8raAhDHgfnDb3BRHTqsE7E2EDySiyuVNfqDbiKCWkDGjtB0LQmJbvQBNh2q7bge9xGNBC8GgIGJ-dklQYpNK5W6Wh45t19mkZpzKeUaBKtiyHZm3QlZHe-Vw8kSn0sOGI4S5sfb6du-wlMTHQO_fE-G4eo9JrWdcNV2Vwyh_jZebUrpcn3cPz4BklUH6cIx--zw2Ff5p-__GW9DvOs7_JRGOHl88Sr0yuDkSs3XWKTQ6XAdQjvKLFAtBx5wmzIWd8t3MgH6B7f13Ol7eyB0Nb2SXDvT1jTXM8bdadebiqLLCIjt46OK9ibjN-DZunv3r4JjQmeztbhxDVCOzKep7vAFmRDe_tmYkyfJ9whBrvs1eFutdUq8yLgZ3F90l7IDRnFTvb6QliO1N4dv-gjXe5OeovUycqZX9--8Wz9GYnSc1zktFxEUOuBI2-GTC-KFG024ohKI4bX0sjOb1PPV0Lkk6naTtpjP5f5Gs0dttHWxnIhNysblmbK1SBwJ8XIxEY6jws3O16TXVgtTtdTJRFpd_cT13RM3Ufj49b3cGFf0Sx295p6l6zBvAbzsU_66WRGxE5WIgPPh5PPzfWWzNlhvWKr2MKmer4Ns6YomyLG7MKGRDJeFHiss_HLOBT1tbzMhJDPwcH-C0OHwvQ",
+        "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=-pfKnHicdVPLrqNGEE3yBVnkA2adK0fdQGPI6C6MeRhswDTQbdhYbRobrgFjbPxA-Zo7yUgTKZtJpGzzGzOLfEscRdklm6qSTumcOqWqP7_4-jUvf9dnQsoueulyWa7P--WIXZa7AHxouwPvs3PJf4NIGkMFjGVBVRWkKiIE6EPGzqw67Er-KwKqihRFFB59igAhGssfi5zxqmxyf7vNO_2QPdpUJEmKIshQUaCgQoQk8HNZs13-DyxAVX5wKxIC6CEgSlB91_HTJ2k5XUNBVAAAkgzHUFVUcQwk8Ycl9vX1_4A_Hfu8u3_61q9YW-W3p3-zd_juSXyasbJ7WubdNs_Oh-4JAlBXP-3a7G-r_0H2ri75x4cpSRYe7pHyKIXHtO_ay_m12P3Y91X-x-uuet12r8Xf8f2BtZdt9vmrb4zDVZ-ertMgbluiYxCKjh7QSgteArAZeMEjcqF7fNzUhRSCBGGxWsaNgeI9P8ait-IQazh2rNBUJbIvYpcqwH1sOI0c7YHXDMa3BU3PkR7fw5cqTFbc38SOnIKqIJY3x0Y1dwVsRhaGPr01eZOKGxHHDJz7hBLmG3yZUvMUxnyxsZyAUrwnJEa5ybVNZRaMeE1MpZtrqHtcGwOpCo9MYeUTvvWEdIhoW4SG2rPBaxLi2CmtdGYUYmzxBbVUlEDTIbrDsIVtzyoCL-ZxRNW5V6UWjXhLH7rMgCURtXPUkMdMkDBRW-H6Bjaz4oKhO-Qz4kU1l5mQ9lyAbhTvRL6qLkSvNA8gOxnsc6qbL2mNLosYnxh0NBdqNNrDnohmF9BC4NQEdH8raAhDHgfnDb3BRHTqsE7E2EDySiyuVNfqDbiKCWkDGjtB0LQmJbvQBNh2q7bge9xGNBC8GgIGJ-dklQYpNK5W6Wh45t19mkZpzKeUaBKtiyHZm3QlZHe-Vw8kSn0sOGI4S5sfb6du-wlMTHQO_fE-G4eo9JrWdcNV2Vwyh_jZebUrpcn3cPz4BklUH6cIx--zw2Ff5p-__GW9DvOs7_JRGOHl88Sr0yuDkSs3XWKTQ6XAdQjvKLFAtBx5wmzIWd8t3MgH6B7f13Ol7eyB0Nb2SXDvT1jTXM8bdadebiqLLCIjt46OK9ibjN-DZunv3r4JjQmeztbhxDVCOzKep7vAFmRDe_tmYkyfJ9whBrvs1eFutdUq8yLgZ3F90l7IDRnFTvb6QliO1N4dv-gjXe5OeovUycqZX9--8Wz9GYnSc1zktFxEUOuBI2-GTC-KFG024ohKI4bX0sjOb1PPV0Lkk6naTtpjP5f5Gs0dttHWxnIhNysblmbK1SBwJ8XIxEY6jws3O16TXVgtTtdTJRFpd_cT13RM3Ufj49b3cGFf0Sx295p6l6zBvAbzsU_66WRGxE5WIgPPh5PPzfWWzNlhvWKr2MKmer4Ns6YomyLG7MKGRDJeFHiss_HLOBT1tbzMhJDPwcH-C0OHwvQ",
+        "source": "baslerbeauty FR",
+        "source_icon": "https://serpapi.com/searches/6a997d04a89e024d47671642/images/ojJbTPUgjhLC60_3rNNCEAWJRJ4C3SbGEMdxJnbrVy4.png",
+        "price": "92,62 €",
+        "extracted_price": 92.62,
+        "rating": 4.5,
+        "reviews": 2,
+        "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTkmTdS_LzkJL6ZnP3Wr83tlztYfv_COwhJKMqcWuIQ4ZUrprkSPd4JMzdR5vMvpU-Cl4H8uZHMMkFz-eogWcgGzm3VRwVkvSo8fmnfAyHkluPLhrJ4E5sgIg",
+        "serpapi_thumbnail": "https://serpapi.com/images/url/jeUWBXicDclRDoIgAADQE5kfYjO31pqr1KRMTZc_rUChoUiIOjlV1-k29X7f90OVEr1rmhVHchaqwoZ6cmtBevVQL7RAXWv2tBPixcnmvf6fuz3h1QFlrM1weo80C6NlyWOrkI6lGq1u9Xj3zhMNj_CNiiG4gPIqhWRpjEEINU7sEY7iangN8J2h9CFke21UHSkQOejWypMpZ2PaOXXL6-3ss2aIIypDsLN7EpAfGehAlA"
+      },
+      {
+        "position": 12,
+        "title": "Olaplex Set cadeau beauté No.3 No.4 No.5 No.6 No.7",
+        "product_id": "1703501075142846233",
+        "product_link": "https://www.google.com/search?ibp=oshop&q=Olaplex Olaplex No. 3 Hair Perfector 100ml&prds=catalogid:1703501075142846233,productid:451896936544137418,headlineOfferDocid:6349214756846935670,imageDocid:3422079932783930868,rds:PC_13951837217357897819|PROD_PC_13951837217357897819,gpcid:13951837217357897819,mid:576462829356239119,pvt:hg&hl=fr&gl=fr&udm=28",
+        "immersive_product_page_token": "IJPQsnicdVLLrqNGFEzyBVnkA2adK0d0887oLszTYNOYpmlsNhYGbLDBcDFcDJqvufOQJlI2k0jZ5jdmFvmWeBRll2zOkU6VSlWl89c3379kxR_aAkbxs1Y4qSBU3Xk9i5_XR4_52LR12iddkX7ieCDJgswKPMcBVuSA9DGJu7isj0X6GxAZlmcAI_KAgxInQJb9lGdxWhaXzD0cslarkztNYDkZAk7khTtHZnlBZH4pqviY_QOzHISMKMssFCVWZhlJkN626fUzt1Z3gJXvBlgRApHlRUkWJSC_WWNX2_0P-P6pz9rx849uGTdldnv4d6P6pwf2YREX7cM6aw9Z0tXtA2CYqnx_bO4ufv8vsbfVvQFeFO7JJPjVOGRlcD83z91LfnzX92X258uxfDm0L_nX-aGOm-dD8uW7H_R60NTroHpB01ANM_65K-jFuhd35knFRxTiLdbzZQLzdTChPtNpHelR5-iAbuAWOhVW8OQwQWl36SaPvaos6MIWsJZziVYSbKRTdJZhSJIxM-oRsXTagAAgCBonxA01ZSsOrNGHN7glOYov9h1tmsBMS0dvVMxQE23yiJ6U1V3b9c_UJafITi_1LYGYQTDqvHMaJVrqRLpMAoPe6Nk20hAMLkWaa-bqdqPwhDjDliATQdlf0cYPzRQRtnSdE944pXIKw444ROFogAJvShg3RAfXwBPV7AXRwdkJgIfgbUVLo45gWu1D2UEh9mMt3W7P6fqufCCMXe2BkrsLbGWhYWKSak4ld_uqjGJobNxF-kwW1kCDSNuXchyEcpBdStWvEOsx9LQnUZydyyak0SoLnRtilYaUW5CaFh-a8hTAfNjAhmYasgi1LXrJhbhifIPBllM2eXrGDQk9iCrAxGDebTeRFwF9MAtbwQs0umGEVxQf0unOZxrgMMjJ9JsaBoZ-72UIjWZyjUh5d7u2h8_M3OA73xX7436srjOgybOLZ7HIj9TJXPurSR9-BqIkcdz910QApA9JXZ-L7Mu3v-52fpb0bTbzCV4_zlEVDTEgjnBptxatSwnsfDDyW5Mh6xmCiymL-3blEJfhx2DcLaWmtSYaNpZLvbG_YkVxEJq11164lCZdET0zn2wHWvskHb3L2j2-fuXrc6wudv7c0X2L6I_q0bOgoCuvX8119XGe2lSPn8_yNJpNuUkQYdwkqK7Kid54PT8KqM_heib3jnjSZprQXrWGl-cbezm8foUs7ZFnuccgz8JiRYDSM7awnxItzyN-v2dnITeL8Y6bWdlNRa7k8y5V5WbePPVLId3xSzveKzt9vRIuGwsURpTKnufM85mB9WgZ5E7yNGyPfrm6DteSo9xxdLeOYRuay4tPBxfh3Br4ReCcFXnkzMkYvKXo0l6dLyjbChLR8XK6uqmxO9BlXO828SYwsSF3t2lxyYtLHuD4OZ62nH6SwFOViCfRZ7WdsE6gny6Z2vobXHjDOg",
+        "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=IJPQsnicdVLLrqNGFEzyBVnkA2adK0d0887oLszTYNOYpmlsNhYGbLDBcDFcDJqvufOQJlI2k0jZ5jdmFvmWeBRll2zOkU6VSlWl89c3379kxR_aAkbxs1Y4qSBU3Xk9i5_XR4_52LR12iddkX7ieCDJgswKPMcBVuSA9DGJu7isj0X6GxAZlmcAI_KAgxInQJb9lGdxWhaXzD0cslarkztNYDkZAk7khTtHZnlBZH4pqviY_QOzHISMKMssFCVWZhlJkN626fUzt1Z3gJXvBlgRApHlRUkWJSC_WWNX2_0P-P6pz9rx849uGTdldnv4d6P6pwf2YREX7cM6aw9Z0tXtA2CYqnx_bO4ufv8vsbfVvQFeFO7JJPjVOGRlcD83z91LfnzX92X258uxfDm0L_nX-aGOm-dD8uW7H_R60NTroHpB01ANM_65K-jFuhd35knFRxTiLdbzZQLzdTChPtNpHelR5-iAbuAWOhVW8OQwQWl36SaPvaos6MIWsJZziVYSbKRTdJZhSJIxM-oRsXTagAAgCBonxA01ZSsOrNGHN7glOYov9h1tmsBMS0dvVMxQE23yiJ6U1V3b9c_UJafITi_1LYGYQTDqvHMaJVrqRLpMAoPe6Nk20hAMLkWaa-bqdqPwhDjDliATQdlf0cYPzRQRtnSdE944pXIKw444ROFogAJvShg3RAfXwBPV7AXRwdkJgIfgbUVLo45gWu1D2UEh9mMt3W7P6fqufCCMXe2BkrsLbGWhYWKSak4ld_uqjGJobNxF-kwW1kCDSNuXchyEcpBdStWvEOsx9LQnUZydyyak0SoLnRtilYaUW5CaFh-a8hTAfNjAhmYasgi1LXrJhbhifIPBllM2eXrGDQk9iCrAxGDebTeRFwF9MAtbwQs0umGEVxQf0unOZxrgMMjJ9JsaBoZ-72UIjWZyjUh5d7u2h8_M3OA73xX7436srjOgybOLZ7HIj9TJXPurSR9-BqIkcdz910QApA9JXZ-L7Mu3v-52fpb0bTbzCV4_zlEVDTEgjnBptxatSwnsfDDyW5Mh6xmCiymL-3blEJfhx2DcLaWmtSYaNpZLvbG_YkVxEJq11164lCZdET0zn2wHWvskHb3L2j2-fuXrc6wudv7c0X2L6I_q0bOgoCuvX8119XGe2lSPn8_yNJpNuUkQYdwkqK7Kid54PT8KqM_heib3jnjSZprQXrWGl-cbezm8foUs7ZFnuccgz8JiRYDSM7awnxItzyN-v2dnITeL8Y6bWdlNRa7k8y5V5WbePPVLId3xSzveKzt9vRIuGwsURpTKnufM85mB9WgZ5E7yNGyPfrm6DteSo9xxdLeOYRuay4tPBxfh3Br4ReCcFXnkzMkYvKXo0l6dLyjbChLR8XK6uqmxO9BlXO828SYwsSF3t2lxyYtLHuD4OZ62nH6SwFOViCfRZ7WdsE6gny6Z2vobXHjDOg",
+        "source": "La Boutique du Coiffeur",
+        "source_icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAB8klEQVRYhe2WQU7jQBBFf7WNhESCvEWTIOcGOUJykuQGjNcoSYPnAOEEgRtwA5gb5AZYkzAssQhIg-zuYpHYeCB2HLDNhr9qdZfrv267XQV864tFaQt3lrS11j3N6BNgr6KnxDzVbFw0H-V1Mn5Wkx1B3NPgTjKetf5thub44J_0cgP83R8eaYYEYKWT86UIDAe7gFJqAlAnY6MggvzxcHqyEWBeH0wA6mcli8SAt0pi54kH8bjx4DqpALf7wxEvd16a3p5EDHBnSVspfVOmeSRm0Y2-IRFNBiqUVZgDAJEaRWPxOhC9qgAAat9YP60YYFY77lRnDgCwdgLLjgGYKPW6lSUN1Y4BvkJEhhcDCG16lQMwfCBxDef14T0y_nxFigGvuThtAYlXwMxnVZgvTen6dbxSaBpjYHksZYoBTwQU_wljgJYvfQ121j9WJIB2kpXxv1twuHDPmfldxSrMnPnkcPHrMjm3thzPagNJRKN1a58xbz668u18akNSJESaeSZAURBZ5hsBPguxyTwXwEch8pjnBtgaQrPTeHLHeUJzAwDAn_qgL0CTjBAfYKexcM_z5twKAADme7INoa_wvm740KLbeJLTbfJtDQAs-8dQ6auoG2bAMwPRTev9CweIIULVN5jun3fERcuXpdeRb5WiF3ZJ0G5ytAZ3AAAAAElFTkSuQmCC.png",
+        "multiple_sources": true,
+        "price": "85,50 €",
+        "extracted_price": 85.5,
+        "rating": 4.6,
+        "reviews": 202,
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTxCf05OWpc_tM5UDz2wogq_nNLjiwyiPqxPL0Rn8UE_jkfAoHfAQ3AWnX0twOx175wtWyLGDXjre3d5RVodzu3GmHyiZKQwnuG5XQQud2yuM655T54p9-G",
+        "serpapi_thumbnail": "https://serpapi.com/images/url/1ZCdhnicDcndCoIwGADQJ_KnbP0IEZKxIMsUS-lGalOb0Tb1kzkfqvfpbercnu_nCSA717IKTlotoaAGPLhtVh3cgRGTiLfVPYWUjFebZv0_1zvRFSbJsC1tFKaS5HBEF3-cKlE1OT8FNVOanZvhHNgxX152ef0qPbEvvcjxUp7ZoMJhskAKUh1gP6vbwqEovgo69g5-7zW7HSLFe4yyKOrpVPfHOUIJmsmVgX96uD6L",
+        "thumbnails": [
+          "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTxCf05OWpc_tM5UDz2wogq_nNLjiwyiPqxPL0Rn8UE_jkfAoHfAQ3AWnX0twOx175wtWyLGDXjre3d5RVodzu3GmHyiZKQwnuG5XQQud2yuM655T54p9-G",
+          "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcT4fHBbE_fRHOWOhGCPnQPNyBkmq_boOgIxP5gR6zfwD4oONa348tSEetjS1BB1EDdpmjXuhexnmeR8AvYxRL5DloTLOQ-rh9Zc3GuA4Xg",
+          "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcR3pV97acarMX8CMpSvNFkgz1pH3h5zgpsQIdDcc5bBsUrYIOwQ1yyUmZ5CHYZtq-P6MnUk77hCZXLeTuybVEpTbmxlLTpk5JDwDvGFIIkL1JbV4o6e9akOVw",
+          "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTRxvidluJr4vUsx8pjZSWe8hQaEF9JtWeWIcNkIEZodw5Sd63tOGyI1wKq63yjyGegkjmabCGLwMf_XGcYPpvrGgiDhX5YbWoNY-_0SF0"
+        ],
+        "serpapi_thumbnails": [
+          "https://serpapi.com/images/url/1ZCdhnicDcndCoIwGADQJ_KnbP0IEZKxIMsUS-lGalOb0Tb1kzkfqvfpbercnu_nCSA717IKTlotoaAGPLhtVh3cgRGTiLfVPYWUjFebZv0_1zvRFSbJsC1tFKaS5HBEF3-cKlE1OT8FNVOanZvhHNgxX152ef0qPbEvvcjxUp7ZoMJhskAKUh1gP6vbwqEovgo69g5-7zW7HSLFe4yyKOrpVPfHOUIJmsmVgX96uD6L",
+          "https://serpapi.com/images/url/3phHnHicDcnbDkMwAADQL0IEC5JlYYQlom7JLi9CVcumLWpjf7PP2t9s5_V8P0QIPtuKgiicNi5QI4maqjKeRSU6KEM2KDNhnHcUH8b9_2wnbqwAFnoburVftlkIzoAEx4SmSby592EsawbwaU0MnO3e7cvTGYgrTTdF7iPR56rrqr7X8KG_LAStdECZ6TyvaxYZ3oMVEUiliVg3qAWLo1_wDxeFOZY",
+          "https://serpapi.com/images/url/YYnFfXicDcndEkJAGADQJ8IYbWKmaYr8DUph4s4ug9nwsVvSU_U6vU2d2_P9NJwD0yWp6sm0AK9KgeNeEWvGC94SkQydxJoBoO3r3bj9n74PS80mFwVSTS1IMQW3jRHA9RlatH7L4CgNetfAIrc0CUH4wJIpc09zJC9L0uXIcLKcj8J5HfQJVdXGyG9-FT8WnB4hxt3r7sdAkWfO5tO2XJf6sofT1bCutIKe0vkHwmM_IA",
+          "https://serpapi.com/images/url/P3bCd3icDcn_DkJAAADgJwpNDFtrrbhR6Yfa4R_j7uIIhwv3OD1Wb1Pfv9_3U3DOBkuWSYN6wTjBC541qpQPPOUUSait5aFoGaNNvunW_7O2PjYBut_mkeLX2-tX42OYDVbGASRGcU1tx_Q4JNBFfuXacYsnLcC6ys9AuMvp0OmqKAUgeVXWabYDx-n0TEKAogsbe5DTfRFqUQZbP1okSuAoP3vKOrw"
+        ]
+      },
+      {
+        "position": 13,
+        "title": "Olaplex Greatest Strength Set",
+        "product_id": "14943390738173161763",
+        "product_link": "https://www.google.com/search?ibp=oshop&q=Olaplex Olaplex No. 3 Hair Perfector 100ml&prds=catalogid:14943390738173161763,productid:7223449328859931742,headlineOfferDocid:2088328499321892961,imageDocid:16367603795775028502,rds:PC_16722311926579698175|PROD_PC_16722311926579698175,gpcid:16722311926579698175,mid:576462840764721599,pvt:hg&hl=fr&gl=fr&udm=28",
+        "immersive_product_page_token": "f3Snu3icdZJJzuNUFIWBFTBgATXmV9B77k3pH8RdbCe24_fcxZPIXewk7uLYcWyxmr8aqZCYFCUxZRtVA9ZCADFCDO49gyt95-jo_vHVty_Z8TdJJcLoJh2NlGGq_rxdRLdtboMPbdekQ9If019ZgiApiicJjqN5noQsRXxIoj4qm_yYfoIUT5EkD1iSgywJGcgy5Mcii9LyWGfW4ZB1UpM8KATguAeCehAIyPEEz8Cfj1WUZ3-fP0GGZFgGkCxPsywNCO4xb7r0-pnainvI_JUBQp5gaJZn-IcT_dMWWdL-f47vLkPWTZ-_t8qoLbP7079qNj88kU9qdOyetll3yJK-6Z4gAFX5Lm__ifFf2JvqmH6kWYZiHvHBQ1kCPop40976lyJ_Owxl9vtLXr4cupfir_2-idrbIfnyzXdyM0ridRRtt209CQEMkR4qys2XFMWYABnDgookJbD9fHRLHdmBoDpzeHa8kN5VpZJJqeSeStpT9ZsJeIDPSrGrNMp2dceVTMauhWmD4cYp-TWe9a0T6IPrhW7st6Kvhrc4kGlDhNiVW8VdNT0qDdqYUydVdSLyQ8nBkDK99IbUdmM5pZ4S5cWeUyaudMr1UzOcw41JhOvwTAPD0xt8Kj3T93y3Us5mVfS24_UxgGoWhBM6p6qlFJYjlVVSL8lQbU07OI-Y8LyNn2qGj7x4VQoR0GH48EX-XQxPgo1IvY4Ub35QAa4N0vLsOZGSu-_qnSuXQhwIMCZCsCNKOi1bGJ37euP2PcYAJG6BkcJL8TlUY1U4Zaf8bkOlwiKAZilMro9k3_VWWOZHI9jNSNZvIUjlWIZVWKNT7Oja7mzSu7m4GMBsDQlVnuxd4sAeQ5iOjsJhBSDNKNsiPaPW8W3CrCCI4LLfBaEdQnlcHXUBqeZk-aHjBijAbr-Ky0JwfH3j1eYmATZtrPQ7BsjAJ1S_vV-7w2ewVOgeW-yQx1N1XUCJX9S2Rpo4FOfVFm9mefwRshxHUSQPWQi590nTnI_Zl69_2e9xlgxdtsAO2j4vzSocI-gYTN3tNK8pObjHcKJ3K-BsFyahzlk0dBvDsQA9udN-zbWd9ii71R5FT8MVCYJhmovuOjB1ufI2jpytLrpBaHGSTna9tfLXr7C8RKK6x0tDxpojP4u5rRGMLLx-tZTF52Wqe3J0O_PztGrLIDEdYCVudRVO3p2Wi5wxh4LYLvjBYE_SQmK6q9TS_DLQ1-PrV6YmPdMk9ewWmX_cOFAYgM7EjwcoipCOY3LhU4sI7amFlt1F0-IwbXki3y7by7Bm0j291qNY2MvbDVMHGjwqYcrbtrEsFgqSw7VbGMll3OW43FzHa0l5VD5ZO0PRFcmi2cvBMlGhjbTqGmeBn6jVrIz2mrW8QVyqHtkxnCOj9Xy1UmV_8NZRsw-iwF09Pq6_z2pdHOvCRdEtmneUfOLgpUrYE4tJac9sEwKna9BofwI-yMOF",
+        "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=f3Snu3icdZJJzuNUFIWBFTBgATXmV9B77k3pH8RdbCe24_fcxZPIXewk7uLYcWyxmr8aqZCYFCUxZRtVA9ZCADFCDO49gyt95-jo_vHVty_Z8TdJJcLoJh2NlGGq_rxdRLdtboMPbdekQ9If019ZgiApiicJjqN5noQsRXxIoj4qm_yYfoIUT5EkD1iSgywJGcgy5Mcii9LyWGfW4ZB1UpM8KATguAeCehAIyPEEz8Cfj1WUZ3-fP0GGZFgGkCxPsywNCO4xb7r0-pnainvI_JUBQp5gaJZn-IcT_dMWWdL-f47vLkPWTZ-_t8qoLbP7079qNj88kU9qdOyetll3yJK-6Z4gAFX5Lm__ifFf2JvqmH6kWYZiHvHBQ1kCPop40976lyJ_Owxl9vtLXr4cupfir_2-idrbIfnyzXdyM0ridRRtt209CQEMkR4qys2XFMWYABnDgookJbD9fHRLHdmBoDpzeHa8kN5VpZJJqeSeStpT9ZsJeIDPSrGrNMp2dceVTMauhWmD4cYp-TWe9a0T6IPrhW7st6Kvhrc4kGlDhNiVW8VdNT0qDdqYUydVdSLyQ8nBkDK99IbUdmM5pZ4S5cWeUyaudMr1UzOcw41JhOvwTAPD0xt8Kj3T93y3Us5mVfS24_UxgGoWhBM6p6qlFJYjlVVSL8lQbU07OI-Y8LyNn2qGj7x4VQoR0GH48EX-XQxPgo1IvY4Ub35QAa4N0vLsOZGSu-_qnSuXQhwIMCZCsCNKOi1bGJ37euP2PcYAJG6BkcJL8TlUY1U4Zaf8bkOlwiKAZilMro9k3_VWWOZHI9jNSNZvIUjlWIZVWKNT7Oja7mzSu7m4GMBsDQlVnuxd4sAeQ5iOjsJhBSDNKNsiPaPW8W3CrCCI4LLfBaEdQnlcHXUBqeZk-aHjBijAbr-Ky0JwfH3j1eYmATZtrPQ7BsjAJ1S_vV-7w2ewVOgeW-yQx1N1XUCJX9S2Rpo4FOfVFm9mefwRshxHUSQPWQi590nTnI_Zl69_2e9xlgxdtsAO2j4vzSocI-gYTN3tNK8pObjHcKJ3K-BsFyahzlk0dBvDsQA9udN-zbWd9ii71R5FT8MVCYJhmovuOjB1ufI2jpytLrpBaHGSTna9tfLXr7C8RKK6x0tDxpojP4u5rRGMLLx-tZTF52Wqe3J0O_PztGrLIDEdYCVudRVO3p2Wi5wxh4LYLvjBYE_SQmK6q9TS_DLQ1-PrV6YmPdMk9ewWmX_cOFAYgM7EjwcoipCOY3LhU4sI7amFlt1F0-IwbXki3y7by7Bm0j291qNY2MvbDVMHGjwqYcrbtrEsFgqSw7VbGMll3OW43FzHa0l5VD5ZO0PRFcmi2cvBMlGhjbTqGmeBn6jVrIz2mrW8QVyqHtkxnCOj9Xy1UmV_8NZRsw-iwF09Pq6_z2pdHOvCRdEtmneUfOLgpUrYE4tJac9sEwKna9BofwI-yMOF",
+        "source": "Pro Duo FR",
+        "source_icon": "https://serpapi.com/searches/6a997d04a89e024d47671642/images/ojJbTPUgjhLC60_3rNNCEEaIAk8zp4ZokXjFB_T5_m0.png",
+        "multiple_sources": true,
+        "price": "23,04 €",
+        "extracted_price": 23.04,
+        "old_price": "Prix habituel : 36 €",
+        "extracted_old_price": 36,
+        "rating": 4.6,
+        "reviews": 68,
+        "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSm1Zc0LYvPK7I5geBLmczUyKRde07JVq3MeRjaV9TV-rKmulOH7Yn5gidTcUslVYzpe-AyUR-yf2XTTuG8nU9ITIJHZAfcP7nsOdV2PPSOr-hKURxaJ3AW",
+        "serpapi_thumbnail": "https://serpapi.com/images/url/TEREZHicDcldDoIgAADgE6Fmc2Rba_aSfyUzoOzNANGmREItO1T36Tb1vX7fT2utNkvXFYqNk7aCA3tRviONrW3HHHYbXNPetO6UXN9X_1tGex5u2WGYnZmXV0-UwSSQYpMP7E2mrOTCgym9z3eivNY0xBSM2fDoixhWKpAdx4yYnlZvLUA0kRJMjX_C-LFdKBImOEnjc9QwBJUpOPUROhQjaDNSvup0Hh1_FGQ9fQ",
+        "thumbnails": [
+          "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSm1Zc0LYvPK7I5geBLmczUyKRde07JVq3MeRjaV9TV-rKmulOH7Yn5gidTcUslVYzpe-AyUR-yf2XTTuG8nU9ITIJHZAfcP7nsOdV2PPSOr-hKURxaJ3AW",
+          "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQxUie0RKPQjhL106S1PUcEfdQIJyoZaQFdTu0k8L_4mgY4uT7kBmtKgOiDqBTwDx9jwZCZnCf_Xum_Xlc7q3vzsGurlHxAsUodTHERCp7KNE7X-1K-tqbU",
+          "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSoClgsfhTJlTgMLjLaNc4ysYM5LpY_shyo0gP21UEh9n0m0hIh5tV_0IMz6gulgalL8GZ3KVq1ktd24-t_SVGLLcieuYWifJQJD-ytvhfO0z6yxlGJefMz-Q",
+          "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQNNnONWmRmOBz0qSunEVUs-DVU4cfcJhNsiLnA-6wxznhCzqlfK3p4Jd-owcvQijGhwcXT6mV7kTA5O2hJ5CERy5Mj89dd703-Zy7V9pZfUUuTCri-vKRF",
+          "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSB-W5NV9yEyFEU8JTQL1riwm3z9ioF9ExzWqEee0v3uDTbyHuReWlC8aqcUSgtQX3QXt5wuczJEtXBDQDNboF2Z41qInUcWphBCMQZ5yPbOBylB-UzqE_1"
+        ],
+        "serpapi_thumbnails": [
+          "https://serpapi.com/images/url/TEREZHicDcldDoIgAADgE6Fmc2Rba_aSfyUzoOzNANGmREItO1T36Tb1vX7fT2utNkvXFYqNk7aCA3tRviONrW3HHHYbXNPetO6UXN9X_1tGex5u2WGYnZmXV0-UwSSQYpMP7E2mrOTCgym9z3eivNY0xBSM2fDoixhWKpAdx4yYnlZvLUA0kRJMjX_C-LFdKBImOEnjc9QwBJUpOPUROhQjaDNSvup0Hh1_FGQ9fQ",
+          "https://serpapi.com/images/url/AWsbe3icDcnhEoEwAADgJ0qFM7pzTkmRQ2l36U_HVmvYWm0pHsr7eBu-v9_3UyolpKXrOUfNS6gca-rKhwMi1UVRNEAV02VZCUE5WdTz_1nLPZ55KOwhzY0oOIa3cmcak5N5hMgtcLjZvqr0Eq5x3Br36S4bM3IetzG420wF5EBXtR13q35261In5U6RJS3LkgcC9ej5ll7bPPx-KWGFY9-NHAGCvQsSzQw0VV_hDzGWPls",
+          "https://serpapi.com/images/url/TMzQbnicDcndCoIwGADQJzJnaWQQERWizX7QDLsRm7pZc1vtK5pP1ev0NnVuz_fDAJSe2nYtyMMoqCsLLsIZUA0ltGRAZGdrJpVqBZ3fZ_-bLraVH5BELjnVDUsjntIYX3G5Ja7ReexhlReaGYnofugc18wXqEMsZB5kBQrjfkyfnJYcT4LzaJPdnRtUQ9eCIskCjElbP_NT20SHaGUZeLFmh_qxefMgqpu4tw4_2hQ_Zg",
+          "https://serpapi.com/images/url/wOccA3icDcltDoIgAADQE5HNj0y31szKTQunibX-FaRgiSiU6aG6T7ep9_d9P1QpIV1Nu3HcDULdCFBXrk9KqS6K4Qluak3SRgjGy2W7-J_rQeIEOIGQx_BYp3W8Gqft4ck3OZJgnSMTFzikULId98Csf4-c-mP7KCJDmCEBTY9fCasC2uNTNqtz-555VqzT0PI36WDtq7lDiD01wHmwc0ecC4Semd8x8IrS7Q9O0j3c",
+          "https://serpapi.com/images/url/keS4qHicDcndCoIwGADQJ1IzE1wQ0XL2Q1mrbNJN5BwqmG76mc2H6n16mzq35_vJAWQ7tSxR8UZLEKkBSTU2sxYeUHCT10-rzWspiyqbq9n_poswRSt-xgZzwyvSRAck8rYXurObon86AyrqAJH3wBQRYvRyOv-S6HV3Eqxceg_Fo3MGNHZoDG7f8WFLIMY-9cOkDsa3ia02VcSZzPFyT2-uPiYHrEtsRIMid_sHF_s96g"
+        ],
+        "tag": "PRIX BAS",
+        "extensions": [
+          "PRIX BAS"
+        ]
+      },
+      {
+        "position": 14,
+        "title": "Olaplex Hair Perfector No.3 - 100ml.x 3 Products",
+        "product_id": "6267006255424819980",
+        "product_link": "https://www.google.com/search?ibp=oshop&q=Olaplex Olaplex No. 3 Hair Perfector 100ml&prds=productid:6267006255424819980,headlineOfferDocid:6267006255424819980,imageDocid:5416730262253763683,rds:PC_1245439681566266126|PROD_PC_1245439681566266126,pvt:hg&hl=fr&gl=fr&udm=28",
+        "immersive_product_page_token": "P88VUHicbZLJjqNWFIbTb5BHqHVKbnEvgyGtWhgDBmwucJnZoGvAxsVgjI0xKA_Tqh6kjpRNssg2r1GtKM8St6LsevOfxa_z6zvDPz_8-JIf_pRUGJOrdDAyjqsvpTUjV2tvU1_a7pj16eWQ_cFBbk5RHGRZBjI8EASe-pKSC6mO-0P2_vciJ1l1aHJzt8s76Zh-v-PXQ032-X82ywBuTlOQg5Cl5xzN8fSHLju_QmuZAMiwDC1wPGC5ewwHIPeLhU0p-b736dTn3fj6k1mRtspvj_9XdHz7SD-q5NA9Wnm3y9PLsXsEFFVXn_btneH9h_qbtNfLS7H_2PdV_tfLvnrZdS_FN_18JO11l35987fca8vlSVvaXtv6EqacCXux2jKB56uxLIyuJ5xIo9MoUFjDLVSkCNetpGC0wrugQYDI2TGXbUDUQo2VVo98ockCPYi8G_ZkAPMQaWQqrFSKS-SK-taPRlKiHfJFL2sKLmri0qBws52qTeS1NIFnEAdIzldAMwNQbFcY5ooSBVJRkbo42yUYMj_bZXKsumrlIPdOEggDcpUSQyA6CgpwiZ8JnTkEIjnyQJh5F8YJWA0HsZOHEbAhWjlKvHI86oInJYz9FkZhOaSBz5Iyk4NK50y5lVIIOkMqIm-KT3aDcS4DI1aV0K5vjB0UOK1j3fCq0FExkwKRCiFap1W18iYf3fcS5D6uDV8fMoA0o75nq_shhIq7VbWLU_LApi5iRPsFAeWQwdRRKKwZVVtkJW7d4E5ZA4qAxSUKYzsG8rA66CJW0Wje50inmCWgirZhxZiKTwVee9o4YOnJGoxhbLuTKH68nbvdK7VQ2Itjzvv9dqzPMyAJs8bWaOTEy2llOZtJHn4Gc55n7q8H5gDwn9PjsTzkX9_8liROnvZdPnNcbD0tUB0PBLgG13SR5h8rHiQOGNloRbnWDEF1yknfbQzXpNjRG5M133ba5AetZvr22J-xKBoIzbpzzzXVyt-49yOfdANq2zQb7cYy9-8eHHmBl2riLAzZ0Vz5abm3NcjJ4ruHhbx8WmS6L5NrKUzjqq3CFLmUmXr1WXz2b6xc7DnUF9CaCb0xf5ZmEtedpZYVFqG-Ht49IE16YmnmySvy4LBxgdhTOredUqkoYna7pWcBMyM4YWZaflsik3dY018K7aI99WsuS9i1TrZiIlsbrgk1cFDiTLBtY1HMFCzHa68w0tMQ7Z1qcx7OFeMz-9GMDEVXJJOdn3YmwoU2sKpnlKIwMqtJGez13PT75UL16Y7jXRmvp7OZKcnOX5NjEpLQW2FFuNwmtSkOTeFhciVTxMjPPDjV6fx57tBSwlkpdLI1ddT-BZg0o6w",
+        "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=P88VUHicbZLJjqNWFIbTb5BHqHVKbnEvgyGtWhgDBmwucJnZoGvAxsVgjI0xKA_Tqh6kjpRNssg2r1GtKM8St6LsevOfxa_z6zvDPz_8-JIf_pRUGJOrdDAyjqsvpTUjV2tvU1_a7pj16eWQ_cFBbk5RHGRZBjI8EASe-pKSC6mO-0P2_vciJ1l1aHJzt8s76Zh-v-PXQ032-X82ywBuTlOQg5Cl5xzN8fSHLju_QmuZAMiwDC1wPGC5ewwHIPeLhU0p-b736dTn3fj6k1mRtspvj_9XdHz7SD-q5NA9Wnm3y9PLsXsEFFVXn_btneH9h_qbtNfLS7H_2PdV_tfLvnrZdS_FN_18JO11l35987fca8vlSVvaXtv6EqacCXux2jKB56uxLIyuJ5xIo9MoUFjDLVSkCNetpGC0wrugQYDI2TGXbUDUQo2VVo98ockCPYi8G_ZkAPMQaWQqrFSKS-SK-taPRlKiHfJFL2sKLmri0qBws52qTeS1NIFnEAdIzldAMwNQbFcY5ooSBVJRkbo42yUYMj_bZXKsumrlIPdOEggDcpUSQyA6CgpwiZ8JnTkEIjnyQJh5F8YJWA0HsZOHEbAhWjlKvHI86oInJYz9FkZhOaSBz5Iyk4NK50y5lVIIOkMqIm-KT3aDcS4DI1aV0K5vjB0UOK1j3fCq0FExkwKRCiFap1W18iYf3fcS5D6uDV8fMoA0o75nq_shhIq7VbWLU_LApi5iRPsFAeWQwdRRKKwZVVtkJW7d4E5ZA4qAxSUKYzsG8rA66CJW0Wje50inmCWgirZhxZiKTwVee9o4YOnJGoxhbLuTKH68nbvdK7VQ2Itjzvv9dqzPMyAJs8bWaOTEy2llOZtJHn4Gc55n7q8H5gDwn9PjsTzkX9_8liROnvZdPnNcbD0tUB0PBLgG13SR5h8rHiQOGNloRbnWDEF1yknfbQzXpNjRG5M133ba5AetZvr22J-xKBoIzbpzzzXVyt-49yOfdANq2zQb7cYy9-8eHHmBl2riLAzZ0Vz5abm3NcjJ4ruHhbx8WmS6L5NrKUzjqq3CFLmUmXr1WXz2b6xc7DnUF9CaCb0xf5ZmEtedpZYVFqG-Ht49IE16YmnmySvy4LBxgdhTOredUqkoYna7pWcBMyM4YWZaflsik3dY018K7aI99WsuS9i1TrZiIlsbrgk1cFDiTLBtY1HMFCzHa68w0tMQ7Z1qcx7OFeMz-9GMDEVXJJOdn3YmwoU2sKpnlKIwMqtJGez13PT75UL16Y7jXRmvp7OZKcnOX5NjEpLQW2FFuNwmtSkOTeFhciVTxMjPPDjV6fx57tBSwlkpdLI1ddT-BZg0o6w",
+        "source": "GoSupps Beauty",
+        "source_icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAkFBMVEVHcEwgerIab6MAAAAigr8EGycWi8gTfbQxZ5oBCAwlaZwdgr0vap8XfLMjYI4SRGMXXYgpd7AffbYcXosnebMVldYYj88VV30Yh8Mja58tap8bjMoYfbUZk9QrdK0jc6kdjMwrdKwYktIwbcUUmd0wap8ubaIfh8Uod7EtcKgWltclfbgWldcYktMbjs0WltjTjh7vAAAAI3RSTlMAe2UE_iZiZtcLdpyqNjU3QvOMSd_ZgBxSh-bBLOXOQ9jEqcNA1yIAAAEKSURBVDiN7ZLbcoMgEIYXBS2eY6vRHJrDWIEK-P5v14VocpHc9bL9ZsSf_Xd2VxDgnwdF9vZEVjz87Osl2epfxnFUaryjxt1udPvPm58opbKSe3rUCQtRMRcmzg83UgbrLFLK7aJDhoYTlZRYqrh8IOj3ADU6mxTCRMqT6zBNMXA6Je9IP52gmjwxlHRyPQilqEXt6wY0x8dDgAnqEgIhUuBnDIkDbjqMe3KohIgxgVlhQ-AxIWQLgd0DL-s0rfGYUmHdxHxv7ZEvowfWtuvxRMae_eeU2hh9jTypMebYdnnetY02-uAzeTDMWn875hkXfXtrPURLLV41wwua_H5ZIWfxE-xX_8ff4wcRHSH0FjxnTAAAAABJRU5ErkJggg.png",
+        "price": "331,75 €",
+        "extracted_price": 331.75,
+        "alternative_price": {
+          "price": "385 $US",
+          "extracted_price": 385,
+          "currency": "$US"
+        },
+        "rating": 4.6,
+        "reviews": 50000,
+        "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTHwkFpJaWKcpT7V5WiOEWtMHfKmhmTpJcbVceCGUU8YoO-O_jL-9krf_KwIxfrYPYS0tdfhgCxFY0POv5yI0VmFTQ3CXHEd9sz15VcyiTnsQRHOG-PUbwfiBo",
+        "serpapi_thumbnail": "https://serpapi.com/images/url/g01vlXicDcnbCoIwAADQL_ISIqUQUeK9mtac-SQ6nS5RlxuZ_VWf09_UeT3fTysE46ai1AOeFibqShLloMkNF4WgWMZjr_B2ZIwOze6x_Z-5P1eGi6E3dw4LijTEDK6RnlJgp-LkkbBve8gCXCJcW26SbLIRSCC_HyWjm0gezv6LTFmUXVVRkbaxXk6mRuCpL76KegfGmnXz7Mrg75WO8ELhwOOLB1wpSsqZ0MP4AwryP3A"
+      },
+      {
+        "position": 15,
+        "title": "Olaplex Trio de soins No.3PLUS + No.4 + No.5",
+        "product_id": "5893444930028832020",
+        "product_link": "https://www.google.com/search?ibp=oshop&q=Olaplex Olaplex No. 3 Hair Perfector 100ml&prds=catalogid:5893444930028832020,productid:12035573104568051257,headlineOfferDocid:4846118628589832651,imageDocid:17455598531629197293,rds:PC_15858611454330529971|PROD_PC_15858611454330529971,gpcid:15858611454330529971,mid:576462852753894977,pvt:hg&hl=fr&gl=fr&udm=28",
+        "immersive_product_page_token": "pejvg3icdVPLrqNGEE3yBVnkA2adK0fdDc0jo7uwDdjgC5hHN4aNxcs8DAZjYwzK19x5SBMpmyRStvmNySLfEidSdsmmTkmnzqkjlerPL75-TYvfpDUKwptU6AnH1dfjdhbetpkFPrVdk_TxtUh-hQgwGPMMBCzmBIAhwvynOLyGVZMVyS9YEBmWZUUGACQIDAII_JynYVIVp9Q8HNJOauLHGCuwHIQCh4SH4DHGYfhjUYdZ-g_9K-RZjLEoYAZySIQij0TmXZdcPrPb5R7ih-ihZjHLMAAjUeThD1vblPb_Q34492k3fv7WrMK2Su9P_6LRfPfEPK3Donvapt0hja9N9wQBqKsPWftPjP8we1cXyc-Y59i_syMeM4LIijz_rr1dX_Psfd9X6e-vWfV66F7zv-vHJmxvh_iPr76Rm0FaXoalRdqWSjZwPIWhROv1Mmd0JplCmtcGpJbr5WpY5vSBl2SiaiRDK5bvO0MGOGRsxj7pwCXXQ4QyEFaaZiNwjWQF-TsLBESzDSWY4tI2XEpzSoPSBvpAiDVEx3ZloaA2VvfG9OybBRv42K_EQKtTV7F0KHIByiYfVoHuBl5cVgtnfZySOljEJFBMuuCorB2tHS0CqqyopEEf6cj0Wj92s2tQUi8AySqh8T11bY4whk5qHXk1rnyYj1ZdSe6u3VEPDzbKz48eE1fL46oZdkAsSQHHmPGRX_rIIuIpkDUa0keUdTYka-Omn9qS1qKrA2OkJ-VGS4PRvUBOVvT88LwmI1QiqbIJ0u-2FLPRFF9jyV5F1XwIS7sy1jqIjveCFgDsRng0d4HkVpSjtT6GlUjiqToGDtxEMJviOr4TYl9cIvZWqfSJp918RnYUYKt61ebJ0W5dz0JGDUEI51d_F1gBlIdVoS3stTGaXuAScl1H6xwTT2SI0rAuFfPwmJ-DIxkc-c7YIF-8v1-6w2cwV_DVMfk-i8b6MoOSODtZKmM4wXJabZ2XSR6-h7wgsCwjQv7xNx_jpjkW6R9f_rTfO2ncd-nMce3t89yogyGErs6dOl-lTSXAvQNH7K-Au50ZaD2lYd-96K4J8EjG_UZoO3WiXqua1Br7i71Y6IYx6y49d6pW9MWV09VZ05EaxclonbZm9vaNI8_t5XrvzHXZUV35eZlZKuLkxds3c3n5PE80Koe3oziNq7baxYYLzJjUl0VJ71jOM87oc7Sdib3Ol9JM4rqL1GJxvtM2w9s3hio9Y4Z9JnnqFS8uXPRA4x5nlPI8wFHEzDx2Ftp7dqam96VhCg426VJs5-2533DJHm-0MFrs5e0Ld9qpsFCCRLQsfZ7PFFsONiTX4_PgZ071chkuFUvZbDR9XdEUycT8-WAadq4OeE3040Ic2dWkDNaGN2m_nK8p03GCK9ub6WImyv5AN2Gz34U7srIV8Xqf1qe8OOXEDm_h5LNyKcBzHfMl7zDSntvGyEk2oFH_AtcQxgI",
+        "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=pejvg3icdVPLrqNGEE3yBVnkA2adK0fdDc0jo7uwDdjgC5hHN4aNxcs8DAZjYwzK19x5SBMpmyRStvmNySLfEidSdsmmTkmnzqkjlerPL75-TYvfpDUKwptU6AnH1dfjdhbetpkFPrVdk_TxtUh-hQgwGPMMBCzmBIAhwvynOLyGVZMVyS9YEBmWZUUGACQIDAII_JynYVIVp9Q8HNJOauLHGCuwHIQCh4SH4DHGYfhjUYdZ-g_9K-RZjLEoYAZySIQij0TmXZdcPrPb5R7ih-ihZjHLMAAjUeThD1vblPb_Q34492k3fv7WrMK2Su9P_6LRfPfEPK3Donvapt0hja9N9wQBqKsPWftPjP8we1cXyc-Y59i_syMeM4LIijz_rr1dX_Psfd9X6e-vWfV66F7zv-vHJmxvh_iPr76Rm0FaXoalRdqWSjZwPIWhROv1Mmd0JplCmtcGpJbr5WpY5vSBl2SiaiRDK5bvO0MGOGRsxj7pwCXXQ4QyEFaaZiNwjWQF-TsLBESzDSWY4tI2XEpzSoPSBvpAiDVEx3ZloaA2VvfG9OybBRv42K_EQKtTV7F0KHIByiYfVoHuBl5cVgtnfZySOljEJFBMuuCorB2tHS0CqqyopEEf6cj0Wj92s2tQUi8AySqh8T11bY4whk5qHXk1rnyYj1ZdSe6u3VEPDzbKz48eE1fL46oZdkAsSQHHmPGRX_rIIuIpkDUa0keUdTYka-Omn9qS1qKrA2OkJ-VGS4PRvUBOVvT88LwmI1QiqbIJ0u-2FLPRFF9jyV5F1XwIS7sy1jqIjveCFgDsRng0d4HkVpSjtT6GlUjiqToGDtxEMJviOr4TYl9cIvZWqfSJp918RnYUYKt61ebJ0W5dz0JGDUEI51d_F1gBlIdVoS3stTGaXuAScl1H6xwTT2SI0rAuFfPwmJ-DIxkc-c7YIF-8v1-6w2cwV_DVMfk-i8b6MoOSODtZKmM4wXJabZ2XSR6-h7wgsCwjQv7xNx_jpjkW6R9f_rTfO2ncd-nMce3t89yogyGErs6dOl-lTSXAvQNH7K-Au50ZaD2lYd-96K4J8EjG_UZoO3WiXqua1Br7i71Y6IYx6y49d6pW9MWV09VZ05EaxclonbZm9vaNI8_t5XrvzHXZUV35eZlZKuLkxds3c3n5PE80Koe3oziNq7baxYYLzJjUl0VJ71jOM87oc7Sdib3Ol9JM4rqL1GJxvtM2w9s3hio9Y4Z9JnnqFS8uXPRA4x5nlPI8wFHEzDx2Ftp7dqam96VhCg426VJs5-2533DJHm-0MFrs5e0Ld9qpsFCCRLQsfZ7PFFsONiTX4_PgZ071chkuFUvZbDR9XdEUycT8-WAadq4OeE3040Ic2dWkDNaGN2m_nK8p03GCK9ub6WImyv5AN2Gz34U7srIV8Xqf1qe8OOXEDm_h5LNyKcBzHfMl7zDSntvGyEk2oFH_AtcQxgI",
+        "source": "baslerbeauty FR",
+        "source_icon": "https://serpapi.com/searches/6a997d04a89e024d47671642/images/ojJbTPUgjhLC60_3rNNCEGT0Ta1-KMlGNM0ch8X2FRQ.png",
+        "multiple_sources": true,
+        "price": "73,24 €",
+        "extracted_price": 73.24,
+        "rating": 4.8,
+        "reviews": 77,
+        "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcR9KPptbD3ZM6EfA77tGchkQ_KBkZGpVAjM5n4wI4OYTwJR0bv0OGZCoFt48_CXfLs3vQlMsxlOOSAN1jJ2cnRf76uuFor5R4VjiOIYMvtGv1R-d6HChvE4",
+        "serpapi_thumbnail": "https://serpapi.com/images/url/a9nGC3icDcndEoFAGADQJ6JiFWaMWWGFWpZp6MZok37Ylv3aeCnv4204t-f7yQCkGhrGRfDnW8IlaUEsrPZVwRly3ubV3VBZJWUuruPH6H9DHCQDwtlgtZEQT7uRb89S7DhAeFZuT6tJGREZ4sLvCdR4iB73zZKZsTYpidxqDqh_cg_pWnX19uar143SHQ6sYtnhgqWOXdfz6tljKCxy6h19DURbrJXYCzfTM_QD12I8zQ"
+      },
+      {
+        "position": 16,
+        "title": "Routine réparatrice olaplex",
+        "product_id": "11324436177240638413",
+        "product_link": "https://www.google.com/search?ibp=oshop&q=Olaplex Olaplex No. 3 Hair Perfector 100ml&prds=catalogid:11324436177240638413,productid:1762013363777729939,headlineOfferDocid:7151711057679601539,imageDocid:618979330471723283,rds:PC_1467892611433925758|PROD_PC_1467892611433925758,gpcid:1467892611433925758,pvt:hg&hl=fr&gl=fr&udm=28",
+        "immersive_product_page_token": "lJjZSHicbZPJrqNWEIbTb5BH6HWuHHGYSesubDMYbMAc4GDOxmIyYA6DMXhAeZjo9iB1pGw6kbLNa3Qv8hxZxh0pu65F1eIr_VWl0v_3d9-_ZOWf8orG0UUuzZTn66HazqLLNneoj13fpmMylOnvQOBpCjAMzwiPoCWJkT4m0RCRNi_TPwBgaJZlePBALMUzIguYT0UWpaRsMvtwyHq5TR4qAuCAAADFCbwg8RTgGOnXso7y7D_8iQeiJEgMQ7ECEGiGFpm3fXr-TG-Xe8DygijRPAAsw0g0J3Diz1toy_tvs_enMevvn3-wSdSR7Pb0f7XaH5-Yp1VU9k_brD9kydD2T4CiavI-775u-A2tt3WZ_vK2uwwvRf5uHEn210tOXg79S_E1f2ij7nJIvrz6R7kky2WfLB2_65AMKZe0g0mLVLTCaygjF3uoj49ql1XwBI-Fh4nPYgridDLOKY3L1CMFpLsAV0PoKp2arkhnNkadVJzuqjmAgTFBeohC2jKcydAtsjBtLwcejUBAkIIqnXn0AEtt2dRTGWeHztau5QINqDhQLYfi5AwVUTiZN7eGZYxULlUI8ZDEQr8LsiW448Y4Z1XIhUFxwGrOxBPZeJpKQblgESANPhImrG8XyyOyFXBB4DmPmQB6lTIkgeEEHrolfsH7tGH4xOCdBnUYYBLvYJkyxiFucANpcDNpVYUV2WIVqr6ST7HWEYtuOZ_qTGfnMGY93HBNfFc2B9cnS3gHqnm0rlnFtS6x1KgyBwtJC9gUi-gIN-iIdrFinHBjHTxC-qxOKBdBzQ8qJt7hg0kbQVBzRUiL7uMa3SRdkVaw8wKHtmpARWA-hDvsYKBctdJYwJV1twPshhOmYp9jY03FnqwGfg2PmVYBtDKoVDMumCD47nbuD5-pucoNri2MeXyvzzMgS7PG0RnLxctJ27qbSbn-BARRfNhE-uoB8UPStlWZfXn1237vZsnYZzPXg9vnuVXjawQ8k2_6UEctEcHeBXcu1ChvO7Po1ZRFY78xPZvi7v59vxa7Xp9Q0Ok2cu7jGS4WpmXN-vPIN0RDG0_JtJNh0nqcpHen2dr5m9euMofL1d6dm4qre8rzMnd0mlcWb17PleXzPDWQEl0qabo_3rJLLI-yE78-L47oxilFzltjQW9n0mgKR3km8_1Z7jhpvjPW1zevLV1-5hj22S-yoNx4YDFSBh9PiVwUmItjZhawswju2Zme3ZaWLbqcjZZSN-9O45pP99zaiOLFXtlu-Gang1LFqeQ45ryYqVDBa78wk9M1zF2yOV_PhEVsfrdDUzVU2eaE08G2YKFfuZVvVgvpzmqTenXWgo3G5XyFmJ4XPQWup7OdqvsDWkftfhftfA2q0nCbVk1RNoUPo0s0haxyFMGpToSj4DLynt8mtJuuqVb_Fx6kt_g",
+        "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=lJjZSHicbZPJrqNWEIbTb5BH6HWuHHGYSesubDMYbMAc4GDOxmIyYA6DMXhAeZjo9iB1pGw6kbLNa3Qv8hxZxh0pu65F1eIr_VWl0v_3d9-_ZOWf8orG0UUuzZTn66HazqLLNneoj13fpmMylOnvQOBpCjAMzwiPoCWJkT4m0RCRNi_TPwBgaJZlePBALMUzIguYT0UWpaRsMvtwyHq5TR4qAuCAAADFCbwg8RTgGOnXso7y7D_8iQeiJEgMQ7ECEGiGFpm3fXr-TG-Xe8DygijRPAAsw0g0J3Diz1toy_tvs_enMevvn3-wSdSR7Pb0f7XaH5-Yp1VU9k_brD9kydD2T4CiavI-775u-A2tt3WZ_vK2uwwvRf5uHEn210tOXg79S_E1f2ij7nJIvrz6R7kky2WfLB2_65AMKZe0g0mLVLTCaygjF3uoj49ql1XwBI-Fh4nPYgridDLOKY3L1CMFpLsAV0PoKp2arkhnNkadVJzuqjmAgTFBeohC2jKcydAtsjBtLwcejUBAkIIqnXn0AEtt2dRTGWeHztau5QINqDhQLYfi5AwVUTiZN7eGZYxULlUI8ZDEQr8LsiW448Y4Z1XIhUFxwGrOxBPZeJpKQblgESANPhImrG8XyyOyFXBB4DmPmQB6lTIkgeEEHrolfsH7tGH4xOCdBnUYYBLvYJkyxiFucANpcDNpVYUV2WIVqr6ST7HWEYtuOZ_qTGfnMGY93HBNfFc2B9cnS3gHqnm0rlnFtS6x1KgyBwtJC9gUi-gIN-iIdrFinHBjHTxC-qxOKBdBzQ8qJt7hg0kbQVBzRUiL7uMa3SRdkVaw8wKHtmpARWA-hDvsYKBctdJYwJV1twPshhOmYp9jY03FnqwGfg2PmVYBtDKoVDMumCD47nbuD5-pucoNri2MeXyvzzMgS7PG0RnLxctJ27qbSbn-BARRfNhE-uoB8UPStlWZfXn1237vZsnYZzPXg9vnuVXjawQ8k2_6UEctEcHeBXcu1ChvO7Po1ZRFY78xPZvi7v59vxa7Xp9Q0Ok2cu7jGS4WpmXN-vPIN0RDG0_JtJNh0nqcpHen2dr5m9euMofL1d6dm4qre8rzMnd0mlcWb17PleXzPDWQEl0qabo_3rJLLI-yE78-L47oxilFzltjQW9n0mgKR3km8_1Z7jhpvjPW1zevLV1-5hj22S-yoNx4YDFSBh9PiVwUmItjZhawswju2Zme3ZaWLbqcjZZSN-9O45pP99zaiOLFXtlu-Gang1LFqeQ45ryYqVDBa78wk9M1zF2yOV_PhEVsfrdDUzVU2eaE08G2YKFfuZVvVgvpzmqTenXWgo3G5XyFmJ4XPQWup7OdqvsDWkftfhftfA2q0nCbVk1RNoUPo0s0haxyFMGpToSj4DLynt8mtJuuqVb_Fx6kt_g",
+        "source": "Océane Avakian",
+        "source_icon": "https://serpapi.com/searches/6a997d04a89e024d47671642/images/ojJbTPUgjhLC60_3rNNCENNxRfIUFteI_NUyKWkyEzA.png",
+        "multiple_sources": true,
+        "price": "128,00 €",
+        "extracted_price": 128.0,
+        "rating": 5.0,
+        "reviews": 11,
+        "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcS0Cw98Ev5MQlJPpJ4iLQdaXNwRWzs6qT8R4ecljeoRsZGAchhojJZn_e8wJzhVyn-ep5nj3DwNQ6VRMaI_dcGPUFMorPmeB_4KntuGUdyCq7nJ0qLjP-VA",
+        "serpapi_thumbnail": "https://serpapi.com/images/url/22qGPnicDcnbCoIwAADQL_ICXlIhwm7SSplWFr6IbcMpus22Ev2o_qe_qfN6vh-qlJCBYRCGnpNQBGvqwSy9lqpSDdIR7w1JuRANq1fD8n9BmGA_QmdzM_re7u3EaQegAHZzSnF1T8bsNkt3uHiZTVDXEp7JIgoRpbwFBSuJN4KZ5hPTiHBYa23HJHXzLK4OJUYRvO5j_oQ9WZf2kalXdMXTZlgwYA6nFmp5-ANNyD64",
+        "thumbnails": [
+          "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcS0Cw98Ev5MQlJPpJ4iLQdaXNwRWzs6qT8R4ecljeoRsZGAchhojJZn_e8wJzhVyn-ep5nj3DwNQ6VRMaI_dcGPUFMorPmeB_4KntuGUdyCq7nJ0qLjP-VA",
+          "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcS91Mnt8NlsFbIVMgjzuiwQ2Bh0MwH8Tb9jIIR6EyZ7r2MI-S23SmrYHtl9k8G-IFXUN0_djTh2oM1AHDVkDpgEjgmWiUhiGlholv0_o0kAwNxP4gJClKMF",
+          "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRL9rN_Mfcxzo00RhseUNi60UzgtvoKG5V63OFAcl_8nJjoE7Pi5rmoFz2vRlF_BYi3ubHecrTY61DAZ-TVwjcsjBvN3-Z6rdRorb1mH8WqSW0Oie12abhzwA",
+          "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTCubzfAgB3E_RXfttMYhj5X1vmg-YY06DI40yobdxgsGVBFnLPaT0zSkSx_S61_uAZ3oIYVILARvNdeYnVjZewoX5i6KqmNpkFMoYjySO7ksicf-g3WY2Z"
+        ],
+        "serpapi_thumbnails": [
+          "https://serpapi.com/images/url/22qGPnicDcnbCoIwAADQL_ICXlIhwm7SSplWFr6IbcMpus22Ev2o_qe_qfN6vh-qlJCBYRCGnpNQBGvqwSy9lqpSDdIR7w1JuRANq1fD8n9BmGA_QmdzM_re7u3EaQegAHZzSnF1T8bsNkt3uHiZTVDXEp7JIgoRpbwFBSuJN4KZ5hPTiHBYa23HJHXzLK4OJUYRvO5j_oQ9WZf2kalXdMXTZlgwYA6nFmp5-ANNyD64",
+          "https://serpapi.com/images/url/tuhhhXicDclJDoIwAADAF7EbBRJjUFmqKVEBtwuRJW2h0ApVxEf5H3-jc53vBwvBe1tRyjbvRi7KQhJZa8ioFzdBcjlnjdJjxjlp0eI-_5_thIXl55GlwVaYIe29DBwhqt4PMuz1JVbhEJhxZlUAHKbueJ11OgRSpBtR010CQa3a9CXgnZNQTYsqxjqDmhOsj_WaI7dCzYkkmPgUM_pUU6bWzhC-dhO0WdEt9H7o5T1K",
+          "https://serpapi.com/images/url/6qf1inicDcnbDkMwAADQL3IPQ7IsZEN2YbEhvAjVUUFpOzZftd_Z32zn9Xw_DWMjNQUBDoC8RwYrjpWDzNeUFQwBHuBeoA0eRzTUu2n7P9PyK8MF4dkgfn55gNeKRTFsKIx8pInRWrMZn1w11pTAsUCX68OxxYfNFamkx84qz2Hn5HaKlGfpQUDuqSbtrYy7x0sLaGvPvsJlGqlCTEqp9_RkuiVigKAkF2WzLtYPt_8-1w",
+          "https://serpapi.com/images/url/ZAsFk3icDcnbCoIwAADQL_KeRkHEuiiSWWiY80Vy6pzittq07KP6n_6mzuv5fhopuVhqWkXRY-KyKhVZUFPFQt4kQSpivSYaxjmheH1f_W8JwnLhoct2KN41wBtrn0dpLeURNq2dGmOPFQh1Z-fP9IkV5QsLL9m4NDjfLvo77uJXHjtGPoDMYj5M_ABEY1hWkCZtVj1ZahPncO9D3rlHBtspPs07QVCtYOsKzewHQ6I-pQ"
+        ]
+      },
+      {
+        "position": 17,
+        "title": "Olaplex Starter Kit Cheveux",
+        "product_id": "6438980760665604526",
+        "product_link": "https://www.google.com/search?ibp=oshop&q=Olaplex Olaplex No. 3 Hair Perfector 100ml&prds=catalogid:6438980760665604526,productid:1208406466647849714,headlineOfferDocid:12652261413345451819,imageDocid:13143017992629613390,rds:PC_15195084759999077977|PROD_PC_15195084759999077977,gpcid:15195084759999077977,mid:576462853881529488,pvt:hg&hl=fr&gl=fr&udm=28",
+        "immersive_product_page_token": "ppgyqXicdZDLrqNGEIaTPEEWeYBZ58hRN9BcMjoL24CNbRrTQIPZWNxsMI3BGHxB8zRnLtJEymYSKdu8xswizxInSnZJLaoWX1Xp0__HV9--ZMVv6pwLo4tamKkoVl25HkWX9d4GH5u2TvukK9JfIAdkAYiCKIqCJAuKBIWPSdRFrN4_qCjwsiIDSQSiiEQgIE78lGdRyopjZu12WavWSZH-CjkRcZwIBcjzAhIQlKHyU1FF--wfzkOBB1BSFE7kFPGxpYC3bXr-LKynW4iggh4SElIeBSRJkaQ3a2Kp2_-B70991t4_f2-xqGHZ7enfiesfnvineVS0T-us3WVJV7dPEICKvd83f2v8x7O3VZF-QtIjAE5GvCxDxCmCLL9tLt1Lvn_X9yz7_WXPXnbtS_5X_1BHzWWXfPnmO62-qtPzdWp7TUNVAhwPt44W1glkHGb5LXX1IQJ7QALWJozwjo6Zoxm3iOYrsyKE-rjODgucUsxTr6EOzwqbL4XIY4075Gvs3ywMan7D0SWF2mBWoRt7ne1wbLmik5Pn5wfME93jmrnL4Yl5tIXwELYeuB3c6lb6Qd35M-rg0hbwrGmxynSXS1nMmsA7Yt0OamSWuHNnOQlVjFKwWJg8rh82ejrrVonOBsrp9wjiS8ThMKZkHkNmJFWuWw7o4rK5eFVqxhqBKdVtDGhA4WRGAmysgjQIS4XHanL1-DGiOj36bI82PLviQd9k-iKI_Zsd89iw3AnA7gSnB92iwURzDwsSeWRwNIhjRq-UCzfhENaEhoHNbGRXpEy08roJGhz5JM9cevdK1CUAqUnQ-DjAHZnTqa8n8HGnRRpG8TGt_JKs3PlCxJ7eOC5FZF46OiCGyZo8LUnj-jaHKwgiOO42QWiHULvOisWEzPHd8kPi6fks88I-1vQZ1cLdxutOHoCmRZXeHWhBICXvbud29xmMddQ5llQmkoMKfGxM0wmK4yVZUCvpgn0hjH-EkiwLAq9ACULpQ1LXZZF9-frn7dbJkr7NRo5L1s9jXIXXCLqmeGw3Bq2ZDLcOvKPNDLjrEebmQxb17cp0LYDu3n27lJvWGKjfGBa17_2ZTCYmxqP23ItHNqMrV8tmp4XJGXGS3u3j2tq_fuVoYzKdb52xqTmGqz1P97bBidrk9auxNn0epwuqRZdSGe6zhgUJdoGVeNV5cqA3pOV7Efc5tx4pvSkd1JEqtme1Qco4WCyvr19hQ31GvPDs5ZlfrFw46cFCjIdEzfMQxTE_8oVRRLbCyMhuU2zJDrLoVGnGzalfiukWLRdRPNlq65V4DAxY6GGq2LY5zkc60cKll5vJ6brZO2x1vp6ZQIX93dqY-kJXLSSddhYmuXFFc88sJ8pdmA361V5KFu2n4znlW1F2NbIczlaqb3d0GdXbIAq8GdGV7jbMj3lxzD0SXaJhI2gHGZ6qRDpIDq9uxXXCOekS1MafF97GLQ",
+        "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=ppgyqXicdZDLrqNGEIaTPEEWeYBZ58hRN9BcMjoL24CNbRrTQIPZWNxsMI3BGHxB8zRnLtJEymYSKdu8xswizxInSnZJLaoWX1Xp0__HV9--ZMVv6pwLo4tamKkoVl25HkWX9d4GH5u2TvukK9JfIAdkAYiCKIqCJAuKBIWPSdRFrN4_qCjwsiIDSQSiiEQgIE78lGdRyopjZu12WavWSZH-CjkRcZwIBcjzAhIQlKHyU1FF--wfzkOBB1BSFE7kFPGxpYC3bXr-LKynW4iggh4SElIeBSRJkaQ3a2Kp2_-B70991t4_f2-xqGHZ7enfiesfnvineVS0T-us3WVJV7dPEICKvd83f2v8x7O3VZF-QtIjAE5GvCxDxCmCLL9tLt1Lvn_X9yz7_WXPXnbtS_5X_1BHzWWXfPnmO62-qtPzdWp7TUNVAhwPt44W1glkHGb5LXX1IQJ7QALWJozwjo6Zoxm3iOYrsyKE-rjODgucUsxTr6EOzwqbL4XIY4075Gvs3ywMan7D0SWF2mBWoRt7ne1wbLmik5Pn5wfME93jmrnL4Yl5tIXwELYeuB3c6lb6Qd35M-rg0hbwrGmxynSXS1nMmsA7Yt0OamSWuHNnOQlVjFKwWJg8rh82ejrrVonOBsrp9wjiS8ThMKZkHkNmJFWuWw7o4rK5eFVqxhqBKdVtDGhA4WRGAmysgjQIS4XHanL1-DGiOj36bI82PLviQd9k-iKI_Zsd89iw3AnA7gSnB92iwURzDwsSeWRwNIhjRq-UCzfhENaEhoHNbGRXpEy08roJGhz5JM9cevdK1CUAqUnQ-DjAHZnTqa8n8HGnRRpG8TGt_JKs3PlCxJ7eOC5FZF46OiCGyZo8LUnj-jaHKwgiOO42QWiHULvOisWEzPHd8kPi6fks88I-1vQZ1cLdxutOHoCmRZXeHWhBICXvbud29xmMddQ5llQmkoMKfGxM0wmK4yVZUCvpgn0hjH-EkiwLAq9ACULpQ1LXZZF9-frn7dbJkr7NRo5L1s9jXIXXCLqmeGw3Bq2ZDLcOvKPNDLjrEebmQxb17cp0LYDu3n27lJvWGKjfGBa17_2ZTCYmxqP23ItHNqMrV8tmp4XJGXGS3u3j2tq_fuVoYzKdb52xqTmGqz1P97bBidrk9auxNn0epwuqRZdSGe6zhgUJdoGVeNV5cqA3pOV7Efc5tx4pvSkd1JEqtme1Qco4WCyvr19hQ31GvPDs5ZlfrFw46cFCjIdEzfMQxTE_8oVRRLbCyMhuU2zJDrLoVGnGzalfiukWLRdRPNlq65V4DAxY6GGq2LY5zkc60cKll5vJ6brZO2x1vp6ZQIX93dqY-kJXLSSddhYmuXFFc88sJ8pdmA361V5KFu2n4znlW1F2NbIczlaqb3d0GdXbIAq8GdGV7jbMj3lxzD0SXaJhI2gHGZ6qRDpIDq9uxXXCOekS1MafF97GLQ",
+        "source": "Pharmacie Urrugne",
+        "source_icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAk1BMVEVHcExt3_eO206V2UKV2UJt4OyO2mds3vpt3vts3vtu4eJ04IZv4c2V2UJy3sdt3viN20eV2UKN20ht3vtt4OZt3-6Q2kRt3vhw461v4sty4ZRw5L-V2UJ133x-3Fxt3MSV2UJt3vuB3FRv48WK20h63mVv4s9z4Yhv4thu4Otu4eF233Zw46pw5Lpt3_Nx4plHcEy0bHxeAAAAMXRSTlMA17rr3x0Joe54h-w5XRZLevQgDSlmoLdy1SXEgaGL______________________8AiSpPtQAAAPZJREFUOI19kem2giAURk85kZrWbbhjLbSuE6Xv_3YBDqEc-H7ogr3xOywBlKQb_vCDPiksE2aZJ94JyUQ2C-yR916ACAexdxhXJ11Y8S3yXh7JQoizucBPhDNBtrbJbCitoW0D7WZTiOB1c7IKdd1UoVmQvCq-PVz4HHhxu-EfSTlvJH8-ohgzVhN_dOUFETyFMxYluhFXgj85L9l_nn_oxrGYOBfuPlLzq_D7Gpv0q-tGTilSAvATMTZw-ocJAOuRU7SD5zpw6hgE2PWc7k0CnHvBNQrgUNsMPFspbM2CLwUz7zt2NsG1jiiFPfavlArXzkG9wAtgnyNAek-7JgAAAABJRU5ErkJggg.png",
+        "price": "33,89 €",
+        "extracted_price": 33.89,
+        "rating": 4.7,
+        "reviews": 157,
+        "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSMge7uB-6pjV5gSYghtqHGoe8wKHKRlNI8S_3XaFQPsNeq7lhiIFkzGchi-a3aeAnW_FG8s7SpxO1gGi3Q6rQIeXcQIbVkznILpTIgfyU8dIWctKTVzuL5cw",
+        "serpapi_thumbnail": "https://serpapi.com/images/url/ca_R5nicDcnhEkIwAADgJ8KVC3XXdfXD7EiJ0C_HrG3RTJsTT9Xr9Db1_f2-H6qUkBvDwBy9JqFwramKL3UiVakY0lH3NCTthGCc7Prt_zb7sF4DFB8JtoeDZolHuiLxjVDVe6DDzuh7_qUNoRMXZl660VmGuLdbyqDbzABRppVmifc8K1zgSDsW79OCAGZG1iuCOEcRrNJm5jAQCST36erUMEPKT9J5CFZo_AGurj9U",
+        "thumbnails": [
+          "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSMge7uB-6pjV5gSYghtqHGoe8wKHKRlNI8S_3XaFQPsNeq7lhiIFkzGchi-a3aeAnW_FG8s7SpxO1gGi3Q6rQIeXcQIbVkznILpTIgfyU8dIWctKTVzuL5cw",
+          "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRAG3RBFafGA2BK3gViQZtNS4kIKMvMUCopWnqxJCfdD41uAIOoqcQ8gNMVm4ihH3Qtuykex-ufnqpnHlc4NvS6uT6e84x9i7uYfnI7pPqbgm0DCo0MTL-LTA",
+          "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSJPZ6wEa1J7Ssq-LD9-3_lZ8_9YArFtsIDJZQyC6843o9RjYFkMhcSJGLUxs_Y_zAfG6ynRomBHjPXQ_9z2DWHVS0dYgICs_NAI8iuCofPiRcRh8EDQkTwcg",
+          "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcScRE9AqUu1x8ZrbDHeLwqdp9jNVeuRigMPg2kUkcR3Dn0MOySbQq7dVROnvaQA4PpXsiftGe5xD7d3Q073IekO-LbcXEJHheXkW_DLB8JloXuSGDR1k-9Z",
+          "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcR1TesZ0GZ1bk8KJYx5RixSM-crd3NPn02Nl-g632poiy1vI-BOSRqdK4_5eXbazIq1ytSw05ln2XPZKQnDmdLzufUPvJXWbi0ADUgYmce0"
+        ],
+        "serpapi_thumbnails": [
+          "https://serpapi.com/images/url/ca_R5nicDcnhEkIwAADgJ8KVC3XXdfXD7EiJ0C_HrG3RTJsTT9Xr9Db1_f2-H6qUkBvDwBy9JqFwramKL3UiVakY0lH3NCTthGCc7Prt_zb7sF4DFB8JtoeDZolHuiLxjVDVe6DDzuh7_qUNoRMXZl660VmGuLdbyqDbzABRppVmifc8K1zgSDsW79OCAGZG1iuCOEcRrNJm5jAQCST36erUMEPKT9J5CFZo_AGurj9U",
+          "https://serpapi.com/images/url/RuQDzHicDclJDoIwAADAF7EoDQiJMRUiooCyqNGbFiiN0kVaAr_yO_5G5zrfTysl7z3DqCl6T1zWlSYf1NRxL--SIB2xzuhbxjmheCWW__NgWrkhymFo5evNvQnhfL238JlkN5kW4BntkyE5-YxfqBh3flMFYKZgdGACZQucJucOkHZrZVJNz3rUVEMFp9sXAulQ2Kq06wUYXeKoa0Mjhx_FA3dm4DMzKWMtLuEPfks-Tg",
+          "https://serpapi.com/images/url/j8uZxHicDcvbDoIgAADQL1Izm0lbayRqumqK3fCFFRbaRShoZl_V7_Q39Xx2vp9Ka6lGlnVs2KOT-lga-tDYJld6r2tmMnGzVCWkrBs-uY__NoLLEkQsT9LCbYO9nQxzdTfmCBgOvRYeBQQ-Qq1ilBRZ57vewBEAn0l4WVT_FM3XL0UJfcNT5HYNFrfp7JzuMgrefbSdbfJeSXjsK7qEsVc_fXFKa8xw5QUou6xaxn8xgj2w",
+          "https://serpapi.com/images/url/klMy9XicDcltDoIgAADQE6mlNT-21mw4y1kqLnP9aQqERCEqll2q-3Sben_f99MoJQfPMIhA_VsqgjVVC1Ong6oUQzpqH8bQtFIyQdfd6n-ef8BuiHIEA9fvjuN8cs59DbYkfnVYurdDQUbI6D6lJj9yBC0gZvvknddZZ-MCJuJZZf4ileXAriokywnY2MpmtrUjPNHiGpVBtG1IyU8XEG-c6N6WYx4COOeae_4BP3I9jg",
+          "https://serpapi.com/images/url/bVb8jHicDcn_DkJAAADgJ8IhrWytaTZDSWThn-Z-xC3O4RIep7fqber79_t-KiH4YCoKYaifuSBYEpBpcjmIQlAko7ZRhqrlnLJy3-3-Z1oB3jooUq9kyIGTq_C58b1sMiI6xScJ9VgPQga0oJbKta7xls7q6EqHcxx12F_dDZLCYnE7dRbxGxg109Iw9y_MbvBxeT2ScPTSG6TAspMyaxABPw4EOWE"
+        ]
+      },
+      {
+        "position": 18,
+        "title": "Olaplex - Routine cheveux blonds",
+        "product_id": "4831558467826716648",
+        "product_link": "https://www.google.com/search?ibp=oshop&q=Olaplex Olaplex No. 3 Hair Perfector 100ml&prds=productid:4831558467826716648,headlineOfferDocid:4831558467826716648,imageDocid:5763839271986026101,rds:PC_2890718623142389164|PROD_PC_2890718623142389164,pvt:hg&hl=fr&gl=fr&udm=28",
+        "immersive_product_page_token": "evHTp3icbVJLjqNWAMzcIEfodVoe8fiTUS-MAQM2YB5fv42FHxgwD4wx2AblMKOejzSRskkW2eYaPYpylvQoym42VYtSlUql-ueHH5-z8k9Fp1FyVUor5fm6rzaz5LrJXepL253SAfdl-gcrMoDjRJYXRJoXAM-z4hec9Ak55WX6_vciS1JSNplzOGSdcsLfd_xa1kme_SdzAs-IjEQLQBJ5iuYBBT506eWF3ix2tChRAhB5mgEszYgS4NlfNtBRdt_XPp2HrBtffnJI0pLs_vg_26e3j8yjnpTd4ybrDhnuT90joKiafMrb1w7vP9TfoL32z0X-cRhI9tdzTp4P3XPxDT-fkvZ6wF_f_K0OxmJxNhZu0LahAimPRnqgoRireR9MxeQ1cuJOpIqicIOoPthr0sptoBtokpZSIcGxbKexNmZNqkeRVniTOVnLVIGROXrBfcyidMIaWYbR5YY00lgM4VwfwWx5P8NQZLy4KP2oZW1Fc5y4ugW1O1oRKrZHtMIVYEMVtnac39AROllVRN4RTlZEWrsmPaQgGwS9izVzvY6QngbEtJiWpAxy9vWWc4K7iRSNsxkNYd26uSC9Z6p2hkFvZrVZYpqi3Mq-hxWYUpLWW-ruRXpxQT46BIAswrjlPF3rQ7owM02rs5BQMW0u3BCV6BgakAKLvWaWYVV4uEKqS3HllnrdSU0HKzK3Ad1S8DUz9O3W0nPGp22II_MKddl1Y1K7QdGkPmKhbrr7GHsaBQ2LtEVawdaPXNquAZWAeb-NkYuAeluWpgx1e3Qi5CfEHnwiH70lGqEqOYlub7OK0zFJAZ5QuY1s-eP90h1eqLnG9Z4jVFjwuNJuWsvy4rK5YjN0cB_nJTv_GQiiyLKMBAQAhM_4dKrK7Oub33Y7L8NDl808H26e5naNbgnwLb7ptkZ4IiLYeWDktkvK38xsWp-yZOjWlu9Q3BiMu5XYdsYURq3hhO44XKAsW7Y96y4D37weYu2r2fJsWrSxx-noNhsnf_fgqXO40Hfe3FI9w1efFrlr0Lwqv3uYq4uneWqGanKtpGlctiTGtk85OKgv8jG8c2qR8_ZQ0JuZNFjCUZkpfHdRWk6ax-bq9u7BNpQnjmGfgiKLyrUP5IEy-f2ElaJA3H7PzCJ2lsAdOzOy-8J2RI9zwoXUztvzsOLTHbcyk728UzdrvokNUGoolVzXmhczDapoFRQWPt-2uUfWl9uFsCGbj87W0kxNcTjhfHBsWBg3Tg-sSpZGdjlpN3clOOGwmOsh0_Gir8LVdHFSbXcIV8lpFydxsISa1N8nvSnKpghgck2mLaseRXCusXAUPEbZ8RtMe-mKOhn_AuEjqNU",
+        "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=evHTp3icbVJLjqNWAMzcIEfodVoe8fiTUS-MAQM2YB5fv42FHxgwD4wx2AblMKOejzSRskkW2eYaPYpylvQoym42VYtSlUql-ueHH5-z8k9Fp1FyVUor5fm6rzaz5LrJXepL253SAfdl-gcrMoDjRJYXRJoXAM-z4hec9Ak55WX6_vciS1JSNplzOGSdcsLfd_xa1kme_SdzAs-IjEQLQBJ5iuYBBT506eWF3ix2tChRAhB5mgEszYgS4NlfNtBRdt_XPp2HrBtffnJI0pLs_vg_26e3j8yjnpTd4ybrDhnuT90joKiafMrb1w7vP9TfoL32z0X-cRhI9tdzTp4P3XPxDT-fkvZ6wF_f_K0OxmJxNhZu0LahAimPRnqgoRireR9MxeQ1cuJOpIqicIOoPthr0sptoBtokpZSIcGxbKexNmZNqkeRVniTOVnLVIGROXrBfcyidMIaWYbR5YY00lgM4VwfwWx5P8NQZLy4KP2oZW1Fc5y4ugW1O1oRKrZHtMIVYEMVtnac39AROllVRN4RTlZEWrsmPaQgGwS9izVzvY6QngbEtJiWpAxy9vWWc4K7iRSNsxkNYd26uSC9Z6p2hkFvZrVZYpqi3Mq-hxWYUpLWW-ruRXpxQT46BIAswrjlPF3rQ7owM02rs5BQMW0u3BCV6BgakAKLvWaWYVV4uEKqS3HllnrdSU0HKzK3Ad1S8DUz9O3W0nPGp22II_MKddl1Y1K7QdGkPmKhbrr7GHsaBQ2LtEVawdaPXNquAZWAeb-NkYuAeluWpgx1e3Qi5CfEHnwiH70lGqEqOYlub7OK0zFJAZ5QuY1s-eP90h1eqLnG9Z4jVFjwuNJuWsvy4rK5YjN0cB_nJTv_GQiiyLKMBAQAhM_4dKrK7Oub33Y7L8NDl808H26e5naNbgnwLb7ptkZ4IiLYeWDktkvK38xsWp-yZOjWlu9Q3BiMu5XYdsYURq3hhO44XKAsW7Y96y4D37weYu2r2fJsWrSxx-noNhsnf_fgqXO40Hfe3FI9w1efFrlr0Lwqv3uYq4uneWqGanKtpGlctiTGtk85OKgv8jG8c2qR8_ZQ0JuZNFjCUZkpfHdRWk6ax-bq9u7BNpQnjmGfgiKLyrUP5IEy-f2ElaJA3H7PzCJ2lsAdOzOy-8J2RI9zwoXUztvzsOLTHbcyk728UzdrvokNUGoolVzXmhczDapoFRQWPt-2uUfWl9uFsCGbj87W0kxNcTjhfHBsWBg3Tg-sSpZGdjlpN3clOOGwmOsh0_Gir8LVdHFSbXcIV8lpFydxsISa1N8nvSnKpghgck2mLaseRXCusXAUPEbZ8RtMe-mKOhn_AuEjqNU",
+        "source": "La Boutique du Coiffeur",
+        "source_icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAB8klEQVRYhe2WQU7jQBBFf7WNhESCvEWTIOcGOUJykuQGjNcoSYPnAOEEgRtwA5gb5AZYkzAssQhIg-zuYpHYeCB2HLDNhr9qdZfrv267XQV864tFaQt3lrS11j3N6BNgr6KnxDzVbFw0H-V1Mn5Wkx1B3NPgTjKetf5thub44J_0cgP83R8eaYYEYKWT86UIDAe7gFJqAlAnY6MggvzxcHqyEWBeH0wA6mcli8SAt0pi54kH8bjx4DqpALf7wxEvd16a3p5EDHBnSVspfVOmeSRm0Y2-IRFNBiqUVZgDAJEaRWPxOhC9qgAAat9YP60YYFY77lRnDgCwdgLLjgGYKPW6lSUN1Y4BvkJEhhcDCG16lQMwfCBxDef14T0y_nxFigGvuThtAYlXwMxnVZgvTen6dbxSaBpjYHksZYoBTwQU_wljgJYvfQ121j9WJIB2kpXxv1twuHDPmfldxSrMnPnkcPHrMjm3thzPagNJRKN1a58xbz668u18akNSJESaeSZAURBZ5hsBPguxyTwXwEch8pjnBtgaQrPTeHLHeUJzAwDAn_qgL0CTjBAfYKexcM_z5twKAADme7INoa_wvm740KLbeJLTbfJtDQAs-8dQ6auoG2bAMwPRTev9CweIIULVN5jun3fERcuXpdeRb5WiF3ZJ0G5ytAZ3AAAAAElFTkSuQmCC.png",
+        "price": "86,50 €",
+        "extracted_price": 86.5,
+        "rating": 4.5,
+        "reviews": 2000,
+        "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcR513KZo9epcvCiD7FcpmSzkpAp3tvFtvKw0BIXNqp3TSkZMwh1DqDhDyfIwcjv-UHP08ah8dor_OVCjFbzjEUWY-JBddMCTqCvOQsiRa8jSqgVGvsIPPR6",
+        "serpapi_thumbnail": "https://serpapi.com/images/url/6Vo12nicDcnxDkJAHADgJxJmFW2tiUimRFT-adzJYfhddzvTQ_U-vU19_37fD-Ec2EqWyx69JuAllnjRq7OK8ZzXaIaGTmZkAKj7akPX_1uZR2y4KJqrmp8NRglIWLW9dBB08bsFEzQuHC78Udl6tyMF7RK3WTAS1aY2saenN6JGSMk-VPSc6Hh4PU6p1TjFu9kl17t02GIcWBdqidOZ1VGuNzGtUlcwLwyjxQ9PzD62",
+        "thumbnails": [
+          "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcR513KZo9epcvCiD7FcpmSzkpAp3tvFtvKw0BIXNqp3TSkZMwh1DqDhDyfIwcjv-UHP08ah8dor_OVCjFbzjEUWY-JBddMCTqCvOQsiRa8jSqgVGvsIPPR6",
+          "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQPVac9HEQBiMrHwQod-7LtEqwndw7niiZsQ8k_FyqzvnQjmZyJTIAcX4vGDOqpnVALD614-4UeSAVusikZz8HUu0K1pODsf9qvuwGvScln"
+        ],
+        "serpapi_thumbnails": [
+          "https://serpapi.com/images/url/6Vo12nicDcnxDkJAHADgJxJmFW2tiUimRFT-adzJYfhddzvTQ_U-vU19_37fD-Ec2EqWyx69JuAllnjRq7OK8ZzXaIaGTmZkAKj7akPX_1uZR2y4KJqrmp8NRglIWLW9dBB08bsFEzQuHC78Udl6tyMF7RK3WTAS1aY2saenN6JGSMk-VPSc6Hh4PU6p1TjFu9kl17t02GIcWBdqidOZ1VGuNzGtUlcwLwyjxQ9PzD62",
+          "https://serpapi.com/images/url/il2gWHicDcltCoIwAADQE6kJkh8QsdC0smxYEv4Jm6bLnJubG3qcbtVt6v19308jBOWeYVQEDRMVVamJBzH1motCYKSjvjN401OKSb1mq_954FS6IYLnrEBuFMANPg6Rgn2p2bEImCKlsgnGOYdOe99ObJYEvrp82l92AN0sGfoJoyQDsb80Lc26VinIRo7bfHai67g4mDTx-dNlclShTNGb_ACJ4Dsq"
+        ]
+      },
+      {
+        "position": 19,
+        "title": "N°0 & N°3",
+        "product_id": "896329694323597003",
+        "product_link": "https://www.google.com/search?ibp=oshop&q=Olaplex Olaplex No. 3 Hair Perfector 100ml&prds=productid:896329694323597003,headlineOfferDocid:896329694323597003,imageDocid:8833737853311583534,rds:PC_12941370447487499775|PROD_PC_12941370447487499775,pvt:hg&hl=fr&gl=fr&udm=28",
+        "immersive_product_page_token": "O3vkHnicdZPLrqNGAEQzf5BPmHWuHNG8yeguMC-DL415NZgNajfYYPMyGBujfMzozkOaSNlMFtnmN2YU5VtyJ1J2yaZqcVRSqaT667vvn_Pyd3VFJ_iqlnbG8_XltFng6-bgUp-6vs1Gcimzz6LEM7TESyxDM5wkUBTzieALrtpDmb39XOQ4q8omd_b7vFdb8p-BX8oaH_J_6G-iyDACI4gcwwDAiQzHsO_6bPjCbpQU0BILGIFiWYEVBVaSBIH7eeM5avo_8MN5zPv7lx-cCndVPj3867D98YF5WOGyf9jk_T4nl7Z_ABRVVx8O3UuLt-_qb9JdL8_F4f04Vvkfz4fqed8_F9_0Y4u76558ffWnNpqKcjYVN-w6pHqUf7QmO-4itEpivGpnN6goHALTiyoazYVBQHbODUnFmhSTEHTkNPG4KTx3hucshpOHKo3QCR3VLU0ir4EUmDB9CTMKKQEdAnREIK-RYzPdJlIAB1V9JsdkCozEzytdI8a0dpCU2LPG2k3C7GrvGFNQCRvLRGrSJPqWjjRvsMMC-qeWgkC-IabCeaCPnsFSULWBG07LXNOhXydmwKAqCpCDIuQ7KxPYq67NjqdLXnPYnpeDHVVmiGAQ6S2TNQmKGn3YRtw9AQlDNM8lRma9dByjI4owWFqw6mYbFENyOjEBgreMklQYWPtMa5m8ktYo1JXoZYdQS5BHAe0p4s47BFkbeAYMimlXJ0pee-c8OlHbMBmDY8JmoV7uYuLrlGfaVVdkJ68LIpeGNaAwkC_bOHEToN2M0lp6K3h3osTP6s4Mos7aMkXxsg0IqZALq8zwtUxFhuc4kbV8Pw39_gsl69zFd4QTEXyuhE1n235cNldiIYdc4kPJyj8BQRRZlpGAAIDwkbTtqcy_vvo1Tf2cjH2-8ANv8yjDOrlhENh8029N1FYiSH1w57YGFWwWkF7NOR77JztwKO4e3tO12PXmjKLOdJB7HwdvubQhXPTDyDeVgZ4CLTfOlk2bO5Ld3WbjHN689jXZU1apL9uabwbao3JwTZrXlm9ey5ryKGcW0vD1JM13o6tiAgPKIWE9LI9o4rTiwMOxoDcLabSFo7pQ-X5QO06SY2t9e_MamurjyxcfwyKPyqcALEfK4nczUYsi4XY7ZhGxC-yl7MLMJwU6os85SJE6uTuPaz5LubWFd8tU2zzxTWyCUk8yyXVtuVjonpasw8Im59v24FdPw22oWMQe7s7W1i1ddTjhvHegV5g3bhXap6V0Z41Zv7lrwUGjIq8Q0_NioHnreXAyPd2jNW7TGMeh4enSZZpXTVE2RejhK563rHYUwbkmwlHwGTXlN4T2szXVmn8D7zSlnA",
+        "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=O3vkHnicdZPLrqNGAEQzf5BPmHWuHNG8yeguMC-DL415NZgNajfYYPMyGBujfMzozkOaSNlMFtnmN2YU5VtyJ1J2yaZqcVRSqaT667vvn_Pyd3VFJ_iqlnbG8_XltFng6-bgUp-6vs1Gcimzz6LEM7TESyxDM5wkUBTzieALrtpDmb39XOQ4q8omd_b7vFdb8p-BX8oaH_J_6G-iyDACI4gcwwDAiQzHsO_6bPjCbpQU0BILGIFiWYEVBVaSBIH7eeM5avo_8MN5zPv7lx-cCndVPj3867D98YF5WOGyf9jk_T4nl7Z_ABRVVx8O3UuLt-_qb9JdL8_F4f04Vvkfz4fqed8_F9_0Y4u76558ffWnNpqKcjYVN-w6pHqUf7QmO-4itEpivGpnN6goHALTiyoazYVBQHbODUnFmhSTEHTkNPG4KTx3hucshpOHKo3QCR3VLU0ir4EUmDB9CTMKKQEdAnREIK-RYzPdJlIAB1V9JsdkCozEzytdI8a0dpCU2LPG2k3C7GrvGFNQCRvLRGrSJPqWjjRvsMMC-qeWgkC-IabCeaCPnsFSULWBG07LXNOhXydmwKAqCpCDIuQ7KxPYq67NjqdLXnPYnpeDHVVmiGAQ6S2TNQmKGn3YRtw9AQlDNM8lRma9dByjI4owWFqw6mYbFENyOjEBgreMklQYWPtMa5m8ktYo1JXoZYdQS5BHAe0p4s47BFkbeAYMimlXJ0pee-c8OlHbMBmDY8JmoV7uYuLrlGfaVVdkJ68LIpeGNaAwkC_bOHEToN2M0lp6K3h3osTP6s4Mos7aMkXxsg0IqZALq8zwtUxFhuc4kbV8Pw39_gsl69zFd4QTEXyuhE1n235cNldiIYdc4kPJyj8BQRRZlpGAAIDwkbTtqcy_vvo1Tf2cjH2-8ANv8yjDOrlhENh8029N1FYiSH1w57YGFWwWkF7NOR77JztwKO4e3tO12PXmjKLOdJB7HwdvubQhXPTDyDeVgZ4CLTfOlk2bO5Ld3WbjHN689jXZU1apL9uabwbao3JwTZrXlm9ey5ryKGcW0vD1JM13o6tiAgPKIWE9LI9o4rTiwMOxoDcLabSFo7pQ-X5QO06SY2t9e_MamurjyxcfwyKPyqcALEfK4nczUYsi4XY7ZhGxC-yl7MLMJwU6os85SJE6uTuPaz5LubWFd8tU2zzxTWyCUk8yyXVtuVjonpasw8Im59v24FdPw22oWMQe7s7W1i1ddTjhvHegV5g3bhXap6V0Z41Zv7lrwUGjIq8Q0_NioHnreXAyPd2jNW7TGMeh4enSZZpXTVE2RejhK563rHYUwbkmwlHwGTXlN4T2szXVmn8D7zSlnA",
+        "source": "CARLI.paris",
+        "source_icon": "https://serpapi.com/searches/6a997d04a89e024d47671642/images/ojJbTPUgjhLC60_3rNNCEE7Tjo1pMnKUGPSyx13Iog4.png",
+        "price": "58,00 €",
+        "extracted_price": 58.0,
+        "rating": 4.6,
+        "reviews": 217,
+        "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQycWUrHE_UFp7ze-lMfOB5iRo-S7uXO-Jzl027t6fcjYfxpDiawbAgOcSQF90btSffOHODdk4zkoXBOXdrjio3iHZiJxBKBdGQdnuXEdCZNa143XqAMljLdg",
+        "serpapi_thumbnail": "https://serpapi.com/images/url/-hS6eHicDcltCoIwAADQE6mVlhhEuPIDK4eJtPwTujmbmVs6ST1V1-k29f6-7-cupejWmlY0uB2FLIgi82ahlp3MJMMq5k-tu3MhWFNuX5v_re2QWB6ORnxJWt-5Ja4wp0KpTxSCJTtzJTZ7BJVgqmcLU64orq50EHuWvXO7hDiOXGuWy5hS6MM9eRjTgyMAEWkrxnXmpywYwAEQLyJNjxyyS8NsbujoZZ_q6kjKH7pjPxA"
+      },
+      {
+        "position": 20,
+        "title": "Olaplex Méga-soins n° 3 + n° 4 + n° 5 + n° 6 + n° 7",
+        "product_id": "10629450752549946300",
+        "product_link": "https://www.google.com/search?ibp=oshop&q=Olaplex Olaplex No. 3 Hair Perfector 100ml&prds=catalogid:10629450752549946300,productid:7505050266893351039,headlineOfferDocid:623272266924066794,imageDocid:9715576290614176230,rds:PC_15217358576538053982|PROD_PC_15217358576538053982,gpcid:15217358576538053982,mid:576462757827028299,pvt:hg&hl=fr&gl=fr&udm=28",
+        "immersive_product_page_token": "vUR3ZHicdY_LrqNGEIaTPEEWeYBZ58hRd0NzyegsjAHb2IBp6AazsbgZsAFjfAXlac5cpImUzUykbPMaM4s8SzyRsktUUlXp_1Wf6v_rm-9fsvIPdYbC6KqWZioI9Xm_GkXXVe6AD213SC_JuUw_iRh8LSQIksxxGAJO_pBE56g65GX6OwQCknkMRIwwL8u8wAHwsciitCqbzN5us049JGX6UUAcEtEDIiMeCIIo87-WdZRn_7ifZBFiLD5IQIA8fCwceNOlp8_8arKBGEGRw9LDx5wEMCdL6JcVsdXN_5jvjpes6z__aFdRW2X3p3-ndfjpiXuaRWX3tMq6bZacD90TBKCu3uVt8jXLf8De1I_nHwIvIBGLEhIBkpAsv2mv55cif3u5VNmfL3n1su1eiq_9_SFqr9vky3c_aIebOjndJg5tW6YS4A6F4gW6aQXF4FfKlkwh9gNlESK2tANjS3bV3aMGsmk7NTkWmbXerz1dsBC2LY-YIbr7pC7cOGhrVoeAwqKLOAvEjaE5zLDifbh1gATpHtKoIRM6nfdmlXPMl0uvtkJrYJ6H2tbdy76p05tPz5E5EJ0EFfOr4uwig7EJtKzAQFaVYCdgJwKlPmNW4KsKYjsDpsjYUm_M0aC6xnXaR0hna_-EHaC7DpVbti-aGBQ-5XTNVKuVy5zHDcUWazGByjQFevFQHKKtecYZha2HYTjkaL3LudhjjdsknMm1ezaQgCIDx_S-W1IwxJW8onrOWxzR4qaKSK0zc08BbaqdNTX2sWcCVp8BrdsTnRnAnVlrWuvCeiiOWW15qZpDqlck3BWEAdyHIETJFB79aUs91goRSo8hlHsXEeKBOx9ROXK8xNUBmZtVW6R70nq-g6waggiOz-sgdEKo3aaloZCZ1dt-6JFZ3ru7omZ-eHJ9Mg81eZZyqR_q-oQMlUU9RXl7P3Xbz2Cs47Nri_tEdHFpNa1pukHZXBOD2ck5yEt-_DMUJYnnORmKEIrvk8NhX2Zfvv1ts3Gz5NJlI9cjq-exVYe3CHqm0HTrOTtUEty4sMfrKfBWIwvNhiy6dEvTsx-Zab9ZSG03H5jfzm3m9JcTURTTskbd6SI01ZQtPS2bHg0TzeMk7Z1mZeevX7namExmG3dsau7c054nuTNHgqa8fjXWJs_j1GBadN3LQz9tqyCxPGAntD4pO3bHWpEL1qVAq5F8McWdOlKF7qS2WB4HxuL2-pU1V58xxz_TIvPLpQeVCzCEeEjUoghxHHMjnx9FZMOP5tl9YtmSi202kdtxe7wshHSDF0YUKxtttRSaYA5LPUxlxzHHxUgnWrighZkcb-vcrZan26niGZ_39trUDV21sXjc2hYp5jc8o-ZekXt-Oug3ZyHa7DIZzxjXCZKnkcVwslN9s2WL6LAJooBOiS6f78OsKcqmoCS6RsOa13YSPNaJuBNdTt0IqwS56QIc5n8DiafCdw",
+        "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=vUR3ZHicdY_LrqNGEIaTPEEWeYBZ58hRd0NzyegsjAHb2IBp6AazsbgZsAFjfAXlac5cpImUzUykbPMaM4s8SzyRsktUUlXp_1Wf6v_rm-9fsvIPdYbC6KqWZioI9Xm_GkXXVe6AD213SC_JuUw_iRh8LSQIksxxGAJO_pBE56g65GX6OwQCknkMRIwwL8u8wAHwsciitCqbzN5us049JGX6UUAcEtEDIiMeCIIo87-WdZRn_7ifZBFiLD5IQIA8fCwceNOlp8_8arKBGEGRw9LDx5wEMCdL6JcVsdXN_5jvjpes6z__aFdRW2X3p3-ndfjpiXuaRWX3tMq6bZacD90TBKCu3uVt8jXLf8De1I_nHwIvIBGLEhIBkpAsv2mv55cif3u5VNmfL3n1su1eiq_9_SFqr9vky3c_aIebOjndJg5tW6YS4A6F4gW6aQXF4FfKlkwh9gNlESK2tANjS3bV3aMGsmk7NTkWmbXerz1dsBC2LY-YIbr7pC7cOGhrVoeAwqKLOAvEjaE5zLDifbh1gATpHtKoIRM6nfdmlXPMl0uvtkJrYJ6H2tbdy76p05tPz5E5EJ0EFfOr4uwig7EJtKzAQFaVYCdgJwKlPmNW4KsKYjsDpsjYUm_M0aC6xnXaR0hna_-EHaC7DpVbti-aGBQ-5XTNVKuVy5zHDcUWazGByjQFevFQHKKtecYZha2HYTjkaL3LudhjjdsknMm1ezaQgCIDx_S-W1IwxJW8onrOWxzR4qaKSK0zc08BbaqdNTX2sWcCVp8BrdsTnRnAnVlrWuvCeiiOWW15qZpDqlck3BWEAdyHIETJFB79aUs91goRSo8hlHsXEeKBOx9ROXK8xNUBmZtVW6R70nq-g6waggiOz-sgdEKo3aaloZCZ1dt-6JFZ3ru7omZ-eHJ9Mg81eZZyqR_q-oQMlUU9RXl7P3Xbz2Cs47Nri_tEdHFpNa1pukHZXBOD2ck5yEt-_DMUJYnnORmKEIrvk8NhX2Zfvv1ts3Gz5NJlI9cjq-exVYe3CHqm0HTrOTtUEty4sMfrKfBWIwvNhiy6dEvTsx-Zab9ZSG03H5jfzm3m9JcTURTTskbd6SI01ZQtPS2bHg0TzeMk7Z1mZeevX7namExmG3dsau7c054nuTNHgqa8fjXWJs_j1GBadN3LQz9tqyCxPGAntD4pO3bHWpEL1qVAq5F8McWdOlKF7qS2WB4HxuL2-pU1V58xxz_TIvPLpQeVCzCEeEjUoghxHHMjnx9FZMOP5tl9YtmSi202kdtxe7wshHSDF0YUKxtttRSaYA5LPUxlxzHHxUgnWrighZkcb-vcrZan26niGZ_39trUDV21sXjc2hYp5jc8o-ZekXt-Oug3ZyHa7DIZzxjXCZKnkcVwslN9s2WL6LAJooBOiS6f78OsKcqmoCS6RsOa13YSPNaJuBNdTt0IqwS56QIc5n8DiafCdw",
+        "source": "baslerbeauty FR",
+        "source_icon": "https://serpapi.com/searches/6a997d04a89e024d47671642/images/ojJbTPUgjhLC60_3rNNCEM3zrqppY7MprBeRnSYSgH4.png",
+        "price": "125,11 €",
+        "extracted_price": 125.11,
+        "rating": 4.8,
+        "reviews": 100,
+        "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQwyAIk4FwR288Ig5PbWlHDueCVOCw_fdFFBQ2XDbPPqm38YfmmPDcf7xdeWQRXm7NXdo6f2z7oFjcWkRSaY2OAYnWXJvA1XtbkB2iHoNnxClQkrgY6m79S4Q",
+        "serpapi_thumbnail": "https://serpapi.com/images/url/GEDsqXicDclJDoIwAADAFwmxKltiDEsQPADFRMrJQEsBoS1LFfVVfsff6Fzn-2mkHGZLVSuOp9cgK7KSJQdKPctCtljBgqlzI4ah5fVh3P_PsiNiHjFcXnbYbf0lBYYR1rukzPrAu1fuJXaXKyW-70CAvDJJRrYxcspY4mGqP0mVwRQxPUJEaBS8deHfcNal5yIHsZ3zDJ0e9hrJsnNAG4iIP90edlOda0w3z1v4A4TrPlg"
+      },
+      {
+        "position": 21,
+        "title": "Coffret Routine Soin Intensif des Cheveux No. 0 & No.3 à 8 Olaplex",
+        "product_id": "8297319058285168382",
+        "product_link": "https://www.google.com/search?ibp=oshop&q=Olaplex Olaplex No. 3 Hair Perfector 100ml&prds=catalogid:8297319058285168382,productid:9984998192637894420,headlineOfferDocid:5370756216458211987,imageDocid:3767639083520645616,rds:PC_13331496680129091200|PROD_PC_13331496680129091200,gpcid:13331496680129091200,pvt:hg&hl=fr&gl=fr&udm=28",
+        "immersive_product_page_token": "JDvUnnicdVLLruNEEGX-gE-YNVdB3bbbD0Z3EcevONd23H57E3W6ndixkziOnYfFx6A7MNIgsQEktvzGzILvYEkQYgeLqlqco1NHp-qPL758LarfNIvLyUWrHCaK-75eTshlufXBx7Y7soH2FftFUWThUVDhRF6SFUHgwEdKetIctw9U5hSJhwpAMicjKMq8zP1cFoQ11aHwNpui0470QUO8BCQkclAUHkwIFVn6sdqTbfEPzEuiJPIKkHnEgQdFhOL7jp0_CcvZCvI8DwVFFGUAOQUokAPg2yX2tNX_gD-chqK7f_rKa0jbFLenf6d7_PqJf7JI1T0ti25T0P7YPUEA9s0P2_bh4tf_Enu_r9h379tL_1puvx-Gpvj9ddu8brrX8u_-4Ujay4Z-fvOnfqGzWUdnftS2sYZBkLp9brG9Axq0bliaRQrnhdt7nKBTZJStY0a3PMrVwGgXhREjRzd2edQTpishHQ0z4FzPB_Yi4mpEzStMgZ3RgwsINLqXAFyzyCbrQ17ndTn3rHwW8aVBIyyGUElDwHI25g89JBKz6cnOPYeRzkdRnOWNWuUR9kkjQ8a1rafllWPZl8RkwRrmJKz1KzPLqkjchBlql452jQ3bdCNUrdMmKSyMKW_rbFQ1WrsWrpWFZwo3VjPXOcQ3qiPT0RifhLaXj3NEDJuPrKaP9FuJAXrsrRHeX29Yv10obGw_VHckjnee4fAkQineMTHnAEctHBS6neOdzSd1DVLOPWapYbuHrZDFZR9VUGQcczEHbSdBfBjX1zhWzzhWAY0bkiSyEKcZCjnaJ5HeY2BUnlEHBsBzp2lLVuM2THzO3cNHptM-S3M_h_rVrGwVW-7dS_LgkUOda5h3YwUlVh7Qg5pk-7ZZ6_iRrzpis8ff387d5hOYGqgPPJSU4X1IpuAyhstdYtNjvAi6ivqTk_8NlGRZEHgFSpCXPtDjsa6Kz29-Wq2Cgg5dMQlCvHyeuvv8SmDoiIcum8fHx5VWAbyjzAThcuJy1liQoXtxQg-ge3RfLeS2m49x0s692L8PZ6yqjutOuvMgHhozfgn1wjzZDjdfU3b3D0tv--5toE_xzFoFU0cP5qH-PNv6c07U1Xdvp_rsecrsWCeXWhnvZtuk1A2BR6P9Wd3FN6SXW9EdSm45UQZH2mkTTezOWouUaWovru_eunPtGfHCc1QWSfUSQnUAtrgeqVaWOVqv-UkiTAheCZN5cZu5nhwgL54p7bQ9DQuRrdDi8dTqSl--iId0DisjZ4rvO9NyYmA9X0SlQ0_XbBs0L-fruRFiYXv3MsewDc1D0mnjubicX5EVObWq3AVzNK7-QvLiYTa1Yr4T5VDHi_HsMWO1iRfkuEpJGpnYUPrbaB3K6lBGmFzImAn6ToanPZV2UsBrK3FJuYAtwHH-F5eVttk",
+        "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=JDvUnnicdVLLruNEEGX-gE-YNVdB3bbbD0Z3EcevONd23H57E3W6ndixkziOnYfFx6A7MNIgsQEktvzGzILvYEkQYgeLqlqco1NHp-qPL758LarfNIvLyUWrHCaK-75eTshlufXBx7Y7soH2FftFUWThUVDhRF6SFUHgwEdKetIctw9U5hSJhwpAMicjKMq8zP1cFoQ11aHwNpui0470QUO8BCQkclAUHkwIFVn6sdqTbfEPzEuiJPIKkHnEgQdFhOL7jp0_CcvZCvI8DwVFFGUAOQUokAPg2yX2tNX_gD-chqK7f_rKa0jbFLenf6d7_PqJf7JI1T0ti25T0P7YPUEA9s0P2_bh4tf_Enu_r9h379tL_1puvx-Gpvj9ddu8brrX8u_-4Ujay4Z-fvOnfqGzWUdnftS2sYZBkLp9brG9Axq0bliaRQrnhdt7nKBTZJStY0a3PMrVwGgXhREjRzd2edQTpishHQ0z4FzPB_Yi4mpEzStMgZ3RgwsINLqXAFyzyCbrQ17ndTn3rHwW8aVBIyyGUElDwHI25g89JBKz6cnOPYeRzkdRnOWNWuUR9kkjQ8a1rafllWPZl8RkwRrmJKz1KzPLqkjchBlql452jQ3bdCNUrdMmKSyMKW_rbFQ1WrsWrpWFZwo3VjPXOcQ3qiPT0RifhLaXj3NEDJuPrKaP9FuJAXrsrRHeX29Yv10obGw_VHckjnee4fAkQineMTHnAEctHBS6neOdzSd1DVLOPWapYbuHrZDFZR9VUGQcczEHbSdBfBjX1zhWzzhWAY0bkiSyEKcZCjnaJ5HeY2BUnlEHBsBzp2lLVuM2THzO3cNHptM-S3M_h_rVrGwVW-7dS_LgkUOda5h3YwUlVh7Qg5pk-7ZZ6_iRrzpis8ff387d5hOYGqgPPJSU4X1IpuAyhstdYtNjvAi6ivqTk_8NlGRZEHgFSpCXPtDjsa6Kz29-Wq2Cgg5dMQlCvHyeuvv8SmDoiIcum8fHx5VWAbyjzAThcuJy1liQoXtxQg-ge3RfLeS2m49x0s692L8PZ6yqjutOuvMgHhozfgn1wjzZDjdfU3b3D0tv--5toE_xzFoFU0cP5qH-PNv6c07U1Xdvp_rsecrsWCeXWhnvZtuk1A2BR6P9Wd3FN6SXW9EdSm45UQZH2mkTTezOWouUaWovru_eunPtGfHCc1QWSfUSQnUAtrgeqVaWOVqv-UkiTAheCZN5cZu5nhwgL54p7bQ9DQuRrdDi8dTqSl--iId0DisjZ4rvO9NyYmA9X0SlQ0_XbBs0L-fruRFiYXv3MsewDc1D0mnjubicX5EVObWq3AVzNK7-QvLiYTa1Yr4T5VDHi_HsMWO1iRfkuEpJGpnYUPrbaB3K6lBGmFzImAn6ToanPZV2UsBrK3FJuYAtwHH-F5eVttk",
+        "source": "Jean Marc Joubert",
+        "source_icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAASFBMVEUAAAD___9xcXEjIyPNzc0bGxvt7e1lZWVpaWl7e3u1tbUzMzPw8PDm5uZWVlasrKzZ2dlAQEDf399MTEwtLS329vaPj492dnaLEjgtAAAAeElEQVQ4jc2TSQ6AIBAEaUWQTcX1_z8VI0dtEi_SFw5VIc1MELITJJ0ULeOihOuND0pTAUDzmzD0XDCApcIITFSI_gbfS0atBypYYC4JIQv9o5CeCXcfy6OwJrLZdA_US_0dOa_bNurCG5tCe5iV4GpT_LzSMe7kCWLnAnpxdMwzAAAAAElFTkSuQmCC.png",
+        "multiple_sources": true,
+        "price": "73,16 €",
+        "extracted_price": 73.16,
+        "rating": 4.3,
+        "reviews": 6,
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRgDlQ502uqpPfBGiroF5ufvZejX9xbTZTdPZMN8HSF34h_WPQlhwPv6Be7EiE9riGPQs9j_vyt9ymzyngzlDQD5vyrhA0BRBnka4e_8UhjB9FBbCGIltbV",
+        "serpapi_thumbnail": "https://serpapi.com/images/url/jcKcGHicDcldDoIgAADgE5WutMKtNUmlHmpov_PFKZJghqRo4aG6T7ep7_X7fphSsnUMgwrSaKloPlKZMMdFq1LFyZjUD6NltZRcFKvn8n-Ou88BIlHhVaFtTrqnxDeIeFMHdnfrY1pewTs7xsccx7v9YnMIphZLLjis2Av3M0jnPvdBwxEOW1AmvVZAPwYtiqHyQs_udcNcE0ZQ3FOLJosTKyEIYLZG20pl5x9XUz7W",
+        "thumbnails": [
+          "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRgDlQ502uqpPfBGiroF5ufvZejX9xbTZTdPZMN8HSF34h_WPQlhwPv6Be7EiE9riGPQs9j_vyt9ymzyngzlDQD5vyrhA0BRBnka4e_8UhjB9FBbCGIltbV",
+          "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTS1xL4SNsLU3oqeQ6Mz_3ULCySFfOrbf427LittNvSzBL34VXIZpOKj8f675uslVDlTyNi2cGhEgUODktV9fsQPTUFSTZI7ACK_7lb_d3aRsrdvFFWFTRQ",
+          "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTuDsj5WJZHFCljLos-CLYv2QrOfpcFeh96GKDSx8fs7FC2e_8Lltd62to0jRh0YJ7UoiLhlr7lEDMCpeuBNIfu6D-Ty4x4Dtf13XHxJSI",
+          "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcS1NmbLkYAUamRFJjVgIJy7zH6B1Ab7i6ELeDrctLzT0VcffASY-sOhoiHGiB0ZhNz3BDLuKbXT93aqTElvBqpE-EkIqk8OqxyQHB74dRQm",
+          "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQSpR0u5ksIfrh-WXJaCA4uckYqmerTNEvZ-Y8_QMQfoeUWWIcMPllIdeV4D3Z3zqsK63Y4ApgDotkFnTIAF3668Fixe1NvLHNs91jWkQNk0XR51lGeiL1h5g"
+        ],
+        "serpapi_thumbnails": [
+          "https://serpapi.com/images/url/jcKcGHicDcldDoIgAADgE5WutMKtNUmlHmpov_PFKZJghqRo4aG6T7ep7_X7fphSsnUMgwrSaKloPlKZMMdFq1LFyZjUD6NltZRcFKvn8n-Ou88BIlHhVaFtTrqnxDeIeFMHdnfrY1pewTs7xsccx7v9YnMIphZLLjis2Av3M0jnPvdBwxEOW1AmvVZAPwYtiqHyQs_udcNcE0ZQ3FOLJosTKyEIYLZG20pl5x9XUz7W",
+          "https://serpapi.com/images/url/1oi8pXicDclLDoIwFADAEwnhoyiJMSiWECuILWjYEChfRaj0acRDeR9vo7Od76cG4MKU5aJjw8ihyCeQdYpUCUihYRLrb7Koe86brlrdl_8zLS9fOIwS5YV14gkcav29CGb7d6KFeDMSVPpDVuqqgRsA70nea6zp0dmNub-7zMuZMX2INrJbOnqNypx6W4W-fYVoUYrgQENEaOwa1maXGG2W5Fp6FEP-ROiE6DH4AQCOPXU",
+          "https://serpapi.com/images/url/snAxMnicDclJDoIwFADQEzGIyJQYo1QmEaNiFDdGS6EQpJV-DBzHY3kbfdv3_VAALhxFIS3uRg4kl-DRqnIp4A4VljF7KoIyzqu2XLzm_3OWSW77OO2RqGfn6Bp4blPHTEhunL21fbcrOPYItQ1_g46DVQjTczVys-IGckMDptYHqmaReWJVTJvObNZo63LSr5Kw6A0kpaM-6AiKyfQSDNEx_AH26ji2",
+          "https://serpapi.com/images/url/1No2m3icDclJDoIwAADAF7EFA0JiDA2VRQJhkYg3WraKQAvVCM_xV_5G5zrfT8c5XUxJqkc8r5TXlcDRKIvtwktOsIinQVq6iVIytkd2-J9phZXh4FQJBxT0hXUph-Tk3_PW81d9czWgWEgnGgxqe8Y82DI5x01jpYWwRN1EXIcA-daFmwrs4HlG18xQS5bBxwswCgXYe6zfR-y9xi7Qd1USDz8nNjlY",
+          "https://serpapi.com/images/url/siBIxHicDclJDoIwAADAF7GlQITEGCKCqDTixnIxWGrBshRaiPoqv-NvdK7z_ZRCMG4rCm7R8GICF5K4tUAmXOSiQjLqGoWXHWNVSxb9_H-2AwvLR9GRHdTRoDy4D6UUJ5t86egjomnf4OEEV1MmpbNrFEb3Dp_jOEDhvq6DAl90F2Tg3fOtCVLdYcTtBPXaU-B4wDRnXvXEGpx2a8gt7RHTCFI1ORha7eNqp5UG-QGj5z3R"
+        ]
+      },
+      {
+        "position": 22,
+        "title": "Olaplex Kit Soin N°3 Plus 100ml + Shampooing N°4 250ml + Après-Shampooing N°5 250ml + Rich Masque 200ml + Huile N°7 30ml",
+        "product_id": "17250944964744055216",
+        "product_link": "https://www.google.com/search?ibp=oshop&q=Olaplex Olaplex No. 3 Hair Perfector 100ml&prds=catalogid:17250944964744055216,productid:3323132796905773622,headlineOfferDocid:1774293736465102747,imageDocid:10731867320854370092,gpcid:7714777006353254447,mid:576462556763879694,pvt:hg&hl=fr&gl=fr&udm=28",
+        "immersive_product_page_token": "rnC9nHicNZHLrqNGEIYzb5BHmHWOPOoGmjYZnYVtLgYbME3TXDYWBmwwYDA2vvA00TkzI02kbCYjZZvXmFnkWeKJlE2VVH_V_1Wp_vnp55es-Euec1F8kQszFcX6XK5G8WW1c8DntmvSPjkX6Z88z_GQ57AkSgBhzIsc9zmJz3HV7Ir0K8QcApIgSKKABQEgxEHxS57FaVUcMnu7zTq5SR4uEGOBk_jHuCAiCDgs4N-LOt5l_8lfIcA8HIuY58AYCTwGQOJeu_T028djn3X3b7_YVdxW2e3p_2w17574p3lcdE-rrNtmybnpniAAdfVx1_4AYgwFjB9GIo94DgmCgF_rIv2C8GMDDiERi_z4x1HCa3s5v-S7D31fZX-_7KqXbfeS_4ifmri9bJPvb16VLpnNLsnU8dqWyQS4vIVoYJXUR_MEAM73WUDAmLe8yvK9Gxcf2pWnqQeLV_NIYVO_LodNYOyt-pxTpiKPpiA9GB3z2ybi2DIa0nDpSXZUe1cPSoip-Z4oZ0gV5vksVcO6NVwWdS5PVKu8LQmonEjTAVWM1lTS3N-TwKvJo0_1iWbpD7YTwPa0DKwTZbnhcpJqAuVOWTpQdRo7IBkCKNGwgHUmq73pSTTVSElLAh_A0PPHvK1Ztc2kMvYtZFNSMmgIqWogXztrZD6NYnl3dQ76jdEI-OqUhEMIvLriojLtKKjIpr6iRJHcCFbEU3b30A955sGLWwLeJXpAHjW_VjmiVVYkh9wmIJ03g3laTQ8encR6qSoJr6OosspYJVoEoybTqtg6OELmRxfLc0BEI44oVcfq5MPt1G2_gYmKzq6N_Jzee38CLgNd7X0jadjC7YrEGR2dXyEejwWBlyCGPP6UNE1ZZN_f_LFeu1nSd9nIpWT1PLHq6BpDaoqHLtRZU43h2oV3FGqArkYWNx-yuO-WJrUBunv39WLcdvrw-KduM-fen8h0alrWqDv14qHS2JIqmXY0TE7fJOndOazs3fu3rjIhs_nanZiKq1PlebZzdE5Upu_fTpTZ8yQ1mBJfSmm4a20VJBYFduLVp-me3ZCS70Srz7nVSOpNvJdHstid5BZJk8BYXN-_tXT5GfHCs5dnfrGkcNoDQ9wMiZznEdps-JEvjGKyFkZ6dptZ9thFNptJ7aQ99gsxXaOFEW-ma2W1FA-BDgs1SiXHMSf5SCVKtPByMzlew51bLU_XUyUwYXe3Q1M1VNlG-Li1LZLrVzT3zHIq3QVtUK_OAtusn03mjO_EMVXIYjjZqbreskXcrIM48DSiSufbMD_kxSH3SHyJh1BQ9mN4rBO8xy4vr8VVwrnpAjT6v4snkU0",
+        "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=rnC9nHicNZHLrqNGEIYzb5BHmHWOPOoGmjYZnYVtLgYbME3TXDYWBmwwYDA2vvA00TkzI02kbCYjZZvXmFnkWeKJlE2VVH_V_1Wp_vnp55es-Euec1F8kQszFcX6XK5G8WW1c8DntmvSPjkX6Z88z_GQ57AkSgBhzIsc9zmJz3HV7Ir0K8QcApIgSKKABQEgxEHxS57FaVUcMnu7zTq5SR4uEGOBk_jHuCAiCDgs4N-LOt5l_8lfIcA8HIuY58AYCTwGQOJeu_T028djn3X3b7_YVdxW2e3p_2w17574p3lcdE-rrNtmybnpniAAdfVx1_4AYgwFjB9GIo94DgmCgF_rIv2C8GMDDiERi_z4x1HCa3s5v-S7D31fZX-_7KqXbfeS_4ifmri9bJPvb16VLpnNLsnU8dqWyQS4vIVoYJXUR_MEAM73WUDAmLe8yvK9Gxcf2pWnqQeLV_NIYVO_LodNYOyt-pxTpiKPpiA9GB3z2ybi2DIa0nDpSXZUe1cPSoip-Z4oZ0gV5vksVcO6NVwWdS5PVKu8LQmonEjTAVWM1lTS3N-TwKvJo0_1iWbpD7YTwPa0DKwTZbnhcpJqAuVOWTpQdRo7IBkCKNGwgHUmq73pSTTVSElLAh_A0PPHvK1Ztc2kMvYtZFNSMmgIqWogXztrZD6NYnl3dQ76jdEI-OqUhEMIvLriojLtKKjIpr6iRJHcCFbEU3b30A955sGLWwLeJXpAHjW_VjmiVVYkh9wmIJ03g3laTQ8encR6qSoJr6OosspYJVoEoybTqtg6OELmRxfLc0BEI44oVcfq5MPt1G2_gYmKzq6N_Jzee38CLgNd7X0jadjC7YrEGR2dXyEejwWBlyCGPP6UNE1ZZN_f_LFeu1nSd9nIpWT1PLHq6BpDaoqHLtRZU43h2oV3FGqArkYWNx-yuO-WJrUBunv39WLcdvrw-KduM-fen8h0alrWqDv14qHS2JIqmXY0TE7fJOndOazs3fu3rjIhs_nanZiKq1PlebZzdE5Upu_fTpTZ8yQ1mBJfSmm4a20VJBYFduLVp-me3ZCS70Srz7nVSOpNvJdHstid5BZJk8BYXN-_tXT5GfHCs5dnfrGkcNoDQ9wMiZznEdps-JEvjGKyFkZ6dptZ9thFNptJ7aQ99gsxXaOFEW-ma2W1FA-BDgs1SiXHMSf5SCVKtPByMzlew51bLU_XUyUwYXe3Q1M1VNlG-Li1LZLrVzT3zHIq3QVtUK_OAtusn03mjO_EMVXIYjjZqbreskXcrIM48DSiSufbMD_kxSH3SHyJh1BQ9mN4rBO8xy4vr8VVwrnpAjT6v4snkU0",
+        "source": "showroomprive.com",
+        "source_icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACrUlEQVRYhc2XW0sUYRjHf--cXF1NLZDcDQ8XlWVq5l0QBEEfoZK6C6QD9DW6KISiIrwOy28RERKliFpBlF142PVw5c4eZ2fm6WIyInV3Zz1s_8uZd57_b975z_u8rxKRi8AY0MHhahEYUSKyBrQdsvmW1pWI-ICqEYBoQKZG5gAZDZAaAohWQ3MAjLAPFL9_ozg_h5tYQdJpAFQ0ih6LY_X2YfacORgAd2WJ7JtxnLlZJJeFujqUZQEgThEp5MlFIpjn-oleG8bo6q6orhKRFNBUalDhwyT2y2f4uRxGewwMA-Sf6CgFrou3mgTTpGnkLpFLl8v522UzUJj6yOajh2BaGJ1doOvbzSG4puvoHZ2ohgZSo48pTL4vV56SAN7aKqmno2hHj6G1tIDnlS2I56EdaUZrayP1_Anu8lL1AJmJcSSfR2ttBd8vb74l30drbgbPI_P6VXUA3uIihelPGLF4ZW--rYCH3h7DmZ2huPAjPEBhZgrJZoPAVStdRxwHZ3oqPIC7vISKRHYOXKUSQdXX463snoNdAcS2__zne5EyLfxMOjzAvqrEJO4KoBobEcfZu3exiNbYGB7AiJ9ACoVghatWSiG5LHosHh7AGhwKQui61QP4Pso0sQaHwgMYXd3Unb-Am0wEy29Y6TpeMoHVN4B56nR4AIDojZso08Tf3AQtRF41DbHtoMbwrdJDS93UY3GO3HuAv76GpFKVzYSuI2kbL5mg6c79oIGVUEXtOP_uLfbYi2B5Pd6-c0dUCnw_aMdA0-0RIleulsO1KwIAcH8ukJkYx_n6GXEcVCSCMi1Qvzck-VwQuJ6zNFwfxjy5-3evCmBLxS_zOPNzeMkE_l9bMqM9htnbh9U_UGmp6gD2WeV3RActjdqdigDUf3E026iROcCGqvXx_BdRnBWrs9CXRgAAAABJRU5ErkJggg.png",
+        "multiple_sources": true,
+        "price": "126,00 €",
+        "extracted_price": 126.0,
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSpMvU-cqB6kCF6OmYsV7EHiqY46iJ6ksUUlKi99UuoMlmAhhBPX3o5kphSjcei_e0iHMTnavAaZ2Rm8AgKlW5ju1wjwbNLMFx74IBeoa26HgkcOcoeFWrI",
+        "serpapi_thumbnail": "https://serpapi.com/images/url/52FmcnicDclJDoIwFADQEwmORUyMASOCihoVp42pn6YthbbYOl3K-3gbfdv3_TBrtRm4LpFwe2tL8oa9yqZDjcWWgwOqcg1TWnNJR_Xwf4NgmftT2Or0kTWgDpEYR2hVnczem8S8PnURnyFhsqycc9_P7iotq4CxcH3sqJ7QbFsA4RfS5HG6k_gR4HN7U_UDOi8PveLeehbP63KRRi-vm4RE4TaKqYAVKBIdbskPKco-Pg",
+        "thumbnails": [
+          "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSpMvU-cqB6kCF6OmYsV7EHiqY46iJ6ksUUlKi99UuoMlmAhhBPX3o5kphSjcei_e0iHMTnavAaZ2Rm8AgKlW5ju1wjwbNLMFx74IBeoa26HgkcOcoeFWrI",
+          "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcR8xyxCxiGvxi2MM1Oo7xwToOlwZnxiVIY637s7xgNomnfpsvZ1xE63I73xeIHZLlrJpXXq4ZzJP27kZpWMVPq6Z3xfpVm7n6z-Hoh7E-QU",
+          "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRLaf4qrjoe2-yE_v87F6wgMJsHMc-ZXW0TmGpKOjLjrSryB4Vva3qIjnh0zBy5Fkyt4XvT46EU9r4aR42VEfZ-rhg6Q5qx-t7cQE59wWU"
+        ],
+        "serpapi_thumbnails": [
+          "https://serpapi.com/images/url/52FmcnicDclJDoIwFADQEwmORUyMASOCihoVp42pn6YthbbYOl3K-3gbfdv3_TBrtRm4LpFwe2tL8oa9yqZDjcWWgwOqcg1TWnNJR_Xwf4NgmftT2Or0kTWgDpEYR2hVnczem8S8PnURnyFhsqycc9_P7iotq4CxcH3sqJ7QbFsA4RfS5HG6k_gR4HN7U_UDOi8PveLeehbP63KRRi-vm4RE4TaKqYAVKBIdbskPKco-Pg",
+          "https://serpapi.com/images/url/K48W_3icDcnbCoIwGADgJ1LRhSshIkI8kIeizHZXHke6TTf0t8fprXqb-m6_76dVSkjHMCpWjItQVampJzP1RqqHooVe8N6QLReCsmY3bP_n7ONy4xXnNSxwAOpNQK0oMhOOYb7wpJsJA5oFdxthiaGJec9qISdigmujACOoAp8cuzEUeT6syDtMLfwi4hZl6WATBLXIeszst-bzFrva6foDrFE6tQ",
+          "https://serpapi.com/images/url/U0tZsHicDclZCoJAAADQE42KjZpCRILaooXlhj9h4x7qbGjTbTpWt6n3-76flnPMLFmuRkQF5lUJ-GNUpYbxgndIQtMgs3bCuBubLdn8z9qdS9NDV7-oIaH9VKlAOPd5bbj60gRHtg8QyLNUiQYPny6939MbFTZM5mJFDv3YKm9baO5TcJjNEdSd2KSwuEI1ceoc0LbRQ428ADdQ6GjmksY_EcE5Ag"
+        ]
+      },
+      {
+        "position": 23,
+        "title": "Olaplex Kit Bond Builder N°0 155ml + Hair Perfector N°3 100ml",
+        "product_id": "11930705991215392903",
+        "product_link": "https://www.google.com/search?ibp=oshop&q=Olaplex Olaplex No. 3 Hair Perfector 100ml&prds=catalogid:11930705991215392903,productid:14279256617556791841,headlineOfferDocid:6769386536604455123,imageDocid:8753026064518366617,rds:PC_9636570311497497126|PROD_PC_9636570311497497126,gpcid:9636570311497497126,mid:576462781741776596,pvt:hg&hl=fr&gl=fr&udm=28",
+        "immersive_product_page_token": "xFDA8nicbVPLrqNGEE3yBVnkA2adK0c00I3J6C5s87QNmAYaw8bCNDaYxmCMH6D5mjsPaSJlM4mUbX5jZpFviUdRdiOVqhanVHXqHNU_3_34khV_KQYfJ1elsChCVVeuRsl1tXe5j01b00vaFfRPIPKSzEOEgAQhkmQwFsHHNOkSVu-_wkAWOImDsgx4AAWZlznhU54llBXHzNntslap04L-gSQkC2MEBYQ4UYQQ8MJvRZXss__gsQQFjkccEiEYP3oe29629PyZX802MhIQlDgBAFGWHgF49GaFHWXzbez96ZK1_eefHZY0LLs__V_t-pcn4clIivZplbW7LO3q9glwXMXe75uvHL4x621V0E9QQiLipTGQRCBJCMrobXPtXvL9u8uFZX-_7NnLrn3Jv-YPddJcd-mXH35S65syO99mbtA0RMGcV0aCH-RhotYwBaTecuc-0zViMTsJg6bIArndVvEprrSYkvk5C2WDcNhYkvxkVTd-q-GBcDlv82CIeBsSommWxpJlIJ9cX4NhFd_jNUWOYQmpwBahQlZUwX0kUM_W1DsBcRyyqZ6AiZhqkRhqAUdVeCDK5G7zNcCMIBwCNSQmTPnutAb5IdTs05aP5-5AS3zITasirevnhg1s3eXZ1dFx5_l4tuW10gZyvyWWGDNcZuumdw_skJXdKRpISEKcWyHpbSUViMEEb41Da4iX1GhK68jAGqiDp8LAqugtOUwbW8co4ug1HeidKFNohYxztAkfVbT2A7pMtNjFIV54Za5gEM_wg2sQyqdAhddYc7tt0HW2wM4pZ8dJRQmpmB4E1AhKrMalKHoBW20rGlMDG0lIIutQils17f0hdpY-Jb4KQBbUnsZh02JN_ri-8UOXtyvAPfTronXsxkC96cV8ig27d8LYDzg2hJWtPjQcUp_hsAKOP2hDeoiXoR4J2TEX3t3P7e4zN9Fg5zlikRhhedBRYu8d3F8OyWjQ23OEYTf5FUjjsSgKMpCAIH9I67ossi_f_77ZeFl6abPRQ_XV88Su4lsCfAsd28gkNRuDjQd6GOmcvxrZvDFkyaVdWr7DwT7oN4tx05oPOxrTIW5_OePp1LLtUXu-oCPTydJXM_00t3hzm9LePa6c_etXnjrBM2PjTSzVM331ebZ3TR6p09evJurseULnRE2upTz0esPWqe1zThpU5-mB3KGa75F9yfnVSL5Y0kEZKag9Kw2UJ-v54vb6lW0qz1AQn4M8C4ulD6YXbo62Q6rkeQy3W2EUiqMEb8SRmd1ntjP2oENmcjNpTpcFohu4mCfb6UZdLdFxbYLi8Tay61qTfKQ9XF4EuZWebtHeY8vz7cxEIu57J7K0uaY4UDrtHBvn5g0agVVO5V7UB-3mLiSHXGYTgwgtGvsqXgxnh2qbHVkk9WadrAMda3J3H4xjXhzzACfXZIhE9TAGpyqVDpInKBu0SnmPLrja_BcFxMV5",
+        "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=xFDA8nicbVPLrqNGEE3yBVnkA2adK0c00I3J6C5s87QNmAYaw8bCNDaYxmCMH6D5mjsPaSJlM4mUbX5jZpFviUdRdiOVqhanVHXqHNU_3_34khV_KQYfJ1elsChCVVeuRsl1tXe5j01b00vaFfRPIPKSzEOEgAQhkmQwFsHHNOkSVu-_wkAWOImDsgx4AAWZlznhU54llBXHzNntslap04L-gSQkC2MEBYQ4UYQQ8MJvRZXss__gsQQFjkccEiEYP3oe29629PyZX802MhIQlDgBAFGWHgF49GaFHWXzbez96ZK1_eefHZY0LLs__V_t-pcn4clIivZplbW7LO3q9glwXMXe75uvHL4x621V0E9QQiLipTGQRCBJCMrobXPtXvL9u8uFZX-_7NnLrn3Jv-YPddJcd-mXH35S65syO99mbtA0RMGcV0aCH-RhotYwBaTecuc-0zViMTsJg6bIArndVvEprrSYkvk5C2WDcNhYkvxkVTd-q-GBcDlv82CIeBsSommWxpJlIJ9cX4NhFd_jNUWOYQmpwBahQlZUwX0kUM_W1DsBcRyyqZ6AiZhqkRhqAUdVeCDK5G7zNcCMIBwCNSQmTPnutAb5IdTs05aP5-5AS3zITasirevnhg1s3eXZ1dFx5_l4tuW10gZyvyWWGDNcZuumdw_skJXdKRpISEKcWyHpbSUViMEEb41Da4iX1GhK68jAGqiDp8LAqugtOUwbW8co4ug1HeidKFNohYxztAkfVbT2A7pMtNjFIV54Za5gEM_wg2sQyqdAhddYc7tt0HW2wM4pZ8dJRQmpmB4E1AhKrMalKHoBW20rGlMDG0lIIutQils17f0hdpY-Jb4KQBbUnsZh02JN_ri-8UOXtyvAPfTronXsxkC96cV8ig27d8LYDzg2hJWtPjQcUp_hsAKOP2hDeoiXoR4J2TEX3t3P7e4zN9Fg5zlikRhhedBRYu8d3F8OyWjQ23OEYTf5FUjjsSgKMpCAIH9I67ossi_f_77ZeFl6abPRQ_XV88Su4lsCfAsd28gkNRuDjQd6GOmcvxrZvDFkyaVdWr7DwT7oN4tx05oPOxrTIW5_OePp1LLtUXu-oCPTydJXM_00t3hzm9LePa6c_etXnjrBM2PjTSzVM331ebZ3TR6p09evJurseULnRE2upTz0esPWqe1zThpU5-mB3KGa75F9yfnVSL5Y0kEZKag9Kw2UJ-v54vb6lW0qz1AQn4M8C4ulD6YXbo62Q6rkeQy3W2EUiqMEb8SRmd1ntjP2oENmcjNpTpcFohu4mCfb6UZdLdFxbYLi8Tay61qTfKQ9XF4EuZWebtHeY8vz7cxEIu57J7K0uaY4UDrtHBvn5g0agVVO5V7UB-3mLiSHXGYTgwgtGvsqXgxnh2qbHVkk9WadrAMda3J3H4xjXhzzACfXZIhE9TAGpyqVDpInKBu0SnmPLrja_BcFxMV5",
+        "source": "Le Nuancier",
+        "source_icon": "https://serpapi.com/searches/6a997d04a89e024d47671642/images/ojJbTPUgjhLC60_3rNNCEPrSA5HJmyEcDEE6JG8FbjA.png",
+        "multiple_sources": true,
+        "price": "64,00 €",
+        "extracted_price": 64.0,
+        "rating": 4.3,
+        "reviews": 71,
+        "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSYKVCmb7CvcPYkNILBJG_kmzOIg2l9lU9c9GFcEbJWVVW9oILmfN1QSEtFJz7IiFSqK1OJIsAB2-OzlhwYUT3ZaXgCmlnPQDBYkwjDmv9Q-N_X0o8f38GVTg",
+        "serpapi_thumbnail": "https://serpapi.com/images/url/A_nLW3icDcldDoIgAADgE6lZD4Zba_4y0GnOouilJRWaIJYsl6fqOt2mvtfv-6m17gfXsq4de757fb0Yuupskw_6rBtmMiWtoVZ933R8_Vj9z_WyC4CspAkJZOUEL7ahbYZSH8NTK6cc8bkAYgcYgDGLKrwnZA8USuUts4sy0jGeHNTE5SOxc4wGz58b-STqke62i-P5wAMpuk0R-rQd76F8gcLIToeZWt4WS0i2_AdoQT2T"
+      },
+      {
+        "position": 24,
+        "title": "Olaplex Kit Intensive N° 0 155ml + Soin 3 Plus 100ml + Shampoing N°4 250ml + Après-Shampooing N°5 250ml",
+        "product_id": "12182167054500228806",
+        "product_link": "https://www.google.com/search?ibp=oshop&q=Olaplex Olaplex No. 3 Hair Perfector 100ml&prds=catalogid:12182167054500228806,productid:2819728581223017912,headlineOfferDocid:15136635863239446922,imageDocid:10678399057926433902,rds:PC_14912501485144031388|PROD_PC_14912501485144031388,gpcid:14912501485144031388,mid:576462556615330692,pvt:hg&hl=fr&gl=fr&udm=28",
+        "immersive_product_page_token": "O9ongnicdZLNjqNGFIWTPEEWeYBZp-WofigMafXCNmCwDZiiKDAbCwM2GGwwNjZGeZqeH2kiZTOJlG1eY2aRZ0l3lOySzT2Lc3TvJ53751ffPqf574qOwuiq5GYiiodLsRxE1-XOAR_rpkra-JInvyIJykMkEQkihAEcyhB9jKNLVFa7PPkNIighKA4BEQgACEkSED9laZSU-TG1t9u0Uar4NUcgFkVMJBEjLAuCKCP0c36Iduk_PhCHEpZlQIYyEgWMZYDeNsn5s7CcrKHwcpQAKEgECgLAEEvST0tqK-v_Md-f2rS5f_7eLqO6TLuHf9WqfnjAD3qUNw_LtNmm8aVqHiAAh_L9rv4b4z-WvT3kyScyFAURESKKkGAMXvDf1tfLc7Z717Zl-sfzrnzeNs_Z6_xQRfV1G3_55ju1uimT823ieHXNFQrcMgGuR3qulPuEmx3XrUuoysTVknEELdH2u9I6QMOFcucWnG-0es7KrOVKQRJ0qWlB5_5-JsRFbQS4dDxPw1xzUABqzMpSd3CZrbwz3qgCCfrx0vF4xcqwtHVruYE1ZYAEHkquAbqQcMotV02wz7U-4tynAeceptDZlxfWzywOkooWxLYUaieanFFAukSvtU3AA-bVjaXFgq_CrRfQYwQLFGGtCgur8LwORgE_cr3qbY1emc4nDK96xzNuJoKQHjrR5aG_8MMTg8l244J7qtExZdbJg6GbTledX9QTroW3BDkXv5y9MJh3znnNp_LeP1DOfGtvAq2nJTfTA9T5QQW2VwtUH-dhcUZhPxvHvVZzLi-8nrJFMNZWvCae30FaUhbpGYhAuI9VANKjKdjMJCushUGfqdaUXvyDteD7jHlg5WqAGmZZZ0lBa-Y76KUfEMHRZRWETgjV2zSfjalu3W0_ZFHxmiuVuMi0cEoKVpy7DeLnzdTqPC-8WSA7vuvOzfYzGGnk4trEz9i99Ufg2rPl3p_FFZ-7TR47g5PzIxxKkiBgGQ4hHn6Iq6rI0y9f_7Jeu2ncNunAZXT5NLIO4S2CzBSPzcrgVSnBtQvvZDUFbDmwkN6nUdssTGYDcvfu67lUN0bP_dqwuXNvz3Q8Ni1r0Jxb8VhO-YKp6fQ0M5GxiZO7c1zau8c3rjqiE33tjkzVNZj6NNk5BhLV8eObkTp5GiUzrkbXQu7v07oMYosBO_YO5_Ged0TNdqLVZmg5kFtzuFcGiticlZrIo2A2vz2-sQzliWDhyctSP18wOG7BTNz0sZJlIdls8MAXBhFdCwMj7SaWLbnE5hO5HtWndi4mazKfRZvxWl0uxGNgwFwLE9lxzFE20Kgazr3MjE-31c4tF-fbuRS4sLvbK1ObaYpNhqetbdHMuBHdM4uxfBemvXZz5kObt5ORznEjSkyl8_788v_rLZ9H1TqIAm9KNfnS9foxy4-ZR6Nr1K8EdS_B0yEe7ocuVtbiMkZuMgeV8RdsHsUk",
+        "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=O9ongnicdZLNjqNGFIWTPEEWeYBZp-WofigMafXCNmCwDZiiKDAbCwM2GGwwNjZGeZqeH2kiZTOJlG1eY2aRZ0l3lOySzT2Lc3TvJ53751ffPqf574qOwuiq5GYiiodLsRxE1-XOAR_rpkra-JInvyIJykMkEQkihAEcyhB9jKNLVFa7PPkNIighKA4BEQgACEkSED9laZSU-TG1t9u0Uar4NUcgFkVMJBEjLAuCKCP0c36Iduk_PhCHEpZlQIYyEgWMZYDeNsn5s7CcrKHwcpQAKEgECgLAEEvST0tqK-v_Md-f2rS5f_7eLqO6TLuHf9WqfnjAD3qUNw_LtNmm8aVqHiAAh_L9rv4b4z-WvT3kyScyFAURESKKkGAMXvDf1tfLc7Z717Zl-sfzrnzeNs_Z6_xQRfV1G3_55ju1uimT823ieHXNFQrcMgGuR3qulPuEmx3XrUuoysTVknEELdH2u9I6QMOFcucWnG-0es7KrOVKQRJ0qWlB5_5-JsRFbQS4dDxPw1xzUABqzMpSd3CZrbwz3qgCCfrx0vF4xcqwtHVruYE1ZYAEHkquAbqQcMotV02wz7U-4tynAeceptDZlxfWzywOkooWxLYUaieanFFAukSvtU3AA-bVjaXFgq_CrRfQYwQLFGGtCgur8LwORgE_cr3qbY1emc4nDK96xzNuJoKQHjrR5aG_8MMTg8l244J7qtExZdbJg6GbTledX9QTroW3BDkXv5y9MJh3znnNp_LeP1DOfGtvAq2nJTfTA9T5QQW2VwtUH-dhcUZhPxvHvVZzLi-8nrJFMNZWvCae30FaUhbpGYhAuI9VANKjKdjMJCushUGfqdaUXvyDteD7jHlg5WqAGmZZZ0lBa-Y76KUfEMHRZRWETgjV2zSfjalu3W0_ZFHxmiuVuMi0cEoKVpy7DeLnzdTqPC-8WSA7vuvOzfYzGGnk4trEz9i99Ufg2rPl3p_FFZ-7TR47g5PzIxxKkiBgGQ4hHn6Iq6rI0y9f_7Jeu2ncNunAZXT5NLIO4S2CzBSPzcrgVSnBtQvvZDUFbDmwkN6nUdssTGYDcvfu67lUN0bP_dqwuXNvz3Q8Ni1r0Jxb8VhO-YKp6fQ0M5GxiZO7c1zau8c3rjqiE33tjkzVNZj6NNk5BhLV8eObkTp5GiUzrkbXQu7v07oMYosBO_YO5_Ged0TNdqLVZmg5kFtzuFcGiticlZrIo2A2vz2-sQzliWDhyctSP18wOG7BTNz0sZJlIdls8MAXBhFdCwMj7SaWLbnE5hO5HtWndi4mazKfRZvxWl0uxGNgwFwLE9lxzFE20Kgazr3MjE-31c4tF-fbuRS4sLvbK1ObaYpNhqetbdHMuBHdM4uxfBemvXZz5kObt5ORznEjSkyl8_788v_rLZ9H1TqIAm9KNfnS9foxy4-ZR6Nr1K8EdS_B0yEe7ocuVtbiMkZuMgeV8RdsHsUk",
+        "source": "showroomprive.com",
+        "source_icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACrUlEQVRYhc2XW0sUYRjHf--cXF1NLZDcDQ8XlWVq5l0QBEEfoZK6C6QD9DW6KISiIrwOy28RERKliFpBlF142PVw5c4eZ2fm6WIyInV3Zz1s_8uZd57_b975z_u8rxKRi8AY0MHhahEYUSKyBrQdsvmW1pWI-ICqEYBoQKZG5gAZDZAaAohWQ3MAjLAPFL9_ozg_h5tYQdJpAFQ0ih6LY_X2YfacORgAd2WJ7JtxnLlZJJeFujqUZQEgThEp5MlFIpjn-oleG8bo6q6orhKRFNBUalDhwyT2y2f4uRxGewwMA-Sf6CgFrou3mgTTpGnkLpFLl8v522UzUJj6yOajh2BaGJ1doOvbzSG4puvoHZ2ohgZSo48pTL4vV56SAN7aKqmno2hHj6G1tIDnlS2I56EdaUZrayP1_Anu8lL1AJmJcSSfR2ttBd8vb74l30drbgbPI_P6VXUA3uIihelPGLF4ZW--rYCH3h7DmZ2huPAjPEBhZgrJZoPAVStdRxwHZ3oqPIC7vISKRHYOXKUSQdXX463snoNdAcS2__zne5EyLfxMOjzAvqrEJO4KoBobEcfZu3exiNbYGB7AiJ9ACoVghatWSiG5LHosHh7AGhwKQui61QP4Pso0sQaHwgMYXd3Unb-Am0wEy29Y6TpeMoHVN4B56nR4AIDojZso08Tf3AQtRF41DbHtoMbwrdJDS93UY3GO3HuAv76GpFKVzYSuI2kbL5mg6c79oIGVUEXtOP_uLfbYi2B5Pd6-c0dUCnw_aMdA0-0RIleulsO1KwIAcH8ukJkYx_n6GXEcVCSCMi1Qvzck-VwQuJ6zNFwfxjy5-3evCmBLxS_zOPNzeMkE_l9bMqM9htnbh9U_UGmp6gD2WeV3RActjdqdigDUf3E026iROcCGqvXx_BdRnBWrs9CXRgAAAABJRU5ErkJggg.png",
+        "multiple_sources": true,
+        "price": "97,30 €",
+        "extracted_price": 97.3,
+        "rating": 4.8,
+        "reviews": 93,
+        "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTNK_QuV6QJ89vf6fS08MmIM-CAinO1zshv6LBFxclR00gj8xbCDsYhUtoswHrPYVdsXaqD8WXc7HC9mBb4vQcgTgMww39o1ZkBimZPUC0IlHJAUnLRdEJhSQ",
+        "serpapi_thumbnail": "https://serpapi.com/images/url/JKU18HicDcnbEkJAAADQL3LpMsJM07BdJMq18NKwtKtYshvVV_U7_U2d1_P9YMZaqgpCQWD3almRcywjYx5RlrIS8rCpBYqbti0JWtzn_1O1fa5sYLDfnd3HUXJNWekv0sUXZbve2hzQSnIYvSnuJUtfP2HliSK6ys8MLGmMQ9bQweic-JjTKL0v5VMEZwZQaj2b9i5EAbKHYaI0o-Sml3XihEDcVoaphcTy8pWJffcHfoM-PQ",
+        "thumbnails": [
+          "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTNK_QuV6QJ89vf6fS08MmIM-CAinO1zshv6LBFxclR00gj8xbCDsYhUtoswHrPYVdsXaqD8WXc7HC9mBb4vQcgTgMww39o1ZkBimZPUC0IlHJAUnLRdEJhSQ",
+          "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTgiEWXYTcRFP3dyqFhigVElsJoYKCFEWGjTtbmSXTpnpsEKZMeiY4LS9YLI4tj6CI8NeZNOZ-8yocmvx9_ReBNAC-MF28PlEW__FeZNEw",
+          "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQWLlRfoi6hngc6NeiHOfMcF6Sbt3aqXtX-QOxdv6Uv8UQ9yGFP8V82Cukl0dlIRpsHImZ9FZWCIGMG1RF7kvnEmofCwvXrLMjagCqfim2n"
+        ],
+        "serpapi_thumbnails": [
+          "https://serpapi.com/images/url/JKU18HicDcnbEkJAAADQL3LpMsJM07BdJMq18NKwtKtYshvVV_U7_U2d1_P9YMZaqgpCQWD3almRcywjYx5RlrIS8rCpBYqbti0JWtzn_1O1fa5sYLDfnd3HUXJNWekv0sUXZbve2hzQSnIYvSnuJUtfP2HliSK6ys8MLGmMQ9bQweic-JjTKL0v5VMEZwZQaj2b9i5EAbKHYaI0o-Sml3XihEDcVoaphcTy8pWJffcHfoM-PQ",
+          "https://serpapi.com/images/url/2S918nicDcrbCoIwAADQL1KjJFSIMNnE1CU68vIiOceceJltVH5On9Xf5PM5v2-nlJCOYdCJPFehaKupZtrpTKqH4kQn82jIbhaCT-y8nDZzXNTaPsGMg7woMUlhcmjXBXac3cEgr3MZehDkfo9VM2YFFpOQIKxiykszyuwyCkzVH73AQrRCt0qz1pmMr49dp_SCXE-L4d5KBpDXNdwCeP8BLcc5Tw",
+          "https://serpapi.com/images/url/y6nvZHicDcnbCoIwAADQL1LTwFSIiJEX8JKGKb7pdHOp23TL8nf6q_6mzuv5fnopuXA0raNw2bjsWkU2VFexkLUkUIVs0kTPOCcUn-bj_5xz3NoeTItwzBAjZk8xNOOO-AmKoGveGrmv51KWSpq829XMVytP7c1zr9bdMsBzGHftGGRc-MFU2W5VgMCLPD1zD8NKLxND4LWWSxg9agxmRCaD_gBbLjpY"
+        ]
+      },
+      {
+        "position": 25,
+        "title": "Olaplex All-in Care Set No. 0 + No. 4 + No. 5 + No. 6 + No. 7",
+        "product_id": "15643250981128604274",
+        "product_link": "https://www.google.com/search?ibp=oshop&q=Olaplex Olaplex No. 3 Hair Perfector 100ml&prds=catalogid:15643250981128604274,productid:9961613632477725638,headlineOfferDocid:18094731556767836192,imageDocid:3678133555744542084,rds:PC_16837065346976660372|PROD_PC_16837065346976660372,gpcid:16837065346976660372,mid:576462749214900822,pvt:hg&hl=fr&gl=fr&udm=28",
+        "immersive_product_page_token": "eaDQYXicdVPLjqNGFE3yBVnkA2adliMKqMJk1AtjHgY3hSmgeGysMmBD8zQ2bWzla3oe0kTKZiZStvmNmUW-JT2Rsks290rnXB2dc6T71zffP-flH-qKT9iTWtoZQs252szY0-bgch_6ocvG9Fxmn2QZAQQEJPCiJEk8RML8Q8rOrO4OZfY7gEgUeMjJcwD4OeJEXhI_FjnL6rLNnf0-H9Qu_Xo352RREgCESELSXEBA5n8tG3bI_-E_CS8gEAQIoSSKUOS5ufhmyE6fxc1yC9BckDgEBRHJEkKIEyT-lw1x1O3_kO-OYz5cP__o1Kyv8-nu3427n-6EuxUrh7tNPuzz9NwNd4Djmvrdof_H5X-IvWnK7COUkIheosk8EGWOm_P8m_7p_Fwc3o5jnf_5fKif98Nz8XW-71j_tE-_fPeD1l3U5emydIO-pyrhvOrEk8YC3qowcHUeA42bdrrssuoAd4G1JsblyjR9YpEN6EqHvjapYSCes0CHaUSWCWfyO0GpqFErcVVEEQ9YLCwmrMErFQrk69UNU6txVLJ2_eLiGThgtdySSrd2ujulrXn1AQ0zoYMx3w-hcd4T3QoI6K4ZX9Qe1W7USATSJgauNcHWi8lXlcoJEuYCyrPQnVgVi3lERrslY8ZDHQeJEVTwZkeWySKd4ci-sDZTsC7rEW-JNOi1vOlHpmWlE-AL9UCAw8vF5ZLCfqwFh-INjlwhDEwxMMBDTJMirvEya2wujaySVJYXV9PRuyVWylmY1JYdtLS068VEq8nMmuyYafU6aeAxDS17d0uOpKqNOIRNHJ44UoK1JyhJGuKXfpQ2rbL-ISgUvCrQTsN10JyjjCpDbtjnmKNr4oE6o1S3tYlnUefpHDHtui-yivR-6PK4ARwDi3McJW4CtItRWgpZ4asTJn5Ks6O9sjaZYXN-RAZnRRRfsFRPm7jkljlB1Ldvp9Ow_8wtdHj2HLFkq7B6NBDDB4dcx0c2uxnDKSbwvPgZSPO5KAoykIAgv0-7rirzL9_-tt16eToO-czzyeZ-gZvkwoBvo3aITdrVc7D1wBXGBudvZphf3XI2Dg-273DwGly363k_mDca9qZD3et4IopiYzwbTiNqa4M--FpuHC2bN3dpdnXbjXN4_crTFmS52noLW_NMX7tfHlyTR5ry-tVCW94vMotq7KmSb1ejr6MU-5yTBs1JeaQT1IoDwmPBb2byaEuP6kxFw0ntobyIrPXl9Stsqvcvz3YfFHlYPvhAGTkL7W6pWhQJ3O2EWSjOGNmKMzOfltiZe9ChS7lf9MdxjbItXFtsp2y1zQNqIxOUepLJrmsviplOtGQdFHZ6vMQHr344XU61SMXD1Ylt3dJVB0rHvYNJYV7gKrArRb6Kxk2_uGvJoeNysaLCgOa-Rta3k5Pp2z1ds24bsSgwiC6fp9uqLcq2CAh7YrdY1B7n4Nik0qPkCeoWbVLey9ZcZ_4NKbnF1A",
+        "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eaDQYXicdVPLjqNGFE3yBVnkA2adliMKqMJk1AtjHgY3hSmgeGysMmBD8zQ2bWzla3oe0kTKZiZStvmNmUW-JT2Rsks290rnXB2dc6T71zffP-flH-qKT9iTWtoZQs252szY0-bgch_6ocvG9Fxmn2QZAQQEJPCiJEk8RML8Q8rOrO4OZfY7gEgUeMjJcwD4OeJEXhI_FjnL6rLNnf0-H9Qu_Xo352RREgCESELSXEBA5n8tG3bI_-E_CS8gEAQIoSSKUOS5ufhmyE6fxc1yC9BckDgEBRHJEkKIEyT-lw1x1O3_kO-OYz5cP__o1Kyv8-nu3427n-6EuxUrh7tNPuzz9NwNd4Djmvrdof_H5X-IvWnK7COUkIheosk8EGWOm_P8m_7p_Fwc3o5jnf_5fKif98Nz8XW-71j_tE-_fPeD1l3U5emydIO-pyrhvOrEk8YC3qowcHUeA42bdrrssuoAd4G1JsblyjR9YpEN6EqHvjapYSCes0CHaUSWCWfyO0GpqFErcVVEEQ9YLCwmrMErFQrk69UNU6txVLJ2_eLiGThgtdySSrd2ujulrXn1AQ0zoYMx3w-hcd4T3QoI6K4ZX9Qe1W7USATSJgauNcHWi8lXlcoJEuYCyrPQnVgVi3lERrslY8ZDHQeJEVTwZkeWySKd4ci-sDZTsC7rEW-JNOi1vOlHpmWlE-AL9UCAw8vF5ZLCfqwFh-INjlwhDEwxMMBDTJMirvEya2wujaySVJYXV9PRuyVWylmY1JYdtLS068VEq8nMmuyYafU6aeAxDS17d0uOpKqNOIRNHJ44UoK1JyhJGuKXfpQ2rbL-ISgUvCrQTsN10JyjjCpDbtjnmKNr4oE6o1S3tYlnUefpHDHtui-yivR-6PK4ARwDi3McJW4CtItRWgpZ4asTJn5Ks6O9sjaZYXN-RAZnRRRfsFRPm7jkljlB1Ldvp9Ow_8wtdHj2HLFkq7B6NBDDB4dcx0c2uxnDKSbwvPgZSPO5KAoykIAgv0-7rirzL9_-tt16eToO-czzyeZ-gZvkwoBvo3aITdrVc7D1wBXGBudvZphf3XI2Dg-273DwGly363k_mDca9qZD3et4IopiYzwbTiNqa4M--FpuHC2bN3dpdnXbjXN4_crTFmS52noLW_NMX7tfHlyTR5ry-tVCW94vMotq7KmSb1ejr6MU-5yTBs1JeaQT1IoDwmPBb2byaEuP6kxFw0ntobyIrPXl9Stsqvcvz3YfFHlYPvhAGTkL7W6pWhQJ3O2EWSjOGNmKMzOfltiZe9ChS7lf9MdxjbItXFtsp2y1zQNqIxOUepLJrmsviplOtGQdFHZ6vMQHr344XU61SMXD1Ylt3dJVB0rHvYNJYV7gKrArRb6Kxk2_uGvJoeNysaLCgOa-Rta3k5Pp2z1ds24bsSgwiC6fp9uqLcq2CAh7YrdY1B7n4Nik0qPkCeoWbVLey9ZcZ_4NKbnF1A",
+        "source": "baslerbeauty FR",
+        "source_icon": "https://serpapi.com/searches/6a997d04a89e024d47671642/images/ojJbTPUgjhLC60_3rNNCELcRer1qqbeIixznmHlR6Gc.png",
+        "price": "116,40 €",
+        "extracted_price": 116.4,
+        "rating": 4.8,
+        "reviews": 7,
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTV9xjL-NlDMLPnq_1dD1mJBdceC_gnBDkdXAhmy1EOMvs_gpJEygnVmcgs5Hx-Rg4L8lYC6XOvFmgne81Ds35MRO72tmEJdrFcYzueiD0tePZ_Q6ayFjlv",
+        "serpapi_thumbnail": "https://serpapi.com/images/url/xFBvWXicDclRCoIwAADQE6mt0iyIsKaFaFqEWD_DtjE1N2dboh2q-3Sber_v-ym1lmplWVTg5yg1JYa-i4nJlC50hU3cckuVrZSVYJtu_b-VdyTLPb5ky6GOjGMD4ygVHQIEAh5uCaY7xMQWPkjulXwEfhL3CjEZ-iMTGcdM2YfBOLN55DbXnZMnfcCZoC6AambH52Qx1dwPyTPA1_eLVnCiaXpDJ6cYg7rpfzHcPn8"
+      },
+      {
+        "position": 26,
+        "title": "Bond Smoother Olaplex",
+        "product_id": "1504767688601865212",
+        "product_link": "https://www.google.com/search?ibp=oshop&q=Olaplex Olaplex No. 3 Hair Perfector 100ml&prds=catalogid:1504767688601865212,productid:7527269200947933094,headlineOfferDocid:5298862421574653134,imageDocid:7953520739292514095,rds:PC_15004919748661065804|PROD_PC_15004919748661065804,gpcid:15004919748661065804,mid:576460790647569458,pvt:hg&hl=fr&gl=fr&udm=28",
+        "immersive_product_page_token": "YdH0AHicdZLLjqNGFIaTPEEWeYBZp-WoCigwGfXCNmDADZhLFYaNVQbswoChubQNytP0JCNNpGwmkbLNa8ws8ixxFGWXbM5Z_N-56Pznzy--fs3y3xWdi-mLklupKFZ9sZ3Rl-3JBR-atk6HpM_TXyXESZwocwDIgiTz_D19SGhPy_p0VyECgiRK4nwuAjgXEQe5jyyjaZlfMud4zFqlTu4Y4uQ7wQkcRJIgIh7yws95RU_ZP7IkIx5xQOJlTuYQFICM3rVp90nYrvb3CUCQoSwJc1GEQERzIPyw9Rxl_z_iT89D1o6fvnVK2pTZ7eHfbNffPfAPOs3bh23WHrOkr9sHCEBV_nRq7lv89l_N3lV5-hFJoiACSQaiICFRFtD8XfPSv7LTj8NQZn-8nsrXY_vK_o7va9q8HJPPX32j1ldl1V1XLm4aonjAJ8ykYaMnGrt5kJhRYXAUm11Wai4ObOJPseho5rCbPI1g62rvYtUNYYlLM05DmVlk6VqQGTgoru7OM_C632Csue4IqV2ZYliaWliyZVIR6lUpwrpXRLvUTybtCV-im1-mgs0zJy7VPuBS3s3hOi6uk8_JyCdEwYrNYvUE3QJWjuYF_q6MCU5vuGA0ycHk4vRuuma7u_pmVwQTLq3TQJtwAY8uF19dnomWki6Ds4kswthBjYeENx2vvNeFtpNqLqCqcYvAbfAvzRiA22oHzSmtCBdebN8e4dqvEDooy3NWIMXlSkJ1o6fFqXc5F1h6hAjo8aEk-qFAflxd-0SLDYeUjlX151AVuPS8tCKedTZgTlI1q3iKVRqSdazeoog3fT8se6xYQlxqK6rbdnTnDlU90on0d34T6E3sYGZT4gJcYV8DnmGVDUsLrwlCl7MrCChc9NEudmOoXte5ufR0e3TC2CeXcutVHfJLTfVws0wIGdMqHmilGXc_-GzHvB9vXXv8BBYa6n1HyKkeFue1SO2T443Dmc6mddtFHuoX30NpPhcEXoYS5OX3SV0Xefb5y1_2ez9Lhjab-YG3fVzYVXylMLDESxsZpC7ncO_DEUVrEGxnNqdPGR3aJytwABrxuN_Mm9aYSNjcj-aOQ-ctl5Ztz9puEC_lmjwFarZ-Ni3OOCTp6F62zuntG19deCt97y8s1TcC9XF1cg1OVJdv3yzU1eMiNYlKXwp5GtdNuUvsADgJrrrlmdyQyk6iPTBuO5MHSzorM0VsO6VB8mJnbq5v39iG8oh44RGzLMyfArgcgCkepkRhLEaHAz8LhRn19sLMyG4r25n7yCEruVk0z8NGTPdoY9LDcq9un8TLzoC5Fqey61oLNtM8Nd5gZiXP1-jkl0_dtSsFIpxGJ7I0U1McJD0fHdtjxhXp2CqW8iisJ-3qbiSHDKuFTvhWnAeqt5m6-9_uj2RD6_2O7vDa0-T-NukXll8Y9ugLnSJBPc_hc5VIZ8nnlb24TTg_3YDa-Auvb8gb",
+        "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=YdH0AHicdZLLjqNGFIaTPEEWeYBZp-WoCigwGfXCNmDADZhLFYaNVQbswoChubQNytP0JCNNpGwmkbLNa8ws8ixxFGWXbM5Z_N-56Pznzy--fs3y3xWdi-mLklupKFZ9sZ3Rl-3JBR-atk6HpM_TXyXESZwocwDIgiTz_D19SGhPy_p0VyECgiRK4nwuAjgXEQe5jyyjaZlfMud4zFqlTu4Y4uQ7wQkcRJIgIh7yws95RU_ZP7IkIx5xQOJlTuYQFICM3rVp90nYrvb3CUCQoSwJc1GEQERzIPyw9Rxl_z_iT89D1o6fvnVK2pTZ7eHfbNffPfAPOs3bh23WHrOkr9sHCEBV_nRq7lv89l_N3lV5-hFJoiACSQaiICFRFtD8XfPSv7LTj8NQZn-8nsrXY_vK_o7va9q8HJPPX32j1ldl1V1XLm4aonjAJ8ykYaMnGrt5kJhRYXAUm11Wai4ObOJPseho5rCbPI1g62rvYtUNYYlLM05DmVlk6VqQGTgoru7OM_C632Csue4IqV2ZYliaWliyZVIR6lUpwrpXRLvUTybtCV-im1-mgs0zJy7VPuBS3s3hOi6uk8_JyCdEwYrNYvUE3QJWjuYF_q6MCU5vuGA0ycHk4vRuuma7u_pmVwQTLq3TQJtwAY8uF19dnomWki6Ds4kswthBjYeENx2vvNeFtpNqLqCqcYvAbfAvzRiA22oHzSmtCBdebN8e4dqvEDooy3NWIMXlSkJ1o6fFqXc5F1h6hAjo8aEk-qFAflxd-0SLDYeUjlX151AVuPS8tCKedTZgTlI1q3iKVRqSdazeoog3fT8se6xYQlxqK6rbdnTnDlU90on0d34T6E3sYGZT4gJcYV8DnmGVDUsLrwlCl7MrCChc9NEudmOoXte5ufR0e3TC2CeXcutVHfJLTfVws0wIGdMqHmilGXc_-GzHvB9vXXv8BBYa6n1HyKkeFue1SO2T443Dmc6mddtFHuoX30NpPhcEXoYS5OX3SV0Xefb5y1_2ez9Lhjab-YG3fVzYVXylMLDESxsZpC7ncO_DEUVrEGxnNqdPGR3aJytwABrxuN_Mm9aYSNjcj-aOQ-ctl5Ztz9puEC_lmjwFarZ-Ni3OOCTp6F62zuntG19deCt97y8s1TcC9XF1cg1OVJdv3yzU1eMiNYlKXwp5GtdNuUvsADgJrrrlmdyQyk6iPTBuO5MHSzorM0VsO6VB8mJnbq5v39iG8oh44RGzLMyfArgcgCkepkRhLEaHAz8LhRn19sLMyG4r25n7yCEruVk0z8NGTPdoY9LDcq9un8TLzoC5Fqey61oLNtM8Nd5gZiXP1-jkl0_dtSsFIpxGJ7I0U1McJD0fHdtjxhXp2CqW8iisJ-3qbiSHDKuFTvhWnAeqt5m6-9_uj2RD6_2O7vDa0-T-NukXll8Y9ugLnSJBPc_hc5VIZ8nnlb24TTg_3YDa-Auvb8gb",
+        "source": "Friseurtotal.de",
+        "source_icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACN0lEQVRYhc2XMWzTQBSGfztW4gsVlBaqsjJkKysDAxMSE53IxlxBXCKhDi0JQgpxBKhDETGdOtFKjF2oEBsCZjZYkFp1aFFUtVIFsUMbH4PhwInPuWe3Kv8UJ777Pt-7O1-AE45GbdB-dIdDkzfLVx1Sn0o3txt3D-F3M5SO9eHRddOqXUwlcPD-9bWDd2tvKeDesMJVQysWu2SBdr3E04B7IyuNflRwVmnG_i7rs08gDTxXqpElQgLu0pPVJHDXtuDaFvThkYH3f9_4fEEqwLc3J8nweonSBPqysxUpQB16UfOYPUGWdmNarIrISagCd20rSdMgvi-4OgC4K80GBS6VIpSDc64LAb7-ZY4CjwJ5zx-QyuHaVlcIqMScmYe_2woufnO8xZqQ4vt70M6NI3tzSlmCJKDlTHQWa_i59gqs4gTQ3VZoLvCdb8gUJo5H4E-6nz70fWdcuS4-ewv3B-6KyQVYHgDg2lYIevjxzd9S_Ngndaks4NoW2L2nIWhvMhOXSXCSAAD4m1-hnR0T16zSBIbOBIL1ErI3biF3-yF4xzsegc7LBfC9FrSh0wHUtsDKdrjDkfPw5mdoAtwwfOUWnMMs9-9brOoIKZUYhUtzQuDU7DPl4xarOlIIZXvOFqceC4G0SfNuEALU0ywAgAcvUCr8X1aqEYgrhzRaGNn31IPOBWa5EVoF1PSOdOSwD5JIWvOoMp_4sTx24h2NBEe--kLKUftrllBEZWWRlp6aSPwT_3f5BbfT175vNnHpAAAAAElFTkSuQmCC.png",
+        "price": "21,95 €",
+        "extracted_price": 21.95,
+        "rating": 4.7,
+        "reviews": 27000,
+        "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRgnkYkulesWDOl4aYQ-RtgX6TIfii9Ix-_T0uciiiTYbd3NRZofrnY9SBAeavClbIjoHJ4b5sJVcm2OW_ufdyKBnh_jNDqPY0WkQo8fwe1YUImtL7lN2ffwg",
+        "serpapi_thumbnail": "https://serpapi.com/images/url/WUqqgXicDcltDoIgAADQE5mmfdnWmuZWVrMyy-iPUwREESww81Zdp9vU-_u-n0KpRs51HXH47BuFck1l3BoQqVJF4QCKWpeFaBrKyfKx-N_cCXJ7DUPCK1C1DMnYO7BRCk5aqMhtEvmYUtt_a0lktJBSGoEst4LwLvCTA_vsOih9rVjml2KzHWVjub3C2jzESYvzfufyIikD73EERlydxAx3aAgufq32UxaYGHfkBwnOQCg",
+        "thumbnails": [
+          "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRgnkYkulesWDOl4aYQ-RtgX6TIfii9Ix-_T0uciiiTYbd3NRZofrnY9SBAeavClbIjoHJ4b5sJVcm2OW_ufdyKBnh_jNDqPY0WkQo8fwe1YUImtL7lN2ffwg",
+          "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSDP7uoJ-ixUxlFLDRtGZQH8KD2T2zd0jk5_EF-l7QUbX3lN0uoSJ4RvKnGlXF-KxMX5rP7YSHQmGSrJp1q7f_hWGvTxuqcTA69PRFZpemILNnNCwLObMhxXA",
+          "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQkO1eO707TMOFQqyAKVLz_IJdhPDPDofj93h-xI8OhvR1oSnVUDGrCJ0M6n1PfCNBub4WNHYRX9wR0LeXsu9IyePnR_eihDi0rZMxQkXC8mWvXmwoyjuiRyg",
+          "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSF5G8ry-7JfrrTxSuv4eQ1Ee81TM_ZxzP74QCDw6dQJ5AjJUCqbIw6U1NS2MWAZ7L_A3lrxviTfrfUcLJCLQqfWPoeZFaWPraGYubUqKjw7oOcpcJvhW41AA",
+          "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRHqTGhwgaP_4OK_mTfo4zShP0dnhtqJ1pY6yoHEC_sqDBfqRRM7g5Z9lEWXF2AQbf-hETVKHs6VZAnMy_umNSzSpxqNnqdtME6eGXTepibYYffYdhnyaPA"
+        ],
+        "serpapi_thumbnails": [
+          "https://serpapi.com/images/url/WUqqgXicDcltDoIgAADQE5mmfdnWmuZWVrMyy-iPUwREESww81Zdp9vU-_u-n0KpRs51HXH47BuFck1l3BoQqVJF4QCKWpeFaBrKyfKx-N_cCXJ7DUPCK1C1DMnYO7BRCk5aqMhtEvmYUtt_a0lktJBSGoEst4LwLvCTA_vsOih9rVjml2KzHWVjub3C2jzESYvzfufyIikD73EERlydxAx3aAgufq32UxaYGHfkBwnOQCg",
+          "https://serpapi.com/images/url/_oVtn3icDcltEkJAAADQE6GUlJmmMckKyVeT_DFZQq21WNo6VdfpNvX-vu-npJT0iiDkGHYvQvOMoykW-aKnV1pBHja10JcNIRUuNu36f4rqZCsAA82Vh8bkKnZiSLc1n4LYM5aWJobiO5vcH1Ky0zkke6c0miFnMjSBOfdHCwMU6ZzFDpHUufIlMLwaBJ1Jpq18S8ozGEM2tDBUFyvX12OS13vbwc72aR_TQ8ki9QdVJj30",
+          "https://serpapi.com/images/url/rD1FIHicDclJDoIwAADAF7FFI0tiDEJEkLVu6IUIFFoILUJR66v8jr_Ruc73gxjrR0OSICkG3jNYCiwniliP7MZwIRa0k0ZE-x6TenVf_s8ww1J3iqSNFBipsnoIok1y5-bu5L8z1ytRbMc2rRp9hoSXq0XoARS6J6ej7QyWJwcLosSVFa6nfH4OtxeQ6k8g-zAdJ93lMCYggxjZWB6uwStpU0vrzo-0e1LeTBjw-gdNkj7V",
+          "https://serpapi.com/images/url/ZjDg8XicDclJDoIwAADAFwmibJIY06AQKyAECJELgVK2KJRSNl_ld_yNznW-n4oxMmg8j1tEV8JwvmFZu-XKgaWsRhzqXvxQdYTUbXnqj__TgJMfTOQbkqnSdaPAgtJg8cdJxJ5wwaoQ2Em8vF1F9PTzLOcelEADQ73PrrMcCo6_syMQK1YC9k-6THVQ0CJEFtQtry8it8OxkUYuTc3HmIX9rZmV7o4IglMViQIAP2NDPk4",
+          "https://serpapi.com/images/url/x4xwTHicDclRCoIwAADQE6klZShEWJmSaKbD1B_RzTkh59YWNQ_VfbpNvd_3_RApmXAMo6PwoZjskCZbauq9kI0coA6n0RBkYmyg_Y5v_-e4MbJ9mAYc-OTVN0m9uoT1CPC0mjOSLBAlkp-XrLTUFHiHWvDjHvM0jTb9urLv3q04me61xRrxQB4Gwsorl0aqfo5xNmfszWPKkYw8q_ML0LGhLUuMS0SoahL3B2BHP3Y"
+        ]
+      },
+      {
+        "position": 27,
+        "title": "Olaplex Kit Soin N°3 Plus + Shampooing N°4 250ml + Après-Shampooing N°5 250ml",
+        "product_id": "10407782307852188378",
+        "product_link": "https://www.google.com/search?ibp=oshop&q=Olaplex Olaplex No. 3 Hair Perfector 100ml&prds=catalogid:10407782307852188378,productid:2635471699751059620,headlineOfferDocid:5709857993518196294,imageDocid:13621891188282786959,rds:PC_6894849368447530446|PROD_PC_6894849368447530446,gpcid:6894849368447530446,mid:576462894452534690,pvt:hg&hl=fr&gl=fr&udm=28",
+        "immersive_product_page_token": "bAnm23icbZPLrqNGEIaTPEEWeYBZ58gRDTSXjM7C5mawaUwDzWVjYRobDBgOhmMb5WnOXKSJlM1kpGzzGjOLPEs8kbKbTdXi1_-pVH_VP9_9-JKXf6lLNkmf1dKmgtAM1WaWPm8OLvOh61s6ZkNJ_2QFDvIiEGRZhICBssAyH7J0SOv2UNJPgOEZUZRYjhElyAJJ4kTpY5GntC5PubPf573aZncKFBlZgqIscxBI4A6R-d_LJj3k_8mfACfczTK4A1iJFSVBhvKbnp4_sxtlK0gyL_EyJ0g8L0KO4Xnhtw121O23tXdPY97fPv_s1GlX59eH_ztqf3ngHpZp2T9s8n6fZ0PbPwCGaep3h-7rjN9gvWlK-hGKAi-wd5GHLOR4QWbedM_DS3F4O451_vfLoX7Z9y_F1_q-Tbvnffblh5-09qIq54viBl1HVMz4S5LYRp1Q373hCilkWQu-URyRj8bMSLgYYBQY19vupF1pY16w1lW5oase0x0pwQKptEsazTkaLfZZ1UGfPV8D0Kmk4WFedWGg4mEdkoKE2oRr6xRMGOd6Z8eVpcZEdhLdnewjcgO1NhzSKYgrTp6RlMRPRsLAY6ZRkvkFWvvI8lhdR5U90ECPUi5p1lHGpxxt4gorKKr3SU06mxwGwgzrvBmUHQPwOmhZP0JxUCd1TLLJC3mGhjgKWOmaKsw1afgpCPSVXddJpndqYEiQngrdba7jnbmgqq744O5rauCrlI3YZEgMJNATYml4Zn0DruwoaXIyv-QqWmUNFLIAsU5k7dOoABgUDZqwHQfXBNWEdULL87Tawhrm4pBOuwCVnnY14wpgTyNNFnapb7isXZkDCe97CegmqfWWhsMYH-kxCQNPZ7Bp111BK9z5ocuiBjApmA9xlLgJ0C5GaS3wEt2cMMGJbj3HVdehY2E6Eb7YbAuTEBe-3g4ukflkSbi313O__8zMdTh4Dl-my7A6GkKKDg6-jcd0Nhn9OcZwmP8KROl-hJwMRMDJ77O2rcr8y_d_bLdeno19PvN8vHmcoya5pMC3hVMfm6StJbD1wA3GBuNvZohdTnk69mvbdxh4C27bldT15kTCznSIexvPeLGwEZr151E41QZZ-1puPFk2a-4yenNPG-fw-pWnzbGy3HpzW_NMX3tUDq7JCtri9au5pjzOqUW09LmSp5vR1VGGfMbJgua8OJIr1IqDgMaC3czk0RaP6kwV-rPaQXkeWavL61fIVB_v7_QYFHlYrn2wGBlL2E2ZWhQJ3O24WcjPUrzlZ2Z-VZAjedAhitzNu6dxJdAtXFnpbrHVNmvhFJmg1BMqu649L2Y61pJVUNjZ0yU-ePX6fDnXPOEPNye2dUtXHSg-7R2EC_MCl4FdLeQbb0z6xV2JDhmV-T2pXpB8Da-ms0P17Z6s0nYbpVFgYF0ertPyVJSnIsDpczrFvHaUwFOTiUfR49StsMlYj66Y1vwX50XHHw",
+        "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=bAnm23icbZPLrqNGEIaTPEEWeYBZ58gRDTSXjM7C5mawaUwDzWVjYRobDBgOhmMb5WnOXKSJlM1kpGzzGjOLPEs8kbKbTdXi1_-pVH_VP9_9-JKXf6lLNkmf1dKmgtAM1WaWPm8OLvOh61s6ZkNJ_2QFDvIiEGRZhICBssAyH7J0SOv2UNJPgOEZUZRYjhElyAJJ4kTpY5GntC5PubPf573aZncKFBlZgqIscxBI4A6R-d_LJj3k_8mfACfczTK4A1iJFSVBhvKbnp4_sxtlK0gyL_EyJ0g8L0KO4Xnhtw121O23tXdPY97fPv_s1GlX59eH_ztqf3ngHpZp2T9s8n6fZ0PbPwCGaep3h-7rjN9gvWlK-hGKAi-wd5GHLOR4QWbedM_DS3F4O451_vfLoX7Z9y_F1_q-Tbvnffblh5-09qIq54viBl1HVMz4S5LYRp1Q373hCilkWQu-URyRj8bMSLgYYBQY19vupF1pY16w1lW5oase0x0pwQKptEsazTkaLfZZ1UGfPV8D0Kmk4WFedWGg4mEdkoKE2oRr6xRMGOd6Z8eVpcZEdhLdnewjcgO1NhzSKYgrTp6RlMRPRsLAY6ZRkvkFWvvI8lhdR5U90ECPUi5p1lHGpxxt4gorKKr3SU06mxwGwgzrvBmUHQPwOmhZP0JxUCd1TLLJC3mGhjgKWOmaKsw1afgpCPSVXddJpndqYEiQngrdba7jnbmgqq744O5rauCrlI3YZEgMJNATYml4Zn0DruwoaXIyv-QqWmUNFLIAsU5k7dOoABgUDZqwHQfXBNWEdULL87Tawhrm4pBOuwCVnnY14wpgTyNNFnapb7isXZkDCe97CegmqfWWhsMYH-kxCQNPZ7Bp111BK9z5ocuiBjApmA9xlLgJ0C5GaS3wEt2cMMGJbj3HVdehY2E6Eb7YbAuTEBe-3g4ukflkSbi313O__8zMdTh4Dl-my7A6GkKKDg6-jcd0Nhn9OcZwmP8KROl-hJwMRMDJ77O2rcr8y_d_bLdeno19PvN8vHmcoya5pMC3hVMfm6StJbD1wA3GBuNvZohdTnk69mvbdxh4C27bldT15kTCznSIexvPeLGwEZr151E41QZZ-1puPFk2a-4yenNPG-fw-pWnzbGy3HpzW_NMX3tUDq7JCtri9au5pjzOqUW09LmSp5vR1VGGfMbJgua8OJIr1IqDgMaC3czk0RaP6kwV-rPaQXkeWavL61fIVB_v7_QYFHlYrn2wGBlL2E2ZWhQJ3O24WcjPUrzlZ2Z-VZAjedAhitzNu6dxJdAtXFnpbrHVNmvhFJmg1BMqu649L2Y61pJVUNjZ0yU-ePX6fDnXPOEPNye2dUtXHSg-7R2EC_MCl4FdLeQbb0z6xV2JDhmV-T2pXpB8Da-ms0P17Z6s0nYbpVFgYF0ertPyVJSnIsDpczrFvHaUwFOTiUfR49StsMlYj66Y1vwX50XHHw",
+        "source": "ubuy.fr",
+        "source_icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABiklEQVRYhe2Wz04CMRDGv2kRApEnMJjAwcSbNxPfwAuGeDImJhzEE6-gJDwRPAEXD_oQvAEXiZEVO-NhFZf913YD8bK_ZJPdaTvztbOdFigpKflnyKXTatIWV4cMvYzbFEwzq3_F1THEwKqXVHYw4bQB7gKEGaSrAJwXIyEuDjMtk9YMtLwXD54DRbymra8AgEjYJZh2fkxOv44VrxXYF1YB1UTudjN7AFBKmtYUVEkhYJPpJJh2UOvOw_fJMUAaAP3Zou3Tzmbcr233KZBssWm41wGkzyCJX4q8BABwK0geWFPwGa9gKQUl1qGYgPF4fBptGAyeGgBwoHQyQJ4Iq8AYt7d3l816XRDuhsTzMHy8lxxWk3Zes7UdANDv98_Tgp9d9K4AYF8CzFfwtvPj2Idad-6xC3i9_U0EUHS45Yyg8F-iRgu61YM-GQLw2Yaqkh_AelfQQOUQ1DjaBOfFi08dKL73ef2xrF_Pty4qsnjF-vmmsE9njDEjZp6JiDDzzBgz2n_UkhIPvgGItyraEF8JaAAAAABJRU5ErkJggg.png",
+        "multiple_sources": true,
+        "price": "97,00 €",
+        "extracted_price": 97.0,
+        "rating": 4.8,
+        "reviews": 21,
+        "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSpN0uFJHrQ770_p8vGC9qT_7aK7oIVor2SWnbManOnQdGf-AY4AJkLQojEPg4om_2DTgQ1z54NrmdRGxj_kr3TfDD-RueapWzMQAcWp8RNxT5A9oQbMwd3",
+        "serpapi_thumbnail": "https://serpapi.com/images/url/q1oul3icDclXDoIwAADQEzFkhJEY04jiAi0SiV8EWqahLaUocijv4230_b7vpxaCDa6iFATxNxMFlkROdLkaRCYaJCPaKUNNGWtIteqX_3NBiB0fXVmojtvDjkPLUlNmP_2108eplR0tur9Rrl0TkgcZOROI_VICdwMcHidI282lMmiXal5cwcVsGiHvcORPbfrgelx6nhSNRcaSOYAAJcyOwik2gUNhHryw_gPrfz1j",
+        "thumbnails": [
+          "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSpN0uFJHrQ770_p8vGC9qT_7aK7oIVor2SWnbManOnQdGf-AY4AJkLQojEPg4om_2DTgQ1z54NrmdRGxj_kr3TfDD-RueapWzMQAcWp8RNxT5A9oQbMwd3",
+          "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTK2ygzfXD6BaH2nIBzYU1sed_dHwWHGCY6rmOIUst0cErFZN0ym_KEhF11AglTUHtjYqCFTM-killBinuMKLxirQZHU-NDiPbQIf5IbMKOws_uOykbL2-P",
+          "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTOOX4MvhDidgogMAhCTDnjoM8qPQYni6b6-bges_iyeGBERsEdri99Mue4UDrYhmLykU2wwgLsDSsgMORDNDt0f67J7mOcGWEx5FajaG8"
+        ],
+        "serpapi_thumbnails": [
+          "https://serpapi.com/images/url/q1oul3icDclXDoIwAADQEzFkhJEY04jiAi0SiV8EWqahLaUocijv4230_b7vpxaCDa6iFATxNxMFlkROdLkaRCYaJCPaKUNNGWtIteqX_3NBiB0fXVmojtvDjkPLUlNmP_2108eplR0tur9Rrl0TkgcZOROI_VICdwMcHidI282lMmiXal5cwcVsGiHvcORPbfrgelx6nhSNRcaSOYAAJcyOwik2gUNhHryw_gPrfz1j",
+          "https://serpapi.com/images/url/qi8XAXicDclZCoJAAADQE7lCQkKE-4g7KKU_ouM2qeMyI6aH6j7dpt7v-346Smcic1yN4XrMtK4YWmKBbQktKIIsnEaOdNM8I9zel9v_ZMWvrhaMHfFoz-apS2oBRGyrZ5oIpK7yCuwPYGmptI6BnRDKQ2M1M58_xtwxOlMQlHaIE0Bf6aKZscf0aBhUhDfPcd9ojTKQML6OwjKym4tdek6wk3wLjr50RSb8ASgtPhk",
+          "https://serpapi.com/images/url/R_rsEXicDcnbDoIgAADQL1JbmbetNQtja6JddOVTUyTAJqhQ5uf0Wf1Nndfz_TCtOxVYFhF4mDpNakNXYmFSpUvNsYllaykmu44Luu5X_wvCpPYhztL0aqMXA7ymkqKQbTMgGom8_nAsBHcqx6goUTc-EbiJTiqqB-776EnsHAwFa-Ppkc_HkcYKnBVF6QkkQM_ujrt32xTDS_Re7sqmhN4PQkw55w"
+        ]
+      },
+      {
+        "position": 28,
+        "title": "Routine cheveux très abîmés - Rituel capillaire ultra-réparateur",
+        "product_id": "6931771037086822932",
+        "product_link": "https://www.google.com/search?ibp=oshop&q=Olaplex Olaplex No. 3 Hair Perfector 100ml&prds=productid:6931771037086822932,headlineOfferDocid:6931771037086822932,imageDocid:1056054364417342057,pvt:hg&hl=fr&gl=fr&udm=28",
+        "immersive_product_page_token": "VBoAO3icbZPNjqNGAISzb5BHmHNGjvjHZDQHbH4MNo1p6MZwsdo05sfYYAy24WlGsz_SrrSX5JBrXmP3kGfJrKLccvnqUKqqU_3908-vafGntuBictUKh0rSsTusJ-S6zjzmc9PWtE-6gv4hKTwryyzDy8xUmnKcwnOfE9KRqs4K-vJ7nhJaFafU3e_TVquT_098KY4kS_-1WUaUGFHgJUFgZV7gGFF-39LLy8dzn7bDt1_cijRVen_8T0H96yP_uCBF-7hO232adHX7yDLMsfqYNW-FL--PP9Bcu9c8-9D3VfrXa1a97tvX_Ac_1aS57pPv70q9vs3nl9vMQ02DNcgE5o3zGAWgMq8BP_PJBvGA6bqoNNZBKAzOqenCReUiPfYRiwNa2iYeDRsY1n1nYhuEORtxdx6ZTQEr6HgovhAe5jGGDA6czkEgdLHdAC1mo406JobdAQbjmLPdiDOGDQ-OOz7P0cCuQVB1SMchNOyeYjhPKu-ODe_mGHlFOCrRBeX9Em6gSdmoBKvohJtEty0UHPgQMRwaKXaxsgcaNcJT1cNDviJHA6eLJkaHe43Y_LarFBaGMdiF92Vwij2Cuk2MlKueU93XbBJtYp0g9gDKuKNm561Cg0Mmhc6sLjwEx6SsjgjHYrrIDTfsBHxozm-79SrIODqCASAFkSCWPO_D_dLuvzGqIXa-K7fz6izzxKhMi9W7fqYNO9EcGBhR9TdWnk4FgVdYmeWnn5K6PhTp93dft1s_Tfo2nfgBXD-r4BjfCBs40qmNLFxXU3brs4MYmUywngBuMaakb1dO4DLigIbtctq01ojDxnKxN_QXOJs5AEzaSy-dKhOvAj01z7bDWbuEDt5p7WZPD76uwvli66uO7luB_jzPPIuT9NnTg6rPn1VqY51cD8o4mE21SUDAuAk6XmYlvot6nkmgz7n1ROkdudQmmtRetEZU1I29vD09AEt7FnnhGeVpWKwCdtYztrQbEy3PY3G34yehMCFwK0ys9D4H7tQXXTxXGrU590uJbsWlTXazrb5eSaeNxRZGTBXPc9R8YkA9XqLcSc63KPOr1eV2qQQsZIMbOYZtaK4on_cugLl1ExfIOcyUQTBH4-YtZRf3c3WB-VaaBjpcjheXGts9XpJ6u3n7gQkNpbuPi1NenHIEyZWMkaCXU_Z8TORS9nltK60TzqdLprb-AdE1dNg",
+        "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=VBoAO3icbZPNjqNGAISzb5BHmHNGjvjHZDQHbH4MNo1p6MZwsdo05sfYYAy24WlGsz_SrrSX5JBrXmP3kGfJrKLccvnqUKqqU_3908-vafGntuBictUKh0rSsTusJ-S6zjzmc9PWtE-6gv4hKTwryyzDy8xUmnKcwnOfE9KRqs4K-vJ7nhJaFafU3e_TVquT_098KY4kS_-1WUaUGFHgJUFgZV7gGFF-39LLy8dzn7bDt1_cijRVen_8T0H96yP_uCBF-7hO232adHX7yDLMsfqYNW-FL--PP9Bcu9c8-9D3VfrXa1a97tvX_Ac_1aS57pPv70q9vs3nl9vMQ02DNcgE5o3zGAWgMq8BP_PJBvGA6bqoNNZBKAzOqenCReUiPfYRiwNa2iYeDRsY1n1nYhuEORtxdx6ZTQEr6HgovhAe5jGGDA6czkEgdLHdAC1mo406JobdAQbjmLPdiDOGDQ-OOz7P0cCuQVB1SMchNOyeYjhPKu-ODe_mGHlFOCrRBeX9Em6gSdmoBKvohJtEty0UHPgQMRwaKXaxsgcaNcJT1cNDviJHA6eLJkaHe43Y_LarFBaGMdiF92Vwij2Cuk2MlKueU93XbBJtYp0g9gDKuKNm561Cg0Mmhc6sLjwEx6SsjgjHYrrIDTfsBHxozm-79SrIODqCASAFkSCWPO_D_dLuvzGqIXa-K7fz6izzxKhMi9W7fqYNO9EcGBhR9TdWnk4FgVdYmeWnn5K6PhTp93dft1s_Tfo2nfgBXD-r4BjfCBs40qmNLFxXU3brs4MYmUywngBuMaakb1dO4DLigIbtctq01ojDxnKxN_QXOJs5AEzaSy-dKhOvAj01z7bDWbuEDt5p7WZPD76uwvli66uO7luB_jzPPIuT9NnTg6rPn1VqY51cD8o4mE21SUDAuAk6XmYlvot6nkmgz7n1ROkdudQmmtRetEZU1I29vD09AEt7FnnhGeVpWKwCdtYztrQbEy3PY3G34yehMCFwK0ys9D4H7tQXXTxXGrU590uJbsWlTXazrb5eSaeNxRZGTBXPc9R8YkA9XqLcSc63KPOr1eV2qQQsZIMbOYZtaK4on_cugLl1ExfIOcyUQTBH4-YtZRf3c3WB-VaaBjpcjheXGts9XpJ6u3n7gQkNpbuPi1NenHIEyZWMkaCXU_Z8TORS9nltK60TzqdLprb-AdE1dNg",
+        "source": "e-shopforyou.com",
+        "source_icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABpklEQVRYhe2VPU8UURSGnzM7d7KZiYgxFlpoKR8aTFattrOSWFhZWEthSUlhwx-AHn6CrVDYk0CAuAkSKbHAwgSDZsnNzOw5FgRCZBJhv2ZJ9u3uuffNfZL3nnvk1ftZylRQ6u2DABAWFY_3GtMiUgMws6344dRKXwHSNH1tZjMAIrIUQ88ASo9gCDAEKOyCbuh4rzGdZdk9ABH5PDJZ2-8bwGFjPQbmRKQOEATBDLBcdPZ6RXDYWI8rlcrbM3MYfkrGnvzoG0AYhndU9YOZ3QeaqroLdAQw-BGo6vjRzuY7gCiK7nrvb5-Zw_DF0c7mBIBz7qCdofVfABGpq2odwHt_fivx3s-fLszsI20MrcGMQEQ2iurOuVtpmr4EEqAZRdFqlmW_API8L_S0BXDz0dNlCj6O31-3HojIczNLAFR1YfTxs7V2Lj5V6RGUDtDRLFDViT-72xfq1Wp11Ht_o9cAiaouquqFjTzPEZGk1wBw0g0d6coAqvo9CE6ejpnZZTzOuYOuAIxM1vab3768abVa0VV83vufcTcAADodv_-q9DYcAvwFnj-NSgzk8kkAAAAASUVORK5CYII.png",
+        "price": "294,90 €",
+        "extracted_price": 294.9,
+        "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSXsNkSN1mi7gqNs8RI5wlpcnRiFKgm6B2Uu4E0ZIp25q1fbOQ76GtTLQq1IPJ-_dzj_Vsimn3Q0qT3an5Qv9JMlYaMGnyGJb14qeisSekWucZbBTdVYybg",
+        "serpapi_thumbnail": "https://serpapi.com/images/url/we2TFnicDcn_EoEwAADgJ1KNfuDOOd3RFcWUqH-6tjJDa7PF5aG8j7fh-_f7fi5KcTnV9ZrhR89VXQ0UYkAjUpWKYg23jS4vLeeUkbmY_W-6iKqJh-OTjG5xBBrqEBHJ8d63XneO2Z6u1qSx3eGhM5dG7vOhJcAZbaFjeyrZQAH8XTAoqve1SCVt2AgaIhmVzILPSRDeszL0WO8FCJiipjKub8cO58hNqjTrEfkBDOs-Kg"
+      },
+      {
+        "position": 29,
+        "title": "Olaplex No.3 Hair Perfector",
+        "product_id": "8313630858755332787",
+        "product_link": "https://www.google.com/search?ibp=oshop&q=Olaplex Olaplex No. 3 Hair Perfector 100ml&prds=catalogid:8313630858755332787,productid:8448384363993887417,headlineOfferDocid:10619060530635860188,imageDocid:9043568927430921138,rds:PC_11531694576547584977|PROD_PC_11531694576547584977,gpcid:11531694576547584977,pvt:hg&hl=fr&gl=fr&udm=28",
+        "immersive_product_page_token": "P2HWUHicdZPLjqNGGIUzb5BHmHVajqooiktGvbANGF8oTEEVho2FKWywwdDY-ILyMFHPRZpI2WQiZZvXmFnkObJMT6Tsks35F590dH4dnT-_-fY5K343bClOLkbhCEWpzoflILksdx742LS16NJzIT5psqwhTUYK0nWkaaoM1Y9pck7KeveVIvhCgIY1FWOEJFVTf82zRJTFMXO326w16rQQv0GgQB0oACOgIKwpAGraz0WV7LJ_-CcdyAgrmi6pMgK6BCHS3rbi9FlejtcQYgQVXcaqgmUVa7Kuqj8uqWus_we-f-qy9v75O7dMmjK7Pfx7Sf39A3qwk6J9WGbtNkvPdfsAAajK97vmn5T_Yfa2KsRPb5vL-Tnfveu6MvvjeVc-b9vn_Kt-qJPmsk2_vPrLvKTjcZuOPdY03KDAP5a2a8-UFcpXzOATUkFAzPPMZdaNTKCdhHFEDzqm7Ea83lo4VR541QkEvXklvKmoRZMIiRkJ8iI2Y0jgSGGT2CS8PARHSl3TOngVliNISu8oykAiQVCSg2-QSWbOpoSJLgtn141Z3h1eKgFvLh6Tr3E_CjaAgMzmSQLIJQwojQ43KQusW8piKgwmBZxjAfDJKaO7MPNLcoywt9_17iRGNGwUR6pf-ufbjOELN-JrFHKP2M2e8xIKEHcLJhai1DsCbsivRE2k842xZsnQqN6ETcDYrfVB7ouQxzEDOOpj2QkBjEG8Zba1oKs4fslk0QM_xEwgl1MzffnRDWcHYgvHB-V1EQglBmSxqfRjWplXh-WXDYoPgZRCVpWIMQ0JH3K_rGUPYEalWvKg6VuATp2yycWBNkHoSV97SeDwHK1iL4bmdVLMRtQmdzeM_c2eutkY3pmdj7M9nfCVkBOJjgSwrOhItn5voXe3U7v9DIYWPvsuDvPg3oVDcOmD5T6cpTWf-22ReoMn7weoai9bQjpUIVI_pHV9KLIvr35Zr_0s7dps4Ad0-TgkVXxNYOAoxzaa8rrU4NqHdxxNQLAcEMnus6RrF07gAnxn9_Vca9ppz8Nm6nLv3p3oaOQQMmhPnXIsJ3wRmNnkaeZI000q7t5x6e7evPbNIR3ba3_omP40MB_HO28qKebozeuhOX4cihk3k8tB7--TplylJABuyqrTaM9v2Mx3CulyaTnQO0fdGwNDaU9Gg_Xhaja_vnlNpsYjRvIjy7OwWARw1IGZsulTI89jvNmgQSgPErqWB9PsNiau5mOXj_Vm2Dx1c0Ws8XyWbEZrc7lQjqspLKxY6J7nDPOBRc14znInfbpGO79cnK6nUuby7u5GjjWzDBerT1uX0Hx6xTZzDiP9Lk966-rNVZd346HNUatogUnn_ckV1nrL50m9XiUrNqGWfr719jEvjjmjySXpI9nca_CpStW96iNjrSxTyRdzUE__BrvnuIc",
+        "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=P2HWUHicdZPLjqNGGIUzb5BHmHVajqooiktGvbANGF8oTEEVho2FKWywwdDY-ILyMFHPRZpI2WQiZZvXmFnkObJMT6Tsks35F590dH4dnT-_-fY5K343bClOLkbhCEWpzoflILksdx742LS16NJzIT5psqwhTUYK0nWkaaoM1Y9pck7KeveVIvhCgIY1FWOEJFVTf82zRJTFMXO326w16rQQv0GgQB0oACOgIKwpAGraz0WV7LJ_-CcdyAgrmi6pMgK6BCHS3rbi9FlejtcQYgQVXcaqgmUVa7Kuqj8uqWus_we-f-qy9v75O7dMmjK7Pfx7Sf39A3qwk6J9WGbtNkvPdfsAAajK97vmn5T_Yfa2KsRPb5vL-Tnfveu6MvvjeVc-b9vn_Kt-qJPmsk2_vPrLvKTjcZuOPdY03KDAP5a2a8-UFcpXzOATUkFAzPPMZdaNTKCdhHFEDzqm7Ea83lo4VR541QkEvXklvKmoRZMIiRkJ8iI2Y0jgSGGT2CS8PARHSl3TOngVliNISu8oykAiQVCSg2-QSWbOpoSJLgtn141Z3h1eKgFvLh6Tr3E_CjaAgMzmSQLIJQwojQ43KQusW8piKgwmBZxjAfDJKaO7MPNLcoywt9_17iRGNGwUR6pf-ufbjOELN-JrFHKP2M2e8xIKEHcLJhai1DsCbsivRE2k842xZsnQqN6ETcDYrfVB7ouQxzEDOOpj2QkBjEG8Zba1oKs4fslk0QM_xEwgl1MzffnRDWcHYgvHB-V1EQglBmSxqfRjWplXh-WXDYoPgZRCVpWIMQ0JH3K_rGUPYEalWvKg6VuATp2yycWBNkHoSV97SeDwHK1iL4bmdVLMRtQmdzeM_c2eutkY3pmdj7M9nfCVkBOJjgSwrOhItn5voXe3U7v9DIYWPvsuDvPg3oVDcOmD5T6cpTWf-22ReoMn7weoai9bQjpUIVI_pHV9KLIvr35Zr_0s7dps4Ad0-TgkVXxNYOAoxzaa8rrU4NqHdxxNQLAcEMnus6RrF07gAnxn9_Vca9ppz8Nm6nLv3p3oaOQQMmhPnXIsJ3wRmNnkaeZI000q7t5x6e7evPbNIR3ba3_omP40MB_HO28qKebozeuhOX4cihk3k8tB7--TplylJABuyqrTaM9v2Mx3CulyaTnQO0fdGwNDaU9Gg_Xhaja_vnlNpsYjRvIjy7OwWARw1IGZsulTI89jvNmgQSgPErqWB9PsNiau5mOXj_Vm2Dx1c0Ws8XyWbEZrc7lQjqspLKxY6J7nDPOBRc14znInfbpGO79cnK6nUuby7u5GjjWzDBerT1uX0Hx6xTZzDiP9Lk966-rNVZd346HNUatogUnn_ckV1nrL50m9XiUrNqGWfr719jEvjjmjySXpI9nca_CpStW96iNjrSxTyRdzUE__BrvnuIc",
+        "source": "Beauty As Well",
+        "source_icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAOVBMVEVHcEylwSSlwSSlwSSlwSSlwSSlwSSlwSSlwSSlwSSlwSSlwSSlwSSlwSSlwSSlwSSlwSSlwSSlwSTF5FJqAAAAE3RSTlMAOKeX1_pJ4wzIKoZmHVcFerPwNPWzewAAAQhJREFUOI2Fk9mWxCAIRFVAxF3__2M7W89oOgtvxnsiVRRKrVUwqMdy3N4AfAMovQH5DZAXQLp-BgDQPQJGkXkEUHmSeyWbTC-93iEOefHaRWSBkP0VEDcVRcdghJv9fUJbit9Tqr2VM2CXFjjoQ6prnE7A0kKxICgN4ooZcTOwO12SzsEgQlICJ5ljX9pQ9jyKKdh4etNTNVPI0JrZR89tmq9k1TCP2iJN_2x1-YQyWO2wj0DYRmkbyV-zMAHxeHAdx4GEKceev76U2Pf2zZQPh3mAq9rdH6sOovTqUT2l2HH8P5iq7E-I_bAZ0eiLPbEcvi5A56s9WgIBNqVkgeRmSTQwETGM1x-5wwkVBpj_HgAAAABJRU5ErkJggg.png",
+        "multiple_sources": true,
+        "price": "12,12 €",
+        "extracted_price": 12.12,
+        "rating": 4.7,
+        "reviews": 79,
+        "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQa8tvp5yiUp3E4Ivemh3bNZEITa-dizsuS48Yumx0qUZwg8KvxysJG070kkjYcoYZEFGv9VnnH1hQasf6XPCPpPej0tAScwn0lqqf7-LIgMeIeFR3nOH_A",
+        "serpapi_thumbnail": "https://serpapi.com/images/url/WGUG0XicDclJDoIwAADAFwFVUJbEGGLYXBBFjXAxUApFpbS2oPgo_-NvdK7z_WAhKLcUBRH4GKhAhSRyMpYrLjJRQxm2jcJxS2lNqjmb_c-yw8L04C4zRE8nQ32kqqMFPWqwmoepExwyqajfvIs1I-maF2DH9FkZq_418KUHdHC7XRPYJqnjer15IsQf4V3Gy-k5WkQ0Qlcg7Bg-CbgzVurSOqg2KEDuXiVb_2L_AHP8Pr0",
+        "thumbnails": [
+          "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQa8tvp5yiUp3E4Ivemh3bNZEITa-dizsuS48Yumx0qUZwg8KvxysJG070kkjYcoYZEFGv9VnnH1hQasf6XPCPpPej0tAScwn0lqqf7-LIgMeIeFR3nOH_A",
+          "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQT2zQZU9a0hgyU_rGrPTR8JgkTsylWHSFQI29swFT5kE3qLVjPNoorjablHCYubwhcIc8dowawBuHNN238ObkZ0ZKVUVPxLn7sD66r79nc",
+          "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSCqleVRj4uZnD4L2t2-AsX35VJe5TZvKMT5WzR_lRlejX83PEpbw---HgShBA1yQwnrbi0_4H9o903EMOCTCQG7ZuKvO3Wa0OJj3vsUSqX0QMmDEiPWfyUKPka",
+          "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRuX65Y108lIZYQpadcou8qfjcaNyEBVXnSWm2Liu8Zq9AzlpKIjCiklZjzS-FEVbd1aJmW8hDc30ggw1WK3qDcqzKU7dlOppHbwHglUno",
+          "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSIGcZVMrR4cV4doRTp378XGsmtWoQ29XOWiXhgD2N-bb7AdX5w6JtKPOF02WG0vKiHMUn9ERsn3bv6JGjyWkRdVUGkHJpPzgPRoNvh50RJ"
+        ],
+        "serpapi_thumbnails": [
+          "https://serpapi.com/images/url/WGUG0XicDclJDoIwAADAFwFVUJbEGGLYXBBFjXAxUApFpbS2oPgo_-NvdK7z_WAhKLcUBRH4GKhAhSRyMpYrLjJRQxm2jcJxS2lNqjmb_c-yw8L04C4zRE8nQ32kqqMFPWqwmoepExwyqajfvIs1I-maF2DH9FkZq_418KUHdHC7XRPYJqnjer15IsQf4V3Gy-k5WkQ0Qlcg7Bg-CbgzVurSOqg2KEDuXiVb_2L_AHP8Pr0",
+          "https://serpapi.com/images/url/hUzpbnicDclJDoIwAADAFwkEIltijBuLEgQFjFwMLaRstqUtQXyOv_I3Otf5fmohKLdlucKQzVRU5UIArEqIi0I0UILkKfOaUNpgtB5W_7M3YWm5ME7Ud5ynVqHUaE4fzGVRcjGPqEv43N-8qxP7qsUnJ1l2B20IsjYKCWFtAXpvdx_BVEMfmiWZimk7emGoauYZdLmSn7I0i14BNvhe15lhYfgDdEs6RQ",
+          "https://serpapi.com/images/url/eBiYq3icDclJDoIwAADAF5WtEMXEGAQiAZFVIVwIYGURS6EVg8_yN_5G5zrfT8MYoRueR7iaFsLQFbASi1xNWcHaiquGB0-bgZAW17tx-7-NdrqqhyrSxx5dwk5-ZtiQjxKTgEZTqFxspMTZ7LixkrzDvA971KVr6JukfAEArDpq9pq4BC88la2Qy5Y6qAI0XU-P9eCwyp7O7MGkEDy7gzM9R2MqBO7DMFs_uS1nx78XP7aoPb8",
+          "https://serpapi.com/images/url/qpg9WHicDclJDoIwAADAF7FHBRJjUFAQg1Ei2w1aLGDpIiUEfuOz_I3Odb6fRgg22IpSE_CemaihJCqiy2gQpWiBDGivDA1lrCVox7f_s50IWidwH7P1KtdUEwdFfmMlBHQ0-bMDZTR7-yQjcdrrl3Y0C245C2Zh0B3aFy66JZaOXlJBrTz3qdm4wFARmrQ0NLgL-BI-NhBfGfOryUf4QegPLHg6eQ",
+          "https://serpapi.com/images/url/c9pvH3icDcnbCoIwAADQL_KSeUkhQqhmipdWutFbbqImbssNwz6nv-pv6rye76dTSsjAMBpGpkWohmqqZiu9lequeqITPhqy40L0rN09t_8Lwoz6gFxOgNyqdII2qWzK4VWsvQ0GclSIny0f56jHXbu3Mq2uvZBi5-XGKinyo2khYM5JH6Ul8w9QsnU9uzF4LGiAtCrBEMWieLcF5NncOSaMfweHOOY"
+        ]
+      }
+    ],
+    "filters": [
+      {
+        "input_type": "link_with_icon",
+        "options": [
+          {
+            "text": "À proximité",
+            "shoprs": "CAEYAyopb2xhcGxleCBvbGFwbGV4IG5vIDMgaGFpciBwZXJmZWN0b3IgMTAwbWwyEwgDEg3DgCBwcm94aW1pdMOpGAJY_8IgYAI",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=fr&google_domain=google.com&hl=fr&q=Olaplex+Olaplex+No.+3+Hair+Perfector+100ml+%C3%A0+proximit%C3%A9&shoprs=CAEYAyopb2xhcGxleCBvbGFwbGV4IG5vIDMgaGFpciBwZXJmZWN0b3IgMTAwbWwyEwgDEg3DgCBwcm94aW1pdMOpGAJY_8IgYAI"
+          }
+        ]
+      },
+      {
+        "type": "Trier par",
+        "input_type": "link",
+        "options": [
+          {
+            "text": "Pertinence",
+            "shoprs": "CAEYFyopb2xhcGxleCBvbGFwbGV4IG5vIDMgaGFpciBwZXJmZWN0b3IgMTAwbWwyCggXKgQQARgBUARgAg",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=fr&google_domain=google.com&hl=fr&q=olaplex+olaplex+no+3+hair+perfector+100ml&shoprs=CAEYFyopb2xhcGxleCBvbGFwbGV4IG5vIDMgaGFpciBwZXJmZWN0b3IgMTAwbWwyCggXKgQQARgBUARgAg"
+          },
+          {
+            "text": "Prix : ordre croissant",
+            "shoprs": "CAEYFyopb2xhcGxleCBvbGFwbGV4IG5vIDMgaGFpciBwZXJmZWN0b3IgMTAwbWwyIwgXEhdQcml4wqA6IG9yZHJlIGNyb2lzc2FudCoEEAEYAVABYAKIAQE",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=fr&google_domain=google.com&hl=fr&q=olaplex+olaplex+no+3+hair+perfector+100ml&shoprs=CAEYFyopb2xhcGxleCBvbGFwbGV4IG5vIDMgaGFpciBwZXJmZWN0b3IgMTAwbWwyIwgXEhdQcml4wqA6IG9yZHJlIGNyb2lzc2FudCoEEAEYAVABYAKIAQE"
+          },
+          {
+            "text": "Prix : ordre décroissant",
+            "shoprs": "CAEYFyopb2xhcGxleCBvbGFwbGV4IG5vIDMgaGFpciBwZXJmZWN0b3IgMTAwbWwyJggXEhpQcml4wqA6IG9yZHJlIGTDqWNyb2lzc2FudCoEEAEYAVACYAKIAQI",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=fr&google_domain=google.com&hl=fr&q=olaplex+olaplex+no+3+hair+perfector+100ml&shoprs=CAEYFyopb2xhcGxleCBvbGFwbGV4IG5vIDMgaGFpciBwZXJmZWN0b3IgMTAwbWwyJggXEhpQcml4wqA6IG9yZHJlIGTDqWNyb2lzc2FudCoEEAEYAVACYAKIAQI"
+          },
+          {
+            "text": "Note : ordre décroissant",
+            "shoprs": "CAEYFyopb2xhcGxleCBvbGFwbGV4IG5vIDMgaGFpciBwZXJmZWN0b3IgMTAwbWwyJggXEhpOb3RlwqA6IG9yZHJlIGTDqWNyb2lzc2FudCoEEAEYAVADYAKIAQM",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=fr&google_domain=google.com&hl=fr&q=olaplex+olaplex+no+3+hair+perfector+100ml&shoprs=CAEYFyopb2xhcGxleCBvbGFwbGV4IG5vIDMgaGFpciBwZXJmZWN0b3IgMTAwbWwyJggXEhpOb3RlwqA6IG9yZHJlIGTDqWNyb2lzc2FudCoEEAEYAVADYAKIAQM"
+          }
+        ]
+      },
+      {
+        "type": "Prix",
+        "input_type": "price_range",
+        "options": [
+          {
+            "text": "Moins de 60 €",
+            "shoprs": "CAESDRILEQAAAAA4nIxBGAEYBSopb2xhcGxleCBvbGFwbGV4IG5vIDMgaGFpciBwZXJmZWN0b3IgMTAwbWwyKQgFEhBNb2lucyBkZSA2MMKg4oKsGAIiDRILEQAAAAA4nIxBGAEqAhgBWP_CIGAC",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=fr&google_domain=google.com&hl=fr&q=Olaplex+Olaplex+No.+3+Hair+Perfector+100ml+%C3%A0+moins+de+60%C2%A0%E2%82%AC&shoprs=CAESDRILEQAAAAA4nIxBGAEYBSopb2xhcGxleCBvbGFwbGV4IG5vIDMgaGFpciBwZXJmZWN0b3IgMTAwbWwyKQgFEhBNb2lucyBkZSA2MMKg4oKsGAIiDRILEQAAAAA4nIxBGAEqAhgBWP_CIGAC"
+          },
+          {
+            "text": "Plus de 60 €",
+            "shoprs": "CAESDRILCQAAAAA4nIxBGAEYBSopb2xhcGxleCBvbGFwbGV4IG5vIDMgaGFpciBwZXJmZWN0b3IgMTAwbWwyKAgFEg9QbHVzIGRlIDYwwqDigqwYAiINEgsJAAAAADicjEEYASoCGAFY_8IgYAI",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=fr&google_domain=google.com&hl=fr&q=Olaplex+Olaplex+No.+3+Hair+Perfector+100ml+%C3%A0+plus+de+60%C2%A0%E2%82%AC&shoprs=CAESDRILCQAAAAA4nIxBGAEYBSopb2xhcGxleCBvbGFwbGV4IG5vIDMgaGFpciBwZXJmZWN0b3IgMTAwbWwyKAgFEg9QbHVzIGRlIDYwwqDigqwYAiINEgsJAAAAADicjEEYASoCGAFY_8IgYAI"
+          }
+        ]
+      },
+      {
+        "type": "Taille",
+        "input_type": "link",
+        "options": [
+          {
+            "text": "30 ml",
+            "shoprs": "CAESGioYCPGlPhISCQAAAAAAAD5AEQAAAAAAAD5AGAEqKW9sYXBsZXggb2xhcGxleCBubyAzIGhhaXIgcGVyZmVjdG9yIDEwMG1sMi8IARIFMzAgbWwiGioYCPGlPhISCQAAAAAAAD5AEQAAAAAAAD5AOggI8aU-EAAwBlj_wiBgAg",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=fr&google_domain=google.com&hl=fr&q=30+ml+olaplex+olaplex+no+3+hair+perfector+100ml&shoprs=CAESGioYCPGlPhISCQAAAAAAAD5AEQAAAAAAAD5AGAEqKW9sYXBsZXggb2xhcGxleCBubyAzIGhhaXIgcGVyZmVjdG9yIDEwMG1sMi8IARIFMzAgbWwiGioYCPGlPhISCQAAAAAAAD5AEQAAAAAAAD5AOggI8aU-EAAwBlj_wiBgAg"
+          },
+          {
+            "text": "100 ml",
+            "shoprs": "CAESGioYCPGlPhISCQAAAAAAAFlAEQAAAAAAAFlAGAEqKW9sYXBsZXggb2xhcGxleCBubyAzIGhhaXIgcGVyZmVjdG9yIDEwMG1sMjAIARIGMTAwIG1sIhoqGAjxpT4SEgkAAAAAAABZQBEAAAAAAABZQDoICPGlPhAAMAZY_8IgYAI",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=fr&google_domain=google.com&hl=fr&q=100+ml+olaplex+olaplex+no+3+hair+perfector+100ml&shoprs=CAESGioYCPGlPhISCQAAAAAAAFlAEQAAAAAAAFlAGAEqKW9sYXBsZXggb2xhcGxleCBubyAzIGhhaXIgcGVyZmVjdG9yIDEwMG1sMjAIARIGMTAwIG1sIhoqGAjxpT4SEgkAAAAAAABZQBEAAAAAAABZQDoICPGlPhAAMAZY_8IgYAI"
+          },
+          {
+            "text": "250 ml",
+            "shoprs": "CAESGioYCPGlPhISCQAAAAAAQG9AEQAAAAAAQG9AGAEqKW9sYXBsZXggb2xhcGxleCBubyAzIGhhaXIgcGVyZmVjdG9yIDEwMG1sMjAIARIGMjUwIG1sIhoqGAjxpT4SEgkAAAAAAEBvQBEAAAAAAEBvQDoICPGlPhAAMAZY_8IgYAI",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=fr&google_domain=google.com&hl=fr&q=250+ml+olaplex+olaplex+no+3+hair+perfector+100ml&shoprs=CAESGioYCPGlPhISCQAAAAAAQG9AEQAAAAAAQG9AGAEqKW9sYXBsZXggb2xhcGxleCBubyAzIGhhaXIgcGVyZmVjdG9yIDEwMG1sMjAIARIGMjUwIG1sIhoqGAjxpT4SEgkAAAAAAEBvQBEAAAAAAEBvQDoICPGlPhAAMAZY_8IgYAI"
+          }
+        ]
+      },
+      {
+        "type": "Type",
+        "input_type": "checkbox",
+        "options": [
+          {
+            "text": "Après-shampooing",
+            "shoprs": "CAEYASopb2xhcGxleCBvbGFwbGV4IG5vIDMgaGFpciBwZXJmZWN0b3IgMTAwbWwyIQgBEhFBcHLDqHMtc2hhbXBvb2luZzoKCMSZOxDFmTswAlj_wiBgAg",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=fr&google_domain=google.com&hl=fr&q=apr%C3%A8s-shampooing+olaplex+olaplex+no+3+hair+perfector+100ml&shoprs=CAEYASopb2xhcGxleCBvbGFwbGV4IG5vIDMgaGFpciBwZXJmZWN0b3IgMTAwbWwyIQgBEhFBcHLDqHMtc2hhbXBvb2luZzoKCMSZOxDFmTswAlj_wiBgAg"
+          },
+          {
+            "text": "Shampooing",
+            "shoprs": "CAEYASopb2xhcGxleCBvbGFwbGV4IG5vIDMgaGFpciBwZXJmZWN0b3IgMTAwbWwyGggBEgpTaGFtcG9vaW5nOgoIxJk7EMiZOzACWP_CIGAC",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=fr&google_domain=google.com&hl=fr&q=shampooing+olaplex+olaplex+no+3+hair+perfector+100ml&shoprs=CAEYASopb2xhcGxleCBvbGFwbGV4IG5vIDMgaGFpciBwZXJmZWN0b3IgMTAwbWwyGggBEgpTaGFtcG9vaW5nOgoIxJk7EMiZOzACWP_CIGAC"
+          }
+        ]
+      },
+      {
+        "type": "Note du produit",
+        "input_type": "link",
+        "options": [
+          {
+            "text": "4 et plus",
+            "shoprs": "CAESBWIDCJADGB4qKW9sYXBsZXggb2xhcGxleCBubyAzIGhhaXIgcGVyZmVjdG9yIDEwMG1sMhYIHhIJNCBldCBwbHVzIgViAwiQA0AEYAI",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=fr&google_domain=google.com&hl=fr&q=Olaplex+Olaplex+No.+3+Hair+Perfector+100ml&shoprs=CAESBWIDCJADGB4qKW9sYXBsZXggb2xhcGxleCBubyAzIGhhaXIgcGVyZmVjdG9yIDEwMG1sMhYIHhIJNCBldCBwbHVzIgViAwiQA0AEYAI"
+          }
+        ]
+      },
+      {
+        "type": "Effet",
+        "input_type": "checkbox",
+        "options": [
+          {
+            "text": "Disciplinant",
+            "shoprs": "CAEYASopb2xhcGxleCBvbGFwbGV4IG5vIDMgaGFpciBwZXJmZWN0b3IgMTAwbWwyHAgBEgxEaXNjaXBsaW5hbnQ6CgjWpi0QoKA7MABY_8IgYAI",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=fr&google_domain=google.com&hl=fr&q=disciplinant+olaplex+olaplex+no+3+hair+perfector+100ml&shoprs=CAEYASopb2xhcGxleCBvbGFwbGV4IG5vIDMgaGFpciBwZXJmZWN0b3IgMTAwbWwyHAgBEgxEaXNjaXBsaW5hbnQ6CgjWpi0QoKA7MABY_8IgYAI"
+          },
+          {
+            "text": "Thermoprotecteur",
+            "shoprs": "CAEYASopb2xhcGxleCBvbGFwbGV4IG5vIDMgaGFpciBwZXJmZWN0b3IgMTAwbWwyIAgBEhBUaGVybW9wcm90ZWN0ZXVyOgoI1qYtEOCmLTAAWP_CIGAC",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=fr&google_domain=google.com&hl=fr&q=thermoprotecteur+olaplex+olaplex+no+3+hair+perfector+100ml&shoprs=CAEYASopb2xhcGxleCBvbGFwbGV4IG5vIDMgaGFpciBwZXJmZWN0b3IgMTAwbWwyIAgBEhBUaGVybW9wcm90ZWN0ZXVyOgoI1qYtEOCmLTAAWP_CIGAC"
+          }
+        ]
+      },
+      {
+        "type": "Objectif",
+        "input_type": "checkbox",
+        "options": [
+          {
+            "text": "Volumateurs",
+            "shoprs": "CAEYASopb2xhcGxleCBvbGFwbGV4IG5vIDMgaGFpciBwZXJmZWN0b3IgMTAwbWwyGwgBEgtWb2x1bWF0ZXVyczoKCKWfLRCony0wAFj_wiBgAg",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=fr&google_domain=google.com&hl=fr&q=volumateurs+olaplex+olaplex+no+3+hair+perfector+100ml&shoprs=CAEYASopb2xhcGxleCBvbGFwbGV4IG5vIDMgaGFpciBwZXJmZWN0b3IgMTAwbWwyGwgBEgtWb2x1bWF0ZXVyczoKCKWfLRCony0wAFj_wiBgAg"
+          },
+          {
+            "text": "Bouclants",
+            "shoprs": "CAEYASopb2xhcGxleCBvbGFwbGV4IG5vIDMgaGFpciBwZXJmZWN0b3IgMTAwbWwyGQgBEglCb3VjbGFudHM6Cgilny0QprI7MABY_8IgYAI",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=fr&google_domain=google.com&hl=fr&q=bouclants+olaplex+olaplex+no+3+hair+perfector+100ml&shoprs=CAEYASopb2xhcGxleCBvbGFwbGV4IG5vIDMgaGFpciBwZXJmZWN0b3IgMTAwbWwyGQgBEglCb3VjbGFudHM6Cgilny0QprI7MABY_8IgYAI"
+          }
+        ]
+      },
+      {
+        "type": "Formule",
+        "input_type": "checkbox",
+        "options": [
+          {
+            "text": "Sans silicone",
+            "shoprs": "CAEYASopb2xhcGxleCBvbGFwbGV4IG5vIDMgaGFpciBwZXJmZWN0b3IgMTAwbWwyHQgBEg1TYW5zIHNpbGljb25lOgoIw58tEOCaOTAAWP_CIGAC",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=fr&google_domain=google.com&hl=fr&q=sans+silicone+olaplex+olaplex+no+3+hair+perfector+100ml&shoprs=CAEYASopb2xhcGxleCBvbGFwbGV4IG5vIDMgaGFpciBwZXJmZWN0b3IgMTAwbWwyHQgBEg1TYW5zIHNpbGljb25lOgoIw58tEOCaOTAAWP_CIGAC"
+          },
+          {
+            "text": "Hypoallergéniques",
+            "shoprs": "CAEYASopb2xhcGxleCBvbGFwbGV4IG5vIDMgaGFpciBwZXJmZWN0b3IgMTAwbWwyIggBEhJIeXBvYWxsZXJnw6luaXF1ZXM6CgjDny0Qyp8tMABY_8IgYAI",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=fr&google_domain=google.com&hl=fr&q=hypoallerg%C3%A9niques+olaplex+olaplex+no+3+hair+perfector+100ml&shoprs=CAEYASopb2xhcGxleCBvbGFwbGV4IG5vIDMgaGFpciBwZXJmZWN0b3IgMTAwbWwyIggBEhJIeXBvYWxsZXJnw6luaXF1ZXM6CgjDny0Qyp8tMABY_8IgYAI"
+          }
+        ]
+      },
+      {
+        "type": "Ingrédient",
+        "input_type": "checkbox",
+        "options": [
+          {
+            "text": "Jojoba",
+            "shoprs": "CAEYASopb2xhcGxleCBvbGFwbGV4IG5vIDMgaGFpciBwZXJmZWN0b3IgMTAwbWwyFggBEgZKb2pvYmE6CgiBlDsQiJQ7MABY_8IgYAI",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=fr&google_domain=google.com&hl=fr&q=jojoba+olaplex+olaplex+no+3+hair+perfector+100ml&shoprs=CAEYASopb2xhcGxleCBvbGFwbGV4IG5vIDMgaGFpciBwZXJmZWN0b3IgMTAwbWwyFggBEgZKb2pvYmE6CgiBlDsQiJQ7MABY_8IgYAI"
+          },
+          {
+            "text": "Beurre de karité",
+            "shoprs": "CAEYASopb2xhcGxleCBvbGFwbGV4IG5vIDMgaGFpciBwZXJmZWN0b3IgMTAwbWwyIQgBEhFCZXVycmUgZGUga2FyaXTDqToKCIGUOxCGlDswAFj_wiBgAg",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=fr&google_domain=google.com&hl=fr&q=beurre+de+karit%C3%A9+olaplex+olaplex+no+3+hair+perfector+100ml&shoprs=CAEYASopb2xhcGxleCBvbGFwbGV4IG5vIDMgaGFpciBwZXJmZWN0b3IgMTAwbWwyIQgBEhFCZXVycmUgZGUga2FyaXTDqToKCIGUOxCGlDswAFj_wiBgAg"
+          }
+        ]
+      },
+      {
+        "type": "Magasins",
+        "input_type": "link",
+        "options": [
+          {
+            "text": "baslerbeauty FR",
+            "shoprs": "CAEYAiopb2xhcGxleCBvbGFwbGV4IG5vIDMgaGFpciBwZXJmZWN0b3IgMTAwbWwyEwgCEg9iYXNsZXJiZWF1dHkgRlJY_8IgYAI",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=fr&google_domain=google.com&hl=fr&q=baslerbeauty+fr+olaplex+olaplex+no+3+hair+perfector+100ml&shoprs=CAEYAiopb2xhcGxleCBvbGFwbGV4IG5vIDMgaGFpciBwZXJmZWN0b3IgMTAwbWwyEwgCEg9iYXNsZXJiZWF1dHkgRlJY_8IgYAI"
+          },
+          {
+            "text": "La Boutique du Coiffeur",
+            "shoprs": "CAEYAiopb2xhcGxleCBvbGFwbGV4IG5vIDMgaGFpciBwZXJmZWN0b3IgMTAwbWwyGwgCEhdMYSBCb3V0aXF1ZSBkdSBDb2lmZmV1clj_wiBgAg",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=fr&google_domain=google.com&hl=fr&q=la+boutique+du+coiffeur+olaplex+olaplex+no+3+hair+perfector+100ml&shoprs=CAEYAiopb2xhcGxleCBvbGFwbGV4IG5vIDMgaGFpciBwZXJmZWN0b3IgMTAwbWwyGwgCEhdMYSBCb3V0aXF1ZSBkdSBDb2lmZmV1clj_wiBgAg"
+          },
+          {
+            "text": "Beauty As Well",
+            "shoprs": "CAEYAiopb2xhcGxleCBvbGFwbGV4IG5vIDMgaGFpciBwZXJmZWN0b3IgMTAwbWwyEggCEg5CZWF1dHkgQXMgV2VsbFj_wiBgAg",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=fr&google_domain=google.com&hl=fr&q=beauty+as+well+olaplex+olaplex+no+3+hair+perfector+100ml&shoprs=CAEYAiopb2xhcGxleCBvbGFwbGV4IG5vIDMgaGFpciBwZXJmZWN0b3IgMTAwbWwyEggCEg5CZWF1dHkgQXMgV2VsbFj_wiBgAg"
+          },
+          {
+            "text": "Océane Avakian",
+            "shoprs": "CAEYAiopb2xhcGxleCBvbGFwbGV4IG5vIDMgaGFpciBwZXJmZWN0b3IgMTAwbWwyEwgCEg9PY8OpYW5lIEF2YWtpYW5Y_8IgYAI",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=fr&google_domain=google.com&hl=fr&q=oc%C3%A9ane+avakian+olaplex+olaplex+no+3+hair+perfector+100ml&shoprs=CAEYAiopb2xhcGxleCBvbGFwbGV4IG5vIDMgaGFpciBwZXJmZWN0b3IgMTAwbWwyEwgCEg9PY8OpYW5lIEF2YWtpYW5Y_8IgYAI"
+          }
+        ]
+      },
+      {
+        "type": "Carousel Filters",
+        "options": [
+          {
+            "text": "Moins de 60 €",
+            "shoprs": "CAESDRILEQAAAAA4nIxBGAEYBSopb2xhcGxleCBvbGFwbGV4IG5vIDMgaGFpciBwZXJmZWN0b3IgMTAwbWwyKQgFEhBNb2lucyBkZSA2MMKg4oKsGAIiDRILEQAAAAA4nIxBGAEqAhgBWP_CIGAB",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=fr&google_domain=google.com&hl=fr&q=Olaplex+Olaplex+No.+3+Hair+Perfector+100ml+%C3%A0+moins+de+60%C2%A0%E2%82%AC&shoprs=CAESDRILEQAAAAA4nIxBGAEYBSopb2xhcGxleCBvbGFwbGV4IG5vIDMgaGFpciBwZXJmZWN0b3IgMTAwbWwyKQgFEhBNb2lucyBkZSA2MMKg4oKsGAIiDRILEQAAAAA4nIxBGAEqAhgBWP_CIGAB",
+            "input_type": "price_range"
+          },
+          {
+            "text": "30 ml",
+            "shoprs": "CAESGioYCPGlPhISCQAAAAAAAD5AEQAAAAAAAD5AGAEqKW9sYXBsZXggb2xhcGxleCBubyAzIGhhaXIgcGVyZmVjdG9yIDEwMG1sMi8IARIFMzAgbWwiGioYCPGlPhISCQAAAAAAAD5AEQAAAAAAAD5AOggI8aU-EAAwBlj_wiBgAQ",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=fr&google_domain=google.com&hl=fr&q=30+ml+olaplex+olaplex+no+3+hair+perfector+100ml&shoprs=CAESGioYCPGlPhISCQAAAAAAAD5AEQAAAAAAAD5AGAEqKW9sYXBsZXggb2xhcGxleCBubyAzIGhhaXIgcGVyZmVjdG9yIDEwMG1sMi8IARIFMzAgbWwiGioYCPGlPhISCQAAAAAAAD5AEQAAAAAAAD5AOggI8aU-EAAwBlj_wiBgAQ",
+            "input_type": "link"
+          },
+          {
+            "text": "100 ml",
+            "shoprs": "CAESGioYCPGlPhISCQAAAAAAAFlAEQAAAAAAAFlAGAEqKW9sYXBsZXggb2xhcGxleCBubyAzIGhhaXIgcGVyZmVjdG9yIDEwMG1sMjAIARIGMTAwIG1sIhoqGAjxpT4SEgkAAAAAAABZQBEAAAAAAABZQDoICPGlPhAAMAZY_8IgYAE",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=fr&google_domain=google.com&hl=fr&q=100+ml+olaplex+olaplex+no+3+hair+perfector+100ml&shoprs=CAESGioYCPGlPhISCQAAAAAAAFlAEQAAAAAAAFlAGAEqKW9sYXBsZXggb2xhcGxleCBubyAzIGhhaXIgcGVyZmVjdG9yIDEwMG1sMjAIARIGMTAwIG1sIhoqGAjxpT4SEgkAAAAAAABZQBEAAAAAAABZQDoICPGlPhAAMAZY_8IgYAE",
+            "input_type": "link"
+          },
+          {
+            "text": "250 ml",
+            "shoprs": "CAESGioYCPGlPhISCQAAAAAAQG9AEQAAAAAAQG9AGAEqKW9sYXBsZXggb2xhcGxleCBubyAzIGhhaXIgcGVyZmVjdG9yIDEwMG1sMjAIARIGMjUwIG1sIhoqGAjxpT4SEgkAAAAAAEBvQBEAAAAAAEBvQDoICPGlPhAAMAZY_8IgYAE",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=fr&google_domain=google.com&hl=fr&q=250+ml+olaplex+olaplex+no+3+hair+perfector+100ml&shoprs=CAESGioYCPGlPhISCQAAAAAAQG9AEQAAAAAAQG9AGAEqKW9sYXBsZXggb2xhcGxleCBubyAzIGhhaXIgcGVyZmVjdG9yIDEwMG1sMjAIARIGMjUwIG1sIhoqGAjxpT4SEgkAAAAAAEBvQBEAAAAAAEBvQDoICPGlPhAAMAZY_8IgYAE",
+            "input_type": "link"
+          },
+          {
+            "text": "Après-shampooing",
+            "shoprs": "CAEYASopb2xhcGxleCBvbGFwbGV4IG5vIDMgaGFpciBwZXJmZWN0b3IgMTAwbWwyIQgBEhFBcHLDqHMtc2hhbXBvb2luZzoKCMSZOxDFmTswAlj_wiBgAQ",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=fr&google_domain=google.com&hl=fr&q=apr%C3%A8s-shampooing+olaplex+olaplex+no+3+hair+perfector+100ml&shoprs=CAEYASopb2xhcGxleCBvbGFwbGV4IG5vIDMgaGFpciBwZXJmZWN0b3IgMTAwbWwyIQgBEhFBcHLDqHMtc2hhbXBvb2luZzoKCMSZOxDFmTswAlj_wiBgAQ",
+            "input_type": "checkbox"
+          },
+          {
+            "text": "Disciplinant",
+            "shoprs": "CAEYASopb2xhcGxleCBvbGFwbGV4IG5vIDMgaGFpciBwZXJmZWN0b3IgMTAwbWwyHAgBEgxEaXNjaXBsaW5hbnQ6CgjWpi0QoKA7MABY_8IgYAE",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=fr&google_domain=google.com&hl=fr&q=disciplinant+olaplex+olaplex+no+3+hair+perfector+100ml&shoprs=CAEYASopb2xhcGxleCBvbGFwbGV4IG5vIDMgaGFpciBwZXJmZWN0b3IgMTAwbWwyHAgBEgxEaXNjaXBsaW5hbnQ6CgjWpi0QoKA7MABY_8IgYAE",
+            "input_type": "checkbox"
+          },
+          {
+            "text": "Shampooing",
+            "shoprs": "CAEYASopb2xhcGxleCBvbGFwbGV4IG5vIDMgaGFpciBwZXJmZWN0b3IgMTAwbWwyGggBEgpTaGFtcG9vaW5nOgoIxJk7EMiZOzACWP_CIGAB",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=fr&google_domain=google.com&hl=fr&q=shampooing+olaplex+olaplex+no+3+hair+perfector+100ml&shoprs=CAEYASopb2xhcGxleCBvbGFwbGV4IG5vIDMgaGFpciBwZXJmZWN0b3IgMTAwbWwyGggBEgpTaGFtcG9vaW5nOgoIxJk7EMiZOzACWP_CIGAB",
+            "input_type": "checkbox"
+          },
+          {
+            "text": "À proximité",
+            "shoprs": "CAEYAyopb2xhcGxleCBvbGFwbGV4IG5vIDMgaGFpciBwZXJmZWN0b3IgMTAwbWwyEwgDEg3DgCBwcm94aW1pdMOpGAJY_8IgYAE",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=fr&google_domain=google.com&hl=fr&q=Olaplex+Olaplex+No.+3+Hair+Perfector+100ml+%C3%A0+proximit%C3%A9&shoprs=CAEYAyopb2xhcGxleCBvbGFwbGV4IG5vIDMgaGFpciBwZXJmZWN0b3IgMTAwbWwyEwgDEg3DgCBwcm94aW1pdMOpGAJY_8IgYAE",
+            "input_type": "link_with_icon"
+          },
+          {
+            "text": "Shampooing et après-shampooing",
+            "shoprs": "CAEYCSopb2xhcGxleCBvbGFwbGV4IG5vIDMgaGFpciBwZXJmZWN0b3IgMTAwbWwyIwgJEh9TaGFtcG9vaW5nIGV0IGFwcsOocy1zaGFtcG9vaW5nYAE",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=fr&google_domain=google.com&hl=fr&q=shampooing+et+apr%C3%A8s-shampooing+olaplex+olaplex+no+3+hair+perfector+100ml&shoprs=CAEYCSopb2xhcGxleCBvbGFwbGV4IG5vIDMgaGFpciBwZXJmZWN0b3IgMTAwbWwyIwgJEh9TaGFtcG9vaW5nIGV0IGFwcsOocy1zaGFtcG9vaW5nYAE",
+            "input_type": "link"
+          },
+          {
+            "text": "Thermoprotecteur",
+            "shoprs": "CAEYASopb2xhcGxleCBvbGFwbGV4IG5vIDMgaGFpciBwZXJmZWN0b3IgMTAwbWwyIAgBEhBUaGVybW9wcm90ZWN0ZXVyOgoI1qYtEOCmLTAAWP_CIGAB",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=fr&google_domain=google.com&hl=fr&q=thermoprotecteur+olaplex+olaplex+no+3+hair+perfector+100ml&shoprs=CAEYASopb2xhcGxleCBvbGFwbGV4IG5vIDMgaGFpciBwZXJmZWN0b3IgMTAwbWwyIAgBEhBUaGVybW9wcm90ZWN0ZXVyOgoI1qYtEOCmLTAAWP_CIGAB",
+            "input_type": "checkbox"
+          },
+          {
+            "text": "baslerbeauty FR",
+            "shoprs": "CAEYAiopb2xhcGxleCBvbGFwbGV4IG5vIDMgaGFpciBwZXJmZWN0b3IgMTAwbWwyEwgCEg9iYXNsZXJiZWF1dHkgRlJY_8IgYAE",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=fr&google_domain=google.com&hl=fr&q=baslerbeauty+fr+olaplex+olaplex+no+3+hair+perfector+100ml&shoprs=CAEYAiopb2xhcGxleCBvbGFwbGV4IG5vIDMgaGFpciBwZXJmZWN0b3IgMTAwbWwyEwgCEg9iYXNsZXJiZWF1dHkgRlJY_8IgYAE",
+            "input_type": "link"
+          },
+          {
+            "text": "La Boutique du Coiffeur",
+            "shoprs": "CAEYAiopb2xhcGxleCBvbGFwbGV4IG5vIDMgaGFpciBwZXJmZWN0b3IgMTAwbWwyGwgCEhdMYSBCb3V0aXF1ZSBkdSBDb2lmZmV1clj_wiBgAQ",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=fr&google_domain=google.com&hl=fr&q=la+boutique+du+coiffeur+olaplex+olaplex+no+3+hair+perfector+100ml&shoprs=CAEYAiopb2xhcGxleCBvbGFwbGV4IG5vIDMgaGFpciBwZXJmZWN0b3IgMTAwbWwyGwgCEhdMYSBCb3V0aXF1ZSBkdSBDb2lmZmV1clj_wiBgAQ",
+            "input_type": "link"
+          },
+          {
+            "text": "Beauty As Well",
+            "shoprs": "CAEYAiopb2xhcGxleCBvbGFwbGV4IG5vIDMgaGFpciBwZXJmZWN0b3IgMTAwbWwyEggCEg5CZWF1dHkgQXMgV2VsbFj_wiBgAQ",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=fr&google_domain=google.com&hl=fr&q=beauty+as+well+olaplex+olaplex+no+3+hair+perfector+100ml&shoprs=CAEYAiopb2xhcGxleCBvbGFwbGV4IG5vIDMgaGFpciBwZXJmZWN0b3IgMTAwbWwyEggCEg5CZWF1dHkgQXMgV2VsbFj_wiBgAQ",
+            "input_type": "link"
+          },
+          {
+            "text": "Océane Avakian",
+            "shoprs": "CAEYAiopb2xhcGxleCBvbGFwbGV4IG5vIDMgaGFpciBwZXJmZWN0b3IgMTAwbWwyEwgCEg9PY8OpYW5lIEF2YWtpYW5Y_8IgYAE",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_shopping&gl=fr&google_domain=google.com&hl=fr&q=oc%C3%A9ane+avakian+olaplex+olaplex+no+3+hair+perfector+100ml&shoprs=CAEYAiopb2xhcGxleCBvbGFwbGV4IG5vIDMgaGFpciBwZXJmZWN0b3IgMTAwbWwyEwgCEg9PY8OpYW5lIEF2YWtpYW5Y_8IgYAE",
+            "input_type": "link"
+          }
+        ]
       }
     ]
   },
   "units": 1,
-  "latency_ms": 1834
+  "latency_ms": 461
 }

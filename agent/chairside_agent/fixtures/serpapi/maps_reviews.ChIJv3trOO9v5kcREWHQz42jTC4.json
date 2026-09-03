@@ -1,0 +1,274 @@
+{
+  "vendor": "serpapi",
+  "primitive": "maps_reviews",
+  "variant": "ChIJv3trOO9v5kcREWHQz42jTC4",
+  "recorded_at": "2026-09-03T14:05:54+00:00",
+  "request": {
+    "engine": "google_maps_reviews",
+    "place_id": "ChIJv3trOO9v5kcREWHQz42jTC4",
+    "hl": "fr",
+    "sort_by": "qualityScore"
+  },
+  "response": {
+    "search_metadata": {
+      "id": "6a997ebe1de064faf40104a2",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/XRdGJSRnX4OPci6-CcOb0BlmeR3jVXOu41RjgrARqpI/6a997ebe1de064faf40104a2.json",
+      "markdown_endpoint": "https://serpapi.com/searches/XRdGJSRnX4OPci6-CcOb0BlmeR3jVXOu41RjgrARqpI/6a997ebe1de064faf40104a2.md",
+      "created_at": "2026-09-03 14:05:51 UTC",
+      "processed_at": "2026-09-03 14:05:51 UTC",
+      "google_maps_reviews_url": "https://www.google.com/maps/place/data=!4m7!3m6!1s0x47e66fef386b7bbf:0x2e4ca38dcfd06111!5m2!4m1!1i2!9m1!1b1?hl=fr",
+      "raw_html_file": "https://serpapi.com/searches/XRdGJSRnX4OPci6-CcOb0BlmeR3jVXOu41RjgrARqpI/6a997ebe1de064faf40104a2.html",
+      "prettify_html_file": "https://serpapi.com/searches/XRdGJSRnX4OPci6-CcOb0BlmeR3jVXOu41RjgrARqpI/6a997ebe1de064faf40104a2.prettify",
+      "total_time_taken": 1.07
+    },
+    "search_parameters": {
+      "engine": "google_maps_reviews",
+      "place_id": "ChIJv3trOO9v5kcREWHQz42jTC4",
+      "hl": "fr",
+      "sort_by": "qualityScore"
+    },
+    "place_info": {
+      "title": "Hair studio by Anissa",
+      "address": "154 Rue Saint-Honoré, 75001 Paris, France",
+      "rating": 4.7,
+      "reviews": 936,
+      "type": "Salon de coiffure"
+    },
+    "topics": [
+      {
+        "keyword": "cheveux bouclés",
+        "mentions": 90,
+        "id": "/g/122v3jj7"
+      },
+      {
+        "keyword": "cheveux frisés",
+        "mentions": 46,
+        "id": "/m/027mn6z"
+      },
+      {
+        "keyword": "maelle",
+        "mentions": 45,
+        "id": "/g/11h84jvhs8"
+      },
+      {
+        "keyword": "balayage",
+        "mentions": 38,
+        "id": "/g/11b_0dnkyp"
+      },
+      {
+        "keyword": "doigts",
+        "mentions": 33,
+        "id": "/m/09cx8"
+      },
+      {
+        "keyword": "définition",
+        "mentions": 25,
+        "id": "/m/026yf"
+      },
+      {
+        "keyword": "restructuration",
+        "mentions": 19,
+        "id": "/m/077f89"
+      },
+      {
+        "keyword": "instagram",
+        "mentions": 15,
+        "id": "/m/0glpjll"
+      },
+      {
+        "keyword": "m'a",
+        "mentions": 12,
+        "id": "/g/120qkzc8"
+      },
+      {
+        "keyword": "marianne",
+        "mentions": 10,
+        "id": "/m/0261g9c"
+      }
+    ],
+    "reviews": [
+      {
+        "position": 1,
+        "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tWVFNXcFBkREZpV2pWdmIyZ3pWazlRYjNGMGRYYxAB!2m1!1s0x0:0x2e4ca38dcfd06111!3m1!1s2@1:CAIQACodChtycF9oOkVTSWpPdDFiWjVvb2gzVk9Qb3F0dXc%7C%7C?hl=fr",
+        "rating": 5.0,
+        "date": "il y a un mois",
+        "iso_date": "2026-07-24T19:18:18Z",
+        "iso_date_of_last_edit": "2026-07-24T19:18:18Z",
+        "images": [
+          "https://lh3.googleusercontent.com/grass-cs/ACvplmPyTEmnj_89c7EsmoJwmPH0qFlGTcw7n1YDingr9vUnK5hcL5pH2JsqnqNnIqWXTNYjPMCOXPaUGXR9sf0xmHP4-sDP_ZuUGud3LJF0UF44XThIbUNDfzBbW8XOezWRVeeRTDnVKOuPfhOp=k-no",
+          "https://lh3.googleusercontent.com/grass-cs/ACvplmNCzC-8CeuU146OyD64YlQHpS7uOTldgp5AkkX66mTBuRQ9FAnbDRHXx5PxP2V5wCoNoniB0xhCk3qMiLn5TDjB78kJ9vaj-xKq3AK6I2zVjRWfoR-qZ8EtExG54R1ShHUm-So58ZK8pQRk=k-no"
+        ],
+        "source": "Google",
+        "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tWVFNXcFBkREZpV2pWdmIyZ3pWazlRYjNGMGRYYxAB",
+        "user": {
+          "name": "Chaden Dah",
+          "link": "https://www.google.com/maps/contrib/117108415358949058053?hl=fr",
+          "contributor_id": "117108415358949058053",
+          "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjXsAglD3GFWR5DRfkb0xFnmnJGbp3ShoRq8sZ43YulCskfWuXq8=s120-c-rp-mo-br100",
+          "local_guide": true,
+          "reviews": 9,
+          "photos": 3
+        },
+        "snippet": "J’ai fais la route de Bruxelles hier pour un balayage fait par la magnifique Maelle, et je pouvais pas rêver mieux!! Elle a été très attentive à toutes mes demandes et a été super rassurante étant donné que c’était une première pour moi, j’avais une petite crainte et elle a vraiment surpassé mes attentes. Je ne peux que vous la recommander et un petit clin d’œil au personnel qui est également super gentil. Moi qui suit très timide elles ont su me mettre très à l’aise, ça en vaut vraiment le détour! Merci encore Maëlle pour ce travail incroyable 😘",
+        "extracted_snippet": {
+          "original": "J’ai fais la route de Bruxelles hier pour un balayage fait par la magnifique Maelle, et je pouvais pas rêver mieux!! Elle a été très attentive à toutes mes demandes et a été super rassurante étant donné que c’était une première pour moi, j’avais une petite crainte et elle a vraiment surpassé mes attentes. Je ne peux que vous la recommander et un petit clin d’œil au personnel qui est également super gentil. Moi qui suit très timide elles ont su me mettre très à l’aise, ça en vaut vraiment le détour! Merci encore Maëlle pour ce travail incroyable 😘"
+        },
+        "likes": 0,
+        "response": {
+          "date": "il y a un mois",
+          "iso_date": "2026-07-30T11:57:18Z",
+          "iso_date_of_last_edit": "2026-07-30T11:57:18Z",
+          "snippet": "Un immense merci pour ce magnifique retour 🥹🤍\nMerci d'avoir fait le déplacement depuis Bruxelles, cela nous touche énormément ! Nous sommes ravies que cette première expérience se soit déroulée à la hauteur de vos attentes. Nous ne manquerons pas de transmettre vos adorables mots à Maëlle, qui sera très heureuse de les lire. 🫶🏽\nMerci également pour votre gentillesse envers toute l'équipe. C'était un vrai plaisir de vous accueillir, et nous espérons vous revoir très bientôt au Hair Studio ! ✨💕",
+          "extracted_snippet": {
+            "original": "Un immense merci pour ce magnifique retour 🥹🤍\nMerci d'avoir fait le déplacement depuis Bruxelles, cela nous touche énormément ! Nous sommes ravies que cette première expérience se soit déroulée à la hauteur de vos attentes. Nous ne manquerons pas de transmettre vos adorables mots à Maëlle, qui sera très heureuse de les lire. 🫶🏽\nMerci également pour votre gentillesse envers toute l'équipe. C'était un vrai plaisir de vous accueillir, et nous espérons vous revoir très bientôt au Hair Studio ! ✨💕"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21SWWFGSlNVM1JxTVdwUmFtZ3hNRFZ2VmpKUmMzYxAB!2m1!1s0x0:0x2e4ca38dcfd06111!3m1!1s2@1:CAIQACodChtycF9oOmRYaFJSU3RqMWpRamgxMDVvVjJRc3c%7C%7C?hl=fr",
+        "rating": 5.0,
+        "date": "il y a 4 mois",
+        "iso_date": "2026-04-05T12:24:56Z",
+        "iso_date_of_last_edit": "2026-04-05T12:24:56Z",
+        "images": [
+          "https://lh3.googleusercontent.com/grass-cs/ACvplmMuqG5vT3rIJUgTUaQQDN0Rrj_EzXoGvUUoSBvLPHRdt9lQbanrYLPBhRvsA87AqFhLmDJ9hF81lBgIMgCnEzJ5-ZzXEEGGdnbW-4IqrjxLmySLTR1Bkv2SzDbVCdVjelguhbUm6RosFMd_=k-no"
+        ],
+        "source": "Google",
+        "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21SWWFGSlNVM1JxTVdwUmFtZ3hNRFZ2VmpKUmMzYxAB",
+        "user": {
+          "name": "yamina osmani",
+          "link": "https://www.google.com/maps/contrib/112352175230295349788?hl=fr",
+          "contributor_id": "112352175230295349788",
+          "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocI_HZLqqjMoAyJWo_iaNoCUTGX4huYJoZguBO7k3m60jgXGxw=s120-c-rp-mo-br100",
+          "local_guide": true,
+          "reviews": 5,
+          "photos": 2
+        },
+        "snippet": "Je me suis fait coiffer par Maelle il y a un an et je n’ai pas été déçu et ce mois-ci j’ai été faire une coupe balayage avec Anissa et je suis agréablement surprise du résultat qui est magnifique, je le recommande à 100 %, je ne suis jamais sortie aussi satisfaite d’un salon que ici que ça soit l’ambiance les techniques ou encore les filles tout est parfait ! Je souhaite à Anissa d’aller encore plus loin, car elle le mérite sont travail avec ses filles est tout juste incroyable et magnifique ! 🤩",
+        "extracted_snippet": {
+          "original": "Je me suis fait coiffer par Maelle il y a un an et je n’ai pas été déçu et ce mois-ci j’ai été faire une coupe balayage avec Anissa et je suis agréablement surprise du résultat qui est magnifique, je le recommande à 100 %, je ne suis jamais sortie aussi satisfaite d’un salon que ici que ça soit l’ambiance les techniques ou encore les filles tout est parfait ! Je souhaite à Anissa d’aller encore plus loin, car elle le mérite sont travail avec ses filles est tout juste incroyable et magnifique ! 🤩"
+        },
+        "likes": 0,
+        "response": {
+          "date": "il y a 4 mois",
+          "iso_date": "2026-04-17T13:04:05Z",
+          "iso_date_of_last_edit": "2026-04-17T13:04:05Z",
+          "snippet": "Merci beaucoup pour votre superbe retour 🌟\n\nNous sommes ravis de savoir que vos expériences avec Maëlle puis Anissa ont été à la hauteur de vos attentes, et que le balayage ainsi que la coupe vous plaisent autant ✨\n\nVotre message sur l’ambiance du salon et le travail de l’équipe nous touche sincèrement 💛 Anissa et toute l’équipe seront très heureuses de vous lire.\n\nAu plaisir de vous revoir très bientôt au salon pour continuer à sublimer vos cheveux 💇‍♀️",
+          "extracted_snippet": {
+            "original": "Merci beaucoup pour votre superbe retour 🌟\n\nNous sommes ravis de savoir que vos expériences avec Maëlle puis Anissa ont été à la hauteur de vos attentes, et que le balayage ainsi que la coupe vous plaisent autant ✨\n\nVotre message sur l’ambiance du salon et le travail de l’équipe nous touche sincèrement 💛 Anissa et toute l’équipe seront très heureuses de vous lire.\n\nAu plaisir de vous revoir très bientôt au salon pour continuer à sublimer vos cheveux 💇‍♀️"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25aUGJFcHFkV1EzT0d0VWNYazVhMFJCZVhkVVgyYxAB!2m1!1s0x0:0x2e4ca38dcfd06111!3m1!1s2@1:CAIQACodChtycF9oOnZPbEpqdWQ3OGtUcXk5a0RBeXdUX2c%7C%7C?hl=fr",
+        "rating": 5.0,
+        "date": "il y a 6 mois",
+        "iso_date": "2026-02-11T14:13:04Z",
+        "iso_date_of_last_edit": "2026-02-11T14:13:04Z",
+        "images": [
+          "https://lh3.googleusercontent.com/grass-cs/ACvplmNS7T_nGKT2-EgJvFAthA65tAftwodG-CXlOMdev5gxksfMdMDPSkCMRT_GVOeGY7gfGrqZMMyBXTxZSs5W1AS3W3-o8GYsis6ZZfaH4gWhdLGJt4ePDqbIz4a48nEdORu0xHDTa7OvuJw=k-no"
+        ],
+        "source": "Google",
+        "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25aUGJFcHFkV1EzT0d0VWNYazVhMFJCZVhkVVgyYxAB",
+        "user": {
+          "name": "stacie elien",
+          "link": "https://www.google.com/maps/contrib/105227287158214927484?hl=fr",
+          "contributor_id": "105227287158214927484",
+          "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjUZFrmfQ9uAInPzv9SsfIKGqcWf4wFyjCtKLMx7XWgp31Qwns0=s120-c-rp-mo-ba12-br100",
+          "local_guide": true,
+          "reviews": 28,
+          "photos": 29
+        },
+        "snippet": "Je fais confiance à l’expertise d’Anissa les yeux fermés. Si tu dois choisir un salon spécialiste des cheveux texturés sur Paris, vas-y ! tu ne ressortiras jamais déçu(e). Ce n’est pas donné mais ça vaut vraiment le coup. Merci à Anissa et son équipe",
+        "extracted_snippet": {
+          "original": "Je fais confiance à l’expertise d’Anissa les yeux fermés. Si tu dois choisir un salon spécialiste des cheveux texturés sur Paris, vas-y ! tu ne ressortiras jamais déçu(e). Ce n’est pas donné mais ça vaut vraiment le coup. Merci à Anissa et son équipe"
+        },
+        "likes": 0,
+        "response": {
+          "date": "il y a 6 mois",
+          "iso_date": "2026-02-14T10:04:14Z",
+          "iso_date_of_last_edit": "2026-02-14T10:04:14Z",
+          "snippet": "Un grand merci pour votre confiance et pour ce si beau message 🤍\n\nNous sommes très touchées par vos mots envers Anissa et toute l’équipe. Mettre notre expertise au service des cheveux texturés et offrir une expérience de qualité fait partie de notre engagement quotidien, alors savoir que vous le ressentez nous fait vraiment plaisir ✨\n\nMerci pour votre recommandation et à très bientôt au salon 🌿",
+          "extracted_snippet": {
+            "original": "Un grand merci pour votre confiance et pour ce si beau message 🤍\n\nNous sommes très touchées par vos mots envers Anissa et toute l’équipe. Mettre notre expertise au service des cheveux texturés et offrir une expérience de qualité fait partie de notre engagement quotidien, alors savoir que vous le ressentez nous fait vraiment plaisir ✨\n\nMerci pour votre recommandation et à très bientôt au salon 🌿"
+          }
+        }
+      },
+      {
+        "position": 4,
+        "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21wWVQyc3dNMHBOTlRCcVFVMVBZME5RZVVzMlgyYxAB!2m1!1s0x0:0x2e4ca38dcfd06111!3m1!1s2@1:CAIQACodChtycF9oOmpYT2swM0pNNTBqQU1PY0NQeUs2X2c%7C%7C?hl=fr",
+        "rating": 5.0,
+        "date": "il y a 2 mois",
+        "iso_date": "2026-06-04T11:34:34Z",
+        "iso_date_of_last_edit": "2026-06-04T11:34:34Z",
+        "source": "Google",
+        "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21wWVQyc3dNMHBOTlRCcVFVMVBZME5RZVVzMlgyYxAB",
+        "user": {
+          "name": "Karen Scravaglieri",
+          "link": "https://www.google.com/maps/contrib/111218282044070338955?hl=fr",
+          "contributor_id": "111218282044070338955",
+          "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJC0ZZlkFUl5M_c0U0p18xn9PxIwZ7kwpj6Qv48yLgSsvZUkjE=s120-c-rp-mo-br100",
+          "local_guide": true,
+          "reviews": 8,
+          "photos": 0
+        },
+        "snippet": "Je me suis rendue au Hair Studio à une période où je ne supportais plus ma coupe de cheveux, de passer des heures à définir mes boucles pour oser les porter et finalement avec l’impression de ne pas les porter « au naturel » en les trouvant vraiment beaux.\nJ’ai pris rdv pour un balayage avec Anissa et elle a su prendre le temps de me conseiller, d’écouter ma demande et de choisir au mieux en fonction de l’état de mes cheveux , de mon teint et de mon envie.\nJe suis repartie enchantée, un résultat naturel et mes cheveux définis sans finger coil comme je ne les avais jamais vu, la couleur était juste parfaite je n’ai pas regretté une seule seconde d’avoir écouté Anissa.\nTout mon entourage a adoré et le plus important dans tout ça, j’arrive à les coiffer, sans passer des heures à les définir au doigt, et je retrouve le même résultat qu’au salon et ça c’est que du bonheur 😇\n\nPour finir ; en plus de la qualité de son travail, l’accueil au salon est tout à fait adorable, toutes les filles sont douces et souriantes. Tout a été fait pour que je puisse avoir mon train malgré ma tonne de cheveux et c’est juste apaisant de savoir qu’on a enfin trouvé un endroit où aller en toute confiance et où on se sent bien.\n\nMerci mille fois,",
+        "extracted_snippet": {
+          "original": "Je me suis rendue au Hair Studio à une période où je ne supportais plus ma coupe de cheveux, de passer des heures à définir mes boucles pour oser les porter et finalement avec l’impression de ne pas les porter « au naturel » en les trouvant vraiment beaux.\nJ’ai pris rdv pour un balayage avec Anissa et elle a su prendre le temps de me conseiller, d’écouter ma demande et de choisir au mieux en fonction de l’état de mes cheveux , de mon teint et de mon envie.\nJe suis repartie enchantée, un résultat naturel et mes cheveux définis sans finger coil comme je ne les avais jamais vu, la couleur était juste parfaite je n’ai pas regretté une seule seconde d’avoir écouté Anissa.\nTout mon entourage a adoré et le plus important dans tout ça, j’arrive à les coiffer, sans passer des heures à les définir au doigt, et je retrouve le même résultat qu’au salon et ça c’est que du bonheur 😇\n\nPour finir ; en plus de la qualité de son travail, l’accueil au salon est tout à fait adorable, toutes les filles sont douces et souriantes. Tout a été fait pour que je puisse avoir mon train malgré ma tonne de cheveux et c’est juste apaisant de savoir qu’on a enfin trouvé un endroit où aller en toute confiance et où on se sent bien.\n\nMerci mille fois,"
+        },
+        "likes": 0,
+        "response": {
+          "date": "il y a 2 mois",
+          "iso_date": "2026-06-17T14:32:22Z",
+          "iso_date_of_last_edit": "2026-06-17T14:32:22Z",
+          "snippet": "Merci du fond du cœur pour ce témoignage si touchant. ✨\nLire des retours comme le vôtre est une véritable récompense pour toute notre équipe. Nous sommes particulièrement heureuses qu’Anissa ait su vous accompagner avec écoute et bienveillance afin de trouver la meilleure solution pour vos cheveux, tout en respectant leur état, votre teint et vos envies.\nSavoir que vous avez retrouvé le plaisir de porter vos boucles au naturel, avec une routine simplifiée et un résultat que vous arrivez à reproduire chez vous, est exactement ce que nous souhaitons offrir à chacune de nos clientes. 💛\nVos mots sur l’accueil du salon nous touchent également énormément. Créer un espace où l’on se sent écoutée, en confiance et apaisée est au cœur de notre philosophie, et nous sommes ravies d’avoir pu vous accompagner jusqu’à votre train malgré votre magnifique chevelure. 😊\nMerci mille fois pour votre confiance et pour ce si beau partage. Nous avons hâte de vous accueillir à nouveau chez Hair Studio by Anissa. ✨",
+          "extracted_snippet": {
+            "original": "Merci du fond du cœur pour ce témoignage si touchant. ✨\nLire des retours comme le vôtre est une véritable récompense pour toute notre équipe. Nous sommes particulièrement heureuses qu’Anissa ait su vous accompagner avec écoute et bienveillance afin de trouver la meilleure solution pour vos cheveux, tout en respectant leur état, votre teint et vos envies.\nSavoir que vous avez retrouvé le plaisir de porter vos boucles au naturel, avec une routine simplifiée et un résultat que vous arrivez à reproduire chez vous, est exactement ce que nous souhaitons offrir à chacune de nos clientes. 💛\nVos mots sur l’accueil du salon nous touchent également énormément. Créer un espace où l’on se sent écoutée, en confiance et apaisée est au cœur de notre philosophie, et nous sommes ravies d’avoir pu vous accompagner jusqu’à votre train malgré votre magnifique chevelure. 😊\nMerci mille fois pour votre confiance et pour ce si beau partage. Nous avons hâte de vous accueillir à nouveau chez Hair Studio by Anissa. ✨"
+          }
+        }
+      },
+      {
+        "position": 5,
+        "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pCTFN6WkNRMDExUkU1U1ZGaHRkSE5LWjFSNVVXYxAB!2m1!1s0x0:0x2e4ca38dcfd06111!3m1!1s2@1:CAIQACodChtycF9oOjBLSzZCQ011RE5SVFhtdHNKZ1R5UWc%7C%7C?hl=fr",
+        "rating": 2.0,
+        "date": "il y a un mois",
+        "iso_date": "2026-07-08T16:27:57Z",
+        "iso_date_of_last_edit": "2026-07-08T16:27:57Z",
+        "source": "Google",
+        "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pCTFN6WkNRMDExUkU1U1ZGaHRkSE5LWjFSNVVXYxAB",
+        "user": {
+          "name": "Sarra Cheerrr",
+          "link": "https://www.google.com/maps/contrib/115933294819139978425?hl=fr",
+          "contributor_id": "115933294819139978425",
+          "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocI1VcGaxAq_759wZ5gX_GTBrdCklWeX31PrNzI6SyvoOFSEwQ=s120-c-rp-mo-br100",
+          "local_guide": true,
+          "reviews": 2,
+          "photos": 0
+        },
+        "snippet": "J'attendais ce rendez-vous avec beaucoup d'impatience, mais je suis sortie malheureusement très déçue. J'avais demandé une transformation, en passant de cheveux longs à une coupe très courte. Malheureusement, le résultat ne correspond pas à ce que nous avions évoqué. La coupe manque d'harmonie,  ça donne un effet « coupe au bol » à l'avant et à l'arrière, on distingue un dégradé en forme de strates/d'escaliers, la coiffeuse n'a pas voulu effilé je ne sais pas pourquoi..\n\nJ'avais aussi demandé un brushing, mais mes cheveux ont finalement été coiffés uniquement au lisseur. Le résultat était très gonflé, avec un  effet « casque », loin du rendu que j'espérais. Si un brushing ne peut pas être réalisé comme annoncé, il serait peut-être préférable de revoir les prestations proposées.\n\nLorsque j'ai fait part de ma déception, il m'a été répondu que la coupe que j'avais choisie n'était pas adaptée à mon type de cheveux et que le résultat du brushing s'expliquait par leur épaisseur. J'aurais simplement aimé que cela me soit expliqué avant de commencer la coupe, et non une fois le résultat obtenu. En tant que professionnelle, j'attendais surtout des conseils pour adapter mon souhait à ce qui était réellement possible avec la nature de mes cheveux.\n\nAu vu du prix de la prestation, je ressors déçue. Même un simple verre d'eau, en pleine canicule, ne m'a pas été proposé.\n\nBon tanpis, plus qu'à patienter quelques mois… Les cheveux ça repoussent, heureusement.",
+        "extracted_snippet": {
+          "original": "J'attendais ce rendez-vous avec beaucoup d'impatience, mais je suis sortie malheureusement très déçue. J'avais demandé une transformation, en passant de cheveux longs à une coupe très courte. Malheureusement, le résultat ne correspond pas à ce que nous avions évoqué. La coupe manque d'harmonie,  ça donne un effet « coupe au bol » à l'avant et à l'arrière, on distingue un dégradé en forme de strates/d'escaliers, la coiffeuse n'a pas voulu effilé je ne sais pas pourquoi..\n\nJ'avais aussi demandé un brushing, mais mes cheveux ont finalement été coiffés uniquement au lisseur. Le résultat était très gonflé, avec un  effet « casque », loin du rendu que j'espérais. Si un brushing ne peut pas être réalisé comme annoncé, il serait peut-être préférable de revoir les prestations proposées.\n\nLorsque j'ai fait part de ma déception, il m'a été répondu que la coupe que j'avais choisie n'était pas adaptée à mon type de cheveux et que le résultat du brushing s'expliquait par leur épaisseur. J'aurais simplement aimé que cela me soit expliqué avant de commencer la coupe, et non une fois le résultat obtenu. En tant que professionnelle, j'attendais surtout des conseils pour adapter mon souhait à ce qui était réellement possible avec la nature de mes cheveux.\n\nAu vu du prix de la prestation, je ressors déçue. Même un simple verre d'eau, en pleine canicule, ne m'a pas été proposé.\n\nBon tanpis, plus qu'à patienter quelques mois… Les cheveux ça repoussent, heureusement."
+        },
+        "likes": 0,
+        "response": {
+          "date": "il y a un mois",
+          "iso_date": "2026-07-30T12:00:49Z",
+          "iso_date_of_last_edit": "2026-07-30T12:00:49Z",
+          "snippet": "Bonjour,\nMerci d'avoir pris le temps de partager votre retour. Nous sommes sincèrement désolées d'apprendre que votre expérience n'a pas répondu à vos attentes.\nUne transformation vers une coupe très courte est un changement important, et notre priorité est toujours de trouver le meilleur équilibre entre le souhait de la cliente et ce qui est réalisable selon la nature, la densité et le comportement du cheveu. Nous sommes navrées si ces explications n'ont pas été suffisamment claires avant le début de la prestation.\nConcernant le coiffage, selon les textures et les objectifs recherchés, il peut arriver que nous utilisions le lisseur plutôt qu'un brushing classique afin d'obtenir le résultat le plus adapté. Nous comprenons néanmoins que cela ait pu être en décalage avec vos attentes.\nNous regrettons également que vous ne vous soyez pas sentie pleinement accompagnée tout au long de votre rendez-vous, que ce soit dans les explications ou dans votre confort.\nNous accordons une grande importance à la satisfaction de nos clientes et serions ravies d'échanger avec vous afin de revoir la coupe ensemble si nécessaire. N'hésitez pas à nous contacter par e-mail à hairstudiobyanissa@gmail.com pour que nous puissions trouver une solution.\nNous vous remercions malgré tout pour votre retour, qui nous permet de continuer à nous améliorer.",
+          "extracted_snippet": {
+            "original": "Bonjour,\nMerci d'avoir pris le temps de partager votre retour. Nous sommes sincèrement désolées d'apprendre que votre expérience n'a pas répondu à vos attentes.\nUne transformation vers une coupe très courte est un changement important, et notre priorité est toujours de trouver le meilleur équilibre entre le souhait de la cliente et ce qui est réalisable selon la nature, la densité et le comportement du cheveu. Nous sommes navrées si ces explications n'ont pas été suffisamment claires avant le début de la prestation.\nConcernant le coiffage, selon les textures et les objectifs recherchés, il peut arriver que nous utilisions le lisseur plutôt qu'un brushing classique afin d'obtenir le résultat le plus adapté. Nous comprenons néanmoins que cela ait pu être en décalage avec vos attentes.\nNous regrettons également que vous ne vous soyez pas sentie pleinement accompagnée tout au long de votre rendez-vous, que ce soit dans les explications ou dans votre confort.\nNous accordons une grande importance à la satisfaction de nos clientes et serions ravies d'échanger avec vous afin de revoir la coupe ensemble si nécessaire. N'hésitez pas à nous contacter par e-mail à hairstudiobyanissa@gmail.com pour que nous puissions trouver une solution.\nNous vous remercions malgré tout pour votre retour, qui nous permet de continuer à nous améliorer."
+          }
+        }
+      }
+    ],
+    "serpapi_pagination": {
+      "next": "https://serpapi.com/search.json?engine=google_maps_reviews&hl=fr&next_page_token=CjEIARIpCgoAP7_LAJfP____EhDT5vvgVtV0EFXeQLMAAAAAGgn92QYCYWIA6moYACIA&place_id=ChIJv3trOO9v5kcREWHQz42jTC4&sort_by=qualityScore",
+      "next_page_token": "CjEIARIpCgoAP7_LAJfP____EhDT5vvgVtV0EFXeQLMAAAAAGgn92QYCYWIA6moYACIA"
+    }
+  },
+  "units": 1,
+  "latency_ms": 1395
+}

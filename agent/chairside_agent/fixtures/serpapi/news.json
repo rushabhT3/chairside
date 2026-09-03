@@ -2,101 +2,223 @@
   "vendor": "serpapi",
   "primitive": "news",
   "variant": "default",
-  "recorded_at": "2026-09-03T08:30:00+00:00",
+  "recorded_at": "2026-09-03T14:00:25+00:00",
   "request": {
     "engine": "google_news",
-    "q": "Olaplex No. 3 recall",
+    "q": "Olaplex Olaplex No. 3 Hair Perfector 100ml",
     "gl": "fr",
     "hl": "fr"
   },
   "response": {
     "search_metadata": {
-      "id": "68b7f3c4e5f6071829304b5d",
+      "id": "6a997d0ff607a9fb1dbb1ead",
       "status": "Success",
-      "json_endpoint": "https://serpapi.com/searches/68b7f3c4e5f6071829304b5d.json",
-      "created_at": "2026-09-03 08:30:12 UTC",
-      "processed_at": "2026-09-03 08:30:12 UTC",
-      "total_time_taken": 2.41
+      "json_endpoint": "https://serpapi.com/searches/VVMEEx24lA-L9J6Pl3K-vwzhlKxB55neM027x5mZsN0/6a997d0ff607a9fb1dbb1ead.json",
+      "markdown_endpoint": "https://serpapi.com/searches/VVMEEx24lA-L9J6Pl3K-vwzhlKxB55neM027x5mZsN0/6a997d0ff607a9fb1dbb1ead.md",
+      "created_at": "2026-09-03 13:58:39 UTC",
+      "processed_at": "2026-09-03 13:58:39 UTC",
+      "google_news_url": "https://news.google.com/search?q=Olaplex+Olaplex+No.+3+Hair+Perfector+100ml&hl=fr&gl=FR",
+      "raw_html_file": "https://serpapi.com/searches/VVMEEx24lA-L9J6Pl3K-vwzhlKxB55neM027x5mZsN0/6a997d0ff607a9fb1dbb1ead.html",
+      "total_time_taken": 1.06
     },
     "search_parameters": {
       "engine": "google_news",
-      "q": "Olaplex No. 3 recall",
       "gl": "fr",
-      "hl": "fr"
+      "hl": "fr",
+      "q": "Olaplex Olaplex No. 3 Hair Perfector 100ml"
     },
     "news_results": [
       {
-        "position": 1,
-        "title": "Olaplex lance une recharge pour son soin N°3 en France",
-        "source": {
-          "name": "Cosmétique Mag",
-          "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.cosmetiquemag.fr",
-          "authors": [
-            "Claire Dubois"
-          ]
-        },
-        "link": "https://www.cosmetiquemag.fr/olaplex-recharge-n3-france",
-        "thumbnail": "https://news.google.com/api/attachments/olaplex-refill.jpg",
-        "thumbnail_small": "https://news.google.com/api/attachments/olaplex-refill-s.jpg",
-        "date": "08/14/2026, 09:12 AM, +0000 UTC",
-        "iso_date": "2026-08-14T09:12:00Z"
-      },
-      {
         "position": 2,
-        "title": "Bond builders 2026 : Olaplex, K18, Redken ABC comparés par des coiffeurs",
+        "title": "J'ai testé 7 produits Olaplex et il y a un grand gagnant",
         "source": {
-          "name": "Marie Claire",
-          "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.marieclaire.fr",
+          "name": "Refinery29",
+          "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.refinery29.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
           "authors": [
-            "Léa Martin"
+            "Esther Newman",
+            "Myriam Chouder"
           ]
         },
-        "link": "https://www.marieclaire.fr/beaute/bond-builders-2026",
-        "thumbnail": "https://news.google.com/api/attachments/bond-builders.jpg",
-        "thumbnail_small": "https://news.google.com/api/attachments/bond-builders-s.jpg",
-        "date": "07/29/2026, 06:40 PM, +0000 UTC",
-        "iso_date": "2026-07-29T18:40:00Z"
+        "link": "https://www.refinery29.com/fr-fr/avis-produits-olaplex-soins-cheveux",
+        "thumbnail": "https://www.refinery29.com/images/10717782.jpg?format=webp&width=720&height=864&quality=85&crop=5%3A6",
+        "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNVRiRGhJTUZJMWNWWk1SVWRXVFJEZkJCajVBeWdLTWdrSmdZN01NS2V4a0FF",
+        "date": "04/30/2022, 07:00 AM, +0000 UTC",
+        "iso_date": "2022-04-30T07:00:00Z"
       },
       {
         "position": 3,
-        "title": "Olaplex : résultats du deuxième trimestre en hausse en Europe",
+        "title": "J'ai testé tous les produits Olaplex pendant 2 mois et voici mon avis",
         "source": {
-          "name": "Les Echos",
-          "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.lesechos.fr",
-          "authors": [
-            "Marc Petit"
-          ]
+          "name": "Le Journal de Montréal",
+          "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.journaldemontreal.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
         },
-        "link": "https://www.lesechos.fr/industrie-services/conso-distribution/olaplex-t2-2026",
-        "thumbnail": "https://news.google.com/api/attachments/olaplex-q2.jpg",
-        "thumbnail_small": "https://news.google.com/api/attachments/olaplex-q2-s.jpg",
-        "date": "08/06/2026, 07:05 AM, +0000 UTC",
-        "iso_date": "2026-08-06T07:05:00Z"
+        "link": "https://www.journaldemontreal.com/nos-recos/beaute/test-produits-olaplex-avis/",
+        "thumbnail": "https://d3jks2a8ttfomr.cloudfront.net/articles/_938x500_crop_center-center_95_none/16040530/test-avis-produits-olaplex.webp",
+        "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNDVaM1J3UTFCNVVGa3lZMEkyVFJDVUF4ajNCU2dLTWdhQklZd1ZGUW8",
+        "date": "02/10/2026, 04:47 PM, +0000 UTC",
+        "iso_date": "2026-02-10T16:47:35Z"
       },
       {
         "position": 4,
-        "title": "Olaplex : la marque répond aux rumeurs de rappel de 2023, aucun nouveau signalement",
+        "title": "Olaplex : à vous la chevelure de rêve avec ces 5 produits capillaires en promotion pour le Black Friday",
         "source": {
-          "name": "Allure France",
-          "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.allure.fr",
+          "name": "Ohmymag",
+          "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.ohmymag.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
           "authors": [
-            "Inès Roche"
+            "Ivana Deau"
           ]
         },
-        "link": "https://www.allure.fr/olaplex-rappel-rumeurs-2023",
-        "thumbnail": "https://news.google.com/api/attachments/olaplex-2023.jpg",
-        "thumbnail_small": "https://news.google.com/api/attachments/olaplex-2023-s.jpg",
-        "date": "02/11/2026, 10:20 AM, +0000 UTC",
-        "iso_date": "2026-02-11T10:20:00Z"
+        "link": "https://www.ohmymag.com/style/beaute/cheveux/olaplex-a-vous-la-chevelure-de-reve-avec-ces-5-produits-capillaires-en-promotion-pour-le-black-friday_art158204.html",
+        "thumbnail": "https://www.ohmymag.com/sites/websites_fromm/files/styles/1200x675/public/article/style/beaute/cheveux/olaplex-ces-5-soins-capillaires-que-lon-voit-partout-sont-actuellement-en-promotion-sur-amazon.webp?itok=Cq3JqXSv",
+        "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNVRPV0V3T0RGVWJEZHZkRVZUVFJDZkF4ampCU2dLTWdrTkFJaUdDcW9tWWdN",
+        "date": "11/23/2023, 08:00 AM, +0000 UTC",
+        "iso_date": "2023-11-23T08:00:00Z"
+      },
+      {
+        "position": 5,
+        "title": "Olaplex : j'ai testé la gamme capillaire de la marque la plus prisée de TikTok et ma chevelure n'a jamais été aussi brillante",
+        "source": {
+          "name": "grazia.fr",
+          "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.grazia.fr&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+          "authors": [
+            "Magali Bertin"
+          ]
+        },
+        "link": "https://www.grazia.fr/beaute/coiffure/olaplex-jai-teste-gamme-capillaire-de-marque-plus-prisee-de-tiktok-chevelure-na-jamais-ete-brillante-646517.html",
+        "thumbnail": "https://www.grazia.fr/wp-content/uploads/grazia/2022/07/retail-collection-landscape-750x410.jpg",
+        "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNTFSa2c0TkhOT01rOW9hVGd6VFJDWkF4anRCU2dLTWdZaGhJRHV4UVE",
+        "date": "07/12/2022, 05:33 AM, +0000 UTC",
+        "iso_date": "2022-07-12T05:33:34Z"
+      },
+      {
+        "position": 6,
+        "title": "L’incroyable marque Olaplex est désormais dispo chez Ici Paris XL",
+        "source": {
+          "name": "ELLE.be",
+          "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.elle.be&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+        },
+        "link": "https://www.elle.be/fr/402907-lincroyable-marque-olaplex-est-desormais-dispo-chez-ici-paris-xl.html",
+        "thumbnail": "https://www.elle.be/fr/wp-content/uploads/2023/08/olaplex-970x508.jpg",
+        "thumbnail_small": "https://news.google.com/api/attachments/CC8iI0NnNVBSR1pGY1dGSFZUWlVhVEZOVFJDUkF4ajlCU2dLTWdB",
+        "date": "08/28/2023, 07:00 AM, +0000 UTC",
+        "iso_date": "2023-08-28T07:00:00Z"
+      },
+      {
+        "position": 7,
+        "title": "Primark : ces dupes OLAPLEX à 3 euros affolent les internautes, \"très efficace\"",
+        "source": {
+          "name": "Marie France, magazine féminin",
+          "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.mariefrance.fr&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+        },
+        "link": "https://www.mariefrance.fr/beaute/primark-ces-dupes-olaplex-a-3-euros-affolent-les-internautes-tres-efficace-776344.html",
+        "thumbnail": "https://sf2.mariefrance.fr/wp-content/uploads/sites/5/2023/05/2023-05-12t153211.714.jpg",
+        "thumbnail_small": "https://news.google.com/api/attachments/CC8iI0NnNVVORzFNV1ZScWVFOVdVRVZUVFJDUkF4ajhCU2dLTWdB",
+        "date": "05/12/2023, 02:01 PM, +0000 UTC",
+        "iso_date": "2023-05-12T14:01:43Z"
+      },
+      {
+        "position": 8,
+        "title": "Ces 12 trouvailles Amazon volent la vedette sur TikTok en ce moment",
+        "source": {
+          "name": "Noovo Moi",
+          "icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.noovomoi.ca&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+        },
+        "link": "https://www.noovomoi.ca/style-et-maison/infos-pratiques/trouvailles-amazon-vedette-tiktok.html",
+        "thumbnail": "https://www.noovomoi.ca/resizer/v2/VCCVLTWGOIL47H6BD2CFPVX3YA.jpg?auth=1c7d880081587e199a4cd7c367edc230ed36ce936aa3f2dc6ea0bd7a32579980&width=300",
+        "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNVVORTlxYm5Kak5GZHNjMEZtVFJEV0FSaXNBaWdLTWdZTklJaXVLUVk",
+        "date": "11/08/2021, 08:00 AM, +0000 UTC",
+        "iso_date": "2021-11-08T08:00:00Z"
+      },
+      {
+        "position": 9,
+        "title": "Olaplex Bun : voici comment reproduire le chignon le plus tendance et chic du moment",
+        "source": {
+          "name": "grazia.fr",
+          "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.grazia.fr&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+          "authors": [
+            "Pierre-guillaume Ligdamis"
+          ]
+        },
+        "link": "https://www.grazia.fr/beaute/coiffure/olaplex-bun-voici-comment-reproduire-le-chignon-le-plus-tendance-et-chic-du-moment-602431.html",
+        "thumbnail": "https://www.grazia.fr/wp-content/uploads/grazia/2022/03/olaplex-bun-voici-comment-reproduire-chignon-plus-tendance-chic-moment-750x410.jpeg",
+        "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNDFOamN6Ym1oR1JVSXRaMGh1VFJDWkF4anRCU2dLTWdZQnRZS3Z4UUk",
+        "date": "03/24/2022, 07:59 AM, +0000 UTC",
+        "iso_date": "2022-03-24T07:59:34Z"
+      },
+      {
+        "position": 10,
+        "title": "Les produits Olaplex sont à prix réduits pendant cette vente Sephora",
+        "source": {
+          "name": "Le Journal de Montréal",
+          "icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.journaldemontreal.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL"
+        },
+        "link": "https://www.journaldemontreal.com/nos-recos/aubaines/produit-olaplex-vente-sephora/",
+        "thumbnail": "https://d3jks2a8ttfomr.cloudfront.net/articles/_938x500_crop_center-center_95_none/15972668/vente-olaplex.webp",
+        "thumbnail_small": "https://news.google.com/api/attachments/CC8iL0NnNXllRjl3VWtkT0xYTnFaVmRGVFJDVUF4ajNCU2dLTWdrSk1JQmtxaVlscGdJ",
+        "date": "11/04/2025, 08:00 AM, +0000 UTC",
+        "iso_date": "2025-11-04T08:00:00Z"
+      },
+      {
+        "position": 11,
+        "title": "Les 8 must-have beauté en vente chez Sephora — selon nos lectrices",
+        "source": {
+          "name": "Refinery29",
+          "icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.refinery29.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+          "authors": [
+            "Karina Hoshikawa",
+            "Myriam Chouder"
+          ]
+        },
+        "link": "https://www.refinery29.com/fr-fr/meilleurs-produits-beaute-chez-sephora",
+        "thumbnail": "https://www.refinery29.com/images/8804669.jpg?format=webp&width=720&height=864&quality=85&crop=5%3A6",
+        "thumbnail_small": "https://news.google.com/api/attachments/CC8iK0NnNWFSbkp0VVVGak0yNDVWV0l0VFJEZkJCajVBeWdLTWdhdE5Zek9wUVU",
+        "date": "10/21/2019, 07:00 AM, +0000 UTC",
+        "iso_date": "2019-10-21T07:00:00Z"
       }
     ],
     "menu_links": [
       {
         "title": "France",
-        "topic_token": "CAAqIggKIhxDQkFTRHdvSkwyMHZNRFZ4ZERBNUVnSm1jaWdBUAE"
+        "topic_token": "CAAqIggKIhxDQkFTRHdvSkwyMHZNR1k0YkRsakVnSm1jaWdBUAE",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=fr&topic_token=CAAqIggKIhxDQkFTRHdvSkwyMHZNR1k0YkRsakVnSm1jaWdBUAE"
+      },
+      {
+        "title": "International",
+        "topic_token": "CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx1YlY4U0FtWnlHZ0pHVWlnQVAB",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=fr&topic_token=CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx1YlY4U0FtWnlHZ0pHVWlnQVAB"
+      },
+      {
+        "title": "Vos actualités locales",
+        "topic_token": "CAAqHAgKIhZDQklTQ2pvSWJHOWpZV3hmZGpJb0FBUAE",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=fr&topic_token=CAAqHAgKIhZDQklTQ2pvSWJHOWpZV3hmZGpJb0FBUAE"
+      },
+      {
+        "title": "Économie",
+        "topic_token": "CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx6TVdZU0FtWnlHZ0pHVWlnQVAB",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=fr&topic_token=CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx6TVdZU0FtWnlHZ0pHVWlnQVAB"
+      },
+      {
+        "title": "Sciences et technologies",
+        "topic_token": "CAAqKAgKIiJDQkFTRXdvSkwyMHZNR1ptZHpWbUVnSm1jaG9DUmxJb0FBUAE",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=fr&topic_token=CAAqKAgKIiJDQkFTRXdvSkwyMHZNR1ptZHpWbUVnSm1jaG9DUmxJb0FBUAE"
+      },
+      {
+        "title": "Divertissement",
+        "topic_token": "CAAqJggKIiBDQkFTRWdvSUwyMHZNREpxYW5RU0FtWnlHZ0pHVWlnQVAB",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=fr&topic_token=CAAqJggKIiBDQkFTRWdvSUwyMHZNREpxYW5RU0FtWnlHZ0pHVWlnQVAB"
+      },
+      {
+        "title": "Sports",
+        "topic_token": "CAAqJggKIiBDQkFTRWdvSUwyMHZNRFp1ZEdvU0FtWnlHZ0pHVWlnQVAB",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=fr&topic_token=CAAqJggKIiBDQkFTRWdvSUwyMHZNRFp1ZEdvU0FtWnlHZ0pHVWlnQVAB"
+      },
+      {
+        "title": "Santé",
+        "topic_token": "CAAqIQgKIhtDQkFTRGdvSUwyMHZNR3QwTlRFU0FtWnlLQUFQAQ",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_news&gl=fr&topic_token=CAAqIQgKIhtDQkFTRGdvSUwyMHZNR3QwTlRFU0FtWnlLQUFQAQ"
       }
     ]
   },
   "units": 1,
-  "latency_ms": 1522
+  "latency_ms": 317
 }

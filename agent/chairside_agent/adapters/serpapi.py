@@ -16,6 +16,7 @@ from chairside_agent.fixtures import CassetteMissingError
 
 SEARCH_URL = "https://serpapi.com/search"
 PARIS_LL = "@48.8590,2.3640,15z"
+DEFAULT_MAPS_ZOOM = "15z"
 SEED_VARIANT = "seed"
 FLAG_WORDS = (
     "recall",
@@ -138,6 +139,11 @@ def _visual_match(raw: dict[str, Any]) -> VisualMatch:
     )
 
 
+def maps_ll(value: str) -> str:
+    """Google Maps rejects a bare "lat,lng"; it wants "@lat,lng,<zoom>z"."""
+    return value if value.startswith("@") else f"@{value},{DEFAULT_MAPS_ZOOM}"
+
+
 class SerpApiAdapter(VendorAdapter):
     vendor = "serpapi"
     server = "rest/serpapi"
@@ -227,7 +233,13 @@ class SerpApiAdapter(VendorAdapter):
     async def maps_nearby(
         self, ll: str = PARIS_LL, query: str = "salon de coiffure", limit: int = 2
     ) -> list[Competitor]:
-        request = {"engine": "google_maps", "q": query, "ll": ll, "type": "search", "hl": "fr"}
+        request = {
+            "engine": "google_maps",
+            "q": query,
+            "ll": maps_ll(ll),
+            "type": "search",
+            "hl": "fr",
+        }
         raw = await self.call("maps_nearby", request, self._search, tool="google_maps")
         return [
             Competitor(
@@ -245,7 +257,6 @@ class SerpApiAdapter(VendorAdapter):
             "place_id": place_id,
             "hl": "fr",
             "sort_by": "qualityScore",
-            "num": 20,
         }
         raw = await self.call(
             "maps_reviews", request, self._search, variant=place_id, tool="google_maps_reviews"

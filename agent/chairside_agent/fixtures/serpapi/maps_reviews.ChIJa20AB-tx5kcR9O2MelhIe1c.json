@@ -1,0 +1,324 @@
+{
+  "vendor": "serpapi",
+  "primitive": "maps_reviews",
+  "variant": "ChIJa20AB-tx5kcR9O2MelhIe1c",
+  "recorded_at": "2026-09-03T14:05:52+00:00",
+  "request": {
+    "engine": "google_maps_reviews",
+    "place_id": "ChIJa20AB-tx5kcR9O2MelhIe1c",
+    "hl": "fr",
+    "sort_by": "qualityScore"
+  },
+  "response": {
+    "search_metadata": {
+      "id": "6a997dadf7e996111491666e",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/uRoBYbky6c1nIoqztV991n4etIWGhjyqP1GKUZYOGdY/6a997dadf7e996111491666e.json",
+      "markdown_endpoint": "https://serpapi.com/searches/uRoBYbky6c1nIoqztV991n4etIWGhjyqP1GKUZYOGdY/6a997dadf7e996111491666e.md",
+      "created_at": "2026-09-03 14:01:17 UTC",
+      "processed_at": "2026-09-03 14:01:17 UTC",
+      "google_maps_reviews_url": "https://www.google.com/maps/place/data=!4m7!3m6!1s0x47e671eb07006d6b:0x577b48587a8cedf4!5m2!4m1!1i2!9m1!1b1?hl=fr",
+      "raw_html_file": "https://serpapi.com/searches/uRoBYbky6c1nIoqztV991n4etIWGhjyqP1GKUZYOGdY/6a997dadf7e996111491666e.html",
+      "prettify_html_file": "https://serpapi.com/searches/uRoBYbky6c1nIoqztV991n4etIWGhjyqP1GKUZYOGdY/6a997dadf7e996111491666e.prettify",
+      "total_time_taken": 1.56
+    },
+    "search_parameters": {
+      "engine": "google_maps_reviews",
+      "place_id": "ChIJa20AB-tx5kcR9O2MelhIe1c",
+      "hl": "fr",
+      "sort_by": "qualityScore"
+    },
+    "place_info": {
+      "title": "Sequence Paris International Hair Salon",
+      "address": "20 Rue des Gravilliers, 75003 Paris, France",
+      "rating": 4.6,
+      "reviews": 132,
+      "type": "Salon de coiffure"
+    },
+    "topics": [
+      {
+        "keyword": "service",
+        "mentions": 16,
+        "id": "/m/018tkd"
+      },
+      {
+        "keyword": "résultat",
+        "mentions": 13,
+        "id": "/m/0687b1"
+      },
+      {
+        "keyword": "métier",
+        "mentions": 12,
+        "id": "/m/04115t2"
+      },
+      {
+        "keyword": "habileté",
+        "mentions": 11,
+        "id": "/m/01zsxh"
+      },
+      {
+        "keyword": "prix",
+        "mentions": 10,
+        "id": "/m/01d_1l"
+      },
+      {
+        "keyword": "bonheur",
+        "mentions": 9,
+        "id": "/m/016pp7"
+      },
+      {
+        "keyword": "conversation",
+        "mentions": 8,
+        "id": "/m/01h8n0"
+      },
+      {
+        "keyword": "mèches",
+        "mentions": 6,
+        "id": "/m/02x0gs8"
+      },
+      {
+        "keyword": "atmosphère",
+        "mentions": 5,
+        "id": "/m/01ctsf"
+      },
+      {
+        "keyword": "sentiment",
+        "mentions": 5,
+        "id": "/m/015qdk"
+      }
+    ],
+    "reviews": [
+      {
+        "position": 1,
+        "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUNUODViN0V3EAE!2m1!1s0x0:0x577b48587a8cedf4!3m1!1s2@1:CIHM0ogKEICAgICT85b7Ew%7C%7C?hl=fr",
+        "rating": 5.0,
+        "date": "il y a 2 ans",
+        "iso_date": "2024-05-19T01:48:07Z",
+        "iso_date_of_last_edit": "2024-05-19T01:48:07Z",
+        "source": "Google",
+        "review_id": "ChZDSUhNMG9nS0VJQ0FnSUNUODViN0V3EAE",
+        "user": {
+          "name": "Georges Vacheron",
+          "link": "https://www.google.com/maps/contrib/108736320596822322621?hl=fr",
+          "contributor_id": "108736320596822322621",
+          "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjW-tY8rRMDyl35wWu3FuNVUB_0vk7uG8qOsiDe6HjL_o0UfRJOT=s120-c-rp-mo-br100",
+          "local_guide": true,
+          "reviews": 5,
+          "photos": 1
+        },
+        "snippet": "Pas encore d'expérience",
+        "extracted_snippet": {
+          "original": "Pas encore d'expérience"
+        },
+        "likes": 0
+      },
+      {
+        "position": 2,
+        "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tvNFkxOVhUbWxXVkhOTldIY3hTMGwwVVhaU1pVRRAB!2m1!1s0x0:0x577b48587a8cedf4!3m1!1s2@1:CAIQACodChtycF9oOko4Y19XTmlWVHNNWHcxS0l0UXZSZUE%7C%7C?hl=fr",
+        "rating": 5.0,
+        "date": "il y a 7 mois",
+        "iso_date": "2026-02-01T13:12:33Z",
+        "iso_date_of_last_edit": "2026-02-01T13:12:33Z",
+        "source": "Google",
+        "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tvNFkxOVhUbWxXVkhOTldIY3hTMGwwVVhaU1pVRRAB",
+        "user": {
+          "name": "Olivia Sjostrand",
+          "link": "https://www.google.com/maps/contrib/106622234345186489863?hl=fr",
+          "contributor_id": "106622234345186489863",
+          "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocIM8E6F6weQo50vMTllEy7zgnl9hHjwhG7hKqtRSV3_GBXAbQ=s120-c-rp-mo-br100",
+          "local_guide": true,
+          "reviews": 2,
+          "photos": 2
+        },
+        "snippet": "I had such a great experience with Emma and couldn’t be happier with my hair. She was incredibly kind, patient, and really took the time to listen to what I wanted. She explained everything she was doing, checked in throughout the appointment, and made sure I was comfortable the entire time.\n\nThe end result was beautiful and exactly what I was hoping for — you can tell she truly cares about her work and her clients. I would absolutely recommend Emma and would 100% book with her again.",
+        "extracted_snippet": {
+          "original": "I had such a great experience with Emma and couldn’t be happier with my hair. She was incredibly kind, patient, and really took the time to listen to what I wanted. She explained everything she was doing, checked in throughout the appointment, and made sure I was comfortable the entire time.\n\nThe end result was beautiful and exactly what I was hoping for — you can tell she truly cares about her work and her clients. I would absolutely recommend Emma and would 100% book with her again.",
+          "translated": "J'ai eu une expérience formidable avec Emma et je suis absolument ravie de ma coiffure. Elle a été incroyablement gentille, patiente et a vraiment pris le temps de m'écouter. Elle m'a expliqué chaque étape, a régulièrement vérifié que tout allait bien et s'est assurée de mon confort tout au long de la séance.\n\nLe résultat final est magnifique et correspond exactement à ce que j'espérais ; on voit qu'elle est passionnée par son travail et qu'elle se soucie vraiment de ses clientes. Je recommande Emma sans hésiter et je referai appel à elle sans la moindre hésitation."
+        },
+        "likes": 0
+      },
+      {
+        "position": 3,
+        "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSURELWJYWWVREAE!2m1!1s0x0:0x577b48587a8cedf4!3m1!1s2@1:CIHM0ogKEICAgIDD-bXYeQ%7C%7C?hl=fr",
+        "rating": 5.0,
+        "date": "il y a 2 ans",
+        "iso_date": "2024-04-11T19:43:55Z",
+        "iso_date_of_last_edit": "2024-04-11T19:43:55Z",
+        "images": [
+          "https://lh3.googleusercontent.com/grass-cs/ACvplmOPCy1OtMMwcTMXbXsBgp0QnX1AzPbZXfQkIpzNswVxyaosFSkpwkcOJW9TW4iIugbR3cPVbX9q5tSa5fuZnsmimU-Fl88HVCwmW0tWxxmRybJUXQhe9SFfIh19HFZr6kk5eq3XcQ=k-no",
+          "https://lh3.googleusercontent.com/grass-cs/ACvplmPLGY5RdkjO3y9Yx5fVCpSUd3YnkbZFnz4-TBBgSjhqR9Hr5IY4LAiv7tX_BoYQy2vSZ0HO5xq4HcaZYVF04eiwNarlpULsLx0SENHTaLxN3tyzgYrMOYv8-DnAIIzrG7d_Zkk=k-no"
+        ],
+        "source": "Google",
+        "review_id": "ChZDSUhNMG9nS0VJQ0FnSURELWJYWWVREAE",
+        "user": {
+          "name": "Plaifon Parama",
+          "link": "https://www.google.com/maps/contrib/117814461488524594429?hl=fr",
+          "contributor_id": "117814461488524594429",
+          "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjXUH15wh6hsrISNT2tdBDGVaVZ_NKnVb5LLgjnayglfc4mCdx0C=s120-c-rp-mo-br100",
+          "local_guide": true,
+          "reviews": 3,
+          "photos": 3
+        },
+        "snippet": "Found this English-speaking hair salon by chance on google maps, but I feel like I’m stumbling on the right place, and the right hair dresser who totally understands the nature of my hair! Emma is very attentive to my needs and expectations. First, she showed me different colours and options I could get on my hair that would match with my hair texture and personality. She led very fun conversation that I totally forgot how long I spent on the chair to dye and have my hair tailored. It was indeed a fun afternoon with her! At the end she explained different ways I could style my new look. I totally fall in love with the new shades, highlights and the ‘fringe’ 🧡. I got many compliments from my friends as well. Overall, the service is totally worth the price! Thank you once again Emma!😊\n\nPs. It was a private session in a very spacious and luminous studio. I also enjoyed cups of tea she offered to me.",
+        "extracted_snippet": {
+          "original": "Found this English-speaking hair salon by chance on google maps, but I feel like I’m stumbling on the right place, and the right hair dresser who totally understands the nature of my hair! Emma is very attentive to my needs and expectations. First, she showed me different colours and options I could get on my hair that would match with my hair texture and personality. She led very fun conversation that I totally forgot how long I spent on the chair to dye and have my hair tailored. It was indeed a fun afternoon with her! At the end she explained different ways I could style my new look. I totally fall in love with the new shades, highlights and the ‘fringe’ 🧡. I got many compliments from my friends as well. Overall, the service is totally worth the price! Thank you once again Emma!😊\n\nPs. It was a private session in a very spacious and luminous studio. I also enjoyed cups of tea she offered to me.",
+          "translated": "J'ai trouvé ce salon de coiffure anglophone par hasard sur Google Maps, et je suis sûre d'être tombée sur la bonne adresse ! Emma est la coiffeuse idéale, elle comprend parfaitement mes cheveux ! Elle est très attentive à mes besoins et à mes attentes. Elle m'a d'abord présenté différentes couleurs et options pour mes cheveux, en fonction de leur texture et de ma personnalité. La conversation était tellement agréable que j'ai complètement oublié le temps passé chez Emma pour ma coloration et ma nouvelle coupe. C'était vraiment un après-midi très sympa ! À la fin, elle m'a expliqué différentes façons de coiffer mes cheveux. Je suis absolument fan de mes nouvelles nuances, de mes mèches et de ma frange 🧡. J'ai reçu plein de compliments de mes amies. Bref, la prestation vaut vraiment son prix ! Merci encore Emma ! 😊\n\nP.-S. : C'était une séance privée dans un studio très spacieux et lumineux. J'ai aussi beaucoup apprécié les tasses de thé qu'elle m'a offertes."
+        },
+        "likes": 0
+      },
+      {
+        "position": 4,
+        "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnTUNJLWNIVVJnEAE!2m1!1s0x0:0x577b48587a8cedf4!3m1!1s2@1:CIHM0ogKEICAgMCI-cHURg%7C%7C?hl=fr",
+        "rating": 1.0,
+        "date": "Modifié il y a un an",
+        "iso_date": "2025-04-03T10:35:30Z",
+        "iso_date_of_last_edit": "2025-04-04T19:57:59Z",
+        "images": [
+          "https://lh3.googleusercontent.com/grass-cs/ACvplmOK0zH9vQzz4OmDfSKVG8NnYaiL_AHpYgr6Z3uXa-wM5n8G3Ea3D9UuisaEvQ3aF86PlHjmkXq7ID1K-mrg0W5U-txfr_1bN42Hx3K5itM7nPhyk9NtpZULgQF17V7FcFT6K3KMxg=k-no",
+          "https://lh3.googleusercontent.com/grass-cs/ACvplmOfpWkmhYwDpRf8M9xJjYIUsntOqC_C1EnregX0NaLvmAEg-8PbIYElY1AiCnWyjDWwrSA12IofoCC_ryqiIO2Z_avDOoVZIFT84_tfM1hirKTzHR1m5YQz6n6z6Qk45Q_usM7i=k-no"
+        ],
+        "source": "Google",
+        "review_id": "ChZDSUhNMG9nS0VJQ0FnTUNJLWNIVVJnEAE",
+        "user": {
+          "name": "Quinn Gordon",
+          "link": "https://www.google.com/maps/contrib/107577200528622613757?hl=fr",
+          "contributor_id": "107577200528622613757",
+          "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjVzg7i-PZXhYvlwMYcput013BA_qSl7rxECrQZ1qOASnHtVcQKQ=s120-c-rp-mo-ba12-br100",
+          "local_guide": true,
+          "reviews": 24,
+          "photos": 40
+        },
+        "snippet": "Emma was communicative and helpful in scheduling a cut, and welcoming in the salon. Unfortunately, even after presenting a reference photo, she removed far more hair than anticipated. I previously had almost shoulder length curls. Reference photo attached and the cut I received.",
+        "extracted_snippet": {
+          "original": "Emma was communicative and helpful in scheduling a cut, and welcoming in the salon. Unfortunately, even after presenting a reference photo, she removed far more hair than anticipated. I previously had almost shoulder length curls. Reference photo attached and the cut I received.",
+          "translated": "Emma a été très communicative et serviable pour la prise de rendez-vous, et m'a bien accueillie au salon. Malheureusement, même après lui avoir montré une photo de référence, elle a coupé beaucoup plus de cheveux que prévu. J'avais auparavant les cheveux bouclés, presque jusqu'aux épaules. Vous trouverez ci-joint la photo de référence et la coupe obtenue."
+        },
+        "likes": 0
+      },
+      {
+        "position": 5,
+        "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnTUNnbzY2b1hnEAE!2m1!1s0x0:0x577b48587a8cedf4!3m1!1s2@1:CIHM0ogKEICAgMCgo66oXg%7C%7C?hl=fr",
+        "rating": 5.0,
+        "date": "il y a un an",
+        "iso_date": "2025-02-20T10:27:07Z",
+        "iso_date_of_last_edit": "2025-02-20T10:27:07Z",
+        "images": [
+          "https://lh3.googleusercontent.com/grass-cs/ACvplmOEm9cuSbmVFyFx42Zbd57son_5MmJocDVrdh6vkoyFTs6Yi17ua1MB3kFUW-Pn-NQWxaxAw59wBkplSLgjYXtU7PgM5Gj3QiHqN8CYrBuzUj3vd32kECdy_Cs20x6j781o2_HHxA=k-no",
+          "https://lh3.googleusercontent.com/grass-cs/ACvplmMqhCcx37Q4HKrRLylwXDaRHPR2gep-AD3Hgvk3L2YSKgoEf3onfObQ0f1zP9gFQh_6LnWpX34710aGubhlQ-EVCqMXLbmIQrDgMbDMATvCJouHKs5XXmnoMuxd9rXAfzinD7o=k-no"
+        ],
+        "source": "Google",
+        "review_id": "ChZDSUhNMG9nS0VJQ0FnTUNnbzY2b1hnEAE",
+        "user": {
+          "name": "foroogh sadeghi",
+          "link": "https://www.google.com/maps/contrib/100423414039484336146?hl=fr",
+          "contributor_id": "100423414039484336146",
+          "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjVb-l4gsXYATo0qo9O960IlODwckuWLSVHlGCa96Eojf8CL1KY=s120-c-rp-mo-br100",
+          "local_guide": true,
+          "reviews": 2,
+          "photos": 2
+        },
+        "snippet": "Excellent ! I recommend it.\nThat was my first time here and I got the haircut and I love it. The kind and lovely Emma is a unique artist. Thank you Emma again ❤️",
+        "extracted_snippet": {
+          "original": "Excellent ! I recommend it.\nThat was my first time here and I got the haircut and I love it. The kind and lovely Emma is a unique artist. Thank you Emma again ❤️",
+          "translated": "Excellent ! Je recommande.\n\nC'était ma première fois ici et j'ai adoré ma coupe. Emma, ​​adorable et très gentille, est une véritable artiste. Merci encore Emma ❤️"
+        },
+        "likes": 0
+      },
+      {
+        "position": 6,
+        "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUR5aHJfMUZBEAE!2m1!1s0x0:0x577b48587a8cedf4!3m1!1s2@1:CIHM0ogKEICAgIDyhr_1FA%7C%7C?hl=fr",
+        "rating": 1.0,
+        "date": "il y a 5 ans",
+        "iso_date": "2021-03-05T09:43:13Z",
+        "iso_date_of_last_edit": "2021-03-05T09:43:15Z",
+        "images": [
+          "https://lh3.googleusercontent.com/grass-cs/ACvplmP_4_CH9CXI1paGfRjTAoqLMMz8bcAcK445ykNV2SKy-j_A6pQe-iSeSmyU9BQM5afWz3oOesmchjhVRyg66IYUtJIfThwCKPDMZwQ42IkgjE_vM0KT2j2HUpXKdNhP-9q46_KaOg=k-no",
+          "https://lh3.googleusercontent.com/grass-cs/ACvplmPgxORlwkrybW6PIZmoL0rR0GUx7pohg28MvA805xGnUAL0ef4g8b6-sQgASfq4dIxjzwI9wxzKCwJTVAaLRvAkew2OYWxOR8QuTFZrBei3zYwQDzBPhiwY6nmouYHBSJWz85O98Q=k-no",
+          "https://lh3.googleusercontent.com/grass-cs/ACvplmNiUHgVyiV0rftyok4X1zyvWa-YfWANL2mTqt1ZcQoBJL9PbuBgik1kz3v8S2pU4PlUHcJoaFIeNSCE7ogOskqMqmehalZ58kmw7Bwrz9Bq-Xr_xzzExR0mvEUy-WHn1ERNdGTO=k-no",
+          "https://lh3.googleusercontent.com/grass-cs/ACvplmNTiCr9ptcbd_5GZ-8sYEi_pFbQeXwOp_Sw6MKW5Q59BdMswKxDMAAR_4l_ha02363ATYTtbYrpoRj6uSYq3oXXIQftiMGeZ-uwAHen_uBNFKdqHjNrgs7ycawIdED9FTBn3FqK7Q=k-no"
+        ],
+        "source": "Google",
+        "review_id": "ChZDSUhNMG9nS0VJQ0FnSUR5aHJfMUZBEAE",
+        "user": {
+          "name": "Nathalie Seys",
+          "link": "https://www.google.com/maps/contrib/100428094997867013469?hl=fr",
+          "contributor_id": "100428094997867013469",
+          "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocIWZ5XSgE3qsfpk7niyyJBLCX0otdOVCSsd5BL4r-yP-Vn39g=s120-c-rp-mo-br100",
+          "local_guide": true,
+          "reviews": 8,
+          "photos": 4
+        },
+        "snippet": "Despite what other reviews say here everyone unfortunately has a different experience,here is mine. During my appt here @Sequence the end of Feb,I showed Emma a picture of the cut I wanted,the photo was clear&super visual.My hair was about shoulder length&ask for a shorter haircut.I also asked to please not use clippers as I don’t like the shaved look in the back.I asked for some highlights to.She cut some of my hair before the highlights to not waste the product.Ok.My mistake was to not have asked to see how much she cut off then,but she continued Her direction of highlights followed how I break/comb my hair.So if I wanted to,I can't comb on the other side because the highlights are not even close to the root.I have about almost an inch from the root&she said she did a full head of highlights.You can see in the picture that side that is much shorter doesn't even show even highlights.After the highlights she started to cut my hair.She gave me a sideburn on one side&that wasn't even on the picture!She cut it so short&uneven that I cannot put it behind my ear,which by the sample picture you can see that her hair is clearly pulled back behind her ear!Then she used different scissors that looked like thinning scissors,they had teeth on them like the photo(which btw I have super thin,fine&little hair)The only scissors I know that when you cut,the clumps of hair stay on them which I saw with my own eyes!Regular cutting scissors don't do that.She dried my hair&put product,mostly dry shampoo as I said my hair is very very thing&do not have much either.What I saw in the mirror looked okay in the front despite the sideburn.I could not see the back of my head super clear,but it looked ok...When I get home my husband was in shock not because of the short hair but because of the huge step on the back of my head,hence the thinning scissors that were used that gave me a step in the back of my head.I do not like clippers and the cut that I showed was short enough to not have to use them.So,I decided to contact Emma and let her know how embarrassed, frustrated&sad I am&how long it takes for my hair to grow&showing her pictures,why is there a step in the back of my head&why do the hairs flair out like that. At the end of the email,I asked for my money back(195€).Which IS SO expensive!Apparently,she gave me a discount because \"she gave me a full head of highlights&only charge me for half\".She responded&apologized because I am not happy,not that she messed up &that I come back to fix it,then she continued&swore she did not use a second pair of scissors that gave me the step in the back of my head. She also said that we spoke about the cut not going to look the same(which is a lie)she also said that she told me how much she was going to charge (which is a huge lie,as I would have said no thank you, for my hair no way!) Nowhere on her site or her salon are there prices shown!In the French salons they tell you how much before they start!She said I was aggressive&she would not respond anymore.I am upset not aggressive not once did I use curse words or threaten her. I am even more upset about how she treats her customers,turns things around, lies&makes you feel like you are the one with the problem&wrong.According to her,she did everything right&we as the customer know nothing and are wrong.I still want my money back because this is the decent thing to do&now more because of how she made me feel.I am not a liar!She seemed like a nice woman&I would have thought a different outcome than this.If I could return this bad service to her I would but I cannot because my hair is gone&the highlights are a mess(full head of highlights, I do not think so!).The decent thing to do is compensation&admit to doing me wrong. I have had my share of issues at the salons but none like this&with a person who speaks the same language,wow!Below are my pictures along with the cut I asked for&how my hair was before.See for yourself&those are the scissors I saw with clumps of my hair on them.The proof is in the pudding!",
+        "extracted_snippet": {
+          "original": "Despite what other reviews say here everyone unfortunately has a different experience,here is mine. During my appt here @Sequence the end of Feb,I showed Emma a picture of the cut I wanted,the photo was clear&super visual.My hair was about shoulder length&ask for a shorter haircut.I also asked to please not use clippers as I don’t like the shaved look in the back.I asked for some highlights to.She cut some of my hair before the highlights to not waste the product.Ok.My mistake was to not have asked to see how much she cut off then,but she continued Her direction of highlights followed how I break/comb my hair.So if I wanted to,I can't comb on the other side because the highlights are not even close to the root.I have about almost an inch from the root&she said she did a full head of highlights.You can see in the picture that side that is much shorter doesn't even show even highlights.After the highlights she started to cut my hair.She gave me a sideburn on one side&that wasn't even on the picture!She cut it so short&uneven that I cannot put it behind my ear,which by the sample picture you can see that her hair is clearly pulled back behind her ear!Then she used different scissors that looked like thinning scissors,they had teeth on them like the photo(which btw I have super thin,fine&little hair)The only scissors I know that when you cut,the clumps of hair stay on them which I saw with my own eyes!Regular cutting scissors don't do that.She dried my hair&put product,mostly dry shampoo as I said my hair is very very thing&do not have much either.What I saw in the mirror looked okay in the front despite the sideburn.I could not see the back of my head super clear,but it looked ok...When I get home my husband was in shock not because of the short hair but because of the huge step on the back of my head,hence the thinning scissors that were used that gave me a step in the back of my head.I do not like clippers and the cut that I showed was short enough to not have to use them.So,I decided to contact Emma and let her know how embarrassed, frustrated&sad I am&how long it takes for my hair to grow&showing her pictures,why is there a step in the back of my head&why do the hairs flair out like that. At the end of the email,I asked for my money back(195€).Which IS SO expensive!Apparently,she gave me a discount because \"she gave me a full head of highlights&only charge me for half\".She responded&apologized because I am not happy,not that she messed up &that I come back to fix it,then she continued&swore she did not use a second pair of scissors that gave me the step in the back of my head. She also said that we spoke about the cut not going to look the same(which is a lie)she also said that she told me how much she was going to charge (which is a huge lie,as I would have said no thank you, for my hair no way!) Nowhere on her site or her salon are there prices shown!In the French salons they tell you how much before they start!She said I was aggressive&she would not respond anymore.I am upset not aggressive not once did I use curse words or threaten her. I am even more upset about how she treats her customers,turns things around, lies&makes you feel like you are the one with the problem&wrong.According to her,she did everything right&we as the customer know nothing and are wrong.I still want my money back because this is the decent thing to do&now more because of how she made me feel.I am not a liar!She seemed like a nice woman&I would have thought a different outcome than this.If I could return this bad service to her I would but I cannot because my hair is gone&the highlights are a mess(full head of highlights, I do not think so!).The decent thing to do is compensation&admit to doing me wrong. I have had my share of issues at the salons but none like this&with a person who speaks the same language,wow!Below are my pictures along with the cut I asked for&how my hair was before.See for yourself&those are the scissors I saw with clumps of my hair on them.The proof is in the pudding!",
+          "translated": "Malgré ce que disent les autres commentaires ici, chacun a malheureusement une expérience différente ; voici la mienne. Lors de mon rendez-vous chez Sequence fin février, j'ai montré à Emma une photo de la coupe que je souhaitais. La photo était nette et très parlante. Mes cheveux m'arrivaient aux épaules et je voulais une coupe plus courte. J'ai aussi précisé qu'elle ne devait pas utiliser de tondeuse car je n'aimais pas l'effet rasé à l'arrière. J'ai également demandé des mèches. Elle a coupé une partie de mes cheveux avant de faire les mèches pour ne pas gaspiller de produit. Mon erreur a été de ne pas lui demander combien elle avait coupé, mais elle a continué. La façon dont elle a fait les mèches suivait la façon dont je coiffe mes cheveux. Du coup, si je le voulais, je ne pouvais pas me coiffer de l'autre côté car les mèches n'étaient même pas près de la racine. Il me restait environ 2,5 cm de cheveux depuis la racine et elle a dit qu'elle avait fait des mèches sur toute la tête. Sur la photo, on voit bien que le côté beaucoup plus court n'a même pas de mèches régulières. Après les mèches, elle a commencé à me couper les cheveux. Elle m'a fait une patte d'un côté, ce qui n'était même pas visible sur la photo ! Elle l'a coupée tellement courte et de façon inégale que je ne peux pas la mettre derrière mon oreille, contrairement à ce que montre la photo d'exemple. J'ai vu que ses cheveux étaient clairement tirés en arrière derrière son oreille ! Ensuite, elle a utilisé des ciseaux différents, qui ressemblaient à des ciseaux à effiler, avec des dents comme sur la photo (et d'ailleurs, j'ai les cheveux très fins et clairsemés). Ce sont les seuls ciseaux que je connaisse qui laissent des mèches de cheveux collées dessus quand on coupe, je l'ai constaté de mes propres yeux ! Les ciseaux de coiffure classiques ne font pas ça. Elle m'a séché les cheveux et a appliqué du produit, surtout du shampoing sec, car comme je l'ai dit, j'ai les cheveux très fins et peu fournis. Ce que j'ai vu dans le miroir semblait correct de face, malgré la mèche sur le côté. Je ne voyais pas très bien l'arrière de ma tête, mais ça avait l'air correct… En rentrant à la maison, mon mari était sous le choc, non pas à cause de la coupe courte, mais à cause de la démarcation importante à l'arrière de ma tête, due à l'utilisation de ces ciseaux à effiler. Je n'aime pas les tondeuses et la coupe que je lui ai montrée était suffisamment courte pour ne pas avoir à les utiliser. J'ai donc décidé de contacter Emma pour lui faire part de ma gêne, de ma frustration et de ma tristesse. Je lui ai demandé combien de temps mes cheveux allaient pousser et je lui ai montré des photos. Elle m'a expliqué pourquoi il y avait une démarcation à l'arrière de ma tête et pourquoi mes cheveux étaient coupés de cette façon. À la fin de l'échange de courriels, j'ai demandé un remboursement (195 €). C'est vraiment cher ! Apparemment, elle m'a fait une réduction car « elle m'a fait une coloration complète et ne m'a facturé que la moitié ». Elle a répondu en s'excusant parce que je n'étais pas satisfaite, et non parce qu'elle avait fait une erreur et que je devais revenir pour la corriger. Puis elle a insisté en jurant qu'elle n'avait pas utilisé une deuxième paire de ciseaux pour créer cette démarcation à l'arrière de ma tête. Elle a aussi prétendu que nous avions discuté du fait que la coupe ne serait pas la même (ce qui est faux). Elle a également affirmé m'avoir annoncé le prix (ce qui est un mensonge flagrant, car j'aurais refusé catégoriquement pour mes cheveux !). Ses tarifs ne sont affichés nulle part, ni sur son site ni dans son salon ! Dans les salons français, on vous annonce le prix avant de commencer ! Elle m'a accusée d'être agressive et a refusé de répondre. Je suis contrariée, pas agressive. Je n'ai jamais proféré d'insultes ni proféré de menaces. Je suis encore plus en colère contre la façon dont elle traite ses clients : elle retourne la situation contre elle, ment et vous fait croire que c'est vous qui avez un problème et que vous avez tort. Selon elle, elle a tout fait correctement et nous, les clients, n'y connaissons rien et sommes dans l'erreur. Je veux toujours être remboursée, car c'est la moindre des choses, et surtout à cause de la façon dont elle m'a fait me sentir. Je ne suis pas une menteuse ! Elle semblait être une femme gentille et j'aurais imaginé un autre résultat. Si je pouvais lui rendre la pareille, je le ferais, mais je ne peux pas car mes cheveux sont abîmés et les mèches sont un désastre (des mèches sur toute la tête ? J'en doute fort !). La moindre des choses serait une compensation et qu'elle reconnaisse son erreur. J'ai déjà eu des problèmes dans les salons de coiffure, mais jamais comme ça, et avec une personne qui parle la même langue que moi, incroyable ! Ci-dessous, vous trouverez des photos de mes cheveux avant et après la coupe que j'avais demandée. Jugez par vous-même : ce sont les ciseaux que j'ai vus, avec des mèches de mes cheveux dessus. La preuve est là !"
+        },
+        "details": {
+          "négatif": "Qualité, Professionnalisme, Prix",
+          "services": "Colorations capillaires, Coiffure, Service non répertorié"
+        },
+        "likes": 4
+      },
+      {
+        "position": 7,
+        "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUNLbXRIZlNBEAE!2m1!1s0x0:0x577b48587a8cedf4!3m1!1s2@1:CIHM0ogKEICAgICKmtHfSA%7C%7C?hl=fr",
+        "rating": 5.0,
+        "date": "il y a 5 ans",
+        "iso_date": "2021-04-02T05:57:35Z",
+        "iso_date_of_last_edit": "2021-04-02T05:57:35Z",
+        "source": "Google",
+        "review_id": "ChZDSUhNMG9nS0VJQ0FnSUNLbXRIZlNBEAE",
+        "user": {
+          "name": "Dianne Fowler",
+          "link": "https://www.google.com/maps/contrib/108584902782625197279?hl=fr",
+          "contributor_id": "108584902782625197279",
+          "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocIkVJcQbKKGxOTSAAWVogmrPLDxKKCmdjCNsYGx6h0mjodDBA=s120-c-rp-mo-br100",
+          "local_guide": true,
+          "reviews": 1,
+          "photos": 0
+        },
+        "snippet": "I first went to Emma over 10 years ago, and was so happy to finally find a hairdresser in Paris who knew how to cut and colour/highlight my hair in a way that totally captured what I wanted - and I have been going to her ever since. She is intuitive and I totally trust her. Each time, she listens if I want to try something different, and also gives spot-on advise. Going to have my hair done with Emma is a real treat and I come out feeling like a new person. Her salon is set up to be warm, comfortable and welcoming. I highly recommend Emma to anyone looking for a professional hairdresser in Paris!",
+        "extracted_snippet": {
+          "original": "I first went to Emma over 10 years ago, and was so happy to finally find a hairdresser in Paris who knew how to cut and colour/highlight my hair in a way that totally captured what I wanted - and I have been going to her ever since. She is intuitive and I totally trust her. Each time, she listens if I want to try something different, and also gives spot-on advise. Going to have my hair done with Emma is a real treat and I come out feeling like a new person. Her salon is set up to be warm, comfortable and welcoming. I highly recommend Emma to anyone looking for a professional hairdresser in Paris!",
+          "translated": "J'ai découvert Emma il y a plus de 10 ans et j'étais ravie d'enfin trouver une coiffeuse à Paris qui savait couper, colorer et faire des mèches exactement comme je le souhaitais. Depuis, je suis cliente fidèle. Elle est intuitive et j'ai une confiance totale en elle. À chaque fois, elle est à l'écoute de mes envies et me donne d'excellents conseils. Aller chez Emma est un vrai moment de plaisir et je ressors transformée. Son salon est chaleureux, confortable et accueillant. Je recommande vivement Emma à toutes celles qui recherchent une coiffeuse professionnelle à Paris !"
+        },
+        "details": {
+          "positif": "Ponctualité, Propreté, Qualité, Professionnalisme, Prix",
+          "services": "Colorations capillaires, Coiffure"
+        },
+        "likes": 1
+      },
+      {
+        "position": 8,
+        "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSURFLWJHWkZ3EAE!2m1!1s0x0:0x577b48587a8cedf4!3m1!1s2@1:CIHM0ogKEICAgIDE-bGZFw%7C%7C?hl=fr",
+        "rating": 5.0,
+        "date": "il y a 7 ans",
+        "iso_date": "2019-06-20T07:17:18Z",
+        "iso_date_of_last_edit": "2019-06-20T07:17:18Z",
+        "source": "Google",
+        "review_id": "ChZDSUhNMG9nS0VJQ0FnSURFLWJHWkZ3EAE",
+        "user": {
+          "name": "Jason Martin",
+          "link": "https://www.google.com/maps/contrib/105194593554296014548?hl=fr",
+          "contributor_id": "105194593554296014548",
+          "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjXwvXUfaRE4qpuVnD9vr14NOyqJ9_-XoqKpSAjvM7fL_bmdMVaL3g=s120-c-rp-mo-br100",
+          "local_guide": true,
+          "reviews": 8,
+          "photos": 0
+        },
+        "snippet": "After traveling through Europe for a month, I desperately needed a haircut. After having the same stylist for years, it's difficult to put trust into someone else. We had family photos scheduled in Paris, so I took the risk and went to see Emma the day before. She quickly responded and got me scheduled right away. She was very kind, great conversation, and comfortable to be around. I told her what I wanted and she confidently went to work.\n\nMy hair looked great after she was done and I wouldn't hesitate to go back if I'm traveling through Paris. I highly recommend booking with Emma. She's extremely professional and skilled. Thank you!",
+        "extracted_snippet": {
+          "original": "After traveling through Europe for a month, I desperately needed a haircut. After having the same stylist for years, it's difficult to put trust into someone else. We had family photos scheduled in Paris, so I took the risk and went to see Emma the day before. She quickly responded and got me scheduled right away. She was very kind, great conversation, and comfortable to be around. I told her what I wanted and she confidently went to work.\n\nMy hair looked great after she was done and I wouldn't hesitate to go back if I'm traveling through Paris. I highly recommend booking with Emma. She's extremely professional and skilled. Thank you!",
+          "translated": "Après un mois de voyage à travers l'Europe, j'avais absolument besoin d'une coupe de cheveux. Habituée à avoir la même coiffeuse depuis des années, il est difficile de faire confiance à quelqu'un d'autre. Nous avions prévu des photos de famille à Paris, alors j'ai pris le risque et suis allée voir Emma la veille. Elle a répondu rapidement et m'a trouvé un rendez-vous immédiatement. Elle était très gentille, la conversation était très agréable et on se sentait tout de suite à l'aise. Je lui ai expliqué ce que je voulais et elle s'est mise au travail avec assurance.\n\nMes cheveux étaient magnifiques après sa coupe et je n'hésiterai pas à retourner chez Emma si je repasse par Paris. Je recommande vivement Emma. Elle est extrêmement professionnelle et talentueuse. Merci !"
+        },
+        "likes": 0
+      }
+    ],
+    "serpapi_pagination": {
+      "next": "https://serpapi.com/search.json?engine=google_maps_reviews&hl=fr&next_page_token=CjEIARIpCgoAP7_aEcDB____EhCCslheaXfs49kE6C0AAAAAGgn92koClIxAzzEYACIA&place_id=ChIJa20AB-tx5kcR9O2MelhIe1c&sort_by=qualityScore",
+      "next_page_token": "CjEIARIpCgoAP7_aEcDB____EhCCslheaXfs49kE6C0AAAAAGgn92koClIxAzzEYACIA"
+    }
+  },
+  "units": 1,
+  "latency_ms": 30
+}

@@ -2,106 +2,1766 @@
   "vendor": "serpapi",
   "primitive": "maps_nearby",
   "variant": "default",
-  "recorded_at": "2026-09-03T08:30:00+00:00",
+  "recorded_at": "2026-09-03T14:05:52+00:00",
   "request": {
     "engine": "google_maps",
-    "q": "salon de coiffure",
-    "ll": "@48.8590,2.3640,15z",
+    "q": "hair salon",
+    "ll": "@48.8575,2.3650,15z",
     "type": "search",
     "hl": "fr"
   },
   "response": {
     "search_metadata": {
-      "id": "68b7f4d5f60718293a4b5c6e",
+      "id": "6a997d8b99d5f41fb5bcc450",
       "status": "Success",
-      "json_endpoint": "https://serpapi.com/searches/68b7f4d5f60718293a4b5c6e.json",
-      "created_at": "2026-09-03 08:30:12 UTC",
-      "processed_at": "2026-09-03 08:30:12 UTC",
-      "total_time_taken": 2.41
+      "json_endpoint": "https://serpapi.com/searches/QlcmOnnNk6jQL9y78--IasT_Ahwx8T_xl6qixEijd7s/6a997d8b99d5f41fb5bcc450.json",
+      "markdown_endpoint": "https://serpapi.com/searches/QlcmOnnNk6jQL9y78--IasT_Ahwx8T_xl6qixEijd7s/6a997d8b99d5f41fb5bcc450.md",
+      "created_at": "2026-09-03 14:00:43 UTC",
+      "processed_at": "2026-09-03 14:00:43 UTC",
+      "google_maps_url": "https://www.google.com/maps/search/hair+salon/@48.8575,2.3650,15z/data=!3m1!4b1!4m2!2m1!6e5?hl=fr",
+      "raw_html_file": "https://serpapi.com/searches/QlcmOnnNk6jQL9y78--IasT_Ahwx8T_xl6qixEijd7s/6a997d8b99d5f41fb5bcc450.html",
+      "prettify_html_file": "https://serpapi.com/searches/QlcmOnnNk6jQL9y78--IasT_Ahwx8T_xl6qixEijd7s/6a997d8b99d5f41fb5bcc450.prettify",
+      "total_time_taken": 0.75
     },
     "search_parameters": {
       "engine": "google_maps",
-      "q": "salon de coiffure",
-      "ll": "@48.8590,2.3640,15z",
       "type": "search",
-      "hl": "fr",
-      "google_domain": "google.com"
+      "q": "hair salon",
+      "ll": "@48.8575,2.3650,15z",
+      "google_domain": "google.com",
+      "hl": "fr"
+    },
+    "search_information": {
+      "local_results_state": "Results for exact spelling",
+      "query_displayed": "hair salon"
     },
     "local_results": [
       {
         "position": 1,
-        "title": "Maison Kaya Coiffure",
-        "place_id": "ChIJ2Y7xMfBv5kcRk3YV8jXbQ5o",
-        "data_id": "0x47e66ff031f18ed9:0x9a43db35f2157693",
-        "data_cid": "11115533558811063955",
-        "reviews_link": "https://serpapi.com/search.json?engine=google_maps_reviews&data_id=0x47e66ff031f18ed9:0x9a43db35f2157693&hl=fr",
+        "title": "Sequence Paris International Hair Salon",
+        "place_id": "ChIJa20AB-tx5kcR9O2MelhIe1c",
+        "data_id": "0x47e671eb07006d6b:0x577b48587a8cedf4",
+        "data_cid": "6303711648285519348",
+        "reviews_link": "https://serpapi.com/search.json?data_id=0x47e671eb07006d6b%3A0x577b48587a8cedf4&engine=google_maps_reviews&hl=fr",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x47e671eb07006d6b%3A0x577b48587a8cedf4&engine=google_maps_photos&hl=fr",
         "gps_coordinates": {
-          "latitude": 48.8628,
-          "longitude": 2.3625
+          "latitude": 48.863808899999995,
+          "longitude": 2.3569955
         },
-        "rating": 4.7,
-        "reviews": 312,
-        "price": "€€",
+        "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJa20AB-tx5kcR9O2MelhIe1c",
+        "provider_id": "/g/11dfwwr9gh",
+        "rating": 4.6,
+        "reviews": 132,
         "type": "Salon de coiffure",
         "types": [
-          "Salon de coiffure",
-          "Coloriste"
+          "Salon de coiffure"
         ],
-        "address": "22 Rue de Bretagne, 75003 Paris",
-        "open_state": "Ouvert ⋅ Ferme à 19:30",
-        "phone": "+33 1 42 72 18 44",
-        "website": "https://maisonkaya.fr",
-        "thumbnail": "https://lh5.googleusercontent.com/p/maison-kaya=w80-h106-k-no"
+        "type_id": "unisex_hairdresser",
+        "type_ids": [
+          "unisex_hairdresser"
+        ],
+        "address": "20 Rue des Gravilliers, 75003 Paris, France",
+        "country": "France",
+        "open_state": "Ferme bientôt · 17:00 · Ouvre à 10:00 ven.",
+        "hours": "Ferme bientôt · 17:00 · Ouvre à 10:00 ven.",
+        "operating_hours": {
+          "jeudi": "10:00–17:00",
+          "vendredi": "10:00–17:00",
+          "samedi": "09:00–19:00",
+          "dimanche": "Fermé",
+          "lundi": "Fermé",
+          "mardi": "10:00–21:00",
+          "mercredi": "Fermé"
+        },
+        "website": "https://www.sequenceparis.com/",
+        "extensions": [
+          {
+            "from_the_business": [
+              "S'identifie comme géré par une femme"
+            ]
+          },
+          {
+            "accessibility": [
+              "Places assises accessibles en fauteuil roulant",
+              "Toilettes accessibles en fauteuil roulant"
+            ]
+          },
+          {
+            "offerings": [
+              "Boissons"
+            ]
+          },
+          {
+            "amenities": [
+              "Toilettes",
+              "Toilettes non genrées",
+              "Wi-Fi gratuit"
+            ]
+          },
+          {
+            "planning": [
+              "Rendez-vous obligatoire",
+              "Rendez-vous recommandés"
+            ]
+          },
+          {
+            "recycling": [
+              "Bouteilles en plastique"
+            ]
+          },
+          {
+            "payments": [
+              "Argent liquide seulement",
+              "Chèques"
+            ]
+          }
+        ],
+        "unsupported_extensions": [
+          {
+            "accessibility": [
+              "Parking accessible en fauteuil roulant"
+            ]
+          }
+        ],
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlh9NYg_rfW43vPdL7g9xAKFLxoL8VLcRP9UT243SpAEiHEP94QZCS4WvBLgLGtw8e7_WyhBhhvMtHj0KpCtQrbVF7JRrUmIWmmwK_RXkjJ_SdtFb1dYQuloYGQXPg318KKLfc=w1000-h1000-c-n",
+        "serpapi_thumbnail": "https://serpapi.com/images/url/T2TnVHicHcRdCoIwAADgE5maghr0YOFPbcXUdNqL4NStUiduaV2wO3SboO_h-36YlKPYqGrHjBXlnHbNUzQT4YNsBrkivFfpKBQiFKG6YYwuuGPOuaDl1GLTmFENLeq8XODDF4d2BkmMnPSyNo1kdL1b6CHHjK77xMTzDlIYyMVurBK_2Y6x-STDuwbGvYymKvOtYzyl_QH3_QLKOH_cj2VSS7_S6yJ6drwIohxRQ7cBgC3ZLrqmaQr7T5ThB8pCQ8g"
       },
       {
         "position": 2,
-        "title": "Studio Marais Hair",
-        "place_id": "ChIJq0dXt-9v5kcR3aH1oXkq6Lw",
-        "data_id": "0x47e66fefb75747ab:0xbce82a79a1f5a1dd",
-        "data_cid": "13611052184623817181",
-        "reviews_link": "https://serpapi.com/search.json?engine=google_maps_reviews&data_id=0x47e66fefb75747ab:0xbce82a79a1f5a1dd&hl=fr",
+        "title": "Hair studio by Anissa",
+        "place_id": "ChIJv3trOO9v5kcREWHQz42jTC4",
+        "data_id": "0x47e66fef386b7bbf:0x2e4ca38dcfd06111",
+        "data_cid": "3336221253446951185",
+        "reviews_link": "https://serpapi.com/search.json?data_id=0x47e66fef386b7bbf%3A0x2e4ca38dcfd06111&engine=google_maps_reviews&hl=fr",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x47e66fef386b7bbf%3A0x2e4ca38dcfd06111&engine=google_maps_photos&hl=fr",
         "gps_coordinates": {
-          "latitude": 48.8571,
-          "longitude": 2.3588
+          "latitude": 48.8620367,
+          "longitude": 2.34013
         },
-        "rating": 4.5,
-        "reviews": 198,
-        "price": "€€€",
+        "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJv3trOO9v5kcREWHQz42jTC4",
+        "provider_id": "/g/11h5dn31lr",
+        "rating": 4.7,
+        "reviews": 936,
         "type": "Salon de coiffure",
         "types": [
           "Salon de coiffure"
         ],
-        "address": "9 Rue Vieille du Temple, 75004 Paris",
-        "open_state": "Ouvert ⋅ Ferme à 20:00",
-        "phone": "+33 1 48 87 09 21",
-        "website": "https://studiomaraishair.com",
-        "thumbnail": "https://lh5.googleusercontent.com/p/studio-marais=w80-h106-k-no"
+        "type_id": "unisex_hairdresser",
+        "type_ids": [
+          "unisex_hairdresser"
+        ],
+        "address": "154 Rue Saint-Honoré, 75001 Paris, France",
+        "country": "France",
+        "open_state": "Ouvert · Ferme à 18:00",
+        "hours": "Ouvert · Ferme à 18:00",
+        "operating_hours": {
+          "jeudi": "09:00–18:00",
+          "vendredi": "09:00–18:00",
+          "samedi": "09:00–18:00",
+          "dimanche": "Fermé",
+          "lundi": "Fermé",
+          "mardi": "09:00–18:00",
+          "mercredi": "09:00–18:00"
+        },
+        "phone": "+33 1 40 20 40 19",
+        "website": "http://www.hairstudiobyanissa.com/",
+        "extensions": [
+          {
+            "service_options": [
+              "Services sur place"
+            ]
+          },
+          {
+            "amenities": [
+              "Toilettes"
+            ]
+          },
+          {
+            "planning": [
+              "Rendez-vous obligatoire",
+              "Rendez-vous recommandés"
+            ]
+          },
+          {
+            "payments": [
+              "Cartes de crédit",
+              "Cartes de débit",
+              "Paiements mobiles NFC"
+            ]
+          }
+        ],
+        "unsupported_extensions": [
+          {
+            "accessibility": [
+              "Parking accessible en fauteuil roulant"
+            ]
+          }
+        ],
+        "service_options": {
+          "services_sur_place": true
+        },
+        "réserver_en_ligne": "https://booksy.com/fr-fr/rwg/67277_hair-studio-by-anissa_salon-de-coiffure_99219_paris?rwg_token=AE37R_hfx1j08LWA_quXe5yjiuhQl_HTFq0zZ5XddLZxH8NtjZEzyAh-KvcI1_5tF5E-1D-BMKv8kaffHt9nLeoLn2C5uhBk3w%3D%3D",
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWncYNKji10-jCWfadF6HofxrPNANHtwhYSwouNaWWC4Z7fLP-WHsSS8NcBh29YG4sSwopjJnfMBmsJ7GZJ-EBIBGVi23htzrbDjz3mjHWIUM42ZKMnQ5yFBOpKQ2K4i9X8XYXH7TQ=w1000-h1000-c-n",
+        "serpapi_thumbnail": "https://serpapi.com/images/url/jBPJwXicHclLjoIwAADQE1UQUNRkFtYPFaQDghbYaQVKIy2hNcx4Q4_gbTRu3ua9nkzrTi0M48bsUS1lfSvvquypFLoUekRla9SdAlQBZSzRIUqJoDkOeDM2AV-R6nzdTpGs_voILzHSA8uTQd7xmZCVU7jVPgIEqSSZYQqZNc89R32-476oQtgq3_UKH2zgDnqnxrKZfvSXNX_YLUdkdwwdqwhCEU_-t_C3C2IrcJp5NsvyDLlp_DOMTdME7CsF4g2yN0Po"
       },
       {
         "position": 3,
-        "title": "Coiffure République",
-        "place_id": "ChIJ7ZlM4vFv5kcRQvJ0rDkq8xA",
-        "data_id": "0x47e66ff1e24c99ed:0x10f32a39ac74f242",
-        "data_cid": "1221609364930675266",
-        "reviews_link": "https://serpapi.com/search.json?engine=google_maps_reviews&data_id=0x47e66ff1e24c99ed:0x10f32a39ac74f242&hl=fr",
+        "title": "HAIR STUDIO BY SOPHEAK Coiffure paris 5",
+        "place_id": "ChIJ6emYycht5kcROe9Vu5VipB4",
+        "data_id": "0x47e66dc8c998e9e9:0x1ea46295bb55ef39",
+        "data_cid": "2207998112551006009",
+        "reviews_link": "https://serpapi.com/search.json?data_id=0x47e66dc8c998e9e9%3A0x1ea46295bb55ef39&engine=google_maps_reviews&hl=fr",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x47e66dc8c998e9e9%3A0x1ea46295bb55ef39&engine=google_maps_photos&hl=fr",
         "gps_coordinates": {
-          "latitude": 48.8672,
-          "longitude": 2.3641
+          "latitude": 48.846756799999994,
+          "longitude": 2.3513585
         },
-        "rating": 4.2,
-        "reviews": 87,
-        "price": "€",
+        "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJ6emYycht5kcROe9Vu5VipB4",
+        "provider_id": "/g/119vk0xmj",
+        "rating": 4.7,
+        "reviews": 276,
         "type": "Salon de coiffure",
         "types": [
           "Salon de coiffure"
         ],
-        "address": "3 Boulevard du Temple, 75003 Paris",
-        "open_state": "Ouvert ⋅ Ferme à 19:00",
-        "phone": "+33 1 43 55 72 10",
-        "thumbnail": "https://lh5.googleusercontent.com/p/coiffure-republique=w80-h106-k-no"
+        "type_id": "hair_salon",
+        "type_ids": [
+          "hair_salon"
+        ],
+        "address": "28 Rue Monge, 75005 Paris, France",
+        "country": "France",
+        "open_state": "Ouvert · Ferme à 19:30",
+        "hours": "Ouvert · Ferme à 19:30",
+        "operating_hours": {
+          "jeudi": "09:30–19:30",
+          "vendredi": "09:30–19:30",
+          "samedi": "09:00–19:30",
+          "dimanche": "Fermé",
+          "lundi": "09:30–19:30",
+          "mardi": "09:30–19:30",
+          "mercredi": "09:30–19:30"
+        },
+        "phone": "+33 9 75 21 64 11",
+        "website": "https://www.planity.com/le-salon-yd-75005-paris",
+        "extensions": [
+          {
+            "accessibility": [
+              "Entrée accessible en fauteuil roulant"
+            ]
+          },
+          {
+            "amenities": [
+              "Toilettes",
+              "Toilettes non genrées",
+              "Wi-Fi gratuit"
+            ]
+          },
+          {
+            "planning": [
+              "Rendez-vous recommandés"
+            ]
+          },
+          {
+            "payments": [
+              "Cartes de crédit",
+              "Cartes de débit",
+              "Paiements mobiles NFC"
+            ]
+          }
+        ],
+        "réserver_en_ligne": "https://www.planity.com/hair-studio-by-sopheak-75005-paris?rwg_token=AE37R_jYUvEhk5QxqPCDhtMPu3LrRohFGOPmqppsCxACX9u952AXcY2rmA0EnvfjD4YNgTAjJzdcCp_Yyu49-YZlJmzAgGTqHQ%3D%3D",
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlZ2pjNyE6Ot-TwY8OA69woj8wully67cuZ2oCDKN561IzIOMJFBIqw6w9RRXcG94DvqVTz7H1wsdyMRswKhu0jt40t9KtnDPx5fwvIkZvd0JusiPbkbeTDvT1P-wrKWCp0zb8y3hQYXmuu=w1000-h1000-c-n",
+        "serpapi_thumbnail": "https://serpapi.com/images/url/tBu8UHicHcRLDoIwFADAE1WKYgUTFyp-kChIGj8sqUjFStG2POGSrr2NibOY74drXauxZQk-6BVSFiI3Kn8xWem80j0mH1ZRK8QUUtZ0ncT0KNJ-Xe7aBYk0onB2oynxQJYuGCFaMmIm7cu5H-6GxA66INpulrPgCQS8JDmxlef4zfNAu9HaBnVpt4mCkBtcagdrL9SVH7-HV2iCe9pc8MaoW5zds5z6DbVjBK_wOK9xl7ntgO_Pp4cxE7Axxoj_Z6j6AaEdSBU"
+      },
+      {
+        "position": 4,
+        "title": "Space Hair Paris",
+        "place_id": "ChIJb--eUgNu5kcR9ov1Qo33PK8",
+        "data_id": "0x47e66e03529eef6f:0xaf3cf78d42f58bf6",
+        "data_cid": "12627239641325865974",
+        "reviews_link": "https://serpapi.com/search.json?data_id=0x47e66e03529eef6f%3A0xaf3cf78d42f58bf6&engine=google_maps_reviews&hl=fr",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x47e66e03529eef6f%3A0xaf3cf78d42f58bf6&engine=google_maps_photos&hl=fr",
+        "gps_coordinates": {
+          "latitude": 48.860413799999996,
+          "longitude": 2.3562409
+        },
+        "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJb--eUgNu5kcR9ov1Qo33PK8",
+        "provider_id": "/g/1th5z2_3",
+        "rating": 4.3,
+        "reviews": 599,
+        "type": "Salon de coiffure",
+        "types": [
+          "Salon de coiffure",
+          "Barbier"
+        ],
+        "type_id": "unisex_hairdresser",
+        "type_ids": [
+          "unisex_hairdresser",
+          "barber_shop"
+        ],
+        "address": "8 Rue Rambuteau, 75003 Paris, France",
+        "country": "France",
+        "open_state": "Ouvert · Ferme à 21:00",
+        "hours": "Ouvert · Ferme à 21:00",
+        "operating_hours": {
+          "jeudi": "10:00–21:00",
+          "vendredi": "10:00–21:00",
+          "samedi": "10:00–20:00",
+          "dimanche": "Fermé",
+          "lundi": "11:00–21:00",
+          "mardi": "10:00–21:00",
+          "mercredi": "10:00–21:00"
+        },
+        "phone": "+33 1 48 87 28 51",
+        "website": "http://www.space-hair-paris-marais.com/",
+        "extensions": [
+          {
+            "service_options": [
+              "Services sur place"
+            ]
+          },
+          {
+            "accessibility": [
+              "Boucle magnétique"
+            ]
+          },
+          {
+            "offerings": [
+              "Boissons"
+            ]
+          },
+          {
+            "amenities": [
+              "Toilettes",
+              "Toilettes non genrées"
+            ]
+          },
+          {
+            "planning": [
+              "Rendez-vous recommandés",
+              "Accepte les clients sans rendez-vous"
+            ]
+          },
+          {
+            "payments": [
+              "Cartes de crédit",
+              "Cartes de débit",
+              "Paiements mobiles NFC"
+            ]
+          }
+        ],
+        "unsupported_extensions": [
+          {
+            "accessibility": [
+              "Entrée accessible en fauteuil roulant",
+              "Parking accessible en fauteuil roulant",
+              "Toilettes accessibles en fauteuil roulant"
+            ]
+          }
+        ],
+        "service_options": {
+          "services_sur_place": true
+        },
+        "réserver_en_ligne": "https://www.space-hair-paris-marais.com/reservations?utm_source=google&utm_medium=book_button&utm_campaign=service_list&rwg_token=AE37R_h8szL-o5_0mo0RB_nv7_tC3bjZkXt7ekAmQz5P9rrzVPdAVibhXTptLEBk9DlmnujzpPxxDROMpbBB1Qckc2wwf3KAng%3D%3D",
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnktlL6REcItYmsoy2JeeBbaYAwwRCUrBhipZGEBqKXNKs6_ZmccLf69JEOjprYcrwUR8wQVstOoLPkt8PBn0RDDR9TQNKHBvDwki5SDU14ntFmTPpnS-JAYjIlKUrtklVOCLt-=w1000-h1000-c-n",
+        "serpapi_thumbnail": "https://serpapi.com/images/url/nLSt63icHcRLDoIwFADAE1XwR9TEBRX8ABGsoOLGaFNBKW1tnzae0DN4GxNnMd9PDaDMxHF43e9UUlacPQ3TVApgAjpUtk6lDKIGGcdfkizfiwZ44pGQrqBsjXz3Isbw5Vz61pJZoXF9U8dFiB_xYR0b73RsKU2u3jgK07vSJdW2ICO72RlIZZI1MMqwcEkQkHG-WcdL_Apscxtug6I7EDBv80yJLYr88r7icaGh4bt0lgCa2q7ruqj-T5H4AdrlRYQ"
+      },
+      {
+        "position": 5,
+        "title": "Hair Studio Greet (Bleu coiffure)",
+        "place_id": "ChIJmdXEK4Fv5kcR2ReiMKlomEI",
+        "data_id": "0x47e66f812bc4d599:0x429868a930a217d9",
+        "data_cid": "4798700478837954521",
+        "reviews_link": "https://serpapi.com/search.json?data_id=0x47e66f812bc4d599%3A0x429868a930a217d9&engine=google_maps_reviews&hl=fr",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x47e66f812bc4d599%3A0x429868a930a217d9&engine=google_maps_photos&hl=fr",
+        "gps_coordinates": {
+          "latitude": 48.870167599999995,
+          "longitude": 2.339498
+        },
+        "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJmdXEK4Fv5kcR2ReiMKlomEI",
+        "provider_id": "/g/11sd721zys",
+        "rating": 4.8,
+        "reviews": 198,
+        "type": "Salon de coiffure",
+        "types": [
+          "Salon de coiffure"
+        ],
+        "type_id": "hair_salon",
+        "type_ids": [
+          "hair_salon"
+        ],
+        "address": "Hair Studio Greet, 90 Rue de Richelieu, 75002 Paris, France",
+        "country": "France",
+        "open_state": "Ouvert · Ferme à 19:30",
+        "hours": "Ouvert · Ferme à 19:30",
+        "operating_hours": {
+          "jeudi": "10:00–19:30",
+          "vendredi": "10:00–19:30",
+          "samedi": "10:00–19:30",
+          "dimanche": "Fermé",
+          "lundi": "10:00–19:30",
+          "mardi": "10:00–19:30",
+          "mercredi": "10:00–19:30"
+        },
+        "phone": "+33 1 73 75 70 70",
+        "website": "https://www.hairstudiogreet.com/",
+        "extensions": [
+          {
+            "amenities": [
+              "Toilettes",
+              "Wi-Fi gratuit"
+            ]
+          },
+          {
+            "planning": [
+              "Rendez-vous obligatoire",
+              "Rendez-vous recommandés"
+            ]
+          },
+          {
+            "recycling": [
+              "Bouteilles en plastique"
+            ]
+          },
+          {
+            "payments": [
+              "Cartes de crédit",
+              "Cartes de débit"
+            ]
+          }
+        ],
+        "unsupported_extensions": [
+          {
+            "accessibility": [
+              "Parking accessible en fauteuil roulant"
+            ]
+          }
+        ],
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlBwPMT_dQxn8SbMkfa9mxDNEoPEW2BjgjLeNalwk3SeJHrfX9J48iaX_AUEH0yDhBSr__1hzqj6uEH9xesP1ZW9Jhqs-VkpbmH4kKynzu1GvmBipTs-8FCmR0LJ4-SanD2pfM=w1000-h1000-c-n",
+        "serpapi_thumbnail": "https://serpapi.com/images/url/4vz-x3icHcRJDoIwAADAFxUKEgMmHkTQBsWgoBgvBLFQli5QEPSB_sHfmDiH-X5I3wu5UNWGzJSC86LBg8RdxlmPWa9knKqFkCCTQKordAqiuLHHwI-Sx3FiZnj36zy16OQcXB64sW5XRbXHh7QZ61mIPdTlV8szzDK9Jquzi-DLIXbYJYlG3m01H1xkTVgG2i22PNJKcKnFnSKj3r3Ye9C2T2qXIpLA3KzpCe49A4Qpc3SR-8tRgxAC8j8D7AdQ0kSP"
+      },
+      {
+        "position": 6,
+        "title": "VEE HAIR PARIS",
+        "place_id": "ChIJRZeI7eRt5kcRoPaiIwWJAWs",
+        "data_id": "0x47e66de4ed889745:0x6b01890523a2f6a0",
+        "data_cid": "7710594692200724128",
+        "reviews_link": "https://serpapi.com/search.json?data_id=0x47e66de4ed889745%3A0x6b01890523a2f6a0&engine=google_maps_reviews&hl=fr",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x47e66de4ed889745%3A0x6b01890523a2f6a0&engine=google_maps_photos&hl=fr",
+        "gps_coordinates": {
+          "latitude": 48.8667778,
+          "longitude": 2.3744251999999997
+        },
+        "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJRZeI7eRt5kcRoPaiIwWJAWs",
+        "provider_id": "/g/11b674p_k0",
+        "rating": 4.9,
+        "reviews": 122,
+        "type": "Salon de coiffure",
+        "types": [
+          "Salon de coiffure"
+        ],
+        "type_id": "hair_salon",
+        "type_ids": [
+          "hair_salon"
+        ],
+        "address": "64 Rue Jean-Pierre Timbaud, 75011 Paris, France",
+        "country": "France",
+        "phone": "+33 6 66 05 10 11",
+        "website": "https://vee-hair.com/",
+        "extensions": [
+          {
+            "service_options": [
+              "Services sur place"
+            ]
+          },
+          {
+            "amenities": [
+              "Toilettes"
+            ]
+          },
+          {
+            "planning": [
+              "Rendez-vous obligatoire",
+              "Rendez-vous recommandés"
+            ]
+          },
+          {
+            "recycling": [
+              "Bouteilles en plastique"
+            ]
+          },
+          {
+            "payments": [
+              "Cartes de crédit",
+              "Cartes de débit"
+            ]
+          },
+          {
+            "children": [
+              "Convient aux enfants"
+            ]
+          },
+          {
+            "parking": [
+              "Parking payant dans la rue"
+            ]
+          }
+        ],
+        "unsupported_extensions": [
+          {
+            "accessibility": [
+              "Parking accessible en fauteuil roulant"
+            ]
+          }
+        ],
+        "service_options": {
+          "services_sur_place": true
+        },
+        "réserver_en_ligne": "https://www.planity.com/vee-hair-paris-75011-ny0?rwg_token=AE37R_gJgEEYC_DlD1Z2k4faDVL7BPwCCMIoLHsZxjhbUbFKK1aV--y2h1KnDbN8AxZV0awa89MLPhUHYih82FWAJ59aw7WFjA%3D%3D",
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlIjwSkRkkTze7swZ6u0dfi1uUaFk_-mxGHPBpsgBbfalb6cpuos_CidPHGGmemI_eM_OWjgzxg3Iat4g5_l2cYChZKahtJH7GTA2SMDSOdwSEttlzRC-Sznzo_6l2ZJg21Ef1pfMt1SeU=w1000-h1000-c-n",
+        "serpapi_thumbnail": "https://serpapi.com/images/url/TP1Fx3icHcTRyoIwGADQJ1o6K4Ogi7JSC0mcEXkzbM6tnG60T4w9ZPe9zQ__uTi_rwQwdu15Ss5nQmuh-Gj5m-kB-AAzpntPGIuYRdbbJkVe3lT6mkhXdF3p-MpOVTj6TfvE47U-dhT1nzjJd8aK3aOt1SNkZtSWRs8mT-K4531KeUYvt5dwHzFPa1iIJVUBu0eyOtcSTskqLrcByfbk0kzkAKBcESHiBqdpqILqJAJ8aLFpM8CEXzcT9n0fyf8ZGv4AN0hItw"
+      },
+      {
+        "position": 7,
+        "title": "Le Salon de Coiffure",
+        "place_id": "ChIJs9uFBvpt5kcR1bCAXCNAlCo",
+        "data_id": "0x47e66dfa0685dbb3:0x2a9440235c80b0d5",
+        "data_cid": "3068147766766121173",
+        "reviews_link": "https://serpapi.com/search.json?data_id=0x47e66dfa0685dbb3%3A0x2a9440235c80b0d5&engine=google_maps_reviews&hl=fr",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x47e66dfa0685dbb3%3A0x2a9440235c80b0d5&engine=google_maps_photos&hl=fr",
+        "gps_coordinates": {
+          "latitude": 48.8610203,
+          "longitude": 2.3782791999999997
+        },
+        "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJs9uFBvpt5kcR1bCAXCNAlCo",
+        "provider_id": "/g/11cmw1vqmb",
+        "rating": 4.9,
+        "reviews": 180,
+        "type": "Salon de coiffure",
+        "types": [
+          "Salon de coiffure"
+        ],
+        "type_id": "hair_salon",
+        "type_ids": [
+          "hair_salon"
+        ],
+        "address": "34 Ave Parmentier, 75011 Paris, France",
+        "country": "France",
+        "open_state": "Ouvert · Ferme à 19:00",
+        "hours": "Ouvert · Ferme à 19:00",
+        "operating_hours": {
+          "jeudi": "10:00–19:00",
+          "vendredi": "10:00–19:00",
+          "samedi": "10:00–19:00",
+          "dimanche": "Fermé",
+          "lundi": "Fermé",
+          "mardi": "10:00–19:00",
+          "mercredi": "10:00–19:00"
+        },
+        "phone": "+33 1 77 32 02 46",
+        "website": "https://brooklynyc.wixsite.com/my-site",
+        "extensions": [
+          {
+            "from_the_business": [
+              "S'identifie comme géré par une femme"
+            ]
+          },
+          {
+            "accessibility": [
+              "Entrée accessible en fauteuil roulant",
+              "Toilettes accessibles en fauteuil roulant"
+            ]
+          },
+          {
+            "amenities": [
+              "Toilettes",
+              "Toilettes non genrées",
+              "Wi-Fi gratuit"
+            ]
+          },
+          {
+            "planning": [
+              "Rendez-vous obligatoire",
+              "Rendez-vous recommandés"
+            ]
+          },
+          {
+            "payments": [
+              "Cartes de crédit",
+              "Cartes de débit",
+              "Paiements mobiles NFC"
+            ]
+          },
+          {
+            "children": [
+              "Convient aux enfants"
+            ]
+          }
+        ],
+        "unsupported_extensions": [
+          {
+            "accessibility": [
+              "Parking accessible en fauteuil roulant"
+            ]
+          }
+        ],
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnYD73wcy2XCN_VgAFnMipepn7g-7IE6BVKy6gXH6dv4CQ_LnarbufE4_ZBU1ao7wyTcIAMADvbNLrqXU1zF4jZcuPBrcfjOgspxUWzvZOBoJsag0Y1YvrJgGGUyL7bvHGAaDU=w1000-h1000-c-n",
+        "serpapi_thumbnail": "https://serpapi.com/images/url/LodVgXicHcTdboIwGADQJ6qAEpos2UURBRn-xiJwQ6CDjxnXdi0U8QF9B9_GZOfivJ5d30v9YVm3bjEDIeDWDLpRTPC-4f2MiV8LpEZMI22R6HQ4X3ge4MXIpnm23JUpkDXf_shGcgwIb1aen35NHmSR923c5bFMeKXqoV25ZeFTpxJ4nM5sQ7YkMPUuUX8ZdR5r91qw4eAr1l73oOWdXh6m2Psi1hXYuZMbFUMY0inBtYlCUgX0c3Rs20bd_wzxNxxERM8"
+      },
+      {
+        "position": 8,
+        "title": "DESSANGE Saint Germain des Prés - Paris 6 - Louvre - Orsay - Coiffeur - Coloriste - SPA ✂",
+        "place_id": "ChIJdww7Gyhu5kcRM0Xr35_qtXU",
+        "data_id": "0x47e66e281b3b0c77:0x75b5ea9fdfeb4533",
+        "data_cid": "8481943445599634739",
+        "reviews_link": "https://serpapi.com/search.json?data_id=0x47e66e281b3b0c77%3A0x75b5ea9fdfeb4533&engine=google_maps_reviews&hl=fr",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x47e66e281b3b0c77%3A0x75b5ea9fdfeb4533&engine=google_maps_photos&hl=fr",
+        "gps_coordinates": {
+          "latitude": 48.856943099999995,
+          "longitude": 2.3324016
+        },
+        "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJdww7Gyhu5kcRM0Xr35_qtXU",
+        "provider_id": "/g/11b6vjn4ht",
+        "rating": 4.8,
+        "reviews": 1406,
+        "type": "Salon de coiffure",
+        "types": [
+          "Salon de coiffure",
+          "Distributeur de produits de beauté",
+          "Institut de beauté",
+          "Magasin de produits de beauté",
+          "Institut de soins du visage",
+          "Fournisseur d'extensions de cheveux",
+          "Institut de massages",
+          "Salon de manucure",
+          "Distributeur de produits pour la peau",
+          "Institut de spa et bien-être"
+        ],
+        "type_id": "unisex_hairdresser",
+        "type_ids": [
+          "unisex_hairdresser",
+          "beauty_products_vending_machine",
+          "beauty_salon",
+          "beauty_supply_store",
+          "facial_spa",
+          "hair_extensions_supplier",
+          "massage_spa",
+          "nail_salon",
+          "skin_care_products_vending_machine",
+          "spa_and_health_club"
+        ],
+        "address": "15 Rue des Saints-Pères, 75006 Paris, France",
+        "country": "France",
+        "open_state": "Ouvert · Ferme à 19:00",
+        "hours": "Ouvert · Ferme à 19:00",
+        "operating_hours": {
+          "jeudi": "09:30–19:00",
+          "vendredi": "09:30–19:00",
+          "samedi": "09:30–18:00",
+          "dimanche": "Fermé",
+          "lundi": "Fermé",
+          "mardi": "09:30–19:00",
+          "mercredi": "09:30–19:00"
+        },
+        "phone": "+33 1 42 61 45 15",
+        "website": "https://www.coiffeur-saint-germain-des-pres-paris.fr/",
+        "extensions": [
+          {
+            "from_the_business": [
+              "S'identifie comme géré par une femme"
+            ]
+          },
+          {
+            "service_options": [
+              "Services sur place"
+            ]
+          },
+          {
+            "accessibility": [
+              "Entrée accessible en fauteuil roulant",
+              "Places assises accessibles en fauteuil roulant"
+            ]
+          },
+          {
+            "offerings": [
+              "Boissons"
+            ]
+          },
+          {
+            "amenities": [
+              "Toilettes",
+              "Toilettes non genrées",
+              "Wi-Fi gratuit"
+            ]
+          },
+          {
+            "crowd": [
+              "LGBTQ+ friendly",
+              "Safe place pour les transgenres"
+            ]
+          },
+          {
+            "planning": [
+              "Rendez-vous obligatoire",
+              "Rendez-vous recommandés"
+            ]
+          },
+          {
+            "recycling": [
+              "Bouteilles en plastique"
+            ]
+          },
+          {
+            "payments": [
+              "Cartes de crédit",
+              "Cartes de débit",
+              "Paiements mobiles NFC"
+            ]
+          },
+          {
+            "parking": [
+              "Parking couvert payant",
+              "Parking payant dans la rue"
+            ]
+          }
+        ],
+        "unsupported_extensions": [
+          {
+            "accessibility": [
+              "Parking accessible en fauteuil roulant",
+              "Toilettes accessibles en fauteuil roulant"
+            ]
+          }
+        ],
+        "service_options": {
+          "services_sur_place": true
+        },
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWncu5WokE06XYoPgHNnJTfnJUD6uihKkJxXTrJFQUmSHMZhXHH02jW3lUp_ZZ90MMrmZieYJ5roKh4iCSrfZ-YpxFZ0jadt7ion9e8XBB045MUeRD1fGN3Qbwvtwva5rTXIcmUD=w1000-h1000-c-n",
+        "serpapi_thumbnail": "https://serpapi.com/images/url/1swHN3icHcTbDoIgAADQLyIptdvWQ2VFNFsXmchLK0KxFBxg9od9Q3_T1nk43490rrFTz6uk3yu0LirRWmG4Vk4o1-O69orGAm6B9ebodEhSxdsw1c8VHNJMHwq0VzjJFSbRsC3l7onfNDF4fST1GcVMUoTg4JH6FWkujE1gHJualSLDodE7GZTLs8kZyJr3msHH9e5GpVYTMaaLBQzCmIhT1M83e_94616ue11Dk9Atr0k06_oQQiD_c6B-arZEqw"
+      },
+      {
+        "position": 9,
+        "title": "Nick Clark Hairdressing",
+        "place_id": "ChIJf-S5b_lt5kcRRv1hzV6Ws7Q",
+        "data_id": "0x47e66df96fb9e47f:0xb4b3965ecd61fd46",
+        "data_cid": "13020916281575079238",
+        "reviews_link": "https://serpapi.com/search.json?data_id=0x47e66df96fb9e47f%3A0xb4b3965ecd61fd46&engine=google_maps_reviews&hl=fr",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x47e66df96fb9e47f%3A0xb4b3965ecd61fd46&engine=google_maps_photos&hl=fr",
+        "gps_coordinates": {
+          "latitude": 48.8597343,
+          "longitude": 2.3748381
+        },
+        "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJf-S5b_lt5kcRRv1hzV6Ws7Q",
+        "provider_id": "/g/11dxlbrr_c",
+        "rating": 4.7,
+        "reviews": 297,
+        "type": "Salon de coiffure",
+        "types": [
+          "Salon de coiffure",
+          "Espace de coworking",
+          "Maquilleur.euse"
+        ],
+        "type_id": "unisex_hairdresser",
+        "type_ids": [
+          "unisex_hairdresser",
+          "coworking_space",
+          "makeup_artist"
+        ],
+        "address": "10 Rue de l'Asile Popincourt, 75011 Paris, France",
+        "country": "France",
+        "open_state": "Ouvert · Ferme à 19:00",
+        "hours": "Ouvert · Ferme à 19:00",
+        "operating_hours": {
+          "jeudi": "10:00–19:00",
+          "vendredi": "10:00–19:00",
+          "samedi": "10:00–19:00",
+          "dimanche": "10:00–19:00",
+          "lundi": "Fermé",
+          "mardi": "10:00–19:00",
+          "mercredi": "10:00–19:00"
+        },
+        "phone": "+33 1 55 28 77 85",
+        "website": "https://www.planity.com/nick-clark-hairdressing-75011-paris",
+        "extensions": [
+          {
+            "service_options": [
+              "Services sur place"
+            ]
+          },
+          {
+            "accessibility": [
+              "Entrée accessible en fauteuil roulant",
+              "Places assises accessibles en fauteuil roulant",
+              "Toilettes accessibles en fauteuil roulant"
+            ]
+          },
+          {
+            "offerings": [
+              "Boissons"
+            ]
+          },
+          {
+            "amenities": [
+              "Toilettes"
+            ]
+          },
+          {
+            "crowd": [
+              "LGBTQ+ friendly",
+              "Safe place pour les transgenres"
+            ]
+          },
+          {
+            "planning": [
+              "Rendez-vous obligatoire",
+              "Rendez-vous recommandés"
+            ]
+          },
+          {
+            "recycling": [
+              "Bouteilles en plastique"
+            ]
+          },
+          {
+            "payments": [
+              "Cartes de crédit",
+              "Cartes de débit",
+              "Paiements mobiles NFC"
+            ]
+          }
+        ],
+        "unsupported_extensions": [
+          {
+            "accessibility": [
+              "Parking accessible en fauteuil roulant"
+            ]
+          }
+        ],
+        "service_options": {
+          "services_sur_place": true
+        },
+        "réserver_en_ligne": "https://www.planity.com/nick-clark-hairdressing-75011-paris?rwg_token=AE37R_ikM6UXuQBySQgDq0iju_zTW72RTbXKih9j0l5MNRArwcRt_KCucg0cbkwHMNALmsLqMS8JPsxSdogRctkEP99lTmaFQA%3D%3D",
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnQIIWmLlDunNY2TVjg7ZKbflvj00km1scS3Q2vLLTdf3Bq4ADkBbMwenZkeFnfgt2NYvy4vaySIAtO8I22QR5_LThWHbR9SEfcGj40MvwaaURBFhoiMsuX8RqODdg24uCdBKJcNw=w1000-h1000-c-n",
+        "serpapi_thumbnail": "https://serpapi.com/images/url/gx4sTXicHcRLjoIwAADQEyG1YPwkLmAYFQWUgsPoxkAprXxataXEI3oEb2PiW7z3iyl1kwvTbJk1okLQlvSSPLDginA1wqIz6U0aWBrSdDbokGY89v2sC1qv59EJpn81nZ53RdXqGoCmG0ucWDHUQZCWleXebcdr3CIcCD83ZMUrqmB00k9b58_Ed9R-5kMYo8klSFm2KdA8-a3wurZBqIc8PyJ3xcQ1lP3_DN33Xkmh3f-U7m6Lo2E5jAEABvuODf4B-8NFUg"
+      },
+      {
+        "position": 10,
+        "title": "Catwalk hair studio",
+        "place_id": "ChIJq6quZf1t5kcR6BFDpIwTNcw",
+        "data_id": "0x47e66dfd65aeaaab:0xcc35138ca44311e8",
+        "data_cid": "14714688852275171816",
+        "reviews_link": "https://serpapi.com/search.json?data_id=0x47e66dfd65aeaaab%3A0xcc35138ca44311e8&engine=google_maps_reviews&hl=fr",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x47e66dfd65aeaaab%3A0xcc35138ca44311e8&engine=google_maps_photos&hl=fr",
+        "gps_coordinates": {
+          "latitude": 48.8641015,
+          "longitude": 2.3681514999999997
+        },
+        "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJq6quZf1t5kcR6BFDpIwTNcw",
+        "provider_id": "/g/11g6_0q81v",
+        "rating": 4.7,
+        "reviews": 188,
+        "type": "Salon de coiffure",
+        "types": [
+          "Salon de coiffure"
+        ],
+        "type_id": "unisex_hairdresser",
+        "type_ids": [
+          "unisex_hairdresser"
+        ],
+        "address": "14 Rue de Crussol, 75011 Paris, France",
+        "country": "France",
+        "open_state": "Ouvert · Ferme à 19:30",
+        "hours": "Ouvert · Ferme à 19:30",
+        "operating_hours": {
+          "jeudi": "10:30–19:30",
+          "vendredi": "12:00–21:00",
+          "samedi": "10:30–19:30",
+          "dimanche": "Fermé",
+          "lundi": "13:30–17:00",
+          "mardi": "10:30–18:00",
+          "mercredi": "12:00–21:00"
+        },
+        "phone": "+33 1 48 05 64 31",
+        "website": "http://www.catwalk-hairstudio.com/",
+        "extensions": [
+          {
+            "service_options": [
+              "Services sur place"
+            ]
+          },
+          {
+            "amenities": [
+              "Toilettes",
+              "Wi-Fi gratuit"
+            ]
+          },
+          {
+            "crowd": [
+              "LGBTQ+ friendly",
+              "Safe place pour les transgenres"
+            ]
+          },
+          {
+            "planning": [
+              "Rendez-vous obligatoire",
+              "Rendez-vous recommandés"
+            ]
+          },
+          {
+            "payments": [
+              "Cartes de crédit",
+              "Cartes de débit",
+              "Paiements mobiles NFC"
+            ]
+          }
+        ],
+        "unsupported_extensions": [
+          {
+            "accessibility": [
+              "Parking accessible en fauteuil roulant"
+            ]
+          }
+        ],
+        "service_options": {
+          "services_sur_place": true
+        },
+        "réserver_en_ligne": "https://www.planity.com/catwalk-hair-studio-75011-paris?rwg_token=AE37R_hBa-DiAH77TPr9TzW8B01ve7pNcTHz3Fw_ZuNqkKKge6Vo5VpWa-L9cSB0dNaEIeLt53Brq8QQzk4ltL5U5pB0zPDeHQ%3D%3D",
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkNqUzthP-oaaXoNojRdhB446b0yQY4GV1qxUddEpXf0C3PujwwuHAAMcJLS3BEB8wZzgNHjxIyKu_tzj_9nRto8TPNeB4NDUxp4hvOqEKxjM-euMFojB7ub3wuNMZyI6zOmQ_Z7A=w1000-h1000-c-n",
+        "serpapi_thumbnail": "https://serpapi.com/images/url/eEfVHnicHcTbboIwGADgJ6rU0HhKvKAbGx6oiLI5boiWjqZTfrCtBd5wj7C3Mdl38f39SmMavfC8q_RHFUB1FVaLO4faiNqMONy8qtGIa6S9IEqT4-cPa7PByATB-XwCBiotJSVkcsH9_ou8f4zbLivLsDl94xc_sco5GwVBzNfbg09DOnP5ULFIdat-YwszqGJepwZmx4QJSthr1jVEPnZtuOlUjISN30DRqb34zrI471eTYXfbF_k0WLoxxhjJ_zmqn0rYRlY"
+      },
+      {
+        "position": 11,
+        "title": "Salon De Coiffure By Anaïs M",
+        "place_id": "ChIJf1UTxeBx5kcRd2Cr26Ad-mQ",
+        "data_id": "0x47e671e0c513557f:0x64fa1da0dbab6077",
+        "data_cid": "7276160724687872119",
+        "reviews_link": "https://serpapi.com/search.json?data_id=0x47e671e0c513557f%3A0x64fa1da0dbab6077&engine=google_maps_reviews&hl=fr",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x47e671e0c513557f%3A0x64fa1da0dbab6077&engine=google_maps_photos&hl=fr",
+        "gps_coordinates": {
+          "latitude": 48.8517989,
+          "longitude": 2.3463456
+        },
+        "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJf1UTxeBx5kcRd2Cr26Ad-mQ",
+        "provider_id": "/g/1tr9mr65",
+        "rating": 4.9,
+        "reviews": 359,
+        "type": "Salon de coiffure",
+        "types": [
+          "Salon de coiffure"
+        ],
+        "type_id": "hair_salon",
+        "type_ids": [
+          "hair_salon"
+        ],
+        "address": "13 Rue St Jacques, 75005 Paris, France",
+        "country": "France",
+        "open_state": "Ouvert · Ferme à 19:00",
+        "hours": "Ouvert · Ferme à 19:00",
+        "operating_hours": {
+          "jeudi": "10:00–19:00",
+          "vendredi": "10:00–19:00",
+          "samedi": "10:00–19:00",
+          "dimanche": "Fermé",
+          "lundi": "Fermé",
+          "mardi": "10:00–19:00",
+          "mercredi": "10:00–19:00"
+        },
+        "phone": "+33 1 43 25 11 38",
+        "extensions": [
+          {
+            "accessibility": [
+              "Entrée accessible en fauteuil roulant"
+            ]
+          },
+          {
+            "amenities": [
+              "Toilettes"
+            ]
+          },
+          {
+            "planning": [
+              "Rendez-vous recommandés"
+            ]
+          },
+          {
+            "children": [
+              "Convient aux enfants"
+            ]
+          }
+        ],
+        "unsupported_extensions": [
+          {
+            "accessibility": [
+              "Toilettes accessibles en fauteuil roulant"
+            ]
+          }
+        ],
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWldb3iV-ZjSAsy_w8f7V6AQIPra8H13KK9Z1YVLj5rWWoV14QSQbCMR-YLQCWbM_5RK3EtNk_YNRla90kDPM5VbcuIxMZXHABci5X79A5JQtA1ZxMd6mqf5lgWlWWWfnSrzHy7ocw=w1000-h1000-c-n",
+        "serpapi_thumbnail": "https://serpapi.com/images/url/u6ik03icHcTbDoIgAADQLyJlRmZbD3TZNKOJNkhfXOKtIimhWf1hn9DftHUezvfTGnPTM8uSrTNqlGpk9dBVL1Rnqs6MhLpazU0DoYG2sB9Hey7LwjkxkJ0TrF_5MK1dNsE0iPrj1IdOGHoZTNn2jHrOFYNjmtBiSWKQbumSFyRHceisze6Sp7tYHj37sooIYoV4BE-SHXy8ECd0cD2MNtRgmD1JObneayQbLjnndZf0b__lKjHMB2jbNmj_C9D9ACvqQ9A"
+      },
+      {
+        "position": 12,
+        "title": "Salon Messieurs-Dames",
+        "place_id": "ChIJSUrUGQZu5kcRkbnjOxIybfY",
+        "data_id": "0x47e66e0619d44a49:0xf66d32123be3b991",
+        "data_cid": "17756903959687313809",
+        "reviews_link": "https://serpapi.com/search.json?data_id=0x47e66e0619d44a49%3A0xf66d32123be3b991&engine=google_maps_reviews&hl=fr",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x47e66e0619d44a49%3A0xf66d32123be3b991&engine=google_maps_photos&hl=fr",
+        "gps_coordinates": {
+          "latitude": 48.8650202,
+          "longitude": 2.3632388
+        },
+        "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJSUrUGQZu5kcRkbnjOxIybfY",
+        "provider_id": "/g/1tcx69_b",
+        "rating": 4.8,
+        "reviews": 320,
+        "type": "Salon de coiffure",
+        "types": [
+          "Salon de coiffure"
+        ],
+        "type_id": "hair_salon",
+        "type_ids": [
+          "hair_salon"
+        ],
+        "address": "8 Rue de la Corderie, 75003 Paris, France",
+        "country": "France",
+        "open_state": "Ouvert · Ferme à 18:00",
+        "hours": "Ouvert · Ferme à 18:00",
+        "operating_hours": {
+          "jeudi": "10:00–18:00",
+          "vendredi": "10:00–19:00",
+          "samedi": "10:00–19:00",
+          "dimanche": "Fermé",
+          "lundi": "Fermé",
+          "mardi": "10:00–18:00",
+          "mercredi": "10:00–18:00"
+        },
+        "phone": "+33 6 65 69 06 94",
+        "website": "https://www.messieursdames.fr/",
+        "extensions": [
+          {
+            "accessibility": [
+              "Entrée accessible en fauteuil roulant"
+            ]
+          },
+          {
+            "offerings": [
+              "Boissons"
+            ]
+          },
+          {
+            "amenities": [
+              "Toilettes",
+              "Wi-Fi gratuit"
+            ]
+          },
+          {
+            "planning": [
+              "Rendez-vous obligatoire",
+              "Rendez-vous recommandés",
+              "Accepte les clients sans rendez-vous"
+            ]
+          },
+          {
+            "payments": [
+              "Cartes de crédit",
+              "Cartes de débit",
+              "Paiements mobiles NFC"
+            ]
+          },
+          {
+            "children": [
+              "Convient aux enfants"
+            ]
+          }
+        ],
+        "réserver_en_ligne": "https://www.planity.com/messieurs-dames-75003-paris-o5k?rwg_token=AE37R_g_T3WficK1ly9ZSai_P1cCIguc67-i8c_yZtYtx-q0XMc8uCjHG0RXBKAUeyzS2CRlQw7NAW8wxiiJ_-tRhFrlh1SPBA%3D%3D",
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm1ZwFQAujGoeVaFemEGUITPp8yLe-d2u3kZYz_a4WzNG7aO3auu8aw3z0l_1aYLoSXzwfYwaXyvwcm7H4ORzBowXY5HGVqlYH0spVdW_uO4jnNpK_soHLIIX22FMZ5E5eo_YLByO8GoghZ=w1000-h1000-c-n",
+        "serpapi_thumbnail": "https://serpapi.com/images/url/IW8z9HicHcTdboMgGADQJ6LiX2qW7KJNKpi62nWdijeEUKZp1Y8NGZGX3PXeZsnOxfn9GZZFm6cgGId40wP0o7JGfUmYFzUvGwlT0GuDpEEm2NHL-dpMYefy1529E1C1yNV0IO_F9ayztVToFtn40THPRdL4E9mKKhbWZsLFHo88FKyEt9a7D-ZEu347OW1pUl38HlzLUkrqz5FRbHR9a7itkvt80kdugJZF0UZR_tKlh1QBZ-V-rTIC_dA9uxBjjIb_JZr_AAaHSEg"
+      },
+      {
+        "position": 13,
+        "title": "Medley",
+        "place_id": "ChIJV2pIvgJu5kcRA9wUK1JwbQE",
+        "data_id": "0x47e66e02be486a57:0x16d70522b14dc03",
+        "data_cid": "102861864711805955",
+        "reviews_link": "https://serpapi.com/search.json?data_id=0x47e66e02be486a57%3A0x16d70522b14dc03&engine=google_maps_reviews&hl=fr",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x47e66e02be486a57%3A0x16d70522b14dc03&engine=google_maps_photos&hl=fr",
+        "gps_coordinates": {
+          "latitude": 48.8570399,
+          "longitude": 2.357096
+        },
+        "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJV2pIvgJu5kcRA9wUK1JwbQE",
+        "provider_id": "/g/1tvdj2pw",
+        "rating": 4.7,
+        "reviews": 583,
+        "type": "Salon de coiffure",
+        "types": [
+          "Salon de coiffure"
+        ],
+        "type_id": "hair_salon",
+        "type_ids": [
+          "hair_salon"
+        ],
+        "address": "21 Rue Vieille du Temple, 75004 Paris, France",
+        "country": "France",
+        "open_state": "Ouvert · Ferme à 19:00",
+        "hours": "Ouvert · Ferme à 19:00",
+        "operating_hours": {
+          "jeudi": "10:00–19:00",
+          "vendredi": "10:00–19:00",
+          "samedi": "10:00–19:00",
+          "dimanche": "Fermé",
+          "lundi": "Fermé",
+          "mardi": "10:00–19:00",
+          "mercredi": "10:00–19:00"
+        },
+        "phone": "+33 1 44 61 89 29",
+        "website": "http://www.medley.fr/",
+        "extensions": [
+          {
+            "accessibility": [
+              "Entrée accessible en fauteuil roulant"
+            ]
+          },
+          {
+            "amenities": [
+              "Toilettes"
+            ]
+          },
+          {
+            "planning": [
+              "Rendez-vous obligatoire",
+              "Rendez-vous recommandés"
+            ]
+          },
+          {
+            "payments": [
+              "Cartes de crédit",
+              "Cartes de débit",
+              "Paiements mobiles NFC"
+            ]
+          }
+        ],
+        "réserver_en_ligne": "https://www.planity.com/medley-rive-droite-paris-75004?rwg_token=AE37R_iLfq5V1F81NAiSqCZKKH4d3Eqq-iGNDzCLyMfaHbYy8A6ta98lLPAbEvILa7TN8qh-Mx8rJlFccwbVbScyNMRc1hMbRQ%3D%3D",
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmHY67BQIod4NG5hGcTcRgUu_uTnYdtcoQIcruJge-oUlUoV4kzK9JleVZlNSRTE3A5K6aibu0l3UO3pBIIl7iQPIit__y3fMaluDnRPEBo3H9MwEfjjwLjby_O3L7Gd7yBFehjTQ=w1000-h1000-c-n",
+        "serpapi_thumbnail": "https://serpapi.com/images/url/zMJjLXicHcRNjoIwGADQE1UwVYgms5AMQv0Fpmh0Q7DUFqz9iG1DmBt6hLmNybzF-3tLa3uz9Dwl8UQACMWd4S8G2nJtJwyenugNYgYZb5UWGT0_00sQRjmBZnZI5jJhlBWidJWj-tJYBjlhL7cRHEGpSjjNHr_bxUbx01Udfgoa49V8G9TtzfkKl0fcR4SosM0z0tqqGvF9Xyv3rYssjgCni_0Q37tu2HW3sTriXZg04Rituexo_jVMfd9H8n-G9AcFA0WP"
+      },
+      {
+        "position": 14,
+        "title": "David Mallett",
+        "place_id": "ChIJr6dAxjxu5kcRbrBGJQ62AVk",
+        "data_id": "0x47e66e3cc640a7af:0x5901b60e2546b06e",
+        "data_cid": "6413607516223484014",
+        "reviews_link": "https://serpapi.com/search.json?data_id=0x47e66e3cc640a7af%3A0x5901b60e2546b06e&engine=google_maps_reviews&hl=fr",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x47e66e3cc640a7af%3A0x5901b60e2546b06e&engine=google_maps_photos&hl=fr",
+        "gps_coordinates": {
+          "latitude": 48.8670735,
+          "longitude": 2.3415016
+        },
+        "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJr6dAxjxu5kcRbrBGJQ62AVk",
+        "provider_id": "/g/1tczpp0k",
+        "rating": 4.6,
+        "reviews": 359,
+        "type": "Salon de coiffure",
+        "types": [
+          "Salon de coiffure"
+        ],
+        "type_id": "hair_salon",
+        "type_ids": [
+          "hair_salon"
+        ],
+        "address": "14 Rue Notre Dame des Victoires, 75002 Paris, France",
+        "country": "France",
+        "open_state": "Ouvert · Ferme à 20:00",
+        "hours": "Ouvert · Ferme à 20:00",
+        "operating_hours": {
+          "jeudi": "08:00–20:00",
+          "vendredi": "08:00–19:00",
+          "samedi": "09:00–19:00",
+          "dimanche": "Fermé",
+          "lundi": "08:00–19:00",
+          "mardi": "08:00–20:00",
+          "mercredi": "08:00–19:00"
+        },
+        "phone": "+33 1 40 20 00 23",
+        "website": "https://david-mallett.com/",
+        "extensions": [
+          {
+            "offerings": [
+              "Boissons"
+            ]
+          },
+          {
+            "amenities": [
+              "Toilettes"
+            ]
+          },
+          {
+            "planning": [
+              "Rendez-vous obligatoire",
+              "Rendez-vous recommandés",
+              "Accepte les clients sans rendez-vous"
+            ]
+          },
+          {
+            "payments": [
+              "Cartes de crédit",
+              "Cartes de débit",
+              "Chèques",
+              "Paiements mobiles NFC"
+            ]
+          }
+        ],
+        "unsupported_extensions": [
+          {
+            "accessibility": [
+              "Entrée accessible en fauteuil roulant",
+              "Parking accessible en fauteuil roulant"
+            ]
+          }
+        ],
+        "réserver_en_ligne": "https://davidmallett.eu.zenoti.com/webstoreNew/services/831efd14-2da7-41f1-8456-4166504eb576?merchantId=831efd14-2da7-41f1-8456-4166504eb576&booking_source=booknow&booking_medium=google&rwg_token=AE37R_heQ0HFoasY8gce8-rGZQhUGtwDzh_2FEynLhQA5CawquCMgt50AjV_o2w2hNej83Bs5K8N1pMv0G7rxHQOxU9tfFKniA%3D%3D",
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk4jYy5_gO9YF7dwIUFVYKnrpx7fw9VFhIXSdeaUtSnnIXKctQWXoZ7L98aDPvuWW0S4kIOPRELZx0Nr54umXsNGbCnwXCeUofgLry4FffgGpsAxYl46u2NEttyVz2-J9gKwztU=w1000-h1000-c-n",
+        "serpapi_thumbnail": "https://serpapi.com/images/url/iampgHicHcRBjoIwFADQE1WqU2UwmYVRUQaCKALFjdFaShRbQj8WvKBn8DYmvsV7v0qAWk8tqyp_BkIpUfFW84YpCVzCgKm7JWqNmEbamq130T67kWvej49i4-SufTFe4qa5L5u6swvjpG7p0fjCTwnEUnrUZ7DNqDrYgfN7WkSPNstwTG7eJtotg0OHw2ZM2jvV4eo8l4bOeaIKETQ9cYtCrGo96_KKTNpRuATo0-cI_TvCN09I_swQY4zK7wzJD6KeRao"
+      },
+      {
+        "position": 15,
+        "title": "mod's hair Saint Germain - Paris 6",
+        "place_id": "ChIJ28VjGddx5kcRT6m7ss2-npM",
+        "data_id": "0x47e671d71963c5db:0x939ebecdb2bba94f",
+        "data_cid": "10637149160571906383",
+        "reviews_link": "https://serpapi.com/search.json?data_id=0x47e671d71963c5db%3A0x939ebecdb2bba94f&engine=google_maps_reviews&hl=fr",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x47e671d71963c5db%3A0x939ebecdb2bba94f&engine=google_maps_photos&hl=fr",
+        "gps_coordinates": {
+          "latitude": 48.8531082,
+          "longitude": 2.3305614
+        },
+        "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJ28VjGddx5kcRT6m7ss2-npM",
+        "provider_id": "/g/1q67sk507",
+        "rating": 4.6,
+        "reviews": 219,
+        "type": "Salon de coiffure",
+        "types": [
+          "Salon de coiffure"
+        ],
+        "type_id": "hair_salon",
+        "type_ids": [
+          "hair_salon"
+        ],
+        "address": "28 Rue du Dragon, 75006 Paris, France",
+        "country": "France",
+        "open_state": "Ouvert · Ferme à 20:00",
+        "hours": "Ouvert · Ferme à 20:00",
+        "operating_hours": {
+          "jeudi": "10:00–20:00",
+          "vendredi": "10:00–20:00",
+          "samedi": "10:00–18:00",
+          "dimanche": "Fermé",
+          "lundi": "Fermé",
+          "mardi": "10:00–20:00",
+          "mercredi": "10:00–20:00"
+        },
+        "phone": "+33 1 45 48 00 27",
+        "website": "https://modshair.fr/",
+        "extensions": [
+          {
+            "accessibility": [
+              "Entrée accessible en fauteuil roulant"
+            ]
+          },
+          {
+            "amenities": [
+              "Toilettes"
+            ]
+          },
+          {
+            "planning": [
+              "Rendez-vous recommandés"
+            ]
+          },
+          {
+            "recycling": [
+              "Bouteilles en plastique"
+            ]
+          },
+          {
+            "payments": [
+              "Cartes de crédit",
+              "Cartes de débit",
+              "Paiements mobiles NFC"
+            ]
+          }
+        ],
+        "unsupported_extensions": [
+          {
+            "accessibility": [
+              "Parking accessible en fauteuil roulant"
+            ]
+          }
+        ],
+        "réserver_en_ligne": "https://www.planity.com/mods-hair-saint-germain-anciennement-toniguy-75006-paris?rwg_token=AE37R_ipRMU_EMCvJOhslmjOVGlWwOboMvZPuVS8RCab0KkddeD2ZtKil2kwKvKv4sEwLssBJRGC9ArCPpDacECC2umNMlze9A%3D%3D",
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkK-yc1OhAeeDycE52JaI6_ww9B-tXhSvsz9Nu2Ms7Cx-b2nzcezc-06TCnWlGm8LeMIA0bEoMhSy9j_kHoZ88g0C6p9-GocJIdJ-GDzyZ0YGCGPDOaWk_jNpU4ZtMe4UAEX4Kf5Q=w1000-h1000-c-n",
+        "serpapi_thumbnail": "https://serpapi.com/images/url/sXi6AnicHcRbjoIwFADQFV2piAgmfjBAKig-MTj8EL3ToRFsia0i7NAluBsTz8d5v7jWjZoaRs1Hg1LKsmZ3xW4ohWZCD1BejbJRgAqU4c13mzSrFtDhcM09xoIOw7EZnyK7aFv3B_SR7x-qd1d3M1ET_wlnU_TIegRip77Ianp1liyJPHIOZcL3nXspqrnMHackvt24QCXG0V8MNOi7nPxSn26C9SmrisuqOVi5Tph18MKjtfgfb2ftkBAC_DuC-ACDBkOe"
+      },
+      {
+        "position": 16,
+        "title": "Hair Exclusif Paris 11",
+        "place_id": "ChIJ7Uphz_pt5kcRHG5353yr9kA",
+        "data_id": "0x47e66dfacf614aed:0x40f6ab7ce7776e1c",
+        "data_cid": "4681117415645867548",
+        "reviews_link": "https://serpapi.com/search.json?data_id=0x47e66dfacf614aed%3A0x40f6ab7ce7776e1c&engine=google_maps_reviews&hl=fr",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x47e66dfacf614aed%3A0x40f6ab7ce7776e1c&engine=google_maps_photos&hl=fr",
+        "gps_coordinates": {
+          "latitude": 48.864998,
+          "longitude": 2.3769826
+        },
+        "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJ7Uphz_pt5kcRHG5353yr9kA",
+        "provider_id": "/g/11cmgtrd5v",
+        "rating": 4.5,
+        "reviews": 230,
+        "type": "Salon de coiffure",
+        "types": [
+          "Salon de coiffure",
+          "Barbier"
+        ],
+        "type_id": "hair_salon",
+        "type_ids": [
+          "hair_salon",
+          "barber_shop"
+        ],
+        "address": "51 Av. de la République, 75011 Paris, France",
+        "country": "France",
+        "open_state": "Ouvert · Ferme à 19:30",
+        "hours": "Ouvert · Ferme à 19:30",
+        "operating_hours": {
+          "jeudi": "09:30–19:30",
+          "vendredi": "09:30–19:30",
+          "samedi": "09:30–19:00",
+          "dimanche": "Fermé",
+          "lundi": "Fermé",
+          "mardi": "09:30–19:30",
+          "mercredi": "09:30–19:30"
+        },
+        "phone": "+33 1 86 95 05 00",
+        "website": "https://www.planity.com/hair-exclusif-75011-paris",
+        "extensions": [
+          {
+            "accessibility": [
+              "Entrée accessible en fauteuil roulant",
+              "Places assises accessibles en fauteuil roulant"
+            ]
+          },
+          {
+            "amenities": [
+              "Toilettes",
+              "Toilettes non genrées",
+              "Wi-Fi gratuit"
+            ]
+          },
+          {
+            "planning": [
+              "Rendez-vous recommandés"
+            ]
+          },
+          {
+            "payments": [
+              "Cartes de crédit",
+              "Cartes de débit",
+              "Paiements mobiles NFC"
+            ]
+          },
+          {
+            "children": [
+              "Convient aux enfants"
+            ]
+          },
+          {
+            "parking": [
+              "Parking payant dans la rue"
+            ]
+          }
+        ],
+        "unsupported_extensions": [
+          {
+            "accessibility": [
+              "Parking accessible en fauteuil roulant",
+              "Toilettes accessibles en fauteuil roulant"
+            ]
+          }
+        ],
+        "réserver_en_ligne": "https://www.planity.com/hair-exclusif-75011-paris?rwg_token=AE37R_jVhGiMi_u-W2myA1BAxHmDzvAbkgTh1y2Vb1oySqbhiDJFrspl3UIB2gmNHwFXlFr8KhszChhqmyrXyzFhHwoIqDSe2Q%3D%3D",
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm0huuA-PSp7lk6HKnrsBVlQChnxxsQ6HC7iG-0eEjES-HS1oG0m4fBTRGhwxgxAIXgQRuck-TLCLvmbpYXm1mFIPB34uj-5-J5VHydDKv1-daBZs8gHkGzfLnQH5seXPCIhaI=w1000-h1000-c-n",
+        "serpapi_thumbnail": "https://serpapi.com/images/url/4whrSHicHcRNEsEwGADQE32aDsWYsWiLpnTRv6HsiEhok3R8DeWA7uA2ZrzF-35k17U4c5xGDgfCGNFwi_zOjO647gbMKEe0CAwBHZ_mablTRFrrQ1q0k6Ye042-Y7BtslDqvsdsTMPJNQLCl7dlAbRwTUTU6BKUeSSfvej9uBJZblkNZRImD3Vq95Vy1SpOg-HI3sCDtbelr_Ni83DhfAwOOBW0jt6XRGfUQ16lYSyP8fzpEkJA_megf9h4Q1U"
+      },
+      {
+        "position": 17,
+        "title": "3D Haircut",
+        "place_id": "ChIJMyO5dQdy5kcRHbupxCksb4g",
+        "data_id": "0x47e6720775b92333:0x886f2c29c4a9bb1d",
+        "data_cid": "9831125069477821213",
+        "reviews_link": "https://serpapi.com/search.json?data_id=0x47e6720775b92333%3A0x886f2c29c4a9bb1d&engine=google_maps_reviews&hl=fr",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x47e6720775b92333%3A0x886f2c29c4a9bb1d&engine=google_maps_photos&hl=fr",
+        "gps_coordinates": {
+          "latitude": 48.854458199999996,
+          "longitude": 2.3753213
+        },
+        "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJMyO5dQdy5kcRHbupxCksb4g",
+        "provider_id": "/g/1tk9q26v",
+        "rating": 4.4,
+        "reviews": 476,
+        "type": "Salon de coiffure",
+        "types": [
+          "Salon de coiffure"
+        ],
+        "type_id": "hair_salon",
+        "type_ids": [
+          "hair_salon"
+        ],
+        "address": "14 Rue des Taillandiers, 75011 Paris, France",
+        "country": "France",
+        "open_state": "Ouvert · Ferme à 19:00",
+        "hours": "Ouvert · Ferme à 19:00",
+        "operating_hours": {
+          "jeudi": "09:30–19:00",
+          "vendredi": "09:30–19:00",
+          "samedi": "09:00–19:30",
+          "dimanche": "Fermé",
+          "lundi": "Fermé",
+          "mardi": "09:30–19:00",
+          "mercredi": "09:30–19:00"
+        },
+        "phone": "+33 1 43 38 95 48",
+        "website": "http://www.3dhaircut.fr/",
+        "extensions": [
+          {
+            "from_the_business": [
+              "S'identifie comme géré par une femme"
+            ]
+          },
+          {
+            "amenities": [
+              "Toilettes",
+              "Toilettes non genrées",
+              "Wi-Fi gratuit"
+            ]
+          },
+          {
+            "planning": [
+              "Rendez-vous recommandés"
+            ]
+          },
+          {
+            "payments": [
+              "Cartes de crédit",
+              "Cartes de débit",
+              "Chèques",
+              "Paiements mobiles NFC"
+            ]
+          },
+          {
+            "children": [
+              "Convient aux enfants"
+            ]
+          }
+        ],
+        "unsupported_extensions": [
+          {
+            "accessibility": [
+              "Entrée accessible en fauteuil roulant",
+              "Parking accessible en fauteuil roulant"
+            ]
+          }
+        ],
+        "réserver_en_ligne": "https://www.planity.com/3d-haircut-75011-paris?rwg_token=AE37R_hPzD2Tbx_PGLmKZH48nPn77bekrfepaQ3HBE4t4BwJBC1NAii6I5itkidI1ZbSGboxKgow6RA35SYEfAbhn2N1mcwYBg%3D%3D",
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmQTE5pu396BZljuIpTxKnjjEZryq5m9zBhfKRE2LL4ezHC3gQAVe0ExoTua9QzoJPxquA34f8nyhwbOdmQHo4eILFPvjk_878IZQOi2Oi9cIYZUH0jyStMqZeFRdtWLL5F6gAD=w1000-h1000-c-n",
+        "serpapi_thumbnail": "https://serpapi.com/images/url/GXma5nicHcRdToMwAADgEzHq-BGW-MAUAq4LlKGLfTFaunYdtLC2DrigZ_A2S_wevr9fbsygN67bcW_FlGIdtZpeiZKGSrMiqnfZoB2iHe0meV01xx41aTBYLw63uBO2GJppJ4VI8XUegz5etvy0q9M1hD5d8mePoeSdgnRSjf2K0aJeq2m0ieefIjnz23fZ9ihXPi1gVv2Iy2f0GBUYled1eY5J8YHfciDmg9mPmGZ1a44QBlnIkpen2wMAwOH_E0feAYZ4RLM"
+      },
+      {
+        "position": 18,
+        "title": "Woody Saeïé - Paris",
+        "place_id": "ChIJdc00eIdv5kcRO0ajDfwulf4",
+        "data_id": "0x47e66f877834cd75:0xfe952efc0da3463b",
+        "data_cid": "18344620317259023931",
+        "reviews_link": "https://serpapi.com/search.json?data_id=0x47e66f877834cd75%3A0xfe952efc0da3463b&engine=google_maps_reviews&hl=fr",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x47e66f877834cd75%3A0xfe952efc0da3463b&engine=google_maps_photos&hl=fr",
+        "gps_coordinates": {
+          "latitude": 48.859921899999996,
+          "longitude": 2.3560787999999997
+        },
+        "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJdc00eIdv5kcRO0ajDfwulf4",
+        "provider_id": "/g/11fll9_2j6",
+        "rating": 4.8,
+        "reviews": 206,
+        "type": "Salon de coiffure",
+        "types": [
+          "Salon de coiffure"
+        ],
+        "type_id": "unisex_hairdresser",
+        "type_ids": [
+          "unisex_hairdresser"
+        ],
+        "address": "8 Bis Rue Pecquay, 75004 Paris, France",
+        "country": "France",
+        "open_state": "Ouvert · Ferme à 20:00",
+        "hours": "Ouvert · Ferme à 20:00",
+        "operating_hours": {
+          "jeudi": "10:30–20:00",
+          "vendredi": "10:30–20:00",
+          "samedi": "10:30–20:00",
+          "dimanche": "10:30–20:00",
+          "lundi": "10:30–20:00",
+          "mardi": "10:30–20:00",
+          "mercredi": "10:30–20:00"
+        },
+        "phone": "+33 1 84 68 00 81",
+        "website": "https://www.woodysaeie.com/",
+        "extensions": [
+          {
+            "accessibility": [
+              "Entrée accessible en fauteuil roulant"
+            ]
+          },
+          {
+            "offerings": [
+              "Boissons"
+            ]
+          },
+          {
+            "amenities": [
+              "Toilettes",
+              "Wi-Fi gratuit"
+            ]
+          },
+          {
+            "crowd": [
+              "LGBTQ+ friendly"
+            ]
+          },
+          {
+            "planning": [
+              "Rendez-vous recommandés",
+              "Accepte les clients sans rendez-vous"
+            ]
+          },
+          {
+            "recycling": [
+              "Bouteilles en plastique"
+            ]
+          },
+          {
+            "payments": [
+              "Cartes de crédit",
+              "Cartes de débit",
+              "Paiements mobiles NFC"
+            ]
+          }
+        ],
+        "unsupported_extensions": [
+          {
+            "accessibility": [
+              "Parking accessible en fauteuil roulant"
+            ]
+          }
+        ],
+        "réserver_en_ligne": "https://www.google.com/maps/reserve/appt/place/ChIJdc00eIdv5kcRO0ajDfwulf4/mid/%2Fg%2F11fll9_2j6?sourceurl=https://www.google.com/search?hl%3Dfr%26tbm%3Dmap%26q%3Dhair%2Bsalon%26pb%3D!4m8!1m3!1d14765.8345516277!2d2.365!3d48.8575!3m2!1i1920!2i1080!4f13.1!7i20!10b1!12m49!1m5!18b1!30b1!31m1!1b1!34e1!2m4!5m1!6e2!20e3!39b1!6m22!49b1!63m0!66b1!74i150000!85b1!91b1!114b1!149b1!178b1!206b1!209b1!212b1!223b1!232b1!234b1!244b1!246b1!250b1!253b1!258b1!260b1!266b1!10b1!12b1!13b1!14b1!16b1!17m1!3e1!20m3!5e2!6b1!14b1!46m1!1b0!96b1!99b1!19m4!2m3!1i360!2i120!4i8!20m57!2m2!1i203!2i100!3m2!2i4!5b1!6m6!1m2!1i86!2i86!1m2!1i408!2i240!7m33!1m3!1e1!2b0!3e3!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e10!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e4!1m3!1e9!2b1!3e2!2b1!9b0!15m8!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!22m6!1sprOdbEk8Xr1Znonf3FrcUmgDFmYTXS0:2!2s1i:0,t:11886,p:prOdbEk8Xr1Znonf3FrcUmgDFmYTXS0:2!7e81!12e5!17sprOdbEk8Xr1Znonf3FrcUmgDFmYTXS0:33!18e15!24m107!1m28!13m9!2b1!3b1!4b1!6i1!8b1!9b1!14b1!20b1!25b1!18m17!3b1!4b1!5b1!6b1!13b1!14b1!17b1!21b1!22b1!27m1!1b0!28b0!32b1!33m1!1b1!34b1!36e2!10m1!8e3!11m1!3e1!14m1!3b0!17b1!20m2!1e3!1e6!24b1!25b1!26b1!27b1!29b1!30m1!2b1!36b1!37b1!39m3!2m2!2i1!3i1!43b1!52b1!54m1!1b1!55b1!56m1!1b1!61m2!1m1!1e1!65m5!3m4!1m3!1m2!1i224!2i298!72m22!1m8!2b1!5b1!7b1!12m4!1b1!2b1!4m1!1e1!4b1!8m10!1m6!4m1!1e1!4m1!1e3!4m1!1e4!3sother_user_google_review_posts__and__hotel_and_vr_partner_review_posts!6m1!1e1!9b1!89b1!98m3!1b1!2b1!3b1!103b1!113b1!114m3!1b1!2m1!1b1!117b1!122m1!1b1!126b1!127b1!26m4!2m3!1i80!2i92!4i8!30m28!1m6!1m2!1i0!2i0!2m2!1i530!2i1080!1m6!1m2!1i1870!2i0!2m2!1i1920!2i1080!1m6!1m2!1i0!2i0!2m2!1i1920!2i20!1m6!1m2!1i0!2i1060!2m2!1i1920!2i1080!34m19!2b1!3b1!4b1!6b1!8m6!1b1!3b1!4b1!5b1!6b1!7b1!9b1!12b1!14b1!20b1!23b1!25b1!26b1!31b1!37m1!1e81!42b1!49m10!3b1!6m2!1b1!2b1!7m2!1e3!2b1!8b1!9b1!10e2!50m4!2e2!3m2!1b1!3b1!61b1!67m5!7b1!10b1!14b1!15m1!1b0!69i767!77b1",
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmr6vocMAW5WjBPQUULbyJcWTrI_Ty5k6ZcfDK_r2kLocq2I129ExU7FjTQJIiIZabTiLXw6-DYotZxbFLtK7z6lg0s7-tlmzTk8W1_H1x4UeTWduRhIWx4EIthum50sjVf3X_fPrPp0Qg=w1000-h1000-c-n",
+        "serpapi_thumbnail": "https://serpapi.com/images/url/i2dkiXicHcTNDoIgAADgJyLRUqutQ62clG3aMMqLS1LIPwywrIfs3tu09R2-74dr3am5YdR8PGJCsDrvVS6paHXe6hEVjcE6BagCylj6hxCTRjoPQfdLYpNyFUZxHGSvLSVYohS_7MpJaLHepdKqAkHvFjKt2WaIXa_E0RbdUHLJ8C04PR2wPgudDJkX6J37dmoGlQt03bxxNSVm6pvDJM4xufYHjsgw2SDN-8aGqjwW41NahDLsYMQWTxNCCPh_CtofYNpHPQ"
+      },
+      {
+        "position": 19,
+        "title": "DESSANGE - Coiffeur Paris République",
+        "place_id": "ChIJnxocbAhu5kcReM2-LmcTyK0",
+        "data_id": "0x47e66e086c1c1a9f:0xadc813672ebecd78",
+        "data_cid": "12522280097790479736",
+        "reviews_link": "https://serpapi.com/search.json?data_id=0x47e66e086c1c1a9f%3A0xadc813672ebecd78&engine=google_maps_reviews&hl=fr",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x47e66e086c1c1a9f%3A0xadc813672ebecd78&engine=google_maps_photos&hl=fr",
+        "gps_coordinates": {
+          "latitude": 48.866796,
+          "longitude": 2.366253
+        },
+        "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJnxocbAhu5kcReM2-LmcTyK0",
+        "provider_id": "/g/1pp2vbjx8",
+        "rating": 4.5,
+        "reviews": 383,
+        "type": "Salon de coiffure",
+        "types": [
+          "Salon de coiffure",
+          "Institut de beauté"
+        ],
+        "type_id": "hair_salon",
+        "type_ids": [
+          "hair_salon",
+          "beauty_salon"
+        ],
+        "address": "4 Av. de la République, 75011 Paris, France",
+        "country": "France",
+        "open_state": "Ouvert · Ferme à 19:00",
+        "hours": "Ouvert · Ferme à 19:00",
+        "operating_hours": {
+          "jeudi": "09:00–19:00",
+          "vendredi": "09:00–19:00",
+          "samedi": "09:00–19:00",
+          "dimanche": "Fermé",
+          "lundi": "Fermé",
+          "mardi": "09:00–19:00",
+          "mercredi": "09:00–19:00"
+        },
+        "phone": "+33 1 43 57 07 49",
+        "website": "https://salon.dessange.com/salon-coiffure/paris-republique/?utm_campaign=MyBusinessYext&utm_medium=HP&utm_source=102610&y_source=1_MTUxMDAwNjItNzE1LWxvY2F0aW9uLndlYnNpdGU=",
+        "extensions": [
+          {
+            "from_the_business": [
+              "S'identifie comme géré par une femme"
+            ]
+          },
+          {
+            "service_options": [
+              "Services sur place"
+            ]
+          },
+          {
+            "accessibility": [
+              "Entrée accessible en fauteuil roulant",
+              "Places assises accessibles en fauteuil roulant",
+              "Toilettes accessibles en fauteuil roulant"
+            ]
+          },
+          {
+            "offerings": [
+              "Boissons"
+            ]
+          },
+          {
+            "amenities": [
+              "Toilettes",
+              "Toilettes non genrées"
+            ]
+          },
+          {
+            "planning": [
+              "Rendez-vous recommandés",
+              "Accepte les clients sans rendez-vous"
+            ]
+          },
+          {
+            "payments": [
+              "Cartes de crédit",
+              "Cartes de débit",
+              "Paiements mobiles NFC"
+            ]
+          },
+          {
+            "children": [
+              "Convient aux enfants"
+            ]
+          },
+          {
+            "parking": [
+              "Parking couvert payant",
+              "Parking payant",
+              "Parking payant dans la rue"
+            ]
+          }
+        ],
+        "unsupported_extensions": [
+          {
+            "accessibility": [
+              "Boucle magnétique"
+            ]
+          }
+        ],
+        "service_options": {
+          "services_sur_place": true
+        },
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWksvHy9HSO7itAjnIuikNvv2dG6_ZlJ6FIxXUqYJtvD2rmB0h3Qvs8zS7SssHJI4fG8Xd0EMMSNhGSCm7ihyJlaFe7ujlapr8BKyIP5Ay-xnQvWRc_4ORg660PJ1Iwyo0mlKzoK=w1000-h1000-c-n",
+        "serpapi_thumbnail": "https://serpapi.com/images/url/mOxbMXicHcTbboIwGADgJ6rUw4At2QXqhJaoSDUeboypjKKlRf5SrS_oM-xtTPZdfH8vYUwDX54nxbBXal3KooOi5VqZQpke17VXNoA4IPCiJM_W2yvYxH0mbBlUJroo0lXXhbWDc-wfD5L6M_LYbW57aux00NZjLIYrC-GTBQwgoWT0G4e7M_6Zz9lCxGxSB5VwVJ5mRdBd5Klpw3HqSPYROfRQK7vN-XG0zEvfxxntk7vTuJbpU6ff9z7GGIn_OVJvl5BFAA"
+      },
+      {
+        "position": 20,
+        "title": "mod's hair République - Paris 3",
+        "place_id": "ChIJVW4Dyh9v5kcRoVKdsV3TEQs",
+        "data_id": "0x47e66f1fca036e55:0xb11d35db19d52a1",
+        "data_cid": "797651008386585249",
+        "reviews_link": "https://serpapi.com/search.json?data_id=0x47e66f1fca036e55%3A0xb11d35db19d52a1&engine=google_maps_reviews&hl=fr",
+        "photos_link": "https://serpapi.com/search.json?data_id=0x47e66f1fca036e55%3A0xb11d35db19d52a1&engine=google_maps_photos&hl=fr",
+        "gps_coordinates": {
+          "latitude": 48.867569499999995,
+          "longitude": 2.3582931
+        },
+        "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJVW4Dyh9v5kcRoVKdsV3TEQs",
+        "provider_id": "/g/11pqdj_7fg",
+        "rating": 4.7,
+        "reviews": 155,
+        "type": "Salon de coiffure",
+        "types": [
+          "Salon de coiffure"
+        ],
+        "type_id": "hair_salon",
+        "type_ids": [
+          "hair_salon"
+        ],
+        "address": "42 Rue Notre Dame de Nazareth, 75003 Paris, France",
+        "country": "France",
+        "open_state": "Ouvert · Ferme à 20:00",
+        "hours": "Ouvert · Ferme à 20:00",
+        "operating_hours": {
+          "jeudi": "10:00–20:00",
+          "vendredi": "10:00–20:00",
+          "samedi": "09:00–19:00",
+          "dimanche": "Fermé",
+          "lundi": "12:00–20:00",
+          "mardi": "10:00–20:00",
+          "mercredi": "10:00–20:00"
+        },
+        "phone": "+33 1 40 28 10 55",
+        "website": "https://modshair.fr/",
+        "extensions": [
+          {
+            "accessibility": [
+              "Entrée accessible en fauteuil roulant"
+            ]
+          },
+          {
+            "amenities": [
+              "Toilettes"
+            ]
+          },
+          {
+            "planning": [
+              "Rendez-vous obligatoire",
+              "Rendez-vous recommandés"
+            ]
+          },
+          {
+            "payments": [
+              "Cartes de crédit",
+              "Cartes de débit",
+              "Paiements mobiles NFC"
+            ]
+          },
+          {
+            "children": [
+              "Convient aux enfants"
+            ]
+          }
+        ],
+        "unsupported_extensions": [
+          {
+            "accessibility": [
+              "Parking accessible en fauteuil roulant"
+            ]
+          }
+        ],
+        "réserver_en_ligne": "https://www.planity.com/mods-hair-republique-anciennement-toniguy-75003-paris?rwg_token=AE37R_jgX80yggixk5apNsPTl3wqorom3eUrNHHSX6z1xFazqpR-00uufRuaC6iu7uoELszy-bI_nf6DxHN7gS00ZsFmhXy5Yw%3D%3D",
+        "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlIAcVz3oPJ_n3clJZ1FOuzKS_c7_EV-PCLP6WbR-60NTsdEUQ6LjjAbUAxJJ-VwXOoxaoEKffkDoBZP9hsp4rv6X5vqzs_iUG-YYenu91jbHZ74eQnXwp8fHsQEWaC8v4Y60YQHA=w1000-h1000-c-n",
+        "serpapi_thumbnail": "https://serpapi.com/images/url/To_0kXicHcTbboIwGADgJ6qUgFWXeNEpG6IZReV4Q6QWELFFfg6GN_QR9jZL9l18v--y6xr40LS6NGaFUkUtehAtV7ITsptx9dCKBhAHBBq1j-wc1jvKg8lQzEmlwWsn0b_cftqfUr5IrQCxzYGRMDsign_OcLV8jxyqimY-fTkOCsbIVa-LsvZ5ft-qz4StSmjMdiDRfHhOkN78bxTHQvYrvcrsZGEKT0Zjs8xt8KzwslkOZkxw7Nl0PeoYY1T-z5H8A6vvRI8"
       }
-    ]
+    ],
+    "serpapi_pagination": {
+      "next": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&ll=%4048.8575%2C2.3650%2C15z&q=hair+salon&start=20&type=search"
+    }
   },
   "units": 1,
-  "latency_ms": 2107
+  "latency_ms": 541
 }

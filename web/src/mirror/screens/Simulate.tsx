@@ -48,6 +48,7 @@ export function Simulate() {
     shade ?? shadeMap.find((entry) => hairRender && matchesShade(hairRender, entry)) ?? null;
 
   const live = captured !== null && isLiveRenderAvailable();
+  const styleTemplate = "female_s_wave_brunette";
 
   const renderHair = () => (
     <>
@@ -63,7 +64,11 @@ export function Simulate() {
         ))}
       </div>
       {live && activeShade ? (
-        <LiveRender scan={captured.image} shade={activeShade} />
+        <LiveRender
+          scan={captured.image}
+          request={{ kind: "hair", shade: activeShade.hex }}
+          label={`${activeShade.code} ${activeShade.name}`}
+        />
       ) : hairRender ? (
         <>
           <BeforeAfter beforeUrl={hairRender.before_url} afterUrl={hairRender.after_url} label={hairRender.label} />
@@ -79,6 +84,15 @@ export function Simulate() {
 
   const renderList = (empty: string, selected: number, onSelect: (i: number) => void) => {
     const current = simulations[selected] ?? simulations[0];
+    if (live) {
+      return (
+        <LiveRender
+          scan={captured.image}
+          request={tab === "skin" ? { kind: "skin" } : { kind: "style", template: styleTemplate }}
+          label={current?.label ?? (tab === "skin" ? "Skin plan" : "Style")}
+        />
+      );
+    }
     if (!current) return <Notice title={empty} />;
     return (
       <>

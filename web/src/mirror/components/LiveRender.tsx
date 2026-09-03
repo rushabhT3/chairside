@@ -1,27 +1,28 @@
 import { useEffect, useMemo, useState } from "react";
-import { renderHairColour } from "../../lib/renderProxy";
-import type { ShadeEntry } from "../../lib/snapshot";
+import { renderScan, type RenderRequest } from "../../lib/renderProxy";
 import { BeforeAfter } from "./BeforeAfter";
 import { Notice } from "./Notice";
 import { Skeleton } from "./Skeleton";
 
 export interface LiveRenderProps {
   scan: Blob;
-  shade: ShadeEntry;
+  request: RenderRequest;
+  label: string;
 }
 
 type Phase = { kind: "rendering" } | { kind: "ready"; url: string } | { kind: "failed"; message: string };
 
-export function LiveRender({ scan, shade }: LiveRenderProps) {
+export function LiveRender({ scan, request, label }: LiveRenderProps) {
   const [phase, setPhase] = useState<Phase>({ kind: "rendering" });
   const beforeUrl = useMemo(() => URL.createObjectURL(scan), [scan]);
+  const { kind, shade, template } = request;
 
   useEffect(() => () => URL.revokeObjectURL(beforeUrl), [beforeUrl]);
 
   useEffect(() => {
     let cancelled = false;
     setPhase({ kind: "rendering" });
-    renderHairColour(scan, shade.hex)
+    renderScan(scan, { kind, shade, template })
       .then((url) => {
         if (!cancelled) setPhase({ kind: "ready", url });
       })
@@ -31,9 +32,9 @@ export function LiveRender({ scan, shade }: LiveRenderProps) {
     return () => {
       cancelled = true;
     };
-  }, [scan, shade.hex]);
+  }, [scan, kind, shade, template]);
 
-  if (phase.kind === "rendering") return <Skeleton lines={4} label={`Rendering ${shade.code} on your scan`} />;
+  if (phase.kind === "rendering") return <Skeleton lines={4} label={`Rendering ${label} on your scan`} />;
   if (phase.kind === "failed") {
     return (
       <Notice tone="quiet" title="Your scan could not be rendered.">
@@ -43,7 +44,7 @@ export function LiveRender({ scan, shade }: LiveRenderProps) {
   }
   return (
     <>
-      <BeforeAfter beforeUrl={beforeUrl} afterUrl={phase.url} label={`${shade.code} ${shade.name}`} />
+      <BeforeAfter beforeUrl={beforeUrl} afterUrl={phase.url} label={label} />
       <p className="render-footer">Rendered from your own scan by YouCam · this device only</p>
     </>
   );

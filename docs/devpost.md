@@ -17,7 +17,7 @@ Google ADK, MCP, Perfect Corp YouCam API, SerpApi, Xano, Nutrient DWS, Foxit PDF
 - Mirror (client PWA): https://rushabht3.github.io/chairside/mirror/
 - Storefront (fixtures): https://rushabht3.github.io/chairside/storefront/
 - Xano backend: https://xqbd-rqmo-jj2a.m2.xano.io (workspace `chairside`, API groups `chairside-*`)
-- Render bridge (holds the YouCam key so Mirror can render your own scan): https://chairside-render.therapeutic-feta.workers.dev/health
+- Render bridge (holds the YouCam key so Mirror can render your own scan): https://chairside-render.legend-safflower.workers.dev/health
 - Repo: https://github.com/rushabhT3/chairside
 
 ## Video

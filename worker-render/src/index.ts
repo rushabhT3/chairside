@@ -1,4 +1,4 @@
-import { hairColour, YouCamError } from "./youcam";
+import { render as youcamRender, YouCamError, type RenderKind } from "./youcam";
 
 export interface Env {
   PERFECTCORP_API_KEY: string;
@@ -8,6 +8,8 @@ export interface Env {
 const DEFAULT_ORIGINS = "https://rushabht3.github.io,http://localhost:5173,http://localhost:4179";
 const MAX_IMAGE_BYTES = 6 * 1024 * 1024;
 const HEX = /^#[0-9a-f]{6}$/i;
+const TEMPLATE = /^[a-z0-9_]{1,64}$/i;
+const KINDS: RenderKind[] = ["hair", "skin", "style"];
 
 function allowedOrigin(request: Request, env: Env): string | null {
   const origin = request.headers.get("Origin");
@@ -33,13 +35,19 @@ function json(body: unknown, status: number, origin: string | null): Response {
 
 async function render(request: Request, env: Env, origin: string | null): Promise<Response> {
   if (!env.PERFECTCORP_API_KEY) return json({ error: "worker has no YouCam key" }, 500, origin);
-  const shade = new URL(request.url).searchParams.get("shade") ?? "#A8804F";
+  const params = new URL(request.url).searchParams;
+  const kind = (params.get("kind") ?? "hair") as RenderKind;
+  if (!KINDS.includes(kind)) return json({ error: `kind must be one of ${KINDS.join(", ")}` }, 400, origin);
+  const shade = params.get("shade") ?? "#A8804F";
   if (!HEX.test(shade)) return json({ error: "shade must be a #rrggbb hex colour" }, 400, origin);
+  const template = params.get("template") ?? "";
+  if (template && !TEMPLATE.test(template)) return json({ error: "template id is not valid" }, 400, origin);
   const image = await request.arrayBuffer();
   if (image.byteLength === 0) return json({ error: "empty image" }, 400, origin);
   if (image.byteLength > MAX_IMAGE_BYTES) return json({ error: "image over 6 MB" }, 413, origin);
   try {
-    return json({ url: await hairColour(env.PERFECTCORP_API_KEY, image, shade) }, 200, origin);
+    const url = await youcamRender(env.PERFECTCORP_API_KEY, image, kind, shade, template);
+    return json({ url }, 200, origin);
   } catch (error) {
     const message = error instanceof YouCamError ? error.message : "render failed";
     return json({ error: message }, 502, origin);

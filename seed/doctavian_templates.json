@@ -1,0 +1,26 @@
+{
+  "consent": {
+    "chemical": "tpl_fixture_consent_chemical",
+    "heat": "tpl_fixture_consent_heat",
+    "injectable": "tpl_fixture_consent_injectable",
+    "laser": "tpl_fixture_consent_laser",
+    "combined": "tpl_fixture_consent_combined"
+  },
+  "aftercare": {
+    "SVC-COLOR": "tpl_fixture_aftercare_color",
+    "SVC-GLOSS": "tpl_fixture_aftercare_gloss",
+    "SVC-SMOOTH": "tpl_fixture_aftercare_smoothing",
+    "SVC-VOLCUT": "tpl_fixture_aftercare_cut",
+    "SVC-CURLCUT": "tpl_fixture_aftercare_cut",
+    "SVC-CLARIFY": "tpl_fixture_aftercare_facial",
+    "SVC-COLLAGEN": "tpl_fixture_aftercare_facial",
+    "SVC-SOOTHE": "tpl_fixture_aftercare_facial",
+    "SVC-BRIGHT": "tpl_fixture_aftercare_facial",
+    "SVC-BROWLAM": "tpl_fixture_aftercare_brows",
+    "SVC-BROWTINT": "tpl_fixture_aftercare_brows",
+    "SVC-LASER": "tpl_fixture_aftercare_laser"
+  },
+  "price_list": "tpl_fixture_price_list",
+  "client_terms": "tpl_fixture_client_terms",
+  "platform_agreement": "tpl_fixture_platform_agreement"
+}

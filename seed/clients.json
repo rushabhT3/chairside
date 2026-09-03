@@ -1,0 +1,1064 @@
+[
+  {
+    "id": "cl-01",
+    "name": "Amira Benali",
+    "email": "amira.benali@example.com",
+    "allergens": [
+      "ppd"
+    ],
+    "visits": [
+      {
+        "scan_id": "scan-cl-01-v1",
+        "ts": "2026-07-22T14:30:00.000Z",
+        "image_ref": "seed/clients/cl-01-v1.jpg",
+        "color_tones": {
+          "skin_tone": "medium olive",
+          "undertone": "warm",
+          "eye_color": "dark brown",
+          "hair_color_hex": "#3A2418"
+        },
+        "skin": {
+          "wrinkle": 39,
+          "spot": 38,
+          "pore": 22,
+          "texture": 18,
+          "acne": 30,
+          "redness": 62,
+          "oiliness": 45,
+          "dark_circle": 29,
+          "eye_bag": 25,
+          "droopy_upper_eyelid": 21,
+          "droopy_lower_eyelid": 28,
+          "firmness": 68,
+          "radiance": 62,
+          "moisture": 48
+        },
+        "hair": {
+          "type": "curly",
+          "frizz": 66,
+          "density": "medium"
+        },
+        "face": {
+          "shape": "oval",
+          "ratios": {
+            "forehead_pct": 36,
+            "midface_pct": 32,
+            "chin_pct": 31
+          }
+        }
+      },
+      {
+        "scan_id": "scan-cl-01-v2",
+        "ts": "2026-09-02T14:30:00.000Z",
+        "image_ref": "seed/clients/cl-01-v2.jpg",
+        "color_tones": {
+          "skin_tone": "medium olive",
+          "undertone": "warm",
+          "eye_color": "dark brown",
+          "hair_color_hex": "#3A2418"
+        },
+        "skin": {
+          "wrinkle": 41,
+          "spot": 24,
+          "pore": 25,
+          "texture": 15,
+          "acne": 21,
+          "redness": 53,
+          "oiliness": 33,
+          "dark_circle": 26,
+          "eye_bag": 28,
+          "droopy_upper_eyelid": 20,
+          "droopy_lower_eyelid": 28,
+          "firmness": 67,
+          "radiance": 59,
+          "moisture": 55
+        },
+        "hair": {
+          "type": "curly",
+          "frizz": 54,
+          "density": "medium"
+        },
+        "face": {
+          "shape": "oval",
+          "ratios": {
+            "forehead_pct": 36,
+            "midface_pct": 33,
+            "chin_pct": 31
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "cl-02",
+    "name": "Chloé Martin",
+    "email": "chloe.martin@example.com",
+    "allergens": [],
+    "visits": [
+      {
+        "scan_id": "scan-cl-02-v1",
+        "ts": "2026-07-23T15:30:00.000Z",
+        "image_ref": "seed/clients/cl-02-v1.jpg",
+        "color_tones": {
+          "skin_tone": "fair",
+          "undertone": "cool",
+          "eye_color": "blue",
+          "hair_color_hex": "#C9A97A"
+        },
+        "skin": {
+          "wrinkle": 34,
+          "spot": 25,
+          "pore": 33,
+          "texture": 38,
+          "acne": 29,
+          "redness": 38,
+          "oiliness": 41,
+          "dark_circle": 32,
+          "eye_bag": 15,
+          "droopy_upper_eyelid": 24,
+          "droopy_lower_eyelid": 18,
+          "firmness": 73,
+          "radiance": 44,
+          "moisture": 36
+        },
+        "hair": {
+          "type": "straight",
+          "frizz": 22,
+          "density": "low"
+        },
+        "face": {
+          "shape": "oblong",
+          "ratios": {
+            "forehead_pct": 34,
+            "midface_pct": 35,
+            "chin_pct": 33
+          }
+        }
+      },
+      {
+        "scan_id": "scan-cl-02-v2",
+        "ts": "2026-09-03T15:30:00.000Z",
+        "image_ref": "seed/clients/cl-02-v2.jpg",
+        "color_tones": {
+          "skin_tone": "fair",
+          "undertone": "cool",
+          "eye_color": "blue",
+          "hair_color_hex": "#C9A97A"
+        },
+        "skin": {
+          "wrinkle": 25,
+          "spot": 14,
+          "pore": 31,
+          "texture": 39,
+          "acne": 26,
+          "redness": 41,
+          "oiliness": 39,
+          "dark_circle": 32,
+          "eye_bag": 17,
+          "droopy_upper_eyelid": 27,
+          "droopy_lower_eyelid": 16,
+          "firmness": 75,
+          "radiance": 53,
+          "moisture": 48
+        },
+        "hair": {
+          "type": "straight",
+          "frizz": 22,
+          "density": "low"
+        },
+        "face": {
+          "shape": "oblong",
+          "ratios": {
+            "forehead_pct": 33,
+            "midface_pct": 32,
+            "chin_pct": 36
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "cl-03",
+    "name": "Yasmine Diallo",
+    "email": "yasmine.diallo@example.com",
+    "allergens": [],
+    "visits": [
+      {
+        "scan_id": "scan-cl-03-v1",
+        "ts": "2026-07-24T16:30:00.000Z",
+        "image_ref": "seed/clients/cl-03-v1.jpg",
+        "color_tones": {
+          "skin_tone": "deep",
+          "undertone": "warm",
+          "eye_color": "dark brown",
+          "hair_color_hex": "#1E1410"
+        },
+        "skin": {
+          "wrinkle": 32,
+          "spot": 44,
+          "pore": 61,
+          "texture": 25,
+          "acne": 52,
+          "redness": 42,
+          "oiliness": 64,
+          "dark_circle": 36,
+          "eye_bag": 16,
+          "droopy_upper_eyelid": 40,
+          "droopy_lower_eyelid": 33,
+          "firmness": 62,
+          "radiance": 69,
+          "moisture": 68
+        },
+        "hair": {
+          "type": "coily",
+          "frizz": 58,
+          "density": "high"
+        },
+        "face": {
+          "shape": "heart",
+          "ratios": {
+            "forehead_pct": 36,
+            "midface_pct": 32,
+            "chin_pct": 31
+          }
+        }
+      },
+      {
+        "scan_id": "scan-cl-03-v2",
+        "ts": "2026-09-04T16:30:00.000Z",
+        "image_ref": "seed/clients/cl-03-v2.jpg",
+        "color_tones": {
+          "skin_tone": "deep",
+          "undertone": "warm",
+          "eye_color": "dark brown",
+          "hair_color_hex": "#1E1410"
+        },
+        "skin": {
+          "wrinkle": 35,
+          "spot": 30,
+          "pore": 52,
+          "texture": 24,
+          "acne": 43,
+          "redness": 42,
+          "oiliness": 56,
+          "dark_circle": 33,
+          "eye_bag": 18,
+          "droopy_upper_eyelid": 40,
+          "droopy_lower_eyelid": 34,
+          "firmness": 65,
+          "radiance": 68,
+          "moisture": 71
+        },
+        "hair": {
+          "type": "coily",
+          "frizz": 58,
+          "density": "high"
+        },
+        "face": {
+          "shape": "heart",
+          "ratios": {
+            "forehead_pct": 31,
+            "midface_pct": 32,
+            "chin_pct": 30
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "cl-04",
+    "name": "Inès Lefebvre",
+    "email": "ines.lefebvre@example.com",
+    "allergens": [],
+    "visits": [
+      {
+        "scan_id": "scan-cl-04-v1",
+        "ts": "2026-07-25T17:30:00.000Z",
+        "image_ref": "seed/clients/cl-04-v1.jpg",
+        "color_tones": {
+          "skin_tone": "light",
+          "undertone": "neutral",
+          "eye_color": "green",
+          "hair_color_hex": "#7A5A3A"
+        },
+        "skin": {
+          "wrinkle": 63,
+          "spot": 32,
+          "pore": 27,
+          "texture": 39,
+          "acne": 28,
+          "redness": 41,
+          "oiliness": 17,
+          "dark_circle": 55,
+          "eye_bag": 21,
+          "droopy_upper_eyelid": 25,
+          "droopy_lower_eyelid": 16,
+          "firmness": 38,
+          "radiance": 61,
+          "moisture": 63
+        },
+        "hair": {
+          "type": "wavy",
+          "frizz": 47,
+          "density": "medium"
+        },
+        "face": {
+          "shape": "round",
+          "ratios": {
+            "forehead_pct": 32,
+            "midface_pct": 36,
+            "chin_pct": 33
+          }
+        }
+      },
+      {
+        "scan_id": "scan-cl-04-v2",
+        "ts": "2026-09-05T17:30:00.000Z",
+        "image_ref": "seed/clients/cl-04-v2.jpg",
+        "color_tones": {
+          "skin_tone": "light",
+          "undertone": "neutral",
+          "eye_color": "green",
+          "hair_color_hex": "#7A5A3A"
+        },
+        "skin": {
+          "wrinkle": 56,
+          "spot": 29,
+          "pore": 24,
+          "texture": 38,
+          "acne": 27,
+          "redness": 42,
+          "oiliness": 18,
+          "dark_circle": 48,
+          "eye_bag": 23,
+          "droopy_upper_eyelid": 24,
+          "droopy_lower_eyelid": 14,
+          "firmness": 45,
+          "radiance": 63,
+          "moisture": 62
+        },
+        "hair": {
+          "type": "wavy",
+          "frizz": 47,
+          "density": "medium"
+        },
+        "face": {
+          "shape": "round",
+          "ratios": {
+            "forehead_pct": 33,
+            "midface_pct": 33,
+            "chin_pct": 36
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "cl-05",
+    "name": "Sofia Rossi",
+    "email": "sofia.rossi@example.com",
+    "allergens": [
+      "nickel"
+    ],
+    "visits": [
+      {
+        "scan_id": "scan-cl-05-v1",
+        "ts": "2026-07-26T18:30:00.000Z",
+        "image_ref": "seed/clients/cl-05-v1.jpg",
+        "color_tones": {
+          "skin_tone": "medium",
+          "undertone": "warm",
+          "eye_color": "hazel",
+          "hair_color_hex": "#4E3320"
+        },
+        "skin": {
+          "wrinkle": 26,
+          "spot": 66,
+          "pore": 15,
+          "texture": 58,
+          "acne": 28,
+          "redness": 29,
+          "oiliness": 25,
+          "dark_circle": 32,
+          "eye_bag": 33,
+          "droopy_upper_eyelid": 35,
+          "droopy_lower_eyelid": 32,
+          "firmness": 61,
+          "radiance": 39,
+          "moisture": 64
+        },
+        "hair": {
+          "type": "wavy",
+          "frizz": 71,
+          "density": "medium"
+        },
+        "face": {
+          "shape": "square",
+          "ratios": {
+            "forehead_pct": 36,
+            "midface_pct": 33,
+            "chin_pct": 34
+          }
+        }
+      },
+      {
+        "scan_id": "scan-cl-05-v2",
+        "ts": "2026-09-06T18:30:00.000Z",
+        "image_ref": "seed/clients/cl-05-v2.jpg",
+        "color_tones": {
+          "skin_tone": "medium",
+          "undertone": "warm",
+          "eye_color": "hazel",
+          "hair_color_hex": "#4E3320"
+        },
+        "skin": {
+          "wrinkle": 27,
+          "spot": 54,
+          "pore": 14,
+          "texture": 49,
+          "acne": 30,
+          "redness": 27,
+          "oiliness": 28,
+          "dark_circle": 35,
+          "eye_bag": 35,
+          "droopy_upper_eyelid": 38,
+          "droopy_lower_eyelid": 30,
+          "firmness": 63,
+          "radiance": 52,
+          "moisture": 62
+        },
+        "hair": {
+          "type": "wavy",
+          "frizz": 52,
+          "density": "medium"
+        },
+        "face": {
+          "shape": "square",
+          "ratios": {
+            "forehead_pct": 31,
+            "midface_pct": 35,
+            "chin_pct": 30
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "cl-06",
+    "name": "Camille Dubois",
+    "email": "camille.dubois@example.com",
+    "allergens": [],
+    "visits": [
+      {
+        "scan_id": "scan-cl-06-v1",
+        "ts": "2026-07-27T14:30:00.000Z",
+        "image_ref": "seed/clients/cl-06-v1.jpg",
+        "color_tones": {
+          "skin_tone": "fair",
+          "undertone": "cool",
+          "eye_color": "grey",
+          "hair_color_hex": "#B5A58E"
+        },
+        "skin": {
+          "wrinkle": 42,
+          "spot": 32,
+          "pore": 38,
+          "texture": 22,
+          "acne": 16,
+          "redness": 41,
+          "oiliness": 25,
+          "dark_circle": 22,
+          "eye_bag": 48,
+          "droopy_upper_eyelid": 16,
+          "droopy_lower_eyelid": 31,
+          "firmness": 61,
+          "radiance": 73,
+          "moisture": 42
+        },
+        "hair": {
+          "type": "straight",
+          "frizz": 18,
+          "density": "low"
+        },
+        "face": {
+          "shape": "diamond",
+          "ratios": {
+            "forehead_pct": 32,
+            "midface_pct": 35,
+            "chin_pct": 35
+          }
+        }
+      },
+      {
+        "scan_id": "scan-cl-06-v2",
+        "ts": "2026-09-07T14:30:00.000Z",
+        "image_ref": "seed/clients/cl-06-v2.jpg",
+        "color_tones": {
+          "skin_tone": "fair",
+          "undertone": "cool",
+          "eye_color": "grey",
+          "hair_color_hex": "#B5A58E"
+        },
+        "skin": {
+          "wrinkle": 45,
+          "spot": 32,
+          "pore": 36,
+          "texture": 24,
+          "acne": 15,
+          "redness": 29,
+          "oiliness": 22,
+          "dark_circle": 20,
+          "eye_bag": 37,
+          "droopy_upper_eyelid": 19,
+          "droopy_lower_eyelid": 33,
+          "firmness": 58,
+          "radiance": 72,
+          "moisture": 50
+        },
+        "hair": {
+          "type": "straight",
+          "frizz": 18,
+          "density": "low"
+        },
+        "face": {
+          "shape": "diamond",
+          "ratios": {
+            "forehead_pct": 33,
+            "midface_pct": 36,
+            "chin_pct": 31
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "cl-07",
+    "name": "Nadia Cherif",
+    "email": "nadia.cherif@example.com",
+    "allergens": [],
+    "visits": [
+      {
+        "scan_id": "scan-cl-07-v1",
+        "ts": "2026-07-28T15:30:00.000Z",
+        "image_ref": "seed/clients/cl-07-v1.jpg",
+        "color_tones": {
+          "skin_tone": "medium olive",
+          "undertone": "neutral",
+          "eye_color": "brown",
+          "hair_color_hex": "#2E1C12"
+        },
+        "skin": {
+          "wrinkle": 29,
+          "spot": 17,
+          "pore": 63,
+          "texture": 23,
+          "acne": 61,
+          "redness": 31,
+          "oiliness": 67,
+          "dark_circle": 25,
+          "eye_bag": 27,
+          "droopy_upper_eyelid": 32,
+          "droopy_lower_eyelid": 30,
+          "firmness": 70,
+          "radiance": 58,
+          "moisture": 69
+        },
+        "hair": {
+          "type": "curly",
+          "frizz": 74,
+          "density": "high"
+        },
+        "face": {
+          "shape": "oval",
+          "ratios": {
+            "forehead_pct": 33,
+            "midface_pct": 31,
+            "chin_pct": 34
+          }
+        }
+      },
+      {
+        "scan_id": "scan-cl-07-v2",
+        "ts": "2026-09-08T15:30:00.000Z",
+        "image_ref": "seed/clients/cl-07-v2.jpg",
+        "color_tones": {
+          "skin_tone": "medium olive",
+          "undertone": "neutral",
+          "eye_color": "brown",
+          "hair_color_hex": "#2E1C12"
+        },
+        "skin": {
+          "wrinkle": 32,
+          "spot": 14,
+          "pore": 52,
+          "texture": 24,
+          "acne": 53,
+          "redness": 29,
+          "oiliness": 59,
+          "dark_circle": 22,
+          "eye_bag": 28,
+          "droopy_upper_eyelid": 32,
+          "droopy_lower_eyelid": 30,
+          "firmness": 69,
+          "radiance": 61,
+          "moisture": 68
+        },
+        "hair": {
+          "type": "curly",
+          "frizz": 60,
+          "density": "high"
+        },
+        "face": {
+          "shape": "oval",
+          "ratios": {
+            "forehead_pct": 31,
+            "midface_pct": 33,
+            "chin_pct": 35
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "cl-08",
+    "name": "Emma Laurent",
+    "email": "emma.laurent@example.com",
+    "allergens": [],
+    "visits": [
+      {
+        "scan_id": "scan-cl-08-v1",
+        "ts": "2026-07-29T16:30:00.000Z",
+        "image_ref": "seed/clients/cl-08-v1.jpg",
+        "color_tones": {
+          "skin_tone": "light",
+          "undertone": "warm",
+          "eye_color": "blue",
+          "hair_color_hex": "#A88A5F"
+        },
+        "skin": {
+          "wrinkle": 47,
+          "spot": 52,
+          "pore": 36,
+          "texture": 18,
+          "acne": 36,
+          "redness": 28,
+          "oiliness": 30,
+          "dark_circle": 27,
+          "eye_bag": 22,
+          "droopy_upper_eyelid": 35,
+          "droopy_lower_eyelid": 40,
+          "firmness": 60,
+          "radiance": 46,
+          "moisture": 58
+        },
+        "hair": {
+          "type": "straight",
+          "frizz": 29,
+          "density": "medium"
+        },
+        "face": {
+          "shape": "heart",
+          "ratios": {
+            "forehead_pct": 30,
+            "midface_pct": 34,
+            "chin_pct": 36
+          }
+        }
+      },
+      {
+        "scan_id": "scan-cl-08-v2",
+        "ts": "2026-09-09T16:30:00.000Z",
+        "image_ref": "seed/clients/cl-08-v2.jpg",
+        "color_tones": {
+          "skin_tone": "light",
+          "undertone": "warm",
+          "eye_color": "blue",
+          "hair_color_hex": "#A88A5F"
+        },
+        "skin": {
+          "wrinkle": 41,
+          "spot": 45,
+          "pore": 39,
+          "texture": 21,
+          "acne": 37,
+          "redness": 26,
+          "oiliness": 27,
+          "dark_circle": 30,
+          "eye_bag": 22,
+          "droopy_upper_eyelid": 33,
+          "droopy_lower_eyelid": 43,
+          "firmness": 63,
+          "radiance": 58,
+          "moisture": 59
+        },
+        "hair": {
+          "type": "straight",
+          "frizz": 29,
+          "density": "medium"
+        },
+        "face": {
+          "shape": "heart",
+          "ratios": {
+            "forehead_pct": 33,
+            "midface_pct": 32,
+            "chin_pct": 34
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "cl-09",
+    "name": "Aïcha Traoré",
+    "email": "aicha.traore@example.com",
+    "allergens": [
+      "ppd"
+    ],
+    "visits": [
+      {
+        "scan_id": "scan-cl-09-v1",
+        "ts": "2026-07-30T17:30:00.000Z",
+        "image_ref": "seed/clients/cl-09-v1.jpg",
+        "color_tones": {
+          "skin_tone": "deep",
+          "undertone": "neutral",
+          "eye_color": "dark brown",
+          "hair_color_hex": "#160F0C"
+        },
+        "skin": {
+          "wrinkle": 42,
+          "spot": 41,
+          "pore": 34,
+          "texture": 37,
+          "acne": 37,
+          "redness": 29,
+          "oiliness": 36,
+          "dark_circle": 66,
+          "eye_bag": 60,
+          "droopy_upper_eyelid": 20,
+          "droopy_lower_eyelid": 38,
+          "firmness": 73,
+          "radiance": 66,
+          "moisture": 37
+        },
+        "hair": {
+          "type": "coily",
+          "frizz": 62,
+          "density": "high"
+        },
+        "face": {
+          "shape": "round",
+          "ratios": {
+            "forehead_pct": 36,
+            "midface_pct": 33,
+            "chin_pct": 34
+          }
+        }
+      },
+      {
+        "scan_id": "scan-cl-09-v2",
+        "ts": "2026-09-10T17:30:00.000Z",
+        "image_ref": "seed/clients/cl-09-v2.jpg",
+        "color_tones": {
+          "skin_tone": "deep",
+          "undertone": "neutral",
+          "eye_color": "dark brown",
+          "hair_color_hex": "#160F0C"
+        },
+        "skin": {
+          "wrinkle": 40,
+          "spot": 41,
+          "pore": 36,
+          "texture": 34,
+          "acne": 38,
+          "redness": 31,
+          "oiliness": 35,
+          "dark_circle": 55,
+          "eye_bag": 46,
+          "droopy_upper_eyelid": 20,
+          "droopy_lower_eyelid": 39,
+          "firmness": 75,
+          "radiance": 64,
+          "moisture": 46
+        },
+        "hair": {
+          "type": "coily",
+          "frizz": 53,
+          "density": "high"
+        },
+        "face": {
+          "shape": "round",
+          "ratios": {
+            "forehead_pct": 34,
+            "midface_pct": 33,
+            "chin_pct": 31
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "cl-10",
+    "name": "Louise Moreau",
+    "email": "louise.moreau@example.com",
+    "allergens": [],
+    "visits": [
+      {
+        "scan_id": "scan-cl-10-v1",
+        "ts": "2026-07-31T18:30:00.000Z",
+        "image_ref": "seed/clients/cl-10-v1.jpg",
+        "color_tones": {
+          "skin_tone": "fair",
+          "undertone": "neutral",
+          "eye_color": "brown",
+          "hair_color_hex": "#6E4E36"
+        },
+        "skin": {
+          "wrinkle": 68,
+          "spot": 21,
+          "pore": 16,
+          "texture": 35,
+          "acne": 32,
+          "redness": 40,
+          "oiliness": 35,
+          "dark_circle": 14,
+          "eye_bag": 19,
+          "droopy_upper_eyelid": 57,
+          "droopy_lower_eyelid": 18,
+          "firmness": 35,
+          "radiance": 59,
+          "moisture": 67
+        },
+        "hair": {
+          "type": "wavy",
+          "frizz": 53,
+          "density": "low"
+        },
+        "face": {
+          "shape": "oblong",
+          "ratios": {
+            "forehead_pct": 32,
+            "midface_pct": 32,
+            "chin_pct": 31
+          }
+        }
+      },
+      {
+        "scan_id": "scan-cl-10-v2",
+        "ts": "2026-09-11T18:30:00.000Z",
+        "image_ref": "seed/clients/cl-10-v2.jpg",
+        "color_tones": {
+          "skin_tone": "fair",
+          "undertone": "neutral",
+          "eye_color": "brown",
+          "hair_color_hex": "#6E4E36"
+        },
+        "skin": {
+          "wrinkle": 60,
+          "spot": 21,
+          "pore": 13,
+          "texture": 32,
+          "acne": 32,
+          "redness": 41,
+          "oiliness": 37,
+          "dark_circle": 11,
+          "eye_bag": 16,
+          "droopy_upper_eyelid": 44,
+          "droopy_lower_eyelid": 15,
+          "firmness": 46,
+          "radiance": 56,
+          "moisture": 64
+        },
+        "hair": {
+          "type": "wavy",
+          "frizz": 53,
+          "density": "low"
+        },
+        "face": {
+          "shape": "oblong",
+          "ratios": {
+            "forehead_pct": 35,
+            "midface_pct": 35,
+            "chin_pct": 32
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "cl-11",
+    "name": "Mei Lin",
+    "email": "mei.lin@example.com",
+    "allergens": [],
+    "visits": [
+      {
+        "scan_id": "scan-cl-11-v1",
+        "ts": "2026-08-01T14:30:00.000Z",
+        "image_ref": "seed/clients/cl-11-v1.jpg",
+        "color_tones": {
+          "skin_tone": "light",
+          "undertone": "cool",
+          "eye_color": "dark brown",
+          "hair_color_hex": "#1B120E"
+        },
+        "skin": {
+          "wrinkle": 15,
+          "spot": 47,
+          "pore": 44,
+          "texture": 41,
+          "acne": 32,
+          "redness": 28,
+          "oiliness": 41,
+          "dark_circle": 37,
+          "eye_bag": 26,
+          "droopy_upper_eyelid": 19,
+          "droopy_lower_eyelid": 31,
+          "firmness": 60,
+          "radiance": 63,
+          "moisture": 68
+        },
+        "hair": {
+          "type": "straight",
+          "frizz": 15,
+          "density": "high"
+        },
+        "face": {
+          "shape": "oval",
+          "ratios": {
+            "forehead_pct": 34,
+            "midface_pct": 36,
+            "chin_pct": 30
+          }
+        }
+      },
+      {
+        "scan_id": "scan-cl-11-v2",
+        "ts": "2026-09-12T14:30:00.000Z",
+        "image_ref": "seed/clients/cl-11-v2.jpg",
+        "color_tones": {
+          "skin_tone": "light",
+          "undertone": "cool",
+          "eye_color": "dark brown",
+          "hair_color_hex": "#1B120E"
+        },
+        "skin": {
+          "wrinkle": 12,
+          "spot": 39,
+          "pore": 33,
+          "texture": 27,
+          "acne": 29,
+          "redness": 30,
+          "oiliness": 39,
+          "dark_circle": 36,
+          "eye_bag": 29,
+          "droopy_upper_eyelid": 18,
+          "droopy_lower_eyelid": 32,
+          "firmness": 57,
+          "radiance": 66,
+          "moisture": 71
+        },
+        "hair": {
+          "type": "straight",
+          "frizz": 15,
+          "density": "high"
+        },
+        "face": {
+          "shape": "oval",
+          "ratios": {
+            "forehead_pct": 31,
+            "midface_pct": 34,
+            "chin_pct": 34
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "cl-12",
+    "name": "Zoé Bernard",
+    "email": "zoe.bernard@example.com",
+    "allergens": [],
+    "visits": [
+      {
+        "scan_id": "scan-cl-12-v1",
+        "ts": "2026-08-02T15:30:00.000Z",
+        "image_ref": "seed/clients/cl-12-v1.jpg",
+        "color_tones": {
+          "skin_tone": "medium",
+          "undertone": "warm",
+          "eye_color": "green",
+          "hair_color_hex": "#8C5A2E"
+        },
+        "skin": {
+          "wrinkle": 42,
+          "spot": 16,
+          "pore": 29,
+          "texture": 21,
+          "acne": 43,
+          "redness": 65,
+          "oiliness": 22,
+          "dark_circle": 39,
+          "eye_bag": 41,
+          "droopy_upper_eyelid": 16,
+          "droopy_lower_eyelid": 42,
+          "firmness": 72,
+          "radiance": 66,
+          "moisture": 40
+        },
+        "hair": {
+          "type": "curly",
+          "frizz": 69,
+          "density": "medium"
+        },
+        "face": {
+          "shape": "square",
+          "ratios": {
+            "forehead_pct": 36,
+            "midface_pct": 32,
+            "chin_pct": 33
+          }
+        }
+      },
+      {
+        "scan_id": "scan-cl-12-v2",
+        "ts": "2026-09-13T15:30:00.000Z",
+        "image_ref": "seed/clients/cl-12-v2.jpg",
+        "color_tones": {
+          "skin_tone": "medium",
+          "undertone": "warm",
+          "eye_color": "green",
+          "hair_color_hex": "#8C5A2E"
+        },
+        "skin": {
+          "wrinkle": 44,
+          "spot": 15,
+          "pore": 29,
+          "texture": 18,
+          "acne": 31,
+          "redness": 56,
+          "oiliness": 20,
+          "dark_circle": 37,
+          "eye_bag": 43,
+          "droopy_upper_eyelid": 13,
+          "droopy_lower_eyelid": 43,
+          "firmness": 73,
+          "radiance": 67,
+          "moisture": 46
+        },
+        "hair": {
+          "type": "curly",
+          "frizz": 51,
+          "density": "medium"
+        },
+        "face": {
+          "shape": "square",
+          "ratios": {
+            "forehead_pct": 34,
+            "midface_pct": 33,
+            "chin_pct": 34
+          }
+        }
+      }
+    ]
+  }
+]

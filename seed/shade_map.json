@@ -1,0 +1,18 @@
+[
+  { "line": "Majirel", "code": "3.0", "name": "Dark Brown", "hex": "#2B1D16", "undertone": "neutral", "level": 3 },
+  { "line": "Majirel", "code": "4.0", "name": "Brown", "hex": "#3F2A1E", "undertone": "neutral", "level": 4 },
+  { "line": "Majirel", "code": "5.0", "name": "Light Brown", "hex": "#5A3E2B", "undertone": "neutral", "level": 5 },
+  { "line": "Majirel", "code": "5.35", "name": "Light Brown Gold Mahogany", "hex": "#6B3F2A", "undertone": "warm", "level": 5 },
+  { "line": "Majirel", "code": "5.4", "name": "Light Brown Copper", "hex": "#74402A", "undertone": "warm", "level": 5 },
+  { "line": "Majirel", "code": "6.0", "name": "Dark Blonde", "hex": "#6E4E36", "undertone": "neutral", "level": 6 },
+  { "line": "Majirel", "code": "6.3", "name": "Dark Blonde Gold", "hex": "#7A5A3A", "undertone": "warm", "level": 6 },
+  { "line": "Majirel", "code": "6.66", "name": "Dark Blonde Deep Red", "hex": "#7A2E2A", "undertone": "warm", "level": 6 },
+  { "line": "Majirel", "code": "7.1", "name": "Medium Blonde Ash", "hex": "#8C7A66", "undertone": "cool", "level": 7 },
+  { "line": "Majirel", "code": "7.31", "name": "Medium Blonde Gold Ash", "hex": "#A88A5F", "undertone": "neutral", "level": 7 },
+  { "line": "Majirel", "code": "7.44", "name": "Medium Blonde Deep Copper", "hex": "#A8542E", "undertone": "warm", "level": 7 },
+  { "line": "Majirel", "code": "8.1", "name": "Light Blonde Ash", "hex": "#B5A58E", "undertone": "cool", "level": 8 },
+  { "line": "Majirel", "code": "8.34", "name": "Light Blonde Gold Copper", "hex": "#C2955A", "undertone": "warm", "level": 8 },
+  { "line": "Majirel", "code": "9.0", "name": "Very Light Blonde", "hex": "#CDB894", "undertone": "neutral", "level": 9 },
+  { "line": "Majirel", "code": "9.13", "name": "Very Light Blonde Ash Gold", "hex": "#D6C3A0", "undertone": "cool", "level": 9 },
+  { "line": "Majirel", "code": "10.1", "name": "Lightest Blonde Ash", "hex": "#E3D6BF", "undertone": "cool", "level": 10 }
+]

@@ -1,0 +1,19 @@
+{
+  "id": "salon-atelier-noor",
+  "name": "Atelier Noor",
+  "address": "14 Rue de Turenne",
+  "city": "Paris",
+  "postcode": "75003",
+  "country": "FR",
+  "jurisdiction": "FR",
+  "domain": "ateliernoor.com",
+  "owner": { "name": "Noor Haddad", "email": "noor@example.com" },
+  "stylists": [
+    { "name": "Léa", "email": "lea@example.com" },
+    { "name": "Marc", "email": "marc@example.com" }
+  ],
+  "chairs": 3,
+  "color_line": "Majirel",
+  "services": ["hair", "skin", "brows"],
+  "ll": "48.8575,2.3650"
+}

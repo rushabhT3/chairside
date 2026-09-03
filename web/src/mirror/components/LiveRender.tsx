@@ -1,10 +1,11 @@
 import { useEffect, useMemo, useState } from "react";
-import { renderScan, type RenderRequest } from "../../lib/renderProxy";
+import { renderScanOnce, type RenderRequest } from "../../lib/renderProxy";
 import { BeforeAfter } from "./BeforeAfter";
 import { Notice } from "./Notice";
 import { Skeleton } from "./Skeleton";
 
 export interface LiveRenderProps {
+  scanId: string;
   scan: Blob;
   request: RenderRequest;
   label: string;
@@ -12,7 +13,7 @@ export interface LiveRenderProps {
 
 type Phase = { kind: "rendering" } | { kind: "ready"; url: string } | { kind: "failed"; message: string };
 
-export function LiveRender({ scan, request, label }: LiveRenderProps) {
+export function LiveRender({ scanId, scan, request, label }: LiveRenderProps) {
   const [phase, setPhase] = useState<Phase>({ kind: "rendering" });
   const beforeUrl = useMemo(() => URL.createObjectURL(scan), [scan]);
   const { kind, shade, template } = request;
@@ -22,7 +23,7 @@ export function LiveRender({ scan, request, label }: LiveRenderProps) {
   useEffect(() => {
     let cancelled = false;
     setPhase({ kind: "rendering" });
-    renderScan(scan, { kind, shade, template })
+    renderScanOnce(scanId, scan, { kind, shade, template })
       .then((url) => {
         if (!cancelled) setPhase({ kind: "ready", url });
       })
@@ -32,9 +33,11 @@ export function LiveRender({ scan, request, label }: LiveRenderProps) {
     return () => {
       cancelled = true;
     };
-  }, [scan, kind, shade, template]);
+  }, [scanId, scan, kind, shade, template]);
 
-  if (phase.kind === "rendering") return <Skeleton lines={4} label={`Rendering ${label} on your scan`} />;
+  if (phase.kind === "rendering") {
+    return <Skeleton lines={4} label={`Rendering ${label} on your scan, about 15 seconds`} />;
+  }
   if (phase.kind === "failed") {
     return (
       <Notice tone="quiet" title="Your scan could not be rendered.">

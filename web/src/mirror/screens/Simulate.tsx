@@ -65,6 +65,7 @@ export function Simulate() {
       </div>
       {live && activeShade ? (
         <LiveRender
+          scanId={captured.scan_id}
           scan={captured.image}
           request={{ kind: "hair", shade: activeShade.hex }}
           label={`${activeShade.code} ${activeShade.name}`}
@@ -87,6 +88,7 @@ export function Simulate() {
     if (live) {
       return (
         <LiveRender
+          scanId={captured.scan_id}
           scan={captured.image}
           request={tab === "skin" ? { kind: "skin" } : { kind: "style", template: styleTemplate }}
           label={current?.label ?? (tab === "skin" ? "Skin plan" : "Style")}

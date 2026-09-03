@@ -1,0 +1,33 @@
+name: ci
+on: [push, pull_request]
+jobs:
+  secret-scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fail on committed key patterns
+        run: |
+          if git grep -nE 'pdf_live_[A-Za-z0-9]{8,}|serpapi[_-]?key\s*[:=]\s*["'"'"']?[A-Za-z0-9]{20,}|client_secret\s*[:=]\s*["'"'"']?[A-Za-z0-9_-]{16,}' -- ':!.github/workflows/ci.yml' ':!scripts/secret_scan.sh'; then
+            echo "secret pattern committed"; exit 1; fi
+  agent:
+    runs-on: ubuntu-latest
+    defaults: { run: { working-directory: agent } }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+      - run: uv python install 3.12
+      - run: uv sync --group dev
+      - run: uv run ruff check .
+      - run: uv run ruff format --check .
+      - run: CHAIRSIDE_MODE=fixtures uv run pytest -q
+  web:
+    runs-on: ubuntu-latest
+    defaults: { run: { working-directory: web } }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm, cache-dependency-path: web/package-lock.json }
+      - run: npm ci
+      - run: npx tsc --noEmit
+      - run: npx vitest run
+      - run: npm run build

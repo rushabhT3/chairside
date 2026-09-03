@@ -1,0 +1,17 @@
+{
+  "canonical": [
+    {
+      "in": {"b": 1, "a": "é", "c": [3, {"z": null, "y": true}]},
+      "out": "{\"a\":\"é\",\"b\":1,\"c\":[3,{\"y\":true,\"z\":null}]}"
+    }
+  ],
+  "chain": [
+    {
+      "prev_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "actor": "agent",
+      "action": "onboarding.parsed",
+      "payload": {"salon": "Atelier Noor", "chairs": 3},
+      "ts": "2026-09-03T08:00:00.000Z"
+    }
+  ]
+}

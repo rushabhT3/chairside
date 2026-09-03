@@ -146,6 +146,44 @@ The diagram reads left to right, and the whole point is the third column.
 
 **Vendors.** Six of the seven integrations replay responses recorded against the live APIs on 3 September 2026, marked in green. Foxit eSign is deliberately unreachable from the agent. Doctavian issues credentials by email and stayed on fixtures. Every adapter has both a live path and a fixtures path, so the entire flow runs on zero credits, and the audit chain means a judge can tamper with any row and watch the page catch it.
 
+### YouTube title
+
+```
+Chairside: an AI agent that runs a salon consultation and cannot sign anything
+```
+
+### YouTube description
+
+```
+Chairside turns the salon consultation into the product. One prompt opens a salon. One selfie runs the consultation: skin and hair diagnosed, the salon's own shades rendered on the client's face, the plan priced against today's market, consent signed by a human, and the whole thing replayable from an event log.
+
+The rule throughout: the model narrates, the code decides. Five pure functions own the plan, the price policy, the consent template, the shade mapping and the quarantine verdict. Nothing a language model returns can move money or change consent.
+
+And the agent cannot sign. Not because it was told not to. The eSign credential lives only inside Xano, so when the agent tries, it gets a 401 and the refusal is written into the audit chain. That moment is in the video.
+
+Built for the DevNetwork [API + Cloud + AI] Hackathon 2026.
+
+Try it
+Mirror, the client app: https://rushabht3.github.io/chairside/mirror/
+Floor, the stylist console: https://rushabht3.github.io/chairside/floor/
+Storefront: https://rushabht3.github.io/chairside/storefront/
+Code: https://github.com/rushabhT3/chairside
+
+Built with
+Perfect Corp YouCam, Xano, SerpApi, Nutrient DWS, Foxit PDF Services and eSign, name.com, Doctavian, Google ADK, MCP, Cloudflare Workers, React, TypeScript, Python.
+
+Six of the seven vendor integrations replay responses recorded against the live APIs, and the repository states exactly which are real and which are fixtures.
+
+Chapters
+0:00 The problem
+0:30 One prompt opens a salon
+1:05 One selfie runs the consultation
+1:50 The agent cannot sign
+2:30 What is real
+```
+
+Visibility Public, not Unlisted. Keep the first chapter at 0:00 or YouTube ignores all of them.
+
 ### Video demo link
 
 The YouTube URL, public, not unlisted. Use `docs/media/yt-thumbnail.png` as the video's custom thumbnail, it is 1280 by 720.

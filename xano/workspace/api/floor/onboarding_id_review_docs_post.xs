@@ -6,7 +6,7 @@ query "onboarding/{salon_id}/review-docs" verb=POST {
     int salon_id { table = "salon" }
   }
   stack {
-    precondition ($auth.role == "owner" && $auth.salon_id == $input.salon_id) {
+    precondition ($auth.extras.role == "owner" && $auth.extras.salon_id == $input.salon_id) {
       error_type = "accessdenied"
       error = "role_not_allowed"
     }

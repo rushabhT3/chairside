@@ -7,7 +7,7 @@ query "envelopes/{id}/review" verb=POST {
   }
   stack {
     function.run "rbac/require_staff" {
-      input = { role: $auth.role, salon_id: $auth.salon_id, expected_salon_id: null }
+      input = { role: $auth.extras.role, salon_id: $auth.extras.salon_id, expected_salon_id: null }
     } as $allowed
 
     db.get "envelope" {
@@ -15,7 +15,7 @@ query "envelopes/{id}/review" verb=POST {
       field_value = $input.id
     } as $envelope
 
-    precondition ($envelope != null && $envelope.salon_id == $auth.salon_id) {
+    precondition ($envelope != null && $envelope.salon_id == $auth.extras.salon_id) {
       error_type = "notfound"
       error = "envelope_not_found"
     }

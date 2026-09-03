@@ -9,7 +9,7 @@ query "extractions/{id}/confirm" verb=POST {
   }
   stack {
     function.run "rbac/require_staff" {
-      input = { role: $auth.role, salon_id: $auth.salon_id, expected_salon_id: null }
+      input = { role: $auth.extras.role, salon_id: $auth.extras.salon_id, expected_salon_id: null }
     } as $allowed
 
     db.get "extraction_task" {
@@ -17,7 +17,7 @@ query "extractions/{id}/confirm" verb=POST {
       field_value = $input.id
     } as $task
 
-    precondition ($task != null && $task.salon_id == $auth.salon_id) {
+    precondition ($task != null && $task.salon_id == $auth.extras.salon_id) {
       error_type = "notfound"
       error = "extraction_not_found"
     }
@@ -69,7 +69,7 @@ query "extractions/{id}/confirm" verb=POST {
         type: "catalog.review_queued",
         payload: { extraction_id: $task.id, status: $input.status },
         ts: $ts,
-        actor: $auth.role
+        actor: $auth.extras.role
       }
     } as $appended
   }

@@ -7,20 +7,20 @@ query "shade_map" verb=PUT {
   }
   stack {
     function.run "rbac/require_agent" {
-      input = { role: $auth.role }
+      input = { role: $auth.extras.role }
     } as $allowed
 
     var $written { value = 0 }
     foreach ($input.entries) {
       each as $entry {
         db.query "shade_map" {
-          where = $db.shade_map.salon_id == $auth.salon_id && $db.shade_map.line == $entry.line && $db.shade_map.code == $entry.code
+          where = $db.shade_map.salon_id == $auth.extras.salon_id && $db.shade_map.line == $entry.line && $db.shade_map.code == $entry.code
           return = { type: "single" }
         } as $existing
         conditional {
           if ($existing == null) {
             db.add "shade_map" {
-              data = { salon_id: $auth.salon_id, line: $entry.line, code: $entry.code, name: $entry.name, hex: $entry.hex, undertone: $entry.undertone, level: $entry.level }
+              data = { salon_id: $auth.extras.salon_id, line: $entry.line, code: $entry.code, name: $entry.name, hex: $entry.hex, undertone: $entry.undertone, level: $entry.level }
             }
           }
           else {

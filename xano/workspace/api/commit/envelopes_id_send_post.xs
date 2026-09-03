@@ -14,12 +14,12 @@ query "envelopes/{id}/send" verb=POST {
     int id { table = "envelope" }
   }
   stack {
-    precondition ($auth.role != "agent") {
+    precondition ($auth.extras.role != "agent") {
       error_type = "accessdenied"
       error = "agent_token_rejected"
     }
 
-    precondition ($auth.role == "owner" || $auth.role == "stylist") {
+    precondition ($auth.extras.role == "owner" || $auth.extras.role == "stylist") {
       error_type = "accessdenied"
       error = "role_not_allowed"
     }
@@ -29,7 +29,7 @@ query "envelopes/{id}/send" verb=POST {
       field_value = $input.id
     } as $envelope
 
-    precondition ($envelope != null && $envelope.salon_id == $auth.salon_id) {
+    precondition ($envelope != null && $envelope.salon_id == $auth.extras.salon_id) {
       error_type = "notfound"
       error = "envelope_not_found"
     }
@@ -118,7 +118,7 @@ query "envelopes/{id}/send" verb=POST {
         type: "envelope.sent",
         payload: { envelope_id: $envelope.id, kind: $envelope.kind, provider_id: $folder.folder_id, signer_email: $envelope.signer_email },
         ts: $ts,
-        actor: $auth.role
+        actor: $auth.extras.role
       }
     } as $appended
   }

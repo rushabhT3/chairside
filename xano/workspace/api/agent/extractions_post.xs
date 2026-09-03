@@ -13,12 +13,12 @@ query "extractions" verb=POST {
   }
   stack {
     function.run "rbac/require_agent" {
-      input = { role: $auth.role }
+      input = { role: $auth.extras.role }
     } as $allowed
 
     db.add "extraction_task" {
       data = {
-        salon_id: $auth.salon_id,
+        salon_id: $auth.extras.salon_id,
         consultation_ref: $input.consultation_id,
         source: $input.source,
         file: $input.file,

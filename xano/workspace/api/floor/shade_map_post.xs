@@ -11,14 +11,14 @@ query "shade_map" verb=POST {
     int level filters=min:1|max:10
   }
   stack {
-    precondition ($auth.role == "owner") {
+    precondition ($auth.extras.role == "owner") {
       error_type = "accessdenied"
       error = "role_not_allowed"
     }
 
     db.add "shade_map" {
       data = {
-        salon_id: $auth.salon_id,
+        salon_id: $auth.extras.salon_id,
         line: $input.line,
         code: $input.code,
         name: $input.name,

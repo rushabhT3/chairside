@@ -6,7 +6,7 @@ query "ledger" verb=GET {
   }
   stack {
     function.run "rbac/require_staff" {
-      input = { role: $auth.role, salon_id: $auth.salon_id, expected_salon_id: null }
+      input = { role: $auth.extras.role, salon_id: $auth.extras.salon_id, expected_salon_id: null }
     } as $allowed
 
     db.query "audit_event" {

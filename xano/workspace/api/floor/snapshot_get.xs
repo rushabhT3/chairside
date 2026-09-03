@@ -5,15 +5,15 @@ query "snapshot" verb=GET {
   input {
   }
   stack {
-    precondition ($auth.salon_id != null) {
+    precondition ($auth.extras.salon_id != null) {
       error_type = "accessdenied"
       error = "no_salon"
     }
 
-    var $is_staff { value = ($auth.role == "owner" || $auth.role == "stylist") }
+    var $is_staff { value = ($auth.extras.role == "owner" || $auth.extras.role == "stylist") }
 
     function.run "snapshot/build" {
-      input = { salon_id: $auth.salon_id, include_reviews: $is_staff }
+      input = { salon_id: $auth.extras.salon_id, include_reviews: $is_staff }
     } as $snapshot
   }
   response = $snapshot

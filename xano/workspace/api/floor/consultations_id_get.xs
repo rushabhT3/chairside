@@ -7,7 +7,7 @@ query "consultations/{id}" verb=GET {
   }
   stack {
     function.run "rbac/require_staff" {
-      input = { role: $auth.role, salon_id: $auth.salon_id, expected_salon_id: null }
+      input = { role: $auth.extras.role, salon_id: $auth.extras.salon_id, expected_salon_id: null }
     } as $allowed
 
     db.query "consultation" {
@@ -20,7 +20,7 @@ query "consultations/{id}" verb=GET {
       error = "consultation_not_found"
     }
 
-    precondition ($consultation.salon_id == $auth.salon_id) {
+    precondition ($consultation.salon_id == $auth.extras.salon_id) {
       error_type = "accessdenied"
       error = "salon_mismatch"
     }

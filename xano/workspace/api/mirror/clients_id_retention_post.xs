@@ -17,7 +17,7 @@ query "clients/{id}/retention" verb=POST {
       error = "client_not_found"
     }
 
-    precondition ($auth.role != "client" || $client.user_id == $auth.id) {
+    precondition ($auth.extras.role != "client" || $client.user_id == $auth.id) {
       error_type = "accessdenied"
       error = "not_your_record"
     }

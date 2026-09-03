@@ -11,13 +11,13 @@ query "envelopes/{id}/status" verb=GET {
       field_value = $input.id
     } as $envelope
 
-    precondition ($envelope != null && $envelope.salon_id == $auth.salon_id) {
+    precondition ($envelope != null && $envelope.salon_id == $auth.extras.salon_id) {
       error_type = "notfound"
       error = "envelope_not_found"
     }
 
     conditional {
-      if ($auth.role == "client") {
+      if ($auth.extras.role == "client") {
         db.query "consultation" {
           where = $db.consultation.ref == $envelope.consultation_ref
           return = { type: "single" }

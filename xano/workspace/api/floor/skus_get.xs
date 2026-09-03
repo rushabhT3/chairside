@@ -6,11 +6,11 @@ query "skus" verb=GET {
   }
   stack {
     function.run "rbac/require_staff" {
-      input = { role: $auth.role, salon_id: $auth.salon_id, expected_salon_id: null }
+      input = { role: $auth.extras.role, salon_id: $auth.extras.salon_id, expected_salon_id: null }
     } as $allowed
 
     db.query "sku" {
-      where = $db.sku.salon_id == $auth.salon_id
+      where = $db.sku.salon_id == $auth.extras.salon_id
       sort = { code: "asc" }
       return = { type: "list" }
     } as $skus

@@ -7,21 +7,21 @@ query "skus" verb=POST {
   }
   stack {
     function.run "rbac/require_agent" {
-      input = { role: $auth.role }
+      input = { role: $auth.extras.role }
     } as $allowed
 
     var $written { value = 0 }
     foreach ($input.skus) {
       each as $sku {
         db.query "sku" {
-          where = $db.sku.salon_id == $auth.salon_id && $db.sku.code == $sku.code
+          where = $db.sku.salon_id == $auth.extras.salon_id && $db.sku.code == $sku.code
           return = { type: "single" }
         } as $existing
         conditional {
           if ($existing == null) {
             db.add "sku" {
               data = {
-                salon_id: $auth.salon_id,
+                salon_id: $auth.extras.salon_id,
                 code: $sku.code,
                 name: $sku.name,
                 brand: $sku.brand,

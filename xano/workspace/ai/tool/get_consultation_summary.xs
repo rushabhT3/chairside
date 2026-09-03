@@ -12,9 +12,9 @@ tool "get_consultation_summary" {
 
     var $client_row { value = null }
     conditional {
-      if ($input.client != null && ($auth.role == "owner" || $auth.role == "stylist")) {
+      if ($input.client != null && ($auth.extras.role == "owner" || $auth.extras.role == "stylist")) {
         db.query "client" {
-          where = $db.client.salon_id == $auth.salon_id && $db.client.name == $input.client
+          where = $db.client.salon_id == $auth.extras.salon_id && $db.client.name == $input.client
           return = { type: "single" }
         } as $found
         var.update $client_row { value = $found }

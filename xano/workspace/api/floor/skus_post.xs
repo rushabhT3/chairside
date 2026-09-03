@@ -11,14 +11,14 @@ query "skus" verb=POST {
     enum kind?="retail" { values = ["retail", "backbar", "service"] }
   }
   stack {
-    precondition ($auth.role == "owner") {
+    precondition ($auth.extras.role == "owner") {
       error_type = "accessdenied"
       error = "role_not_allowed"
     }
 
     db.add "sku" {
       data = {
-        salon_id: $auth.salon_id,
+        salon_id: $auth.extras.salon_id,
         code: $input.code,
         name: $input.name,
         brand: $input.brand,

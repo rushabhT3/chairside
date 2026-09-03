@@ -21,7 +21,7 @@ query "scans" verb=POST {
       field_value = $consultation.client_id
     } as $client
 
-    precondition ($auth.role != "client" || $client.user_id == $auth.id) {
+    precondition ($auth.extras.role != "client" || $client.user_id == $auth.id) {
       error_type = "accessdenied"
       error = "not_your_consultation"
     }

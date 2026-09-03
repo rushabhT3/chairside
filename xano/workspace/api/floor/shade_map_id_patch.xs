@@ -10,7 +10,7 @@ query "shade_map/{id}" verb=PATCH {
     int level? filters=min:1|max:10
   }
   stack {
-    precondition ($auth.role == "owner") {
+    precondition ($auth.extras.role == "owner") {
       error_type = "accessdenied"
       error = "role_not_allowed"
     }
@@ -20,7 +20,7 @@ query "shade_map/{id}" verb=PATCH {
       field_value = $input.id
     } as $entry
 
-    precondition ($entry != null && $entry.salon_id == $auth.salon_id) {
+    precondition ($entry != null && $entry.salon_id == $auth.extras.salon_id) {
       error_type = "notfound"
       error = "shade_not_found"
     }

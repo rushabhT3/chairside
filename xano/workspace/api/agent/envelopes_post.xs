@@ -15,7 +15,7 @@ query "envelopes" verb=POST {
   }
   stack {
     function.run "rbac/require_agent" {
-      input = { role: $auth.role }
+      input = { role: $auth.extras.role }
     } as $allowed
 
     db.get "document" {
@@ -23,7 +23,7 @@ query "envelopes" verb=POST {
       field_value = $input.document_id
     } as $document
 
-    precondition ($document != null && $document.salon_id == $auth.salon_id) {
+    precondition ($document != null && $document.salon_id == $auth.extras.salon_id) {
       error_type = "notfound"
       error = "document_not_found"
     }
@@ -35,7 +35,7 @@ query "envelopes" verb=POST {
 
     db.add "envelope" {
       data = {
-        salon_id: $auth.salon_id,
+        salon_id: $auth.extras.salon_id,
         consultation_ref: $input.consultation_id,
         document_id: $document.id,
         kind: $input.kind,
@@ -52,7 +52,7 @@ query "envelopes" verb=POST {
     function.run "events/append_one" {
       input = {
         event_id: $event_id,
-        salon_id: $auth.salon_id,
+        salon_id: $auth.extras.salon_id,
         consultation_ref: $input.consultation_id,
         type: "envelope.requested",
         payload: { document_id: $document.id, envelope_id: $envelope.id, kind: $input.kind },

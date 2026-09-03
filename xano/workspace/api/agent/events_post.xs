@@ -7,7 +7,7 @@ query "events" verb=POST {
   }
   stack {
     function.run "rbac/require_agent" {
-      input = { role: $auth.role }
+      input = { role: $auth.extras.role }
     } as $allowed
 
     precondition ($input.events|is_array) {
@@ -21,7 +21,7 @@ query "events" verb=POST {
         function.run "events/append_one" {
           input = {
             event_id: $event.id,
-            salon_id: $auth.salon_id,
+            salon_id: $auth.extras.salon_id,
             consultation_ref: $event.consultation_id,
             type: $event.type,
             payload: $event.payload ?? {},

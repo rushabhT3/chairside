@@ -10,11 +10,11 @@ query "consultations/{id}/state" verb=PATCH {
   }
   stack {
     function.run "rbac/require_agent" {
-      input = { role: $auth.role }
+      input = { role: $auth.extras.role }
     } as $allowed
 
     db.query "consultation" {
-      where = $db.consultation.ref == $input.id && $db.consultation.salon_id == $auth.salon_id
+      where = $db.consultation.ref == $input.id && $db.consultation.salon_id == $auth.extras.salon_id
       return = { type: "single" }
     } as $consultation
 

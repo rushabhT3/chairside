@@ -7,11 +7,11 @@ query "extractions" verb=GET {
   }
   stack {
     function.run "rbac/require_staff" {
-      input = { role: $auth.role, salon_id: $auth.salon_id, expected_salon_id: null }
+      input = { role: $auth.extras.role, salon_id: $auth.extras.salon_id, expected_salon_id: null }
     } as $allowed
 
     db.query "extraction_task" {
-      where = $db.extraction_task.salon_id == $auth.salon_id && ($db.extraction_task.needs_review ==? $input.needs_review || $db.extraction_task.quarantined == true)
+      where = $db.extraction_task.salon_id == $auth.extras.salon_id && ($db.extraction_task.needs_review ==? $input.needs_review || $db.extraction_task.quarantined == true)
       sort = { id: "asc" }
       return = { type: "list" }
     } as $rows

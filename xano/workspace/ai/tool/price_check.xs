@@ -11,7 +11,7 @@ tool "price_check" {
     }
 
     db.query "sku" {
-      where = $db.sku.salon_id == $auth.salon_id && ($db.sku.code == $input.product || $db.sku.name includes $input.product)
+      where = $db.sku.salon_id == $auth.extras.salon_id && ($db.sku.code == $input.product || $db.sku.name includes $input.product)
       sort = { code: "asc" }
       return = { type: "single" }
     } as $sku

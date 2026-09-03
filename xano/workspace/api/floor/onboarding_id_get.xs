@@ -7,7 +7,7 @@ query "onboarding/{salon_id}" verb=GET {
   }
   stack {
     function.run "rbac/require_staff" {
-      input = { role: $auth.role, salon_id: $auth.salon_id, expected_salon_id: $input.salon_id }
+      input = { role: $auth.extras.role, salon_id: $auth.extras.salon_id, expected_salon_id: $input.salon_id }
     } as $allowed
 
     db.query "onboarding" {

@@ -12,7 +12,7 @@ query "plans/{id}" verb=PATCH {
   }
   stack {
     function.run "rbac/require_staff" {
-      input = { role: $auth.role, salon_id: $auth.salon_id, expected_salon_id: null }
+      input = { role: $auth.extras.role, salon_id: $auth.extras.salon_id, expected_salon_id: null }
     } as $allowed
 
     db.get "plan" {
@@ -25,7 +25,7 @@ query "plans/{id}" verb=PATCH {
       error = "plan_not_found"
     }
 
-    precondition ($plan.salon_id == $auth.salon_id) {
+    precondition ($plan.salon_id == $auth.extras.salon_id) {
       error_type = "accessdenied"
       error = "salon_mismatch"
     }

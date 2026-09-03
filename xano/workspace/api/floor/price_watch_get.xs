@@ -6,11 +6,11 @@ query "price_watch" verb=GET {
   }
   stack {
     function.run "rbac/require_staff" {
-      input = { role: $auth.role, salon_id: $auth.salon_id, expected_salon_id: null }
+      input = { role: $auth.extras.role, salon_id: $auth.extras.salon_id, expected_salon_id: null }
     } as $allowed
 
     function.run "snapshot/build" {
-      input = { salon_id: $auth.salon_id, include_reviews: false }
+      input = { salon_id: $auth.extras.salon_id, include_reviews: false }
     } as $snapshot
   }
   response = $snapshot.price_watch

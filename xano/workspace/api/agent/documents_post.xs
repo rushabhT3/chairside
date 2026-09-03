@@ -13,12 +13,12 @@ query "documents" verb=POST {
   }
   stack {
     function.run "rbac/require_agent" {
-      input = { role: $auth.role }
+      input = { role: $auth.extras.role }
     } as $allowed
 
     db.add "document" {
       data = {
-        salon_id: $auth.salon_id,
+        salon_id: $auth.extras.salon_id,
         consultation_ref: $input.consultation_id,
         kind: $input.kind,
         url: $input.url,

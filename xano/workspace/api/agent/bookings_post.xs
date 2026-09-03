@@ -9,11 +9,11 @@ query "bookings" verb=POST {
   }
   stack {
     function.run "rbac/require_agent" {
-      input = { role: $auth.role }
+      input = { role: $auth.extras.role }
     } as $allowed
 
     db.query "consultation" {
-      where = $db.consultation.ref == $input.consultation_id && $db.consultation.salon_id == $auth.salon_id
+      where = $db.consultation.ref == $input.consultation_id && $db.consultation.salon_id == $auth.extras.salon_id
       return = { type: "single" }
     } as $consultation
 
@@ -24,7 +24,7 @@ query "bookings" verb=POST {
 
     db.add "booking" {
       data = {
-        salon_id: $auth.salon_id,
+        salon_id: $auth.extras.salon_id,
         consultation_ref: $consultation.ref,
         client_id: $consultation.client_id,
         stylist_staff_id: $consultation.stylist_staff_id,
@@ -49,7 +49,7 @@ query "bookings" verb=POST {
     function.run "events/append_one" {
       input = {
         event_id: $event_id,
-        salon_id: $auth.salon_id,
+        salon_id: $auth.extras.salon_id,
         consultation_ref: $consultation.ref,
         type: "booking.created",
         payload: { booking_id: $booking.id, chair: $consultation.chair, service: $input.service, source: "floor" },

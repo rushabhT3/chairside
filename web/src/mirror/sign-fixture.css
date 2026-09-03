@@ -1,0 +1,85 @@
+html,
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-text);
+  font-size: var(--fs-1);
+  line-height: var(--lh-text);
+}
+
+.sign {
+  padding: var(--s5);
+  display: grid;
+  gap: var(--s4);
+}
+
+.sign-kicker {
+  margin: 0;
+  font-size: var(--fs-0);
+  letter-spacing: var(--tracking-caps);
+  text-transform: uppercase;
+  color: var(--ink-2);
+}
+
+.sign-title {
+  margin: 0;
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: var(--fs-3);
+  line-height: var(--lh-display);
+}
+
+.sign-copy {
+  margin: 0;
+  color: var(--ink-2);
+}
+
+.sign-pad {
+  width: 100%;
+  height: auto;
+  background: var(--surface-raised);
+  border: var(--border);
+  border-radius: var(--radius);
+  touch-action: none;
+}
+
+.sign-actions {
+  display: flex;
+  gap: var(--s3);
+  justify-content: flex-end;
+}
+
+.sign-button {
+  min-height: var(--touch);
+  padding: 0 var(--s5);
+  border: var(--border);
+  border-color: var(--accent);
+  border-radius: var(--radius);
+  background: var(--accent);
+  color: var(--paper);
+  font: inherit;
+  font-weight: 500;
+  cursor: pointer;
+  transition:
+    background var(--dur) var(--ease),
+    color var(--dur) var(--ease);
+}
+
+.sign-button:disabled {
+  cursor: not-allowed;
+  background: var(--bone);
+  border-color: var(--rule);
+  color: var(--ink-2);
+}
+
+.sign-button-secondary {
+  background: transparent;
+  border-color: var(--rule);
+  color: var(--ink);
+}
+
+.sign-button:focus-visible {
+  outline: var(--focus-ring);
+  outline-offset: var(--focus-offset);
+}

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520" width="400" height="520" role="img" aria-label="Skin plan render (fixture)">
+<rect width="400" height="520" fill="#F5F1EA"/>
+
+<ellipse cx="200" cy="230" rx="120" ry="120" fill="#4A2C1A"/>
+<ellipse cx="200" cy="280" rx="96" ry="126" fill="#E2C09C"/>
+<ellipse cx="200" cy="470" rx="130" ry="70" fill="#E9E2D6"/>
+<text x="16" y="500" font-family="Georgia, serif" font-size="14" fill="#4A443E">FIXTURE · Skin plan</text>
+</svg>

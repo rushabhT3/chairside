@@ -1,0 +1,13 @@
+{
+  "name": "Chairside Mirror",
+  "short_name": "Mirror",
+  "description": "Sit. Scan. See. Your consultation at the chair.",
+  "start_url": "./mirror/",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#F5F1EA",
+  "theme_color": "#F5F1EA",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

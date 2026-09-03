@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Signing session (fixture)</title>
+    <link rel="stylesheet" href="/src/tokens.css" />
+    <link rel="stylesheet" href="/src/mirror/sign-fixture.css" />
+  </head>
+  <body>
+    <main class="sign">
+      <p class="sign-kicker">Fixture signing session · no vendor call</p>
+      <h1 class="sign-title">Sign to consent</h1>
+      <p class="sign-copy">Draw your signature. In live mode this frame is the Foxit eSign embedded session.</p>
+      <canvas class="sign-pad" id="pad" width="640" height="240" aria-label="Signature pad"></canvas>
+      <div class="sign-actions">
+        <button class="sign-button sign-button-secondary" id="clear" type="button">Clear</button>
+        <button class="sign-button" id="sign" type="button" disabled>Sign</button>
+      </div>
+    </main>
+    <script type="module" src="/src/mirror/sign-fixture.ts"></script>
+  </body>
+</html>

@@ -1,0 +1,68 @@
+:root {
+  --font-display: "Fraunces", "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+  --font-text: "Geist", "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  --fs-0: 14px;
+  --fs-1: 17.5px;
+  --fs-2: 22px;
+  --fs-3: 27px;
+  --fs-4: 34px;
+  --fs-5: 43px;
+  --fs-6: 54px;
+
+  --lh-text: 1.45;
+  --lh-display: 1.05;
+  --lh-tight: 1.2;
+  --tracking-display: -0.015em;
+  --tracking-caps: 0.08em;
+  --tracking-numeric: 0.02em;
+
+  --paper: #f5f1ea;
+  --bone: #e9e2d6;
+  --ink: #161412;
+  --ink-2: #4a443e;
+  --rule: #d8cfc2;
+  --accent: #5a1f1f;
+  --ok: #2f4a3b;
+  --warn: #6b4500;
+  --err: #8c1a14;
+  --surface-raised: #fbf9f5;
+  --overlay: rgb(22 20 18 / 0.55);
+
+  --s1: 4px;
+  --s2: 8px;
+  --s3: 12px;
+  --s4: 16px;
+  --s5: 24px;
+  --s6: 40px;
+  --s7: 64px;
+  --s8: 96px;
+
+  --radius: 4px;
+  --hairline: 1px;
+  --border: var(--hairline) solid var(--rule);
+  --border-strong: var(--hairline) solid var(--ink);
+
+  --touch: 44px;
+  --measure: 34em;
+  --measure-wide: 56em;
+  --column-mirror: 480px;
+
+  --focus-ring: 2px solid var(--accent);
+  --focus-offset: 3px;
+  --shadow-sheet: 0 -12px 40px rgb(22 20 18 / 0.18);
+
+  --ease: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --dur: 180ms;
+  --dur-slow: 320ms;
+  --dur-reveal: 900ms;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --dur: 0ms;
+    --dur-slow: 0ms;
+    --dur-reveal: 0ms;
+  }
+}

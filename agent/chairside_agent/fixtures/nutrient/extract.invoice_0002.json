@@ -2,14 +2,78 @@
   "vendor": "nutrient",
   "primitive": "extract",
   "variant": "invoice_0002",
-  "recorded_at": "2026-09-03T08:30:00+00:00",
+  "recorded_at": "2026-09-03T14:16:39+00:00",
   "request": {
     "endpoint": "/extraction/extract",
-    "filename": "inv-0002-olaplex-scan.pdf",
+    "filename": "inv-0002-olaplex-scanned.pdf",
     "schema_name": "invoice",
-    "document_sha256": "c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2",
+    "document_sha256": "6d35e7fa4a388db2c91d904f84ced05d77013f94e74b95eb3e551a7537817092",
     "instructions": {
-      "schema": "<invoice schema, see nutrient.SCHEMAS>",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "invoice_number": {
+            "type": "string",
+            "description": "Invoice identifier"
+          },
+          "supplier_name": {
+            "type": "string",
+            "description": "Issuing supplier"
+          },
+          "invoice_date": {
+            "type": "string",
+            "description": "Invoice date, ISO 8601"
+          },
+          "subtotal": {
+            "type": "number",
+            "description": "Total before VAT"
+          },
+          "vat_rate": {
+            "type": "number",
+            "description": "VAT rate as a percentage"
+          },
+          "vat_amount": {
+            "type": "number",
+            "description": "VAT amount"
+          },
+          "total": {
+            "type": "number",
+            "description": "Total including VAT"
+          },
+          "lines": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "description": {
+                  "type": "string"
+                },
+                "qty": {
+                  "type": "number"
+                },
+                "unit_price": {
+                  "type": "number"
+                },
+                "amount": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "description",
+                "qty",
+                "unit_price",
+                "amount"
+              ]
+            }
+          }
+        },
+        "required": [
+          "invoice_number",
+          "supplier_name",
+          "total",
+          "lines"
+        ]
+      },
       "parseConfig": {
         "mode": "understand"
       },
@@ -19,204 +83,267 @@
     }
   },
   "response": {
-    "status": 200,
-    "requestId": "req_2d3e4f5a6b7c",
+    "configuration": {
+      "apiVersion": "2026-05-25",
+      "engine": {
+        "requestedEngineVersion": "stable"
+      },
+      "maxLanguages": 2,
+      "maxScripts": 2,
+      "mode": "understand"
+    },
+    "metrics": {
+      "pagesProcessed": 1,
+      "processingTimeMs": 8533
+    },
     "output": {
       "data": {
-        "invoice_number": "OLX-EU-55120",
-        "supplier_name": "Olaplex Europe B.V.",
+        "invoice_number": "OLX-77812",
+        "supplier_name": "Olaplex EU B.V.",
         "invoice_date": "2026-08-19",
-        "subtotal": 736.8,
-        "vat_rate": 20.0,
-        "vat_amount": 147.36,
-        "total": 884.16,
+        "subtotal": 1022.8,
+        "vat_rate": 20,
+        "vat_amount": 204.56,
+        "total": 1227.36,
         "lines": [
           {
-            "description": "No.3 Hair Perfector 100ml",
+            "description": "Olaplex No.1 Bond Multiplier 525 ті",
+            "qty": 2,
+            "unit_price": 118.0,
+            "amount": 236.0
+          },
+          {
+            "description": "Olaplex No.2 Bond Perfector 525 ті",
+            "qty": 2,
+            "unit_price": 118.0,
+            "amount": 236.0
+          },
+          {
+            "description": "Оіарієх Мо З Hair Perfector 100 ті",
             "qty": 24,
-            "unit_price": 17.9,
-            "amount": 429.6
+            "unit_price": 15.5,
+            "amount": 372.0
           },
           {
-            "description": "No.4 Bond Maintenance Shampoo 250ml",
+            "description": "Olaplex No.4 Bond Maintenance Shampoo 250 ті",
             "qty": 12,
-            "unit_price": 16.5,
-            "amount": 198.0
-          },
-          {
-            "description": "No.7 Bonding Oil 30ml",
-            "qty": 6,
-            "unit_price": 18.2,
-            "amount": 109.2
+            "unit_price": 14.9,
+            "amount": 178.8
           }
         ]
       },
       "metadata": {
         "invoice_number": {
           "bbox": {
-            "x": 420,
-            "y": 96,
-            "width": 150,
-            "height": 20
+            "height": 20.729492,
+            "width": 124.253174,
+            "x": 1245.3239,
+            "y": 185.33215
+          },
+          "confidence": 0.95,
+          "confidenceComponents": {
+            "groundingScore": 0.95,
+            "source": "no-logprobs"
           },
           "match": "id_match",
-          "confidence": 0.78,
-          "pageNumber": 1,
           "pageIndex": 0,
+          "pageNumber": 1,
+          "recognitionScore": 0.8881945610046387,
           "source_bboxes": [
             {
-              "block_id": "blk_1_96",
-              "pageIndex": 0,
               "bbox": {
-                "x": 420,
-                "y": 96,
-                "width": 150,
-                "height": 20
-              }
+                "height": 28.149658203125,
+                "width": 161.2763671875,
+                "x": 1208.341796875,
+                "y": 181.38055419921875
+              },
+              "block_id": "b12",
+              "pageIndex": 0,
+              "pageNumber": 1
             }
           ]
         },
         "supplier_name": {
           "bbox": {
-            "x": 60,
-            "y": 60,
-            "width": 260,
-            "height": 24
+            "height": 52.11950999999999,
+            "width": 367.49474999999995,
+            "x": 102.48572,
+            "y": 129.89087
+          },
+          "confidence": 0.95,
+          "confidenceComponents": {
+            "groundingScore": 0.95,
+            "source": "no-logprobs"
           },
           "match": "id_match",
-          "confidence": 0.82,
-          "pageNumber": 1,
           "pageIndex": 0,
+          "pageNumber": 1,
+          "recognitionScore": 0.915425717830658,
           "source_bboxes": [
             {
-              "block_id": "blk_1_60",
-              "pageIndex": 0,
               "bbox": {
-                "x": 60,
-                "y": 60,
-                "width": 260,
-                "height": 24
-              }
+                "height": 57.39288330078125,
+                "width": 370.8902282714844,
+                "x": 100.888916015625,
+                "y": 126.273193359375
+              },
+              "block_id": "b0",
+              "pageIndex": 0,
+              "pageNumber": 1
             }
           ]
         },
         "invoice_date": {
           "bbox": {
-            "x": 420,
-            "y": 120,
-            "width": 110,
-            "height": 20
+            "height": 25.7366943359375,
+            "width": 121.1380615234375,
+            "x": 1281.1385498046875,
+            "y": 217.73663330078125
+          },
+          "confidence": 0.95,
+          "confidenceComponents": {
+            "groundingScore": 0.95,
+            "source": "no-logprobs"
           },
           "match": "id_match",
-          "confidence": 0.76,
-          "pageNumber": 1,
           "pageIndex": 0,
+          "pageNumber": 1,
+          "recognitionScore": 0.9650518298149109,
           "source_bboxes": [
             {
-              "block_id": "blk_1_120",
-              "pageIndex": 0,
               "bbox": {
-                "x": 420,
-                "y": 120,
-                "width": 110,
-                "height": 20
-              }
+                "height": 25.7366943359375,
+                "width": 121.1380615234375,
+                "x": 1281.1385498046875,
+                "y": 217.73663330078125
+              },
+              "block_id": "b14",
+              "pageIndex": 0,
+              "pageNumber": 1
             }
           ]
         },
         "subtotal": {
           "bbox": {
-            "x": 700,
-            "y": 520,
-            "width": 90,
-            "height": 20
+            "height": 23.003173999999944,
+            "width": 89.2844500000001,
+            "x": 1373.0354,
+            "y": 951.11255
+          },
+          "confidence": 0.9696927825876808,
+          "confidenceComponents": {
+            "formatScore": 1,
+            "groundingScore": 0.95,
+            "source": "no-logprobs"
           },
           "match": "id_match",
-          "confidence": 0.78,
-          "pageNumber": 1,
           "pageIndex": 0,
+          "pageNumber": 1,
+          "recognitionScore": 0.9377777576446533,
           "source_bboxes": [
             {
-              "block_id": "blk_1_520",
-              "pageIndex": 0,
               "bbox": {
-                "x": 700,
-                "y": 520,
-                "width": 90,
-                "height": 20
-              }
+                "height": 26.5718994140625,
+                "width": 113.5855712890625,
+                "x": 1370.6055908203125,
+                "y": 947.8143310546875
+              },
+              "block_id": "b8",
+              "pageIndex": 0,
+              "pageNumber": 1
             }
           ]
         },
         "vat_rate": {
           "bbox": {
-            "x": 560,
-            "y": 548,
-            "width": 60,
-            "height": 20
+            "height": 20.361023,
+            "width": 26.276733,
+            "x": 1160.7402,
+            "y": 1004.96124
+          },
+          "confidence": 0.9696927825876808,
+          "confidenceComponents": {
+            "formatScore": 1,
+            "groundingScore": 0.95,
+            "source": "no-logprobs"
           },
           "match": "id_match",
-          "confidence": 0.79,
-          "pageNumber": 1,
           "pageIndex": 0,
+          "pageNumber": 1,
+          "recognitionScore": 0.8837874531745911,
           "source_bboxes": [
             {
-              "block_id": "blk_1_548",
-              "pageIndex": 0,
               "bbox": {
-                "x": 560,
-                "y": 548,
-                "width": 60,
-                "height": 20
-              }
+                "height": 24.75750732421875,
+                "width": 112.09814453125,
+                "x": 1104.41748046875,
+                "y": 1001.8204956054688
+              },
+              "block_id": "b6",
+              "pageIndex": 0,
+              "pageNumber": 1
             }
           ]
         },
         "vat_amount": {
           "bbox": {
-            "x": 700,
-            "y": 548,
-            "width": 90,
-            "height": 20
+            "height": 23.003113,
+            "width": 72.30029,
+            "x": 1370.7197,
+            "y": 1001.3869
+          },
+          "confidence": 0.9696927825876808,
+          "confidenceComponents": {
+            "formatScore": 1,
+            "groundingScore": 0.95,
+            "source": "no-logprobs"
           },
           "match": "id_match",
-          "confidence": 0.77,
-          "pageNumber": 1,
           "pageIndex": 0,
+          "pageNumber": 1,
+          "recognitionScore": 0.9258763194084167,
           "source_bboxes": [
             {
-              "block_id": "blk_1_548",
-              "pageIndex": 0,
               "bbox": {
-                "x": 700,
-                "y": 548,
-                "width": 90,
-                "height": 20
-              }
+                "height": 25.7960205078125,
+                "width": 95.0035400390625,
+                "x": 1368.6859130859375,
+                "y": 998.6219482421875
+              },
+              "block_id": "b9",
+              "pageIndex": 0,
+              "pageNumber": 1
             }
           ]
         },
         "total": {
           "bbox": {
-            "x": 700,
-            "y": 584,
-            "width": 90,
-            "height": 24
+            "height": 26.14245600000004,
+            "width": 104.32496399999991,
+            "x": 1373.4457,
+            "y": 1051.9072
+          },
+          "confidence": 0.9696927825876808,
+          "confidenceComponents": {
+            "formatScore": 1,
+            "groundingScore": 0.95,
+            "source": "no-logprobs"
           },
           "match": "id_match",
-          "confidence": 0.8,
-          "pageNumber": 1,
           "pageIndex": 0,
+          "pageNumber": 1,
+          "recognitionScore": 0.8906940221786499,
           "source_bboxes": [
             {
-              "block_id": "blk_1_584",
-              "pageIndex": 0,
               "bbox": {
-                "x": 700,
-                "y": 584,
-                "width": 90,
-                "height": 24
-              }
+                "height": 31.1646728515625,
+                "width": 132.2139892578125,
+                "x": 1370.6748046875,
+                "y": 1048.47216796875
+              },
+              "block_id": "b10",
+              "pageIndex": 0,
+              "pageNumber": 1
             }
           ]
         },
@@ -224,97 +351,124 @@
           {
             "description": {
               "bbox": {
-                "x": 60,
-                "y": 300,
-                "width": 380,
-                "height": 22
+                "height": 28.35924599999987,
+                "width": 384.2138710000001,
+                "x": 358.43393,
+                "y": 697.1352
+              },
+              "confidence": 0.95,
+              "confidenceComponents": {
+                "groundingScore": 0.95,
+                "source": "no-logprobs"
               },
               "match": "id_match",
-              "confidence": 0.75,
-              "pageNumber": 1,
               "pageIndex": 0,
+              "pageNumber": 1,
+              "recognitionScore": 0.8803157806396484,
               "source_bboxes": [
                 {
-                  "block_id": "blk_1_300",
-                  "pageIndex": 0,
                   "bbox": {
-                    "x": 60,
-                    "y": 300,
-                    "width": 380,
-                    "height": 22
-                  }
+                    "height": 34.628173828125,
+                    "width": 397.2349548339844,
+                    "x": 353.8349914550781,
+                    "y": 695.560791015625
+                  },
+                  "block_id": "c6",
+                  "pageIndex": 0,
+                  "pageNumber": 1
                 }
               ]
             },
             "qty": {
               "bbox": {
-                "x": 460,
-                "y": 300,
-                "width": 40,
-                "height": 22
+                "height": 28.9700927734375,
+                "width": 21.74462890625,
+                "x": 1096.6978759765625,
+                "y": 690.90966796875
+              },
+              "confidence": 0.9696927825876808,
+              "confidenceComponents": {
+                "formatScore": 1,
+                "groundingScore": 0.95,
+                "source": "no-logprobs"
               },
               "match": "id_match",
-              "confidence": 0.78,
-              "pageNumber": 1,
               "pageIndex": 0,
+              "pageNumber": 1,
+              "recognitionScore": 0.9701206088066101,
               "source_bboxes": [
                 {
-                  "block_id": "blk_1_300",
-                  "pageIndex": 0,
                   "bbox": {
-                    "x": 460,
-                    "y": 300,
-                    "width": 40,
-                    "height": 22
-                  }
+                    "height": 28.9700927734375,
+                    "width": 21.74462890625,
+                    "x": 1096.6978759765625,
+                    "y": 690.90966796875
+                  },
+                  "block_id": "c7",
+                  "pageIndex": 0,
+                  "pageNumber": 1
                 }
               ]
             },
             "unit_price": {
               "bbox": {
-                "x": 560,
-                "y": 300,
-                "width": 80,
-                "height": 22
+                "height": 23.226501,
+                "width": 88.298584,
+                "x": 1204.3516,
+                "y": 689.456
+              },
+              "confidence": 0.9696927825876808,
+              "confidenceComponents": {
+                "formatScore": 1,
+                "groundingScore": 0.95,
+                "source": "no-logprobs"
               },
               "match": "id_match",
-              "confidence": 0.73,
-              "pageNumber": 1,
               "pageIndex": 0,
+              "pageNumber": 1,
+              "recognitionScore": 0.9628913998603821,
               "source_bboxes": [
                 {
-                  "block_id": "blk_1_300",
-                  "pageIndex": 0,
                   "bbox": {
-                    "x": 560,
-                    "y": 300,
-                    "width": 80,
-                    "height": 22
-                  }
+                    "height": 30.131103515625,
+                    "width": 99.6280517578125,
+                    "x": 1196.19775390625,
+                    "y": 688.0094604492188
+                  },
+                  "block_id": "c8",
+                  "pageIndex": 0,
+                  "pageNumber": 1
                 }
               ]
             },
             "amount": {
               "bbox": {
-                "x": 700,
-                "y": 300,
-                "width": 90,
-                "height": 22
+                "height": 22.989258,
+                "width": 71.30005,
+                "x": 1367.3357,
+                "y": 687.4175
+              },
+              "confidence": 0.9696927825876808,
+              "confidenceComponents": {
+                "formatScore": 1,
+                "groundingScore": 0.95,
+                "source": "no-logprobs"
               },
               "match": "id_match",
-              "confidence": 0.76,
-              "pageNumber": 1,
               "pageIndex": 0,
+              "pageNumber": 1,
+              "recognitionScore": 0.961144208908081,
               "source_bboxes": [
                 {
-                  "block_id": "blk_1_300",
-                  "pageIndex": 0,
                   "bbox": {
-                    "x": 700,
-                    "y": 300,
-                    "width": 90,
-                    "height": 22
-                  }
+                    "height": 30.18365478515625,
+                    "width": 99.163330078125,
+                    "x": 1361.47119140625,
+                    "y": 685.473388671875
+                  },
+                  "block_id": "c9",
+                  "pageIndex": 0,
+                  "pageNumber": 1
                 }
               ]
             }
@@ -322,97 +476,124 @@
           {
             "description": {
               "bbox": {
-                "x": 60,
-                "y": 336,
-                "width": 380,
-                "height": 22
+                "height": 28.40114600000004,
+                "width": 387.213621,
+                "x": 359.13202,
+                "y": 747.0884
+              },
+              "confidence": 0.95,
+              "confidenceComponents": {
+                "groundingScore": 0.95,
+                "source": "no-logprobs"
               },
               "match": "id_match",
-              "confidence": 0.76,
-              "pageNumber": 1,
               "pageIndex": 0,
+              "pageNumber": 1,
+              "recognitionScore": 0.6293532848358154,
               "source_bboxes": [
                 {
-                  "block_id": "blk_1_336",
-                  "pageIndex": 0,
                   "bbox": {
-                    "x": 60,
-                    "y": 336,
-                    "width": 380,
-                    "height": 22
-                  }
+                    "height": 34.96160888671875,
+                    "width": 402.964599609375,
+                    "x": 351.0982666015625,
+                    "y": 744.4486083984375
+                  },
+                  "block_id": "c11",
+                  "pageIndex": 0,
+                  "pageNumber": 1
                 }
               ]
             },
             "qty": {
               "bbox": {
-                "x": 460,
-                "y": 336,
-                "width": 40,
-                "height": 22
+                "height": 29.37054443359375,
+                "width": 22.9661865234375,
+                "x": 1096.979248046875,
+                "y": 739.4924926757812
+              },
+              "confidence": 0.9696927825876808,
+              "confidenceComponents": {
+                "formatScore": 1,
+                "groundingScore": 0.95,
+                "source": "no-logprobs"
               },
               "match": "id_match",
-              "confidence": 0.78,
-              "pageNumber": 1,
               "pageIndex": 0,
+              "pageNumber": 1,
+              "recognitionScore": 0.9685534834861755,
               "source_bboxes": [
                 {
-                  "block_id": "blk_1_336",
-                  "pageIndex": 0,
                   "bbox": {
-                    "x": 460,
-                    "y": 336,
-                    "width": 40,
-                    "height": 22
-                  }
+                    "height": 29.37054443359375,
+                    "width": 22.9661865234375,
+                    "x": 1096.979248046875,
+                    "y": 739.4924926757812
+                  },
+                  "block_id": "c12",
+                  "pageIndex": 0,
+                  "pageNumber": 1
                 }
               ]
             },
             "unit_price": {
               "bbox": {
-                "x": 560,
-                "y": 336,
-                "width": 80,
-                "height": 22
+                "height": 23.254517,
+                "width": 90.29846,
+                "x": 1204.0497,
+                "y": 739.43713
+              },
+              "confidence": 0.9696927825876808,
+              "confidenceComponents": {
+                "formatScore": 1,
+                "groundingScore": 0.95,
+                "source": "no-logprobs"
               },
               "match": "id_match",
-              "confidence": 0.73,
-              "pageNumber": 1,
               "pageIndex": 0,
+              "pageNumber": 1,
+              "recognitionScore": 0.967186689376831,
               "source_bboxes": [
                 {
-                  "block_id": "blk_1_336",
-                  "pageIndex": 0,
                   "bbox": {
-                    "x": 560,
-                    "y": 336,
-                    "width": 80,
-                    "height": 22
-                  }
+                    "height": 30.18890380859375,
+                    "width": 97.34716796875,
+                    "x": 1199.3656005859375,
+                    "y": 737.3441162109375
+                  },
+                  "block_id": "c13",
+                  "pageIndex": 0,
+                  "pageNumber": 1
                 }
               ]
             },
             "amount": {
               "bbox": {
-                "x": 700,
-                "y": 336,
-                "width": 90,
-                "height": 22
+                "height": 23.003174,
+                "width": 72.30017,
+                "x": 1367.0338,
+                "y": 737.4126
+              },
+              "confidence": 0.9696927825876808,
+              "confidenceComponents": {
+                "formatScore": 1,
+                "groundingScore": 0.95,
+                "source": "no-logprobs"
               },
               "match": "id_match",
-              "confidence": 0.76,
-              "pageNumber": 1,
               "pageIndex": 0,
+              "pageNumber": 1,
+              "recognitionScore": 0.9153241515159607,
               "source_bboxes": [
                 {
-                  "block_id": "blk_1_336",
-                  "pageIndex": 0,
                   "bbox": {
-                    "x": 700,
-                    "y": 336,
-                    "width": 90,
-                    "height": 22
-                  }
+                    "height": 30.1507568359375,
+                    "width": 100.393798828125,
+                    "x": 1360.750732421875,
+                    "y": 735.1051025390625
+                  },
+                  "block_id": "c14",
+                  "pageIndex": 0,
+                  "pageNumber": 1
                 }
               ]
             }
@@ -420,113 +601,286 @@
           {
             "description": {
               "bbox": {
-                "x": 60,
-                "y": 372,
-                "width": 380,
-                "height": 22
+                "height": 34.36907958984375,
+                "width": 384.7613220214844,
+                "x": 355.1770324707031,
+                "y": 794.8092651367188
+              },
+              "confidence": 0.95,
+              "confidenceComponents": {
+                "groundingScore": 0.95,
+                "source": "no-logprobs"
               },
               "match": "id_match",
-              "confidence": 0.77,
-              "pageNumber": 1,
               "pageIndex": 0,
+              "pageNumber": 1,
+              "recognitionScore": 0.7713437080383301,
               "source_bboxes": [
                 {
-                  "block_id": "blk_1_372",
-                  "pageIndex": 0,
                   "bbox": {
-                    "x": 60,
-                    "y": 372,
-                    "width": 380,
-                    "height": 22
-                  }
+                    "height": 34.36907958984375,
+                    "width": 384.7613220214844,
+                    "x": 355.1770324707031,
+                    "y": 794.8092651367188
+                  },
+                  "block_id": "c16",
+                  "pageIndex": 0,
+                  "pageNumber": 1
                 }
               ]
             },
             "qty": {
               "bbox": {
-                "x": 460,
-                "y": 372,
-                "width": 40,
-                "height": 22
+                "height": 19.347168,
+                "width": 25.26294,
+                "x": 1103.7437,
+                "y": 790.7501
+              },
+              "confidence": 0.9696927825876808,
+              "confidenceComponents": {
+                "formatScore": 1,
+                "groundingScore": 0.95,
+                "source": "no-logprobs"
               },
               "match": "id_match",
-              "confidence": 0.78,
-              "pageNumber": 1,
               "pageIndex": 0,
+              "pageNumber": 1,
+              "recognitionScore": 0.9688025116920471,
               "source_bboxes": [
                 {
-                  "block_id": "blk_1_372",
-                  "pageIndex": 0,
                   "bbox": {
-                    "x": 460,
-                    "y": 372,
-                    "width": 40,
-                    "height": 22
-                  }
+                    "height": 29.34967041015625,
+                    "width": 34.6483154296875,
+                    "x": 1097.44970703125,
+                    "y": 789.2943115234375
+                  },
+                  "block_id": "c17",
+                  "pageIndex": 0,
+                  "pageNumber": 1
                 }
               ]
             },
             "unit_price": {
               "bbox": {
-                "x": 560,
-                "y": 372,
-                "width": 80,
-                "height": 22
+                "height": 30.1395263671875,
+                "width": 84.840087890625,
+                "x": 1199.33642578125,
+                "y": 787.323486328125
+              },
+              "confidence": 0.9696927825876808,
+              "confidenceComponents": {
+                "formatScore": 1,
+                "groundingScore": 0.95,
+                "source": "no-logprobs"
               },
               "match": "id_match",
-              "confidence": 0.73,
-              "pageNumber": 1,
               "pageIndex": 0,
+              "pageNumber": 1,
+              "recognitionScore": 0.950075089931488,
               "source_bboxes": [
                 {
-                  "block_id": "blk_1_372",
-                  "pageIndex": 0,
                   "bbox": {
-                    "x": 560,
-                    "y": 372,
-                    "width": 80,
-                    "height": 22
-                  }
+                    "height": 30.1395263671875,
+                    "width": 84.840087890625,
+                    "x": 1199.33642578125,
+                    "y": 787.323486328125
+                  },
+                  "block_id": "c18",
+                  "pageIndex": 0,
+                  "pageNumber": 1
                 }
               ]
             },
             "amount": {
               "bbox": {
-                "x": 700,
-                "y": 372,
-                "width": 90,
-                "height": 22
+                "height": 22.989258,
+                "width": 71.30017,
+                "x": 1368.7179,
+                "y": 786.40784
+              },
+              "confidence": 0.9696927825876808,
+              "confidenceComponents": {
+                "formatScore": 1,
+                "groundingScore": 0.95,
+                "source": "no-logprobs"
               },
               "match": "id_match",
-              "confidence": 0.76,
-              "pageNumber": 1,
               "pageIndex": 0,
+              "pageNumber": 1,
+              "recognitionScore": 0.9671908617019653,
               "source_bboxes": [
                 {
-                  "block_id": "blk_1_372",
-                  "pageIndex": 0,
                   "bbox": {
-                    "x": 700,
-                    "y": 372,
-                    "width": 90,
-                    "height": 22
-                  }
+                    "height": 30.13153076171875,
+                    "width": 98.444580078125,
+                    "x": 1361.644775390625,
+                    "y": 784.6098022460938
+                  },
+                  "block_id": "c19",
+                  "pageIndex": 0,
+                  "pageNumber": 1
+                }
+              ]
+            }
+          },
+          {
+            "description": {
+              "bbox": {
+                "height": 31.048575000000028,
+                "width": 538.2268159999999,
+                "x": 360.50034,
+                "y": 843.43134
+              },
+              "confidence": 0.95,
+              "confidenceComponents": {
+                "groundingScore": 0.95,
+                "source": "no-logprobs"
+              },
+              "match": "id_match",
+              "pageIndex": 0,
+              "pageNumber": 1,
+              "recognitionScore": 0.883452296257019,
+              "source_bboxes": [
+                {
+                  "bbox": {
+                    "height": 37.0352783203125,
+                    "width": 548.94921875,
+                    "x": 349.8982238769531,
+                    "y": 842.2044677734375
+                  },
+                  "block_id": "c21",
+                  "pageIndex": 0,
+                  "pageNumber": 1
+                }
+              ]
+            },
+            "qty": {
+              "bbox": {
+                "height": 20.33319,
+                "width": 24.276978,
+                "x": 1106.4276,
+                "y": 839.7313
+              },
+              "confidence": 0.9696927825876808,
+              "confidenceComponents": {
+                "formatScore": 1,
+                "groundingScore": 0.95,
+                "source": "no-logprobs"
+              },
+              "match": "id_match",
+              "pageIndex": 0,
+              "pageNumber": 1,
+              "recognitionScore": 0.9667755365371704,
+              "source_bboxes": [
+                {
+                  "bbox": {
+                    "height": 29.609619140625,
+                    "width": 34.7210693359375,
+                    "x": 1098.2867431640625,
+                    "y": 838.4420166015625
+                  },
+                  "block_id": "c22",
+                  "pageIndex": 0,
+                  "pageNumber": 1
+                }
+              ]
+            },
+            "unit_price": {
+              "bbox": {
+                "height": 29.86492919921875,
+                "width": 82.4404296875,
+                "x": 1200.8194580078125,
+                "y": 836.8017578125
+              },
+              "confidence": 0.9696927825876808,
+              "confidenceComponents": {
+                "formatScore": 1,
+                "groundingScore": 0.95,
+                "source": "no-logprobs"
+              },
+              "match": "id_match",
+              "pageIndex": 0,
+              "pageNumber": 1,
+              "recognitionScore": 0.9660816192626953,
+              "source_bboxes": [
+                {
+                  "bbox": {
+                    "height": 29.86492919921875,
+                    "width": 82.4404296875,
+                    "x": 1200.8194580078125,
+                    "y": 836.8017578125
+                  },
+                  "block_id": "c23",
+                  "pageIndex": 0,
+                  "pageNumber": 1
+                }
+              ]
+            },
+            "amount": {
+              "bbox": {
+                "height": 23.975098,
+                "width": 70.31421,
+                "x": 1371.4019,
+                "y": 835.38916
+              },
+              "confidence": 0.9696927825876808,
+              "confidenceComponents": {
+                "formatScore": 1,
+                "groundingScore": 0.95,
+                "source": "no-logprobs"
+              },
+              "match": "id_match",
+              "pageIndex": 0,
+              "pageNumber": 1,
+              "recognitionScore": 0.9654036164283752,
+              "source_bboxes": [
+                {
+                  "bbox": {
+                    "height": 30.2603759765625,
+                    "width": 97.587646484375,
+                    "x": 1363.76513671875,
+                    "y": 834.2711181640625
+                  },
+                  "block_id": "c24",
+                  "pageIndex": 0,
+                  "pageNumber": 1
                 }
               ]
             }
           }
         ]
+      },
+      "pages": [
+        {
+          "height": 2339,
+          "page": 1,
+          "width": 1654
+        }
+      ]
+    },
+    "requestId": "GNHVPeUSTViBJ4kAAj9R",
+    "status": 200,
+    "usage": {
+      "data_extraction_credits": {
+        "cost": 15.0,
+        "remainingCredits": 4985.0
+      },
+      "price_composition": {
+        "extract": {
+          "cost": 6.0,
+          "currency": "data_extraction_credits",
+          "unit_cost": 6.0,
+          "units": 1
+        },
+        "parse": {
+          "cost": 9.0,
+          "currency": "data_extraction_credits",
+          "unit_cost": 9.0,
+          "units": 1
+        }
       }
-    },
-    "metrics": {
-      "processingTimeMs": 4120,
-      "pagesProcessed": 1
-    },
-    "configuration": {
-      "mode": "understand",
-      "includeCitations": true
     }
   },
   "units": 1,
-  "latency_ms": 4188
+  "latency_ms": 9230
 }

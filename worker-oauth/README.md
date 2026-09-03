@@ -25,7 +25,7 @@ npm install
 npx wrangler login
 npx wrangler kv namespace create OAUTH_KV        # paste the id into wrangler.jsonc
 npx wrangler deploy
-npx wrangler secret put XANO_MCP_STREAM_URL      # https://<instance>.xano.io/x2/mcp/chairside-mcp/mcp/stream
+npx wrangler secret put XANO_MCP_STREAM_URL      # the Streaming URL from Xano's Connect this backend → MCP Server URLs
 npx wrangler secret put XANO_AUTH_BASE           # https://<instance>.xano.io/api:chairside-auth
 npx wrangler secret put COOKIE_SECRET            # openssl rand -hex 32
 npx wrangler deploy

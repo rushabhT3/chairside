@@ -47,6 +47,8 @@ xano workspace push -d ./xano/workspace
 
 Pushed on 3 Sep 2026 to instance `xqbd-rqmo-jj2a`, workspace `chairside` (ID 1), with `xano workspace edit --allow-push -w 1` first and then one push per layer (`-i "table/**"`, `"function/**"`, `"api/**"`, `"task/**"`, `"ai/**"`, each with `--force` because the CLI refuses the confirmation prompt outside a TTY). The workspace-settings document (`workspace/chairside.xs`) is rejected by the Metadata API with `Multidoc import failed: An unknown error occurred`, even when pushed verbatim as pulled, so description, AI-terms acceptance, and env-var names are set in the dashboard.
 
+Observed on the same instance on 3 Sep 2026: `POST /x2/mcp/chairside-mcp/mcp/streaming` (and the `/sse` form) answers `405 Not Allowed` from nginx, and `GET` returns the dashboard HTML, so the MCP route is not yet served by this instance even though the server and its three tools are pushed and listed by the Metadata API. Copy the **Streaming** URL from Connect this backend → MCP Server URLs once the instance routes it; the Worker reads it from `XANO_MCP_STREAM_URL`. The static host on the same instance shows the matching symptom (503).
+
 Rules:
 - Never push with `--env`. `workspace/chairside.xs` declares the env var **names** with empty values; the secrets are set in the dashboard (Settings → Environment Variables).
 - `push` is additive. Use `--sync` only when a destructive schema change is intended.

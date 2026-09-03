@@ -20,4 +20,5 @@ table "extraction_task" {
     {type: "btree", field: [{name: "salon_id"}, {name: "needs_review"}]}
     {type: "btree", field: [{name: "quarantined"}]}
   ]
+  guid = "KGnsYA27OMmtO1Hzn-4ib_AvRpw"
 }

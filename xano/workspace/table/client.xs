@@ -19,4 +19,5 @@ table "client" {
     {type: "btree", field: [{name: "salon_id"}]}
     {type: "btree", field: [{name: "user_id"}]}
   ]
+  guid = "AGEyWbjXYWZQKUW2UxEFQdICv3w"
 }

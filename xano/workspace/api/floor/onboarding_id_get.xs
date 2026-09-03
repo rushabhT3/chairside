@@ -21,4 +21,5 @@ query "onboarding/{salon_id}" verb=GET {
     }
   }
   response = $onboarding
+  guid = "TG-BU4rs80E16CT1AdFYvzvqbRI"
 }

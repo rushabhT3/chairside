@@ -53,4 +53,5 @@ function "events/append_one" {
     }
   }
   response = { event: $event_row, audit: $audit_row }
+  guid = "NsOzCiUBva6hcEKqnPcfkiwqwKA"
 }

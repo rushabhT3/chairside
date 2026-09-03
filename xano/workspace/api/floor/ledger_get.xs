@@ -15,4 +15,5 @@ query "ledger" verb=GET {
     } as $rows
   }
   response = $rows|map:{ id: $$.event_id, prev_hash: $$.prev_hash, hash: $$.hash, actor: $$.actor, action: $$.action, payload_hash: $$.payload_hash, ts: $$.ts }
+  guid = "GrXwt7IfbBjTbxwQntJC2klUdSM"
 }

@@ -103,4 +103,5 @@ task "price_refresh" {
   }
   schedule = [{starts_on: 2026-09-01 02:00:00+0000, freq: 86400}]
   tags = ["serpapi", "prices"]
+  guid = "gSzfRrQyQiuPGktQaXm_2wesc5g"
 }

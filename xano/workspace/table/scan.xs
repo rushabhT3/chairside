@@ -23,4 +23,5 @@ table "scan" {
     {type: "btree", field: [{name: "client_id"}, {name: "created_at", op: "desc"}]}
     {type: "btree", field: [{name: "consultation_ref"}]}
   ]
+  guid = "AQ-fZSxQz3eSWqmkt7kO-DvI9H0"
 }

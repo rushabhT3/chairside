@@ -25,4 +25,5 @@ table "envelope" {
     {type: "btree", field: [{name: "consultation_ref"}]}
     {type: "btree", field: [{name: "provider_id"}]}
   ]
+  guid = "nm5OsrWyvV5ILbN__jV98rqTGo8"
 }

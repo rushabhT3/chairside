@@ -56,4 +56,5 @@ function "esign/create_folder" {
     embedded_token: $session.embeddedToken,
     signer_email: $session.emailIdOfSigner
   }
+  guid = "GCoPzfbd2P_Cr7RTGqPcHfPqEkM"
 }

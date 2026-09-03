@@ -59,4 +59,5 @@ query "orders" verb=POST {
     } as $appended
   }
   response = { id: $order.id, order_id: $order.id, total_cents: $order.total_cents }
+  guid = "cvEhC6aqa372pA_GTUBPJTcgaZU"
 }

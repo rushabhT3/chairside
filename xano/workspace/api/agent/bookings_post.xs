@@ -59,4 +59,5 @@ query "bookings" verb=POST {
     } as $appended
   }
   response = { id: $booking.id, booking_id: $booking.id, when: $booking.when_at, service: $booking.service }
+  guid = "_IY-v5IGSNbtUn2FJTTHTEFhJ1o"
 }

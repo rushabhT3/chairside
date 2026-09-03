@@ -81,4 +81,5 @@ tool "book_appointment" {
     } as $appended
   }
   response = { booking_id: $booking.id, salon: $salon.name, chair: $chair, service: $booking.service, when: $booking.when_at }
+  guid = "S5RL75L4d1kV-NHqh-gStvL2JY0"
 }

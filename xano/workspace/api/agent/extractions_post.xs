@@ -31,4 +31,5 @@ query "extractions" verb=POST {
     } as $task
   }
   response = { extraction_id: $task.id, needs_review: $task.needs_review, quarantined: $task.quarantined }
+  guid = "8uPVZhSLDJsJP4KHYN2hp-uZ5WA"
 }

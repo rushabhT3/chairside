@@ -43,4 +43,5 @@ query "shade_map/{id}" verb=PATCH {
     } as $updated
   }
   response = $updated
+  guid = "B5B7jCO_C9F5pEmTnyu-tjJvGQo"
 }

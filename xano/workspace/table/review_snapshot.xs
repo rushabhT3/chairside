@@ -16,4 +16,5 @@ table "review_snapshot" {
     {type: "btree", field: [{name: "consultation_ref"}]}
     {type: "btree", field: [{name: "salon_id"}]}
   ]
+  guid = "kZRd1lOdir9SLxduyv4l1EHcR04"
 }

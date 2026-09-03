@@ -15,4 +15,5 @@ table "price_snapshot" {
     {type: "primary", field: [{name: "id"}]}
     {type: "btree", field: [{name: "sku_id"}, {name: "as_of_ts", op: "desc"}]}
   ]
+  guid = "s0YniADTdouxHxwjRgQqJxijZ90"
 }

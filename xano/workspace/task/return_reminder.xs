@@ -37,4 +37,5 @@ task "return_reminder" {
   }
   schedule = [{starts_on: 2026-09-01 07:00:00+0000, freq: 86400}]
   tags = ["bookings", "retention"]
+  guid = "PDKqmd8kWbDj7XyR_Snf77NjiYQ"
 }

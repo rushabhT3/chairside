@@ -17,4 +17,5 @@ table "domain" {
     {type: "btree|unique", field: [{name: "domain_name"}]}
     {type: "btree", field: [{name: "salon_id"}]}
   ]
+  guid = "m17TG4vqyVyxmLLiTXs5Kc5QtQ4"
 }

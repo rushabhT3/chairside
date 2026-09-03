@@ -15,4 +15,5 @@ table "staff" {
     {type: "btree", field: [{name: "salon_id"}]}
     {type: "btree|unique", field: [{name: "user_id"}]}
   ]
+  guid = "ChydGcaKFsEdr4tg18o6cFpOnIQ"
 }

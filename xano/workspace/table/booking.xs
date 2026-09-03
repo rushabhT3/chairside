@@ -21,4 +21,5 @@ table "booking" {
     {type: "btree", field: [{name: "client_id"}]}
     {type: "btree", field: [{name: "consultation_ref"}]}
   ]
+  guid = "HwXVt8AiPtinQ8yEEPJDAGKgTk0"
 }

@@ -18,4 +18,5 @@ table "sku" {
     {type: "btree|unique", field: [{name: "salon_id"}, {name: "code"}]}
     {type: "btree", field: [{name: "shade_code"}]}
   ]
+  guid = "FdVOZ4RGVP2dW37EugKlnKnIraY"
 }

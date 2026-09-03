@@ -14,4 +14,5 @@ query "price_watch" verb=GET {
     } as $snapshot
   }
   response = $snapshot.price_watch
+  guid = "j7uGxZO3wqkIhhbFu9daBkdF5qc"
 }

@@ -22,4 +22,5 @@ function "esign/access_token" {
     }
   }
   response = $token_result.response.result.access_token
+  guid = "jWeLS06zB9b4AWC2iVgWxnBFZG0"
 }

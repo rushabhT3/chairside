@@ -25,4 +25,5 @@ query "attribution" verb=GET {
     }
   }
   response = $rows
+  guid = "kOq6loCG0PD0z8K17E7m25ShTU4"
 }

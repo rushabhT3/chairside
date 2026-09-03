@@ -16,4 +16,5 @@ table "user" {
     {type: "btree", field: [{name: "salon_id"}]}
     {type: "btree", field: [{name: "role"}]}
   ]
+  guid = "_kkFS0bg4E070VrLRU3ngT-u--8"
 }

@@ -29,4 +29,5 @@ query "shade_map" verb=POST {
     } as $entry
   }
   response = $entry
+  guid = "Dyzz_2mZF3s4bBd6TMcPvuWMVGc"
 }

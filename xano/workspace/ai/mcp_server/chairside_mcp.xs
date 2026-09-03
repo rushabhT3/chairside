@@ -14,4 +14,5 @@ mcp_server "chairside-mcp" {
     { name: "get_consultation_summary", auth: "user" },
     { name: "price_check", auth: "user" }
   ]
+  guid = "6PWdQdI9gvVogX5nmJS8hHT18j0"
 }

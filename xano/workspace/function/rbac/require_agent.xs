@@ -10,4 +10,5 @@ function "rbac/require_agent" {
     }
   }
   response = true
+  guid = "gTAO8knS2zKfE2dPwYtY2SBc7X8"
 }

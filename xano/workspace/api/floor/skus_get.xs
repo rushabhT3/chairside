@@ -16,4 +16,5 @@ query "skus" verb=GET {
     } as $skus
   }
   response = $skus
+  guid = "67cKLYvxna6FhdnYzQmDnLtBI04"
 }

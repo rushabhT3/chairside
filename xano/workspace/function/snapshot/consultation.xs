@@ -314,4 +314,5 @@ function "snapshot/consultation" {
     order: $order,
     booking: $booking
   }
+  guid = "i3FD5VDV6LenKoFiIlNLcNDc7qk"
 }

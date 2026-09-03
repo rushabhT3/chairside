@@ -33,4 +33,5 @@ query "onboarding" verb=PATCH {
     }
   }
   response = $onboarding
+  guid = "EUypeiZDJt9qtq0x7rB3ad6URJU"
 }

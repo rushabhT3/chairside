@@ -15,4 +15,5 @@ table "plan_item" {
     {type: "primary", field: [{name: "id"}]}
     {type: "btree", field: [{name: "plan_id"}]}
   ]
+  guid = "mnnkJjX8yfKN2eJoG99Cz3IrEMY"
 }

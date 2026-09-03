@@ -74,4 +74,5 @@ query "extractions/{id}/confirm" verb=POST {
     } as $appended
   }
   response = $updated
+  guid = "i8rts-QrJ0_UeEVnXqNjMjsYDjI"
 }

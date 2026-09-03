@@ -19,4 +19,5 @@ table "salon" {
     {type: "primary", field: [{name: "id"}]}
     {type: "btree", field: [{name: "owner_user_id"}]}
   ]
+  guid = "5tIopuVZ-ilKHR_GYjP3ie56Jzk"
 }

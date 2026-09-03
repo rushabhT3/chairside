@@ -37,4 +37,5 @@ query "signup" verb=POST {
     } as $authToken
   }
   response = { authToken: $authToken }
+  guid = "U1KzW4NVhu32F9mztpGTvDGClQU"
 }

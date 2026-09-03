@@ -20,4 +20,5 @@ table "simulation" {
     {type: "primary", field: [{name: "id"}]}
     {type: "btree", field: [{name: "consultation_ref"}]}
   ]
+  guid = "esv2o1AlUU3fJ6d02z6qVbFQh80"
 }

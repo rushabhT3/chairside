@@ -13,4 +13,5 @@ function "price/median_cents" {
     var $median { value = $sorted|get:($middle|floor) }
   }
   response = $median
+  guid = "hKubOI-fgqTYDRAvvJC7sSyp-WA"
 }

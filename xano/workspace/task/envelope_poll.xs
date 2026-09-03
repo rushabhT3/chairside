@@ -77,4 +77,5 @@ task "envelope_poll" {
   }
   schedule = [{starts_on: 2026-09-01 00:00:00+0000, freq: 120}]
   tags = ["esign", "envelopes"]
+  guid = "DBlKh7E2nf8bwAjUZwxJ3bk8hy8"
 }

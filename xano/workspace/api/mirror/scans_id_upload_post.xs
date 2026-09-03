@@ -40,4 +40,5 @@ query "scans/{id}/upload" verb=POST {
     } as $signed_url
   }
   response = { scan_id: $scan.ref, image_url: $signed_url, expires_in: 900 }
+  guid = "zwfgw7hcFoqKNA0dL_Hbkv3CTTA"
 }

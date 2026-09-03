@@ -14,4 +14,5 @@ table "onboarding" {
     {type: "primary", field: [{name: "id"}]}
     {type: "btree|unique", field: [{name: "salon_id"}]}
   ]
+  guid = "3hEd8cY4cptNwJiCttk36jAs_d0"
 }

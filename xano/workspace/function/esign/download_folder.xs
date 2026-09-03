@@ -21,4 +21,5 @@ function "esign/download_folder" {
     }
   }
   response = $download_result.response.result
+  guid = "Je2NpBde-AN1ijbBny2wNucRfco"
 }

@@ -17,4 +17,5 @@ table "audit_event" {
     {type: "btree|unique", field: [{name: "prev_hash"}]}
     {type: "btree|unique", field: [{name: "event_id"}]}
   ]
+  guid = "628GwmoNvqvuaJ7Ps6jJbw63jU8"
 }

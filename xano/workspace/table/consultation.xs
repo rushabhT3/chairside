@@ -24,4 +24,5 @@ table "consultation" {
     {type: "btree", field: [{name: "client_id"}]}
     {type: "btree", field: [{name: "state"}]}
   ]
+  guid = "_R4gRN3_rUemsQ36QrkYOfhmYFU"
 }

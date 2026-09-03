@@ -45,4 +45,5 @@ query "events" verb=POST {
     }
   }
   response = { audit: $audits }
+  guid = "EieoEGYa-ZMwBr-51tt735YSw5Y"
 }

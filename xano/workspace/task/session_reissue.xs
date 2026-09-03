@@ -31,4 +31,5 @@ task "session_reissue" {
   }
   schedule = [{starts_on: 2026-09-01 00:00:00+0000, freq: 300}]
   tags = ["esign", "envelopes"]
+  guid = "z3ttgxqtjJ35TcSJWE2c7KY4dEY"
 }

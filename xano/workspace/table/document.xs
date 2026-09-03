@@ -17,4 +17,5 @@ table "document" {
     {type: "btree", field: [{name: "consultation_ref"}]}
     {type: "btree", field: [{name: "salon_id"}, {name: "kind"}]}
   ]
+  guid = "F4D6da6GccIh4_ty1HT_P1qRZck"
 }

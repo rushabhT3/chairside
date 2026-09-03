@@ -14,4 +14,5 @@ table "product_identity" {
     {type: "btree", field: [{name: "consultation_ref"}]}
     {type: "btree", field: [{name: "sku_id"}]}
   ]
+  guid = "Nc5fOb5MbCF373KpBpcHt0XLhwU"
 }

@@ -44,4 +44,5 @@ query "clients/{id}/retention" verb=POST {
     }
   }
   response = { client_id: $client.ref, retained: $input.retained }
+  guid = "Ly3Ewb-GHRMyt04DdBBq9BMxXQU"
 }

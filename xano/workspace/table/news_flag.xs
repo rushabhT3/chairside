@@ -16,4 +16,5 @@ table "news_flag" {
     {type: "btree", field: [{name: "sku_id"}, {name: "created_at", op: "desc"}]}
     {type: "btree", field: [{name: "consultation_ref"}]}
   ]
+  guid = "RVLS8GNRHPTZz72A7rGOtBTfRz0"
 }

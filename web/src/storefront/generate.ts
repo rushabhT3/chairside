@@ -1,3 +1,4 @@
+import { siteRelativeHref } from "../lib/assetUrl";
 import type { Salon } from "../lib/snapshot";
 
 export interface StorefrontLook {
@@ -59,7 +60,7 @@ export function generateStorefront(salon: Salon, looks: StorefrontLook[], mirror
   const looksHtml = looks
     .map(
       (look) =>
-        `<li><figure><img src="${escapeHtml(look.image_url)}" alt="${escapeHtml(look.label)}" width="400" height="520" loading="lazy"><figcaption>${escapeHtml(look.label)}</figcaption></figure></li>`,
+        `<li><figure><img src="${escapeHtml(siteRelativeHref(look.image_url))}" alt="${escapeHtml(look.label)}" width="400" height="520" loading="lazy"><figcaption>${escapeHtml(look.label)}</figcaption></figure></li>`,
     )
     .join("");
   const servicesHtml = services.map((s) => `<tr><td>${escapeHtml(s.name)}</td><td>${euro(s.price_cents)}</td></tr>`).join("");

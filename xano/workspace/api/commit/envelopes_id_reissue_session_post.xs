@@ -60,4 +60,5 @@ query "envelopes/{id}/reissue-session" verb=POST {
     } as $appended
   }
   response = { session_url: $session.session_url, expires_at: $expires_at, provider_id: $envelope.provider_id }
+  guid = "3OuUVbwc07oZSrqT8R0Ltm0yVg0"
 }

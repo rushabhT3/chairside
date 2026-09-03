@@ -54,4 +54,5 @@ query "skus" verb=POST {
     }
   }
   response = { written: $written }
+  guid = "TQdWZMAQuINt2IMNLx2vg-G5r1U"
 }

@@ -15,4 +15,5 @@ table "shade_map" {
     {type: "primary", field: [{name: "id"}]}
     {type: "btree|unique", field: [{name: "salon_id"}, {name: "line"}, {name: "code"}]}
   ]
+  guid = "pI1GchSo39GqeiDifTCZeQK59Lc"
 }

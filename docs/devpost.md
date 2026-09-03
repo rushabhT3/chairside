@@ -13,7 +13,10 @@ Google ADK, MCP, Perfect Corp YouCam API, SerpApi, Xano, Nutrient DWS, Foxit PDF
 
 ## Try it out
 - Storefront (salon domain): https://ateliernoor.com
-- Floor (pro console): the Xano static-hosting URL from `xano/README.md` step 6
+- Floor (pro console): https://rushabht3.github.io/chairside/floor/
+- Mirror (client PWA): https://rushabht3.github.io/chairside/mirror/
+- Storefront (fixtures): https://rushabht3.github.io/chairside/storefront/
+- Xano backend: https://xqbd-rqmo-jj2a.m2.xano.io (workspace `chairside`, API groups `chairside-*`)
 - Repo: https://github.com/rushabhT3/chairside
 
 ## Video

@@ -30,4 +30,5 @@ query "consultations/{id}" verb=GET {
     } as $projection
   }
   response = $projection
+  guid = "zZZq99CVxduvhuEjCuC0ShzNhlY"
 }

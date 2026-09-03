@@ -57,4 +57,5 @@ tool "get_consultation_summary" {
     order: $projection.order,
     booking: $projection.booking
   }
+  guid = "9oZ7bVWgHjKFuQSKGEJ1hFODUgE"
 }

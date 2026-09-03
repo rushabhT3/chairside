@@ -18,4 +18,5 @@ table "plan" {
     {type: "primary", field: [{name: "id"}]}
     {type: "btree|unique", field: [{name: "consultation_ref"}]}
   ]
+  guid = "Gndy1DWsKuPhrpxXOHoiZswtuw8"
 }

@@ -16,4 +16,5 @@ query "shade_map" verb=GET {
     } as $entries
   }
   response = $entries
+  guid = "GFtp-0AESenp5IqH4GokBavDPlA"
 }

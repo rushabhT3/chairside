@@ -11,4 +11,5 @@ query "me" verb=GET {
     } as $user
   }
   response = { id: $user.id, name: $user.name, email: $user.email, role: $user.role, salon_id: $user.salon_id }
+  guid = "Jf31CqUof-MMZpI6rPKZx1A5WUk"
 }

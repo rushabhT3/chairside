@@ -32,4 +32,5 @@ query "envelopes/{id}/review" verb=POST {
     } as $updated
   }
   response = { envelope_id: $updated.id, state: $updated.state }
+  guid = "UqRhND5tBPmu-9vV8T9ssk0Ldbg"
 }

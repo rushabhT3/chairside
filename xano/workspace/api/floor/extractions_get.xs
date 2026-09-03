@@ -17,4 +17,5 @@ query "extractions" verb=GET {
     } as $rows
   }
   response = $rows
+  guid = "3moNkqXjNniur2U-31LwH3Ki8gU"
 }

@@ -18,4 +18,5 @@ table "consultation_event" {
     {type: "btree", field: [{name: "salon_id"}]}
     {type: "btree", field: [{name: "type"}]}
   ]
+  guid = "bdXKGCfBzfaJujpkqy-j_oj47YA"
 }

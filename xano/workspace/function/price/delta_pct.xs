@@ -12,4 +12,5 @@ function "price/delta_pct" {
     var $delta { value = ((($input.salon_price_cents - $input.median_cents) * 100) / $input.median_cents)|round }
   }
   response = $delta
+  guid = "mTuUBzCehgOX7Lm7muX13C1DcYE"
 }

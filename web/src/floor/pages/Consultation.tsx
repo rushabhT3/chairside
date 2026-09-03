@@ -3,6 +3,7 @@ import { ServerChip, StateChip } from "../components/Chips";
 import { PageHeader } from "../components/PageHeader";
 import { Empty, WithSnapshot } from "../components/States";
 import { TraceTimeline } from "../components/TraceTimeline";
+import { assetUrl } from "../../lib/assetUrl";
 import { formatCents, formatClock, formatDate, shortHash } from "../format";
 import type { SnapshotState } from "../useSnapshot";
 import type { Consultation as ConsultationRecord, PlanItem, PriceRow, Scan } from "../../lib/snapshot";
@@ -192,8 +193,8 @@ function Simulations({ c }: { c: ConsultationRecord }) {
       {c.simulations.map((s) => (
         <figure key={`${s.tool}-${s.label}`} className="sim">
           <div className="sim__pair">
-            <img src={s.before_url} alt={`Before · ${s.label}`} width={200} height={260} loading="lazy" />
-            <img src={s.after_url} alt={`After · ${s.label}`} width={200} height={260} loading="lazy" />
+            <img src={assetUrl(s.before_url)} alt={`Before · ${s.label}`} width={200} height={260} loading="lazy" />
+            <img src={assetUrl(s.after_url)} alt={`After · ${s.label}`} width={200} height={260} loading="lazy" />
           </div>
           <figcaption>
             {s.label}

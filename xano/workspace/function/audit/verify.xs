@@ -37,4 +37,5 @@ function "audit/verify" {
     }
   }
   response = { ok: $ok, checked: $idx, first_bad_index: $first_bad_index, total: ($rows|count) }
+  guid = "3i3ZMXiPi0FvY6bPMSb-XhK9IV4"
 }

@@ -66,4 +66,5 @@ query "clients/{id}/data" verb=DELETE {
     } as $appended
   }
   response = { client_id: $client.ref, tombstoned: true, scans_deleted: $deleted_scans }
+  guid = "AabvyWQUXCvEX4IBxXgZHhrj_bM"
 }

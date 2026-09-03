@@ -28,4 +28,5 @@ query "onboarding/{salon_id}/review-docs" verb=POST {
     } as $updated
   }
   response = { salon_id: $input.salon_id, docs_reviewed: true }
+  guid = "v-siZ-OsrBPZdi2jERrA4DlCF3U"
 }

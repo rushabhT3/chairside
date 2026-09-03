@@ -43,4 +43,5 @@ query "skus/{id}" verb=PATCH {
     } as $updated
   }
   response = $updated
+  guid = "IooLqqPR8senhixjRBSRY5zmt38"
 }

@@ -14,4 +14,5 @@ query "chairs" verb=GET {
     } as $snapshot
   }
   response = $snapshot.chairs
+  guid = "lx9D2qXAQHUesOF9_EXTyffZLgI"
 }

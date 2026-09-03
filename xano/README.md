@@ -45,6 +45,8 @@ xano workspace push -d ./xano/workspace --dry-run
 xano workspace push -d ./xano/workspace
 ```
 
+Pushed on 3 Sep 2026 to instance `xqbd-rqmo-jj2a`, workspace `chairside` (ID 1), with `xano workspace edit --allow-push -w 1` first and then one push per layer (`-i "table/**"`, `"function/**"`, `"api/**"`, `"task/**"`, `"ai/**"`, each with `--force` because the CLI refuses the confirmation prompt outside a TTY). The workspace-settings document (`workspace/chairside.xs`) is rejected by the Metadata API with `Multidoc import failed: An unknown error occurred`, even when pushed verbatim as pulled, so description, AI-terms acceptance, and env-var names are set in the dashboard.
+
 Rules:
 - Never push with `--env`. `workspace/chairside.xs` declares the env var **names** with empty values; the secrets are set in the dashboard (Settings → Environment Variables).
 - `push` is additive. Use `--sync` only when a destructive schema change is intended.

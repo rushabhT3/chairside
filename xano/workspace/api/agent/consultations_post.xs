@@ -63,4 +63,5 @@ query "consultations" verb=POST {
     } as $appended
   }
   response = { id: $consultation.ref, consultation_id: $consultation.ref, client_id: $client.ref, chair: $input.chair, stylist: $input.stylist }
+  guid = "kpi8O9Gytmo64JPwSbZRtV2SsBc"
 }

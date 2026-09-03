@@ -34,4 +34,5 @@ query "consultations/{id}/state" verb=PATCH {
     } as $updated
   }
   response = { consultation_id: $updated.ref, state: $updated.state, failing_step: $updated.failing_step, consent_ready: $updated.consent_ready }
+  guid = "BiQ69MmM9bpQD_bIxPBXcf6Tg2I"
 }

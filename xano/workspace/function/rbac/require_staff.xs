@@ -24,4 +24,5 @@ function "rbac/require_staff" {
     }
   }
   response = true
+  guid = "zI7oB-8eYDH9BoKFAPob1hTx4Os"
 }

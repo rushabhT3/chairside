@@ -69,4 +69,5 @@ function "audit/append" {
     } as $row
   }
   response = $row
+  guid = "W_3kBOQBbZJziCYsQcmTIJ1ukBI"
 }

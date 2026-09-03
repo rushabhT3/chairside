@@ -238,4 +238,5 @@ function "snapshot/build" {
     cost: { per_consultation: $per_consultation, per_onboarding: $per_onboarding, weekly_refresh: $weekly_refresh },
     quarantine: $quarantine
   }
+  guid = "ZrddCafIA9zrHsQ7fHv_g6G3KZQ"
 }

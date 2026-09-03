@@ -14,4 +14,5 @@ query "cost" verb=GET {
     } as $snapshot
   }
   response = $snapshot.cost
+  guid = "MUuIY1n2R6xTSpDXdfOHblUUJws"
 }

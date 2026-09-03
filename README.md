@@ -95,7 +95,7 @@ Click path:
 5. **Floor → Ledger**: press Verify. The chain recomputes in the browser. The red hairline row is `redteam.esign_denied`; the quarantine row is the adversarial intake.
 6. **Mirror → Return**: the six-week overlay with per-concern deltas.
 
-The hosted build is deployed to Xano static hosting with `xano/README.md`; the URLs are on the Devpost page.
+Live (fixtures mode, same build as the repo): [Mirror](https://rushabht3.github.io/chairside/mirror/) · [Floor](https://rushabht3.github.io/chairside/floor/) · [Storefront](https://rushabht3.github.io/chairside/storefront/), deployed by `.github/workflows/pages.yml`. The identical build is uploaded to Xano static hosting (`xano static_host build push` + `deploy`, see `xano/README.md`) at https://chairside-prod-e0cc87-xqbd-rqmo-jj2a.m2.xano.io/mirror/; that host is provisioning on Xano's side at submission time.
 
 ---
 
@@ -135,7 +135,7 @@ The LLM narrates; code decides. Anything that affects money, consent, or data is
 | `sku_shade_map` | shade code → hex/undertone/level from the salon-edited table; unknown code raises | `test_core_shade_map.py` |
 | `quarantine_policy` | instruction-like text, VAT and line-total arithmetic (Decimal, ROUND_HALF_UP), duplicate invoice numbers, multi-face scans, missing consent | `test_core_quarantine.py` |
 
-Every step of both agents writes a `consultation_event`; Floor, the ledger, and `chairside_agent replay <id>` are projections of that stream. The agent suite is 135 tests: the five core functions, the parse-prompt grammar, one contract test file per vendor over its cassettes, both state machines end to end in fixtures mode (including a monkeypatched failure that must halt at `needs_attention`), replay, and the red-team command. The web suite is 27 tests: the hash chain against the shared vectors, the snapshot's 202-row chain, price-bar math, contrast, and the storefront size cap. Every adapter has a live path and a fixtures path; `scripts/record_fixtures.py` makes one real call per primitive with `RECORD=1` and writes the cassette that fixtures mode replays. Contract tests per vendor run against the cassettes.
+Every step of both agents writes a `consultation_event`; Floor, the ledger, and `chairside_agent replay <id>` are projections of that stream. The agent suite is 135 tests: the five core functions, the parse-prompt grammar, one contract test file per vendor over its cassettes, both state machines end to end in fixtures mode (including a monkeypatched failure that must halt at `needs_attention`), replay, and the red-team command. The web suite is 32 tests: the hash chain against the shared vectors, the snapshot's 202-row chain, price-bar math, contrast, asset-URL resolution under a sub-path deploy, and the storefront size cap. Every adapter has a live path and a fixtures path; `scripts/record_fixtures.py` makes one real call per primitive with `RECORD=1` and writes the cassette that fixtures mode replays. Contract tests per vendor run against the cassettes.
 
 ```bash
 cd agent && uv sync --group dev

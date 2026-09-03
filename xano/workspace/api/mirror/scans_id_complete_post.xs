@@ -41,4 +41,5 @@ query "scans/{id}/complete" verb=POST {
     } as $appended
   }
   response = { scan_id: $scan.ref, image_sha256: $input.image_sha256, retained: $input.retained }
+  guid = "7vQxofGBGevbGkRVEgQw0EPpfws"
 }

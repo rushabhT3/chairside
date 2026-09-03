@@ -34,4 +34,5 @@ function "esign/regenerate_session" {
     session_url: $body.embeddedSessionURL,
     embedded_token: $body.embeddedToken
   }
+  guid = "_R-VJl-c-rD_4HxtrL_j0RZ6PB4"
 }

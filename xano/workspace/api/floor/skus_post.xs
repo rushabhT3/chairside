@@ -30,4 +30,5 @@ query "skus" verb=POST {
     } as $sku
   }
   response = $sku
+  guid = "NPPhu4I3uf8_lCbim931_BQ05fk"
 }

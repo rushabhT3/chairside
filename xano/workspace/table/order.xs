@@ -19,4 +19,5 @@ table "order" {
     {type: "btree", field: [{name: "salon_id"}, {name: "created_at", op: "desc"}]}
     {type: "btree", field: [{name: "stylist_staff_id"}]}
   ]
+  guid = "V26BpMmw3lZ41QVbrFUb7KXk5Uw"
 }

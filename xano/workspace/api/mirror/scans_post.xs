@@ -43,4 +43,5 @@ query "scans" verb=POST {
     scan_id: $scan.ref,
     upload_url: $env.$api_baseurl ~ "/api:chairside-mirror/scans/" ~ $scan.ref ~ "/upload"
   }
+  guid = "QfnomWkHdzESTQdEq-vx0CYtVtE"
 }

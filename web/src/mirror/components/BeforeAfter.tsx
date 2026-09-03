@@ -1,5 +1,6 @@
 import { useState } from "react";
 import type { CSSProperties } from "react";
+import { assetUrl } from "../../lib/assetUrl";
 
 export interface BeforeAfterProps {
   beforeUrl: string;
@@ -27,9 +28,9 @@ export function BeforeAfter({ beforeUrl, afterUrl, label }: BeforeAfterProps) {
 
   return (
     <div className="ba" style={splitStyle}>
-      <img className="ba-before" src={beforeUrl} alt="Before" onError={() => setFailed(true)} />
+      <img className="ba-before" src={assetUrl(beforeUrl)} alt="Before" onError={() => setFailed(true)} />
       <div className="ba-after-clip" aria-hidden="true">
-        <img className="ba-after" src={afterUrl} alt="" onError={() => setFailed(true)} />
+        <img className="ba-after" src={assetUrl(afterUrl)} alt="" onError={() => setFailed(true)} />
       </div>
       <span className="ba-handle" aria-hidden="true" />
       <input

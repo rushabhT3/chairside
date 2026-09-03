@@ -36,4 +36,5 @@ query "shade_map" verb=PUT {
     }
   }
   response = { written: $written }
+  guid = "wxHMU3lsoAxEdDHSBUgWUx2CwbY"
 }

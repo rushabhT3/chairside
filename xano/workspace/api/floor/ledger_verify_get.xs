@@ -14,4 +14,5 @@ query "ledger/verify" verb=GET {
     } as $result
   }
   response = $result
+  guid = "OSQSdDqX1nm9piKEUb2AZm5kV6o"
 }

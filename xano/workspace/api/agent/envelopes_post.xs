@@ -62,4 +62,5 @@ query "envelopes" verb=POST {
     } as $appended
   }
   response = { envelope_id: $envelope.id, state: $envelope.state }
+  guid = "yUXyqUlpN2cJXCKqj6fbbikEbAc"
 }

@@ -56,4 +56,5 @@ tool "price_check" {
     delta_pct: $delta,
     action: $action
   }
+  guid = "m-CLHWM3YGR52SGBiK5WmvBe5YY"
 }

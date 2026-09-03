@@ -17,4 +17,5 @@ query "snapshot" verb=GET {
     } as $snapshot
   }
   response = $snapshot
+  guid = "2463v_7kfnnjGz4tesm8QT-gZ9I"
 }

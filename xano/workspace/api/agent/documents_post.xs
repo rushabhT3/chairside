@@ -30,4 +30,5 @@ query "documents" verb=POST {
     } as $document
   }
   response = { document_id: $document.id, kind: $document.kind, sealed_hash: $document.sealed_hash }
+  guid = "B944zIYOObDL4vTRYK3V_2c7C2o"
 }

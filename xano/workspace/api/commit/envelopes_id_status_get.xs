@@ -56,4 +56,5 @@ query "envelopes/{id}/status" verb=GET {
     }
   }
   response = { envelope_id: $envelope.id, state: $envelope.state, session_url: $session_url, expires_at: $envelope.expires_at, sealed_hash: $sealed_hash }
+  guid = "4WYvtLZXNshrH6gi8ddAvWVXDhw"
 }

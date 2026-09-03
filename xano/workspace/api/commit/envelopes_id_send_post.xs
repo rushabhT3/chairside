@@ -123,4 +123,5 @@ query "envelopes/{id}/send" verb=POST {
     } as $appended
   }
   response = { session_url: $folder.session_url, expires_at: $expires_at, provider_id: $folder.folder_id }
+  guid = "evSfTxkIM8wFwbMy6W0IC6tipIw"
 }

@@ -64,4 +64,5 @@ query "plans/{id}" verb=PATCH {
     } as $updated
   }
   response = $updated
+  guid = "tvmPy9MkZu4IUgkmJUTbcIAhRdk"
 }

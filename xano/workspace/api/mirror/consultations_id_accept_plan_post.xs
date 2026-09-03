@@ -59,4 +59,5 @@ query "consultations/{id}/accept-plan" verb=POST {
     } as $appended
   }
   response = { accepted: true, plan_id: $plan.id, total_cents: $plan.total_cents }
+  guid = "6QGp9ylwHE3KHSdU7qswmGuvr6M"
 }

@@ -21,4 +21,5 @@ function "esign/get_folder" {
     }
   }
   response = $folder_result.response.result
+  guid = "mNLCCLQZMNdhwWNryi_XnmWGg8Y"
 }

@@ -29,6 +29,8 @@ jobs:
           cache-dependency-path: web/package-lock.json
       - run: npm ci
       - run: npm run build
+        env:
+          VITE_RENDER_PROXY_URL: https://chairside-render.therapeutic-feta.workers.dev
       - run: npm run build:storefront
       - uses: actions/upload-pages-artifact@v3
         with:

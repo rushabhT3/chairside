@@ -7,6 +7,7 @@ import { ClientDataDeletedError, mirrorApi } from "../lib/xano";
 export type MirrorStatus = "loading" | "ready" | "error" | "deleted";
 
 export interface CapturedScan {
+  image: Blob;
   sha256: string;
   width: number;
   height: number;

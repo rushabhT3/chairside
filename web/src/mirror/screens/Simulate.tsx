@@ -1,7 +1,9 @@
 import { useState } from "react";
 import { formatTime } from "../../lib/format";
 import type { ShadeEntry, Simulation } from "../../lib/snapshot";
+import { isLiveRenderAvailable } from "../../lib/renderProxy";
 import { BeforeAfter } from "../components/BeforeAfter";
+import { LiveRender } from "../components/LiveRender";
 import { Button } from "../components/Button";
 import { Notice } from "../components/Notice";
 import { ShadeChip } from "../components/ShadeChip";
@@ -33,7 +35,7 @@ function RenderFooter({ simulation, note }: { simulation: Simulation; note: stri
 }
 
 export function Simulate() {
-  const { status, consultation, shadeMap } = useMirrorState();
+  const { status, consultation, shadeMap, captured } = useMirrorState();
   const [tab, setTab] = useState<Tab>("hair");
   const [shade, setShade] = useState<ShadeEntry | null>(null);
   const [styleIndex, setStyleIndex] = useState(0);
@@ -44,6 +46,8 @@ export function Simulate() {
   const hairRender = shade ? simulations.find((s) => matchesShade(s, shade)) : simulations[0];
   const activeShade =
     shade ?? shadeMap.find((entry) => hairRender && matchesShade(hairRender, entry)) ?? null;
+
+  const live = captured !== null && isLiveRenderAvailable();
 
   const renderHair = () => (
     <>
@@ -58,7 +62,9 @@ export function Simulate() {
           />
         ))}
       </div>
-      {hairRender ? (
+      {live && activeShade ? (
+        <LiveRender scan={captured.image} shade={activeShade} />
+      ) : hairRender ? (
         <>
           <BeforeAfter beforeUrl={hairRender.before_url} afterUrl={hairRender.after_url} label={hairRender.label} />
           <RenderFooter simulation={hairRender} note={activeShade?.code ?? hairRender.label} />

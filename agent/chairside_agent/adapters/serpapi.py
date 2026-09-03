@@ -149,9 +149,9 @@ class SerpApiAdapter(VendorAdapter):
         http: httpx.AsyncClient | None = None,
     ) -> None:
         super().__init__(settings, events, http)
-        settings.require("serpapi_api_key")
 
     async def _search(self, params: dict[str, Any]) -> dict[str, Any]:
+        self.settings.require("serpapi_api_key")
         response = await self.http.get(
             SEARCH_URL, params={**params, "api_key": self.settings.serpapi_api_key}
         )

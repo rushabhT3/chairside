@@ -84,9 +84,9 @@ class NameComAdapter(VendorAdapter):
         http: httpx.AsyncClient | None = None,
     ) -> None:
         super().__init__(settings, events, http)
-        settings.require("namecom_username", "namecom_token")
 
     async def _send(self, request: dict[str, Any]) -> dict[str, Any]:
+        self.settings.require("namecom_username", "namecom_token")
         url = f"{self.settings.namecom_base_url}{request['path']}"
         auth = httpx.BasicAuth(self.settings.namecom_username, self.settings.namecom_token)
         for attempt in range(1, MAX_ATTEMPTS + 1):

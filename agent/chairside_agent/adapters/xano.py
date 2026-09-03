@@ -37,6 +37,12 @@ def empty_store() -> dict[str, Any]:
     return {name: {} for name in COLLECTIONS} | {"counters": {}}
 
 
+def live_path(path: str) -> str:
+    """Each contract group is a Xano API group: `/agent/events` -> `/api:chairside-agent/events`."""
+    group, _, rest = path.lstrip("/").partition("/")
+    return f"/api:chairside-{group}/{rest}"
+
+
 class LocalStore:
     def __init__(self, path: Path) -> None:
         self.path = path
@@ -83,7 +89,10 @@ class XanoAdapter(VendorAdapter):
     async def _rest(self, method: str, path: str, body: dict[str, Any] | None) -> dict[str, Any]:
         self.settings.require("xano_base_url", "xano_agent_token")
         response = await self.http.request(
-            method, f"{self.settings.xano_base_url}{path}", json=body, headers=self._headers()
+            method,
+            f"{self.settings.xano_base_url}{live_path(path)}",
+            json=body,
+            headers=self._headers(),
         )
         response.raise_for_status()
         return response.json() if response.content else {}

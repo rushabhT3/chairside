@@ -15,6 +15,7 @@ from pydantic import BaseModel
 
 from chairside_agent import fixtures
 from chairside_agent.adapters.base import VendorAdapter
+from chairside_agent.adapters.xano import live_path
 from chairside_agent.events import EventType
 
 ESIGN_CREATE_ENVELOPE_PATH = "/esign/api/v1/folders/createfolder"
@@ -48,7 +49,10 @@ class EsignProxy(VendorAdapter):
     async def _xano(self, method: str, path: str, body: dict[str, Any] | None) -> dict[str, Any]:
         self.settings.require("xano_base_url", "xano_agent_token")
         response = await self.http.request(
-            method, f"{self.settings.xano_base_url}{path}", json=body, headers=self._xano_headers()
+            method,
+            f"{self.settings.xano_base_url}{live_path(path)}",
+            json=body,
+            headers=self._xano_headers(),
         )
         response.raise_for_status()
         return response.json()

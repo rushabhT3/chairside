@@ -75,7 +75,7 @@ async def test_live_path_hits_contract_endpoints(tmp_path) -> None:
 
     def handler(request: httpx.Request) -> httpx.Response:
         body = json.loads(request.content) if request.content else {}
-        path = request.url.path.removeprefix("/api:v1")
+        path = request.url.path.replace("/api:chairside-", "/", 1)
         calls.append((request.method, path, body))
         assert request.headers["Authorization"] == "Bearer agent-token"
         if path == "/agent/events":
@@ -99,7 +99,7 @@ async def test_live_path_hits_contract_endpoints(tmp_path) -> None:
     settings = Settings.from_env(
         {
             "CHAIRSIDE_MODE": "live",
-            "XANO_BASE_URL": "https://xano.example/api:v1",
+            "XANO_BASE_URL": "https://xano.example",
             "XANO_AGENT_TOKEN": "agent-token",
             "CHAIRSIDE_STATE_DIR": str(tmp_path / "state"),
             "CHAIRSIDE_FIXTURES_DIR": str(PACKAGE_DIR / "fixtures"),

@@ -186,9 +186,9 @@ class NutrientAdapter(VendorAdapter):
         http: httpx.AsyncClient | None = None,
     ) -> None:
         super().__init__(settings, events, http)
-        settings.require("nutrient_api_key")
 
     def _headers(self) -> dict[str, str]:
+        self.settings.require("nutrient_api_key")
         return {"Authorization": f"Bearer {self.settings.nutrient_api_key}"}
 
     async def extract(

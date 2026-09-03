@@ -27,7 +27,7 @@ query "events" verb=POST {
             payload: $event.payload ?? {},
             ts: $event.ts,
             actor: $event.actor ?? "agent",
-            payload_hash: $event.payload_hash
+            payload_hash: ($event|get:"payload_hash":null)
           }
         } as $appended
         var.update $audits {

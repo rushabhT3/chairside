@@ -2,12 +2,12 @@
   "vendor": "namecom",
   "primitive": "search",
   "variant": "default",
-  "recorded_at": "2026-09-03T08:30:00+00:00",
+  "recorded_at": "2026-09-03T14:57:16+00:00",
   "request": {
     "method": "POST",
     "path": "/core/v1/domains:search",
     "body": {
-      "keyword": "atelier noor",
+      "keyword": "ateliernoor",
       "tldFilter": [
         "com",
         "fr",
@@ -20,66 +20,112 @@
     "results": [
       {
         "domainName": "ateliernoor.com",
+        "purchasable": false,
         "sld": "ateliernoor",
-        "tld": "com",
-        "purchasable": true,
-        "premium": false,
-        "purchasePrice": 12.99,
-        "purchaseType": "registration",
-        "renewalPrice": 12.99
-      },
-      {
-        "domainName": "ateliernoor.fr",
-        "sld": "ateliernoor",
-        "tld": "fr",
-        "purchasable": true,
-        "premium": false,
-        "purchasePrice": 9.99,
-        "purchaseType": "registration",
-        "renewalPrice": 9.99
+        "tld": "com"
       },
       {
         "domainName": "ateliernoor.paris",
+        "premium": false,
+        "purchasable": true,
+        "purchasePrice": 65.99,
+        "purchaseType": "registration",
+        "renewalPrice": 65.99,
         "sld": "ateliernoor",
-        "tld": "paris",
-        "purchasable": true,
-        "premium": false,
-        "purchasePrice": 44.99,
-        "purchaseType": "registration",
-        "renewalPrice": 44.99
+        "tld": "paris"
       },
       {
-        "domainName": "atelier-noor.com",
-        "sld": "atelier-noor",
-        "tld": "com",
-        "purchasable": true,
+        "domainName": "atelier-no-or.com",
         "premium": false,
+        "purchasable": true,
         "purchasePrice": 12.99,
         "purchaseType": "registration",
-        "renewalPrice": 12.99
+        "renewalPrice": 19.99,
+        "sld": "atelier-no-or",
+        "tld": "com"
       },
       {
-        "domainName": "noorsalon.com",
-        "sld": "noorsalon",
-        "tld": "com",
-        "purchasable": true,
+        "domainName": "atelier-no-or.fr",
         "premium": false,
-        "purchasePrice": 12.99,
+        "purchasable": true,
+        "purchasePrice": 17.99,
         "purchaseType": "registration",
-        "renewalPrice": 12.99
+        "renewalPrice": 18.99,
+        "sld": "atelier-no-or",
+        "tld": "fr"
       },
       {
-        "domainName": "ateliernoorparis.com",
-        "sld": "ateliernoorparis",
-        "tld": "com",
-        "purchasable": true,
+        "domainName": "atelier-no-or.paris",
         "premium": false,
+        "purchasable": true,
+        "purchasePrice": 65.99,
+        "purchaseType": "registration",
+        "renewalPrice": 65.99,
+        "sld": "atelier-no-or",
+        "tld": "paris"
+      },
+      {
+        "domainName": "shopnoor.fr",
+        "premium": false,
+        "purchasable": true,
+        "purchasePrice": 17.99,
+        "purchaseType": "registration",
+        "renewalPrice": 18.99,
+        "sld": "shopnoor",
+        "tld": "fr"
+      },
+      {
+        "domainName": "shopnoor.paris",
+        "premium": false,
+        "purchasable": true,
+        "purchasePrice": 65.99,
+        "purchaseType": "registration",
+        "renewalPrice": 65.99,
+        "sld": "shopnoor",
+        "tld": "paris"
+      },
+      {
+        "domainName": "webateliernoor.com",
+        "premium": false,
+        "purchasable": true,
         "purchasePrice": 12.99,
         "purchaseType": "registration",
-        "renewalPrice": 12.99
+        "renewalPrice": 19.99,
+        "sld": "webateliernoor",
+        "tld": "com"
+      },
+      {
+        "domainName": "webateliernoor.fr",
+        "premium": false,
+        "purchasable": true,
+        "purchasePrice": 17.99,
+        "purchaseType": "registration",
+        "renewalPrice": 18.99,
+        "sld": "webateliernoor",
+        "tld": "fr"
+      },
+      {
+        "domainName": "webateliernoor.paris",
+        "premium": false,
+        "purchasable": true,
+        "purchasePrice": 65.99,
+        "purchaseType": "registration",
+        "renewalPrice": 65.99,
+        "sld": "webateliernoor",
+        "tld": "paris"
+      },
+      {
+        "domainName": "ateliernoorgroup.com",
+        "premium": false,
+        "purchasable": true,
+        "purchasePrice": 12.99,
+        "purchaseType": "registration",
+        "renewalPrice": 19.99,
+        "sld": "ateliernoorgroup",
+        "tld": "com"
       }
     ]
   },
   "units": 0,
-  "latency_ms": 812
+  "latency_ms": 1876
 }

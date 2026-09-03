@@ -30,9 +30,9 @@ async def test_search_returns_purchasable_suggestions(adapter, ledger) -> None:
     suggestions = await adapter.search("atelier noor")
 
     assert suggestions[0].domain_name == DOMAIN
-    assert suggestions[0].purchasable is True
-    assert suggestions[0].purchase_price_cents == 1299
-    assert {s.domain_name for s in suggestions} >= {"ateliernoor.fr", "ateliernoor.paris"}
+    assert suggestions[0].purchasable is False
+    assert suggestions[0].purchase_price_cents is None
+    assert {s.domain_name for s in suggestions} >= {"ateliernoor.paris", "atelier-no-or.com"}
     (call,) = tool_calls(ledger)
     assert call["server"] == "rest/namecom"
     assert call["tool"] == "domains:search"
@@ -43,8 +43,9 @@ async def test_check_availability(adapter, ledger) -> None:
     results = await adapter.check_availability([DOMAIN, "ateliernoor.fr", "ateliernoor.paris"])
 
     assert [r.domain_name for r in results] == [DOMAIN, "ateliernoor.fr", "ateliernoor.paris"]
-    assert all(r.purchasable and not r.premium for r in results)
-    assert results[2].purchase_price_cents == 4499
+    assert [r.purchasable for r in results] == [False, False, True]
+    assert not any(r.premium for r in results)
+    assert results[2].purchase_price_cents == 6599
     assert tool_calls(ledger)[0]["tool"] == "domains:checkAvailability"
 
 

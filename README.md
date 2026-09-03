@@ -143,7 +143,7 @@ git clone https://github.com/foxitsoftware/foxit-pdf-api-mcp-server.git vendor/f
 
 Version 0.2.3 ships a console script pointing at a module the wheel does not contain, so `adapters/foxit_pdf.py` starts the server by its real module path instead.
 
-So YouCam, SerpApi, Nutrient extraction, and Foxit PDF Services all replay real responses recorded on 3 Sep 2026. name.com, Doctavian, and Foxit eSign stay on hand-written cassettes: a name.com sandbox token answers `Permission Denied` until the account is approved for API access, Doctavian issues credentials by email, and the eSign credential is deliberately held by Xano alone, where the agent cannot reach it.
+So YouCam, SerpApi, Nutrient extraction, and Foxit PDF Services all replay real responses recorded on 3 Sep 2026. name.com answered the two read-only calls live, so the suggestions and the availability verdicts are what the registry really says today: `ateliernoor.com` and `ateliernoor.fr` are taken, `ateliernoor.paris` is free at 65.99. Registration, DNS, and the two forwarding calls keep their hand-written cassettes, because running them against a live account buys a real domain, and the sandbox that exists for exactly this purpose answers 401 on an unprovisioned account. Doctavian and Foxit eSign stay on hand-written cassettes too: Doctavian issues credentials by email, and the eSign credential is deliberately held by Xano alone, where the agent cannot reach it.
 
 ```bash
 cd agent && uv sync --group dev

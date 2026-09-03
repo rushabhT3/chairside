@@ -1,0 +1,19 @@
+{
+  "vendor": "foxit",
+  "primitive": "merge",
+  "variant": "default",
+  "recorded_at": "2026-09-03T09:00:00+00:00",
+  "request": {
+    "parts": [
+      "seed:aftercare",
+      "seed:consent",
+      "seed:intake"
+    ]
+  },
+  "response": {
+    "resultDocumentId": "fx-merge-000001",
+    "_base64": "JVBERi0xLjQKMSAwIG9iago8PC9UeXBlL0NhdGFsb2cvUGFnZXMgMiAwIFI+PgplbmRvYmoKMiAwIG9iago8PC9UeXBlL1BhZ2VzL0tpZHNbMyAwIFJdL0NvdW50IDE+PgplbmRvYmoKMyAwIG9iago8PC9UeXBlL1BhZ2UvUGFyZW50IDIgMCBSL01lZGlhQm94WzAgMCA1OTUgODQyXS9Db250ZW50cyA0IDAgUi9SZXNvdXJjZXM8PC9Gb250PDwvRjEgNSAwIFI+Pj4+Pj4KZW5kb2JqCjQgMCBvYmoKPDwvTGVuZ3RoIDEwNz4+c3RyZWFtCkJUCi9GMSAxNCBUZgo3MiA3NzAgVGQKMTYgVEwKKEZJWFRVUkUgLSBtZXJnZWQgY2xpZW50IHBhY2tldCkgVGogVCoKKGFmdGVyY2FyZSArIGNvbnNlbnQgKyBpbnRha2UpIFRqIFQqCkVUCmVuZHN0cmVhbQplbmRvYmoKNSAwIG9iago8PC9UeXBlL0ZvbnQvU3VidHlwZS9UeXBlMS9CYXNlRm9udC9IZWx2ZXRpY2E+PgplbmRvYmoKeHJlZgowIDYKMDAwMDAwMDAwMCA2NTUzNSBmIAowMDAwMDAwMDA5IDAwMDAwIG4gCjAwMDAwMDAwNTQgMDAwMDAgbiAKMDAwMDAwMDEwNSAwMDAwMCBuIAowMDAwMDAwMjE3IDAwMDAwIG4gCjAwMDAwMDAzNzIgMDAwMDAgbiAKdHJhaWxlcgo8PC9TaXplIDYvUm9vdCAxIDAgUj4+CnN0YXJ0eHJlZgo0MzUKJSVFT0YK"
+  },
+  "units": 1,
+  "latency_ms": 2210
+}

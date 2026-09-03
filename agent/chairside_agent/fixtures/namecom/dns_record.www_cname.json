@@ -1,0 +1,27 @@
+{
+  "vendor": "namecom",
+  "primitive": "dns_record",
+  "variant": "www_cname",
+  "recorded_at": "2026-09-03T08:30:00+00:00",
+  "request": {
+    "method": "POST",
+    "path": "/core/v1/domains/ateliernoor.com/records",
+    "body": {
+      "host": "www",
+      "type": "CNAME",
+      "answer": "x8ke-lq7p-vxdr.static.xano.io",
+      "ttl": 300
+    }
+  },
+  "response": {
+    "id": 90211452,
+    "domainName": "ateliernoor.com",
+    "host": "www",
+    "fqdn": "www.ateliernoor.com.",
+    "type": "CNAME",
+    "answer": "x8ke-lq7p-vxdr.static.xano.io",
+    "ttl": 300
+  },
+  "units": 0,
+  "latency_ms": 402
+}

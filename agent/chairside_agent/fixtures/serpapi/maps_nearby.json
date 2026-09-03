@@ -1,0 +1,107 @@
+{
+  "vendor": "serpapi",
+  "primitive": "maps_nearby",
+  "variant": "default",
+  "recorded_at": "2026-09-03T08:30:00+00:00",
+  "request": {
+    "engine": "google_maps",
+    "q": "salon de coiffure",
+    "ll": "@48.8590,2.3640,15z",
+    "type": "search",
+    "hl": "fr"
+  },
+  "response": {
+    "search_metadata": {
+      "id": "68b7f4d5f60718293a4b5c6e",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/68b7f4d5f60718293a4b5c6e.json",
+      "created_at": "2026-09-03 08:30:12 UTC",
+      "processed_at": "2026-09-03 08:30:12 UTC",
+      "total_time_taken": 2.41
+    },
+    "search_parameters": {
+      "engine": "google_maps",
+      "q": "salon de coiffure",
+      "ll": "@48.8590,2.3640,15z",
+      "type": "search",
+      "hl": "fr",
+      "google_domain": "google.com"
+    },
+    "local_results": [
+      {
+        "position": 1,
+        "title": "Maison Kaya Coiffure",
+        "place_id": "ChIJ2Y7xMfBv5kcRk3YV8jXbQ5o",
+        "data_id": "0x47e66ff031f18ed9:0x9a43db35f2157693",
+        "data_cid": "11115533558811063955",
+        "reviews_link": "https://serpapi.com/search.json?engine=google_maps_reviews&data_id=0x47e66ff031f18ed9:0x9a43db35f2157693&hl=fr",
+        "gps_coordinates": {
+          "latitude": 48.8628,
+          "longitude": 2.3625
+        },
+        "rating": 4.7,
+        "reviews": 312,
+        "price": "€€",
+        "type": "Salon de coiffure",
+        "types": [
+          "Salon de coiffure",
+          "Coloriste"
+        ],
+        "address": "22 Rue de Bretagne, 75003 Paris",
+        "open_state": "Ouvert ⋅ Ferme à 19:30",
+        "phone": "+33 1 42 72 18 44",
+        "website": "https://maisonkaya.fr",
+        "thumbnail": "https://lh5.googleusercontent.com/p/maison-kaya=w80-h106-k-no"
+      },
+      {
+        "position": 2,
+        "title": "Studio Marais Hair",
+        "place_id": "ChIJq0dXt-9v5kcR3aH1oXkq6Lw",
+        "data_id": "0x47e66fefb75747ab:0xbce82a79a1f5a1dd",
+        "data_cid": "13611052184623817181",
+        "reviews_link": "https://serpapi.com/search.json?engine=google_maps_reviews&data_id=0x47e66fefb75747ab:0xbce82a79a1f5a1dd&hl=fr",
+        "gps_coordinates": {
+          "latitude": 48.8571,
+          "longitude": 2.3588
+        },
+        "rating": 4.5,
+        "reviews": 198,
+        "price": "€€€",
+        "type": "Salon de coiffure",
+        "types": [
+          "Salon de coiffure"
+        ],
+        "address": "9 Rue Vieille du Temple, 75004 Paris",
+        "open_state": "Ouvert ⋅ Ferme à 20:00",
+        "phone": "+33 1 48 87 09 21",
+        "website": "https://studiomaraishair.com",
+        "thumbnail": "https://lh5.googleusercontent.com/p/studio-marais=w80-h106-k-no"
+      },
+      {
+        "position": 3,
+        "title": "Coiffure République",
+        "place_id": "ChIJ7ZlM4vFv5kcRQvJ0rDkq8xA",
+        "data_id": "0x47e66ff1e24c99ed:0x10f32a39ac74f242",
+        "data_cid": "1221609364930675266",
+        "reviews_link": "https://serpapi.com/search.json?engine=google_maps_reviews&data_id=0x47e66ff1e24c99ed:0x10f32a39ac74f242&hl=fr",
+        "gps_coordinates": {
+          "latitude": 48.8672,
+          "longitude": 2.3641
+        },
+        "rating": 4.2,
+        "reviews": 87,
+        "price": "€",
+        "type": "Salon de coiffure",
+        "types": [
+          "Salon de coiffure"
+        ],
+        "address": "3 Boulevard du Temple, 75003 Paris",
+        "open_state": "Ouvert ⋅ Ferme à 19:00",
+        "phone": "+33 1 43 55 72 10",
+        "thumbnail": "https://lh5.googleusercontent.com/p/coiffure-republique=w80-h106-k-no"
+      }
+    ]
+  },
+  "units": 1,
+  "latency_ms": 2107
+}

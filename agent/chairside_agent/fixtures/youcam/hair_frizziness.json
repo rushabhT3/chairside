@@ -1,0 +1,24 @@
+{
+  "vendor": "youcam",
+  "primitive": "hair_frizziness",
+  "variant": "default",
+  "recorded_at": "2026-09-03T09:00:00+00:00",
+  "request": {
+    "src_file_url": "https://fixtures.chairside.local/uploads/scan-camille-01.jpg"
+  },
+  "response": {
+    "status": 200,
+    "data": {
+      "task_status": "success",
+      "error": null,
+      "results": {
+        "hair_frizziness": {
+          "mapping": 2,
+          "term": "Frizzy"
+        }
+      }
+    }
+  },
+  "units": 2,
+  "latency_ms": 1550
+}

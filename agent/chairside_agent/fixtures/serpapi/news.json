@@ -1,0 +1,102 @@
+{
+  "vendor": "serpapi",
+  "primitive": "news",
+  "variant": "default",
+  "recorded_at": "2026-09-03T08:30:00+00:00",
+  "request": {
+    "engine": "google_news",
+    "q": "Olaplex No. 3 recall",
+    "gl": "fr",
+    "hl": "fr"
+  },
+  "response": {
+    "search_metadata": {
+      "id": "68b7f3c4e5f6071829304b5d",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/68b7f3c4e5f6071829304b5d.json",
+      "created_at": "2026-09-03 08:30:12 UTC",
+      "processed_at": "2026-09-03 08:30:12 UTC",
+      "total_time_taken": 2.41
+    },
+    "search_parameters": {
+      "engine": "google_news",
+      "q": "Olaplex No. 3 recall",
+      "gl": "fr",
+      "hl": "fr"
+    },
+    "news_results": [
+      {
+        "position": 1,
+        "title": "Olaplex lance une recharge pour son soin N°3 en France",
+        "source": {
+          "name": "Cosmétique Mag",
+          "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.cosmetiquemag.fr",
+          "authors": [
+            "Claire Dubois"
+          ]
+        },
+        "link": "https://www.cosmetiquemag.fr/olaplex-recharge-n3-france",
+        "thumbnail": "https://news.google.com/api/attachments/olaplex-refill.jpg",
+        "thumbnail_small": "https://news.google.com/api/attachments/olaplex-refill-s.jpg",
+        "date": "08/14/2026, 09:12 AM, +0000 UTC",
+        "iso_date": "2026-08-14T09:12:00Z"
+      },
+      {
+        "position": 2,
+        "title": "Bond builders 2026 : Olaplex, K18, Redken ABC comparés par des coiffeurs",
+        "source": {
+          "name": "Marie Claire",
+          "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.marieclaire.fr",
+          "authors": [
+            "Léa Martin"
+          ]
+        },
+        "link": "https://www.marieclaire.fr/beaute/bond-builders-2026",
+        "thumbnail": "https://news.google.com/api/attachments/bond-builders.jpg",
+        "thumbnail_small": "https://news.google.com/api/attachments/bond-builders-s.jpg",
+        "date": "07/29/2026, 06:40 PM, +0000 UTC",
+        "iso_date": "2026-07-29T18:40:00Z"
+      },
+      {
+        "position": 3,
+        "title": "Olaplex : résultats du deuxième trimestre en hausse en Europe",
+        "source": {
+          "name": "Les Echos",
+          "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.lesechos.fr",
+          "authors": [
+            "Marc Petit"
+          ]
+        },
+        "link": "https://www.lesechos.fr/industrie-services/conso-distribution/olaplex-t2-2026",
+        "thumbnail": "https://news.google.com/api/attachments/olaplex-q2.jpg",
+        "thumbnail_small": "https://news.google.com/api/attachments/olaplex-q2-s.jpg",
+        "date": "08/06/2026, 07:05 AM, +0000 UTC",
+        "iso_date": "2026-08-06T07:05:00Z"
+      },
+      {
+        "position": 4,
+        "title": "Olaplex : la marque répond aux rumeurs de rappel de 2023, aucun nouveau signalement",
+        "source": {
+          "name": "Allure France",
+          "icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.allure.fr",
+          "authors": [
+            "Inès Roche"
+          ]
+        },
+        "link": "https://www.allure.fr/olaplex-rappel-rumeurs-2023",
+        "thumbnail": "https://news.google.com/api/attachments/olaplex-2023.jpg",
+        "thumbnail_small": "https://news.google.com/api/attachments/olaplex-2023-s.jpg",
+        "date": "02/11/2026, 10:20 AM, +0000 UTC",
+        "iso_date": "2026-02-11T10:20:00Z"
+      }
+    ],
+    "menu_links": [
+      {
+        "title": "France",
+        "topic_token": "CAAqIggKIhxDQkFTRHdvSkwyMHZNRFZ4ZERBNUVnSm1jaWdBUAE"
+      }
+    ]
+  },
+  "units": 1,
+  "latency_ms": 1522
+}

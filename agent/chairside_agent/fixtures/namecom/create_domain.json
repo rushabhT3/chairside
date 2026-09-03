@@ -1,0 +1,113 @@
+{
+  "vendor": "namecom",
+  "primitive": "create_domain",
+  "variant": "default",
+  "recorded_at": "2026-09-03T08:30:00+00:00",
+  "request": {
+    "method": "POST",
+    "path": "/core/v1/domains",
+    "headers": {
+      "X-Idempotency-Key": "chairside-open-atelier-noor-ateliernoor.com"
+    },
+    "body": {
+      "domain": {
+        "domainName": "ateliernoor.com",
+        "autorenewEnabled": true,
+        "locked": true,
+        "privacyEnabled": true
+      },
+      "years": 1
+    }
+  },
+  "response": {
+    "domain": {
+      "domainName": "ateliernoor.com",
+      "createDate": "2026-09-03T08:31:04Z",
+      "expireDate": "2027-09-03T08:31:04Z",
+      "autorenewEnabled": true,
+      "locked": true,
+      "locks": [
+        "clientTransferProhibited"
+      ],
+      "transferLockExpiresAt": "2026-11-02T08:31:04Z",
+      "privacyEnabled": true,
+      "contacts": {
+        "registrant": {
+          "firstName": "Noor",
+          "lastName": "Haddad",
+          "companyName": "Atelier Noor",
+          "address1": "14 Rue de Turenne",
+          "address2": null,
+          "city": "Paris",
+          "state": "IDF",
+          "zip": "75003",
+          "country": "FR",
+          "email": "noor@example.com",
+          "phone": "+33142720000",
+          "fax": null,
+          "isVerified": false,
+          "verificationId": 88231
+        },
+        "admin": {
+          "firstName": "Noor",
+          "lastName": "Haddad",
+          "companyName": "Atelier Noor",
+          "address1": "14 Rue de Turenne",
+          "address2": null,
+          "city": "Paris",
+          "state": "IDF",
+          "zip": "75003",
+          "country": "FR",
+          "email": "noor@example.com",
+          "phone": "+33142720000",
+          "fax": null,
+          "isVerified": false,
+          "verificationId": null
+        },
+        "tech": {
+          "firstName": "Noor",
+          "lastName": "Haddad",
+          "companyName": "Atelier Noor",
+          "address1": "14 Rue de Turenne",
+          "address2": null,
+          "city": "Paris",
+          "state": "IDF",
+          "zip": "75003",
+          "country": "FR",
+          "email": "noor@example.com",
+          "phone": "+33142720000",
+          "fax": null,
+          "isVerified": false,
+          "verificationId": null
+        },
+        "billing": {
+          "firstName": "Noor",
+          "lastName": "Haddad",
+          "companyName": "Atelier Noor",
+          "address1": "14 Rue de Turenne",
+          "address2": null,
+          "city": "Paris",
+          "state": "IDF",
+          "zip": "75003",
+          "country": "FR",
+          "email": "noor@example.com",
+          "phone": "+33142720000",
+          "fax": null,
+          "isVerified": false,
+          "verificationId": null
+        }
+      },
+      "nameservers": [
+        "ns1.name.com",
+        "ns2.name.com",
+        "ns3.name.com",
+        "ns4.name.com"
+      ],
+      "renewalPrice": 12.99
+    },
+    "order": 4471023,
+    "totalPaid": 12.99
+  },
+  "units": 0,
+  "latency_ms": 1436
+}

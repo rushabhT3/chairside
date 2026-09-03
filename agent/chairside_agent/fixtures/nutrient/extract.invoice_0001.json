@@ -1,0 +1,636 @@
+{
+  "vendor": "nutrient",
+  "primitive": "extract",
+  "variant": "invoice_0001",
+  "recorded_at": "2026-09-03T08:30:00+00:00",
+  "request": {
+    "endpoint": "/extraction/extract",
+    "filename": "inv-0001-loreal.pdf",
+    "schema_name": "invoice",
+    "document_sha256": "9b8a7c6d5e4f3a2b1c0d9e8f7a6b5c4d3e2f1a0b9c8d7e6f5a4b3c2d1e0f9a8b",
+    "instructions": {
+      "schema": "<invoice schema, see nutrient.SCHEMAS>",
+      "parseConfig": {
+        "mode": "understand"
+      },
+      "options": {
+        "includeCitations": true
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "requestId": "req_1c2d3e4f5a6b",
+    "output": {
+      "data": {
+        "invoice_number": "LP-2026-08817",
+        "supplier_name": "L'Oréal Professionnel Paris",
+        "invoice_date": "2026-08-04",
+        "subtotal": 336.2,
+        "vat_rate": 20.0,
+        "vat_amount": 67.24,
+        "total": 403.44,
+        "lines": [
+          {
+            "description": "Majirel 7.31 50ml",
+            "qty": 12,
+            "unit_price": 8.4,
+            "amount": 100.8
+          },
+          {
+            "description": "Majirel 6.0 50ml",
+            "qty": 12,
+            "unit_price": 8.4,
+            "amount": 100.8
+          },
+          {
+            "description": "Oxydant Crème 20 vol 1000ml",
+            "qty": 4,
+            "unit_price": 9.9,
+            "amount": 39.6
+          },
+          {
+            "description": "Smartbond Step 1 500ml",
+            "qty": 2,
+            "unit_price": 47.5,
+            "amount": 95.0
+          }
+        ]
+      },
+      "metadata": {
+        "invoice_number": {
+          "bbox": {
+            "x": 420,
+            "y": 96,
+            "width": 150,
+            "height": 20
+          },
+          "match": "id_match",
+          "confidence": 0.94,
+          "pageNumber": 1,
+          "pageIndex": 0,
+          "source_bboxes": [
+            {
+              "block_id": "blk_1_96",
+              "pageIndex": 0,
+              "bbox": {
+                "x": 420,
+                "y": 96,
+                "width": 150,
+                "height": 20
+              }
+            }
+          ]
+        },
+        "supplier_name": {
+          "bbox": {
+            "x": 60,
+            "y": 60,
+            "width": 260,
+            "height": 24
+          },
+          "match": "id_match",
+          "confidence": 0.98,
+          "pageNumber": 1,
+          "pageIndex": 0,
+          "source_bboxes": [
+            {
+              "block_id": "blk_1_60",
+              "pageIndex": 0,
+              "bbox": {
+                "x": 60,
+                "y": 60,
+                "width": 260,
+                "height": 24
+              }
+            }
+          ]
+        },
+        "invoice_date": {
+          "bbox": {
+            "x": 420,
+            "y": 120,
+            "width": 110,
+            "height": 20
+          },
+          "match": "id_match",
+          "confidence": 0.92,
+          "pageNumber": 1,
+          "pageIndex": 0,
+          "source_bboxes": [
+            {
+              "block_id": "blk_1_120",
+              "pageIndex": 0,
+              "bbox": {
+                "x": 420,
+                "y": 120,
+                "width": 110,
+                "height": 20
+              }
+            }
+          ]
+        },
+        "subtotal": {
+          "bbox": {
+            "x": 700,
+            "y": 520,
+            "width": 90,
+            "height": 20
+          },
+          "match": "id_match",
+          "confidence": 0.94,
+          "pageNumber": 1,
+          "pageIndex": 0,
+          "source_bboxes": [
+            {
+              "block_id": "blk_1_520",
+              "pageIndex": 0,
+              "bbox": {
+                "x": 700,
+                "y": 520,
+                "width": 90,
+                "height": 20
+              }
+            }
+          ]
+        },
+        "vat_rate": {
+          "bbox": {
+            "x": 560,
+            "y": 548,
+            "width": 60,
+            "height": 20
+          },
+          "match": "id_match",
+          "confidence": 0.95,
+          "pageNumber": 1,
+          "pageIndex": 0,
+          "source_bboxes": [
+            {
+              "block_id": "blk_1_548",
+              "pageIndex": 0,
+              "bbox": {
+                "x": 560,
+                "y": 548,
+                "width": 60,
+                "height": 20
+              }
+            }
+          ]
+        },
+        "vat_amount": {
+          "bbox": {
+            "x": 700,
+            "y": 548,
+            "width": 90,
+            "height": 20
+          },
+          "match": "id_match",
+          "confidence": 0.93,
+          "pageNumber": 1,
+          "pageIndex": 0,
+          "source_bboxes": [
+            {
+              "block_id": "blk_1_548",
+              "pageIndex": 0,
+              "bbox": {
+                "x": 700,
+                "y": 548,
+                "width": 90,
+                "height": 20
+              }
+            }
+          ]
+        },
+        "total": {
+          "bbox": {
+            "x": 700,
+            "y": 584,
+            "width": 90,
+            "height": 24
+          },
+          "match": "id_match",
+          "confidence": 0.96,
+          "pageNumber": 1,
+          "pageIndex": 0,
+          "source_bboxes": [
+            {
+              "block_id": "blk_1_584",
+              "pageIndex": 0,
+              "bbox": {
+                "x": 700,
+                "y": 584,
+                "width": 90,
+                "height": 24
+              }
+            }
+          ]
+        },
+        "lines": [
+          {
+            "description": {
+              "bbox": {
+                "x": 60,
+                "y": 300,
+                "width": 380,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.91,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_300",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 60,
+                    "y": 300,
+                    "width": 380,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "qty": {
+              "bbox": {
+                "x": 460,
+                "y": 300,
+                "width": 40,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.94,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_300",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 460,
+                    "y": 300,
+                    "width": 40,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "unit_price": {
+              "bbox": {
+                "x": 560,
+                "y": 300,
+                "width": 80,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.89,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_300",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 560,
+                    "y": 300,
+                    "width": 80,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "amount": {
+              "bbox": {
+                "x": 700,
+                "y": 300,
+                "width": 90,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.92,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_300",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 700,
+                    "y": 300,
+                    "width": 90,
+                    "height": 22
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "description": {
+              "bbox": {
+                "x": 60,
+                "y": 336,
+                "width": 380,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.92,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_336",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 60,
+                    "y": 336,
+                    "width": 380,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "qty": {
+              "bbox": {
+                "x": 460,
+                "y": 336,
+                "width": 40,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.94,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_336",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 460,
+                    "y": 336,
+                    "width": 40,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "unit_price": {
+              "bbox": {
+                "x": 560,
+                "y": 336,
+                "width": 80,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.89,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_336",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 560,
+                    "y": 336,
+                    "width": 80,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "amount": {
+              "bbox": {
+                "x": 700,
+                "y": 336,
+                "width": 90,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.92,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_336",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 700,
+                    "y": 336,
+                    "width": 90,
+                    "height": 22
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "description": {
+              "bbox": {
+                "x": 60,
+                "y": 372,
+                "width": 380,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.93,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_372",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 60,
+                    "y": 372,
+                    "width": 380,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "qty": {
+              "bbox": {
+                "x": 460,
+                "y": 372,
+                "width": 40,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.94,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_372",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 460,
+                    "y": 372,
+                    "width": 40,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "unit_price": {
+              "bbox": {
+                "x": 560,
+                "y": 372,
+                "width": 80,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.89,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_372",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 560,
+                    "y": 372,
+                    "width": 80,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "amount": {
+              "bbox": {
+                "x": 700,
+                "y": 372,
+                "width": 90,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.92,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_372",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 700,
+                    "y": 372,
+                    "width": 90,
+                    "height": 22
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "description": {
+              "bbox": {
+                "x": 60,
+                "y": 408,
+                "width": 380,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.94,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_408",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 60,
+                    "y": 408,
+                    "width": 380,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "qty": {
+              "bbox": {
+                "x": 460,
+                "y": 408,
+                "width": 40,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.94,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_408",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 460,
+                    "y": 408,
+                    "width": 40,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "unit_price": {
+              "bbox": {
+                "x": 560,
+                "y": 408,
+                "width": 80,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.89,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_408",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 560,
+                    "y": 408,
+                    "width": 80,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "amount": {
+              "bbox": {
+                "x": 700,
+                "y": 408,
+                "width": 90,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.92,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_408",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 700,
+                    "y": 408,
+                    "width": 90,
+                    "height": 22
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "metrics": {
+      "processingTimeMs": 4120,
+      "pagesProcessed": 1
+    },
+    "configuration": {
+      "mode": "understand",
+      "includeCitations": true
+    }
+  },
+  "units": 1,
+  "latency_ms": 4188
+}

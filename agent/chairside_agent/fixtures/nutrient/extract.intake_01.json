@@ -1,0 +1,242 @@
+{
+  "vendor": "nutrient",
+  "primitive": "extract",
+  "variant": "intake_01",
+  "recorded_at": "2026-09-03T08:30:00+00:00",
+  "request": {
+    "endpoint": "/extraction/extract",
+    "filename": "intake-01-benali.png",
+    "schema_name": "intake",
+    "document_sha256": "e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4",
+    "instructions": {
+      "schema": "<intake schema, see nutrient.SCHEMAS>",
+      "parseConfig": {
+        "mode": "understand"
+      },
+      "options": {
+        "includeCitations": true
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "requestId": "req_4f5a6b7c8d9e",
+    "output": {
+      "data": {
+        "name": "Amira Benali",
+        "date": "2026-09-03",
+        "allergies": "PPD, fragrance",
+        "medications": "none",
+        "previous_chemical_services": "balayage March 2026",
+        "pregnancy": "no",
+        "photo_consent": "yes",
+        "notes": "Prefers cool tones. Scalp sensitive after last bleach."
+      },
+      "metadata": {
+        "name": {
+          "bbox": {
+            "x": 140,
+            "y": 120,
+            "width": 240,
+            "height": 26
+          },
+          "match": "id_match",
+          "confidence": 0.91,
+          "pageNumber": 1,
+          "pageIndex": 0,
+          "source_bboxes": [
+            {
+              "block_id": "blk_1_120",
+              "pageIndex": 0,
+              "bbox": {
+                "x": 140,
+                "y": 120,
+                "width": 240,
+                "height": 26
+              }
+            }
+          ]
+        },
+        "date": {
+          "bbox": {
+            "x": 140,
+            "y": 178,
+            "width": 240,
+            "height": 26
+          },
+          "match": "id_match",
+          "confidence": 0.92,
+          "pageNumber": 1,
+          "pageIndex": 0,
+          "source_bboxes": [
+            {
+              "block_id": "blk_1_178",
+              "pageIndex": 0,
+              "bbox": {
+                "x": 140,
+                "y": 178,
+                "width": 240,
+                "height": 26
+              }
+            }
+          ]
+        },
+        "allergies": {
+          "bbox": {
+            "x": 140,
+            "y": 236,
+            "width": 240,
+            "height": 26
+          },
+          "match": "id_match",
+          "confidence": 0.93,
+          "pageNumber": 1,
+          "pageIndex": 0,
+          "source_bboxes": [
+            {
+              "block_id": "blk_1_236",
+              "pageIndex": 0,
+              "bbox": {
+                "x": 140,
+                "y": 236,
+                "width": 240,
+                "height": 26
+              }
+            }
+          ]
+        },
+        "medications": {
+          "bbox": {
+            "x": 140,
+            "y": 294,
+            "width": 240,
+            "height": 26
+          },
+          "match": "id_match",
+          "confidence": 0.91,
+          "pageNumber": 1,
+          "pageIndex": 0,
+          "source_bboxes": [
+            {
+              "block_id": "blk_1_294",
+              "pageIndex": 0,
+              "bbox": {
+                "x": 140,
+                "y": 294,
+                "width": 240,
+                "height": 26
+              }
+            }
+          ]
+        },
+        "previous_chemical_services": {
+          "bbox": {
+            "x": 140,
+            "y": 352,
+            "width": 240,
+            "height": 26
+          },
+          "match": "id_match",
+          "confidence": 0.92,
+          "pageNumber": 1,
+          "pageIndex": 0,
+          "source_bboxes": [
+            {
+              "block_id": "blk_1_352",
+              "pageIndex": 0,
+              "bbox": {
+                "x": 140,
+                "y": 352,
+                "width": 240,
+                "height": 26
+              }
+            }
+          ]
+        },
+        "pregnancy": {
+          "bbox": {
+            "x": 140,
+            "y": 410,
+            "width": 240,
+            "height": 26
+          },
+          "match": "id_match",
+          "confidence": 0.93,
+          "pageNumber": 1,
+          "pageIndex": 0,
+          "source_bboxes": [
+            {
+              "block_id": "blk_1_410",
+              "pageIndex": 0,
+              "bbox": {
+                "x": 140,
+                "y": 410,
+                "width": 240,
+                "height": 26
+              }
+            }
+          ]
+        },
+        "photo_consent": {
+          "bbox": {
+            "x": 140,
+            "y": 468,
+            "width": 240,
+            "height": 26
+          },
+          "match": "id_match",
+          "confidence": 0.91,
+          "pageNumber": 1,
+          "pageIndex": 0,
+          "source_bboxes": [
+            {
+              "block_id": "blk_1_468",
+              "pageIndex": 0,
+              "bbox": {
+                "x": 140,
+                "y": 468,
+                "width": 240,
+                "height": 26
+              }
+            }
+          ]
+        },
+        "notes": {
+          "bbox": {
+            "x": 140,
+            "y": 526,
+            "width": 380,
+            "height": 80
+          },
+          "match": "id_match",
+          "confidence": 0.88,
+          "pageNumber": 1,
+          "pageIndex": 0,
+          "source_bboxes": [
+            {
+              "block_id": "blk_1_526",
+              "pageIndex": 0,
+              "bbox": {
+                "x": 140,
+                "y": 526,
+                "width": 380,
+                "height": 80
+              }
+            }
+          ]
+        }
+      },
+      "text": "FICHE CLIENT — Atelier Noor\nNom : Amira Benali\nDate : 03/09/2026\nAllergies : PPD, fragrance\nMédicaments : aucun\nServices chimiques (12 mois) : balayage mars 2026\nGrossesse / allaitement : non\nConsentement photo : oui\nNotes : Prefers cool tones. Scalp sensitive after last bleach."
+    },
+    "metrics": {
+      "processingTimeMs": 3890,
+      "pagesProcessed": 1
+    },
+    "configuration": {
+      "mode": "understand",
+      "includeCitations": true
+    }
+  },
+  "units": 1,
+  "latency_ms": 3952
+}

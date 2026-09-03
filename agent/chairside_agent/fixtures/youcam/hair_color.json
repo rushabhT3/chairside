@@ -1,0 +1,29 @@
+{
+  "vendor": "youcam",
+  "primitive": "hair_color",
+  "variant": "default",
+  "recorded_at": "2026-09-03T09:00:00+00:00",
+  "request": {
+    "src_file_url": "https://fixtures.chairside.local/uploads/scan-camille-01.jpg",
+    "pattern": "full",
+    "palettes": [
+      "#A8804F"
+    ]
+  },
+  "response": {
+    "status": 200,
+    "data": {
+      "task_status": "success",
+      "error": null,
+      "results": {
+        "output": [
+          {
+            "url": "https://fixtures.chairside.local/renders/hair-color-7.31.jpg"
+          }
+        ]
+      }
+    }
+  },
+  "units": 1,
+  "latency_ms": 5230
+}

@@ -1,0 +1,21 @@
+{
+  "vendor": "namecom",
+  "primitive": "email_forwarding",
+  "variant": "default",
+  "recorded_at": "2026-09-03T08:30:00+00:00",
+  "request": {
+    "method": "POST",
+    "path": "/core/v1/domains/ateliernoor.com/email/forwarding",
+    "body": {
+      "emailBox": "hello",
+      "emailTo": "noor@example.com"
+    }
+  },
+  "response": {
+    "domainName": "ateliernoor.com",
+    "emailBox": "hello",
+    "emailTo": "noor@example.com"
+  },
+  "units": 0,
+  "latency_ms": 476
+}

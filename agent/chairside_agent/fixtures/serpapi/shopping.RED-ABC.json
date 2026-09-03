@@ -1,0 +1,107 @@
+{
+  "vendor": "serpapi",
+  "primitive": "shopping",
+  "variant": "RED-ABC",
+  "recorded_at": "2026-09-03T08:30:00+00:00",
+  "request": {
+    "engine": "google_shopping",
+    "q": "Redken Acidic Bonding Concentrate Shampoo 300ml",
+    "gl": "fr",
+    "hl": "fr"
+  },
+  "response": {
+    "search_metadata": {
+      "id": "68b7f2b3d4e5f60718293a50",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/68b7f2b3d4e5f60718293a50.json",
+      "created_at": "2026-09-03 08:30:12 UTC",
+      "processed_at": "2026-09-03 08:30:12 UTC",
+      "total_time_taken": 2.41
+    },
+    "search_parameters": {
+      "engine": "google_shopping",
+      "q": "Redken Acidic Bonding Concentrate Shampoo 300ml",
+      "gl": "fr",
+      "hl": "fr",
+      "google_domain": "google.fr"
+    },
+    "search_information": {
+      "query_displayed": "Redken Acidic Bonding Concentrate Shampoo 300ml",
+      "shopping_results_state": "Results for exact spelling"
+    },
+    "shopping_results": [
+      {
+        "position": 1,
+        "title": "Redken Acidic Bonding Concentrate Shampooing 300 ml",
+        "product_link": "https://www.sephora.fr/p/redken-abc-shampoo",
+        "product_id": "4780000000137",
+        "serpapi_product_api": "https://serpapi.com/search.json?engine=google_product&product_id=4780000000137&gl=fr&hl=fr",
+        "source": "Sephora",
+        "price": "27,90 €",
+        "extracted_price": 27.9,
+        "rating": 4.4,
+        "reviews": 157,
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9Gc68b7f2b31",
+        "delivery": "Livraison gratuite"
+      },
+      {
+        "position": 2,
+        "title": "Redken Acidic Bonding Concentrate Shampoo 300ml",
+        "product_link": "https://www.nocibe.fr/redken-abc-shampoo",
+        "product_id": "4780000000274",
+        "serpapi_product_api": "https://serpapi.com/search.json?engine=google_product&product_id=4780000000274&gl=fr&hl=fr",
+        "source": "Nocibé",
+        "price": "25,50 €",
+        "extracted_price": 25.5,
+        "rating": 4.5,
+        "reviews": 277,
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9Gc68b7f2b32",
+        "delivery": "Livraison 3,99 €"
+      },
+      {
+        "position": 3,
+        "title": "Redken Acidic Bonding Concentrate Shampoo 300 ml",
+        "product_link": "https://www.amazon.fr/dp/B08REDABC",
+        "product_id": "4780000000411",
+        "serpapi_product_api": "https://serpapi.com/search.json?engine=google_product&product_id=4780000000411&gl=fr&hl=fr",
+        "source": "Amazon.fr",
+        "price": "21,90 €",
+        "extracted_price": 21.9,
+        "rating": 4.6,
+        "reviews": 397,
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9Gc68b7f2b33",
+        "delivery": "Livraison gratuite"
+      },
+      {
+        "position": 4,
+        "title": "Redken ABC Shampoo 300ml",
+        "product_link": "https://www.lookfantastic.fr/redken-abc-shampoo",
+        "product_id": "4780000000548",
+        "serpapi_product_api": "https://serpapi.com/search.json?engine=google_product&product_id=4780000000548&gl=fr&hl=fr",
+        "source": "Lookfantastic",
+        "price": "26,45 €",
+        "extracted_price": 26.45,
+        "rating": 4.3,
+        "reviews": 517,
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9Gc68b7f2b34",
+        "delivery": "Livraison 3,99 €"
+      },
+      {
+        "position": 5,
+        "title": "Redken Acidic Bonding Concentrate Shampoo 300ml",
+        "product_link": "https://www.notino.fr/redken/acidic-bonding-concentrate/",
+        "product_id": "4780000000685",
+        "serpapi_product_api": "https://serpapi.com/search.json?engine=google_product&product_id=4780000000685&gl=fr&hl=fr",
+        "source": "Notino",
+        "price": "22,30 €",
+        "extracted_price": 22.3,
+        "rating": 4.4,
+        "reviews": 637,
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9Gc68b7f2b35",
+        "delivery": "Livraison gratuite"
+      }
+    ]
+  },
+  "units": 1,
+  "latency_ms": 1834
+}

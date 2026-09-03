@@ -1,0 +1,27 @@
+{
+  "vendor": "namecom",
+  "primitive": "dns_record",
+  "variant": "apex_a",
+  "recorded_at": "2026-09-03T08:30:00+00:00",
+  "request": {
+    "method": "POST",
+    "path": "/core/v1/domains/ateliernoor.com/records",
+    "body": {
+      "host": "",
+      "type": "A",
+      "answer": "34.120.203.11",
+      "ttl": 300
+    }
+  },
+  "response": {
+    "id": 90211451,
+    "domainName": "ateliernoor.com",
+    "host": "",
+    "fqdn": "ateliernoor.com.",
+    "type": "A",
+    "answer": "34.120.203.11",
+    "ttl": 300
+  },
+  "units": 0,
+  "latency_ms": 388
+}

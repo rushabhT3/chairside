@@ -1,0 +1,20 @@
+{
+  "vendor": "xano",
+  "primitive": "set_state",
+  "variant": "default",
+  "recorded_at": "2026-09-03T09:00:00+00:00",
+  "request": {
+    "method": "PATCH",
+    "path": "/agent/consultations/cons-0001/state",
+    "body": {
+      "state": "plan",
+      "failing_step": null
+    }
+  },
+  "response": {
+    "id": "cons-0001",
+    "state": "plan"
+  },
+  "units": 0,
+  "latency_ms": 140
+}

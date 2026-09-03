@@ -1,0 +1,107 @@
+{
+  "vendor": "serpapi",
+  "primitive": "shopping",
+  "variant": "seed",
+  "recorded_at": "2026-09-03T08:30:00+00:00",
+  "request": {
+    "engine": "google_shopping",
+    "q": "salon retail product",
+    "gl": "fr",
+    "hl": "fr"
+  },
+  "response": {
+    "search_metadata": {
+      "id": "68b7f2b3d4e5f60718293a52",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/68b7f2b3d4e5f60718293a52.json",
+      "created_at": "2026-09-03 08:30:12 UTC",
+      "processed_at": "2026-09-03 08:30:12 UTC",
+      "total_time_taken": 2.41
+    },
+    "search_parameters": {
+      "engine": "google_shopping",
+      "q": "salon retail product",
+      "gl": "fr",
+      "hl": "fr",
+      "google_domain": "google.fr"
+    },
+    "search_information": {
+      "query_displayed": "salon retail product",
+      "shopping_results_state": "Results for exact spelling"
+    },
+    "shopping_results": [
+      {
+        "position": 1,
+        "title": "Salon retail product 250ml",
+        "product_link": "https://www.sephora.fr/p/salon-retail-product",
+        "product_id": "4780000000137",
+        "serpapi_product_api": "https://serpapi.com/search.json?engine=google_product&product_id=4780000000137&gl=fr&hl=fr",
+        "source": "Sephora",
+        "price": "24,90 €",
+        "extracted_price": 24.9,
+        "rating": 4.4,
+        "reviews": 157,
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9Gc68b7f2b31",
+        "delivery": "Livraison gratuite"
+      },
+      {
+        "position": 2,
+        "title": "Salon retail product 250 ml",
+        "product_link": "https://www.nocibe.fr/salon-retail-product",
+        "product_id": "4780000000274",
+        "serpapi_product_api": "https://serpapi.com/search.json?engine=google_product&product_id=4780000000274&gl=fr&hl=fr",
+        "source": "Nocibé",
+        "price": "22,50 €",
+        "extracted_price": 22.5,
+        "rating": 4.5,
+        "reviews": 277,
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9Gc68b7f2b32",
+        "delivery": "Livraison 3,99 €"
+      },
+      {
+        "position": 3,
+        "title": "Salon retail product 250ml",
+        "product_link": "https://www.amazon.fr/dp/B00SEEDSKU",
+        "product_id": "4780000000411",
+        "serpapi_product_api": "https://serpapi.com/search.json?engine=google_product&product_id=4780000000411&gl=fr&hl=fr",
+        "source": "Amazon.fr",
+        "price": "18,90 €",
+        "extracted_price": 18.9,
+        "rating": 4.6,
+        "reviews": 397,
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9Gc68b7f2b33",
+        "delivery": "Livraison gratuite"
+      },
+      {
+        "position": 4,
+        "title": "Salon retail product 250ml",
+        "product_link": "https://www.lookfantastic.fr/salon-retail-product",
+        "product_id": "4780000000548",
+        "serpapi_product_api": "https://serpapi.com/search.json?engine=google_product&product_id=4780000000548&gl=fr&hl=fr",
+        "source": "Lookfantastic",
+        "price": "25,40 €",
+        "extracted_price": 25.4,
+        "rating": 4.3,
+        "reviews": 517,
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9Gc68b7f2b34",
+        "delivery": "Livraison 3,99 €"
+      },
+      {
+        "position": 5,
+        "title": "Salon retail product 250ml",
+        "product_link": "https://www.notino.fr/salon-retail-product/",
+        "product_id": "4780000000685",
+        "serpapi_product_api": "https://serpapi.com/search.json?engine=google_product&product_id=4780000000685&gl=fr&hl=fr",
+        "source": "Notino",
+        "price": "19,70 €",
+        "extracted_price": 19.7,
+        "rating": 4.4,
+        "reviews": 637,
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9Gc68b7f2b35",
+        "delivery": "Livraison gratuite"
+      }
+    ]
+  },
+  "units": 1,
+  "latency_ms": 1834
+}

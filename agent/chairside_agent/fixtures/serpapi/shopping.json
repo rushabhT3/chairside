@@ -1,0 +1,135 @@
+{
+  "vendor": "serpapi",
+  "primitive": "shopping",
+  "variant": "default",
+  "recorded_at": "2026-09-03T08:30:00+00:00",
+  "request": {
+    "engine": "google_shopping",
+    "q": "Olaplex No. 3 Hair Perfector 100ml",
+    "gl": "fr",
+    "hl": "fr"
+  },
+  "response": {
+    "search_metadata": {
+      "id": "68b7f2b3d4e5f60718293a4c",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/68b7f2b3d4e5f60718293a4c.json",
+      "created_at": "2026-09-03 08:30:12 UTC",
+      "processed_at": "2026-09-03 08:30:12 UTC",
+      "total_time_taken": 2.41
+    },
+    "search_parameters": {
+      "engine": "google_shopping",
+      "q": "Olaplex No. 3 Hair Perfector 100ml",
+      "gl": "fr",
+      "hl": "fr",
+      "google_domain": "google.fr"
+    },
+    "search_information": {
+      "query_displayed": "Olaplex No. 3 Hair Perfector 100ml",
+      "shopping_results_state": "Results for exact spelling"
+    },
+    "shopping_results": [
+      {
+        "position": 1,
+        "title": "Olaplex No.3 Hair Perfector 100 ml",
+        "product_link": "https://www.sephora.fr/p/olaplex-no-3-hair-perfector-P10012345.html",
+        "product_id": "4780000000137",
+        "serpapi_product_api": "https://serpapi.com/search.json?engine=google_product&product_id=4780000000137&gl=fr&hl=fr",
+        "source": "Sephora",
+        "price": "29,90 €",
+        "extracted_price": 29.9,
+        "rating": 4.4,
+        "reviews": 157,
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9Gc68b7f2b31",
+        "delivery": "Livraison gratuite"
+      },
+      {
+        "position": 2,
+        "title": "OLAPLEX N°3 Hair Perfector 100ml",
+        "product_link": "https://www.nocibe.fr/olaplex-n-3-hair-perfector-100ml-s239412",
+        "product_id": "4780000000274",
+        "serpapi_product_api": "https://serpapi.com/search.json?engine=google_product&product_id=4780000000274&gl=fr&hl=fr",
+        "source": "Nocibé",
+        "price": "28,50 €",
+        "extracted_price": 28.5,
+        "rating": 4.5,
+        "reviews": 277,
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9Gc68b7f2b32",
+        "delivery": "Livraison 3,99 €"
+      },
+      {
+        "position": 3,
+        "title": "Olaplex No. 3 Hair Perfector 100 ml",
+        "product_link": "https://www.amazon.fr/dp/B00SNM5US4",
+        "product_id": "4780000000411",
+        "serpapi_product_api": "https://serpapi.com/search.json?engine=google_product&product_id=4780000000411&gl=fr&hl=fr",
+        "source": "Amazon.fr",
+        "price": "24,99 €",
+        "extracted_price": 24.99,
+        "rating": 4.6,
+        "reviews": 397,
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9Gc68b7f2b33",
+        "delivery": "Livraison gratuite"
+      },
+      {
+        "position": 4,
+        "title": "OLAPLEX No.3 Hair Perfector 100ml",
+        "product_link": "https://www.lookfantastic.fr/olaplex-no.3-hair-perfector-100ml/11202150.html",
+        "product_id": "4780000000548",
+        "serpapi_product_api": "https://serpapi.com/search.json?engine=google_product&product_id=4780000000548&gl=fr&hl=fr",
+        "source": "Lookfantastic",
+        "price": "31,45 €",
+        "extracted_price": 31.45,
+        "rating": 4.3,
+        "reviews": 517,
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9Gc68b7f2b34",
+        "delivery": "Livraison 3,99 €"
+      },
+      {
+        "position": 5,
+        "title": "Olaplex N°3 Hair Perfector - 100 ml",
+        "product_link": "https://www.marionnaud.fr/olaplex-n3-hair-perfector",
+        "product_id": "4780000000685",
+        "serpapi_product_api": "https://serpapi.com/search.json?engine=google_product&product_id=4780000000685&gl=fr&hl=fr",
+        "source": "Marionnaud",
+        "price": "30,90 €",
+        "extracted_price": 30.9,
+        "rating": 4.4,
+        "reviews": 637,
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9Gc68b7f2b35",
+        "delivery": "Livraison gratuite"
+      },
+      {
+        "position": 6,
+        "title": "Olaplex No.3 Hair Perfector 100ml",
+        "product_link": "https://www.notino.fr/olaplex/n-3-hair-perfector/",
+        "product_id": "4780000000822",
+        "serpapi_product_api": "https://serpapi.com/search.json?engine=google_product&product_id=4780000000822&gl=fr&hl=fr",
+        "source": "Notino",
+        "price": "22,70 €",
+        "extracted_price": 22.7,
+        "rating": 4.5,
+        "reviews": 757,
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9Gc68b7f2b36",
+        "delivery": "Livraison 3,99 €"
+      },
+      {
+        "position": 7,
+        "title": "Olaplex Hair Perfector No.3 100ml",
+        "product_link": "https://www.douglas.fr/fr/p/olaplex-no-3",
+        "product_id": "4780000000959",
+        "serpapi_product_api": "https://serpapi.com/search.json?engine=google_product&product_id=4780000000959&gl=fr&hl=fr",
+        "source": "Douglas",
+        "price": "29,95 €",
+        "extracted_price": 29.95,
+        "rating": 4.6,
+        "reviews": 877,
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9Gc68b7f2b37",
+        "delivery": "Livraison gratuite"
+      }
+    ]
+  },
+  "units": 1,
+  "latency_ms": 1834
+}

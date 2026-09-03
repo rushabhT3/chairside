@@ -1,0 +1,21 @@
+{
+  "vendor": "doctavian",
+  "primitive": "generate",
+  "variant": "aftercare_smoothing",
+  "recorded_at": "2026-09-03T09:00:00+00:00",
+  "request": {
+    "template_id": "tpl_fixture_aftercare_smoothing",
+    "data": {
+      "salon": {
+        "name": "Atelier Noor"
+      }
+    }
+  },
+  "response": {
+    "document_id": "dv-000007",
+    "url": "https://fixtures.chairside.local/doctavian/aftercare_smoothing.pdf",
+    "pdf_base64": "JVBERi0xLjQKMSAwIG9iago8PC9UeXBlL0NhdGFsb2cvUGFnZXMgMiAwIFI+PgplbmRvYmoKMiAwIG9iago8PC9UeXBlL1BhZ2VzL0tpZHNbMyAwIFJdL0NvdW50IDE+PgplbmRvYmoKMyAwIG9iago8PC9UeXBlL1BhZ2UvUGFyZW50IDIgMCBSL01lZGlhQm94WzAgMCA1OTUgODQyXS9Db250ZW50cyA0IDAgUi9SZXNvdXJjZXM8PC9Gb250PDwvRjEgNSAwIFI+Pj4+Pj4KZW5kb2JqCjQgMCBvYmoKPDwvTGVuZ3RoIDEzMj4+c3RyZWFtCkJUCi9GMSAxNCBUZgo3MiA3NzAgVGQKMTYgVEwKKEZJWFRVUkUgLSBEb2N0YXZpYW4gYWZ0ZXJjYXJlIHNtb290aGluZykgVGogVCoKKEF0ZWxpZXIgTm9vciwgMTQgUnVlIGRlIFR1cmVubmUsIDc1MDAzIFBhcmlzKSBUaiBUKgpFVAplbmRzdHJlYW0KZW5kb2JqCjUgMCBvYmoKPDwvVHlwZS9Gb250L1N1YnR5cGUvVHlwZTEvQmFzZUZvbnQvSGVsdmV0aWNhPj4KZW5kb2JqCnhyZWYKMCA2CjAwMDAwMDAwMDAgNjU1MzUgZiAKMDAwMDAwMDAwOSAwMDAwMCBuIAowMDAwMDAwMDU0IDAwMDAwIG4gCjAwMDAwMDAxMDUgMDAwMDAgbiAKMDAwMDAwMDIxNyAwMDAwMCBuIAowMDAwMDAwMzk3IDAwMDAwIG4gCnRyYWlsZXIKPDwvU2l6ZSA2L1Jvb3QgMSAwIFI+PgpzdGFydHhyZWYKNDYwCiUlRU9GCg=="
+  },
+  "units": 1,
+  "latency_ms": 1450
+}

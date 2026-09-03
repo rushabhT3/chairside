@@ -1,0 +1,19 @@
+{
+  "vendor": "foxit",
+  "primitive": "redteam_esign",
+  "variant": "default",
+  "recorded_at": "2026-09-03T09:00:00+00:00",
+  "request": {
+    "endpoint": "https://na1.fusion.foxit.com/esign/api/v1/folders/createfolder",
+    "credential_presented": "pdf_services_client_id"
+  },
+  "response": {
+    "status": 401,
+    "body": {
+      "status": 401,
+      "message": "Unauthorized: eSign is not enabled for this client_id"
+    }
+  },
+  "units": 0,
+  "latency_ms": 412
+}

@@ -1,0 +1,173 @@
+{
+  "vendor": "youcam",
+  "primitive": "skin_hd",
+  "variant": "default",
+  "recorded_at": "2026-09-03T09:00:00+00:00",
+  "request": {
+    "src_file_url": "https://fixtures.chairside.local/uploads/scan-camille-01.jpg",
+    "dst_actions": [
+      "hd_wrinkle",
+      "hd_age_spot",
+      "hd_pore",
+      "hd_texture",
+      "hd_acne",
+      "hd_redness",
+      "hd_oiliness",
+      "hd_dark_circle",
+      "hd_eye_bag",
+      "hd_droopy_upper_eyelid",
+      "hd_droopy_lower_eyelid",
+      "hd_firmness",
+      "hd_radiance",
+      "hd_moisture"
+    ],
+    "format": "json"
+  },
+  "response": {
+    "status": 200,
+    "data": {
+      "task_status": "success",
+      "error": null,
+      "results": {
+        "face_quality": {
+          "has_face": true,
+          "area": "good",
+          "frontal": "good",
+          "lighting": "good",
+          "faceangle": "good"
+        },
+        "score": 66.4,
+        "output": [
+          {
+            "type": "hd_wrinkle",
+            "region": "whole",
+            "raw_score": 61.37,
+            "ui_score": 61,
+            "mask_urls": [
+              "https://fixtures.chairside.local/renders/masks/hd_wrinkle_output.png"
+            ]
+          },
+          {
+            "type": "hd_age_spot",
+            "region": "whole",
+            "raw_score": 62.37,
+            "ui_score": 62,
+            "mask_urls": [
+              "https://fixtures.chairside.local/renders/masks/hd_age_spot_output.png"
+            ]
+          },
+          {
+            "type": "hd_pore",
+            "region": "whole",
+            "raw_score": 78.37,
+            "ui_score": 78,
+            "mask_urls": [
+              "https://fixtures.chairside.local/renders/masks/hd_pore_output.png"
+            ]
+          },
+          {
+            "type": "hd_texture",
+            "region": "whole",
+            "raw_score": 82.37,
+            "ui_score": 82,
+            "mask_urls": [
+              "https://fixtures.chairside.local/renders/masks/hd_texture_output.png"
+            ]
+          },
+          {
+            "type": "hd_acne",
+            "region": "whole",
+            "raw_score": 70.37,
+            "ui_score": 70,
+            "mask_urls": [
+              "https://fixtures.chairside.local/renders/masks/hd_acne_output.png"
+            ]
+          },
+          {
+            "type": "hd_redness",
+            "region": "whole",
+            "raw_score": 38.37,
+            "ui_score": 38,
+            "mask_urls": [
+              "https://fixtures.chairside.local/renders/masks/hd_redness_output.png"
+            ]
+          },
+          {
+            "type": "hd_oiliness",
+            "region": "whole",
+            "raw_score": 55.37,
+            "ui_score": 55,
+            "mask_urls": [
+              "https://fixtures.chairside.local/renders/masks/hd_oiliness_output.png"
+            ]
+          },
+          {
+            "type": "hd_dark_circle",
+            "region": "whole",
+            "raw_score": 71.37,
+            "ui_score": 71,
+            "mask_urls": [
+              "https://fixtures.chairside.local/renders/masks/hd_dark_circle_output.png"
+            ]
+          },
+          {
+            "type": "hd_eye_bag",
+            "region": "whole",
+            "raw_score": 75.37,
+            "ui_score": 75,
+            "mask_urls": [
+              "https://fixtures.chairside.local/renders/masks/hd_eye_bag_output.png"
+            ]
+          },
+          {
+            "type": "hd_droopy_upper_eyelid",
+            "region": "whole",
+            "raw_score": 79.37,
+            "ui_score": 79,
+            "mask_urls": [
+              "https://fixtures.chairside.local/renders/masks/hd_droopy_upper_eyelid_output.png"
+            ]
+          },
+          {
+            "type": "hd_droopy_lower_eyelid",
+            "region": "whole",
+            "raw_score": 72.37,
+            "ui_score": 72,
+            "mask_urls": [
+              "https://fixtures.chairside.local/renders/masks/hd_droopy_lower_eyelid_output.png"
+            ]
+          },
+          {
+            "type": "hd_firmness",
+            "region": "whole",
+            "raw_score": 68.37,
+            "ui_score": 68,
+            "mask_urls": [
+              "https://fixtures.chairside.local/renders/masks/hd_firmness_output.png"
+            ]
+          },
+          {
+            "type": "hd_radiance",
+            "region": "whole",
+            "raw_score": 62.37,
+            "ui_score": 62,
+            "mask_urls": [
+              "https://fixtures.chairside.local/renders/masks/hd_radiance_output.png"
+            ]
+          },
+          {
+            "type": "hd_moisture",
+            "region": "whole",
+            "raw_score": 48.37,
+            "ui_score": 48,
+            "mask_urls": [
+              "https://fixtures.chairside.local/renders/masks/hd_moisture_output.png"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "units": 10,
+  "latency_ms": 6810
+}

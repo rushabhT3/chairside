@@ -1,0 +1,20 @@
+{
+  "vendor": "doctavian",
+  "primitive": "clickwrap",
+  "variant": "client_terms",
+  "recorded_at": "2026-09-03T09:00:00+00:00",
+  "request": {
+    "template_id": "tpl_fixture_client_terms",
+    "data": {
+      "salon": {
+        "name": "Atelier Noor"
+      }
+    }
+  },
+  "response": {
+    "url": "https://fixtures.chairside.local/doctavian/clickwrap/client-terms",
+    "acceptance_id": "cw-000001"
+  },
+  "units": 1,
+  "latency_ms": 620
+}

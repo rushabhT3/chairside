@@ -1,0 +1,21 @@
+{
+  "vendor": "doctavian",
+  "primitive": "generate",
+  "variant": "aftercare_brows",
+  "recorded_at": "2026-09-03T09:00:00+00:00",
+  "request": {
+    "template_id": "tpl_fixture_aftercare_brows",
+    "data": {
+      "salon": {
+        "name": "Atelier Noor"
+      }
+    }
+  },
+  "response": {
+    "document_id": "dv-000001",
+    "url": "https://fixtures.chairside.local/doctavian/aftercare_brows.pdf",
+    "pdf_base64": "JVBERi0xLjQKMSAwIG9iago8PC9UeXBlL0NhdGFsb2cvUGFnZXMgMiAwIFI+PgplbmRvYmoKMiAwIG9iago8PC9UeXBlL1BhZ2VzL0tpZHNbMyAwIFJdL0NvdW50IDE+PgplbmRvYmoKMyAwIG9iago8PC9UeXBlL1BhZ2UvUGFyZW50IDIgMCBSL01lZGlhQm94WzAgMCA1OTUgODQyXS9Db250ZW50cyA0IDAgUi9SZXNvdXJjZXM8PC9Gb250PDwvRjEgNSAwIFI+Pj4+Pj4KZW5kb2JqCjQgMCBvYmoKPDwvTGVuZ3RoIDEyOD4+c3RyZWFtCkJUCi9GMSAxNCBUZgo3MiA3NzAgVGQKMTYgVEwKKEZJWFRVUkUgLSBEb2N0YXZpYW4gYWZ0ZXJjYXJlIGJyb3dzKSBUaiBUKgooQXRlbGllciBOb29yLCAxNCBSdWUgZGUgVHVyZW5uZSwgNzUwMDMgUGFyaXMpIFRqIFQqCkVUCmVuZHN0cmVhbQplbmRvYmoKNSAwIG9iago8PC9UeXBlL0ZvbnQvU3VidHlwZS9UeXBlMS9CYXNlRm9udC9IZWx2ZXRpY2E+PgplbmRvYmoKeHJlZgowIDYKMDAwMDAwMDAwMCA2NTUzNSBmIAowMDAwMDAwMDA5IDAwMDAwIG4gCjAwMDAwMDAwNTQgMDAwMDAgbiAKMDAwMDAwMDEwNSAwMDAwMCBuIAowMDAwMDAwMjE3IDAwMDAwIG4gCjAwMDAwMDAzOTMgMDAwMDAgbiAKdHJhaWxlcgo8PC9TaXplIDYvUm9vdCAxIDAgUj4+CnN0YXJ0eHJlZgo0NTYKJSVFT0YK"
+  },
+  "units": 1,
+  "latency_ms": 1450
+}

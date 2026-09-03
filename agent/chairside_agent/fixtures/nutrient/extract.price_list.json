@@ -1,0 +1,4413 @@
+{
+  "vendor": "nutrient",
+  "primitive": "extract",
+  "variant": "price_list",
+  "recorded_at": "2026-09-03T08:30:00+00:00",
+  "request": {
+    "endpoint": "/extraction/extract",
+    "filename": "atelier-noor-tarifs-2026.pdf",
+    "schema_name": "price_list",
+    "document_sha256": "4a1f0c9e2b7d5e8f3c6a1b0d9e8f7a6c5b4a3d2e1f0c9b8a7d6e5f4a3b2c1d0e",
+    "instructions": {
+      "schema": "<price_list schema, see nutrient.SCHEMAS>",
+      "parseConfig": {
+        "mode": "understand"
+      },
+      "options": {
+        "includeCitations": true
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "requestId": "req_7f3a9c1e2b4d",
+    "output": {
+      "data": {
+        "rows": [
+          {
+            "code": "MAJ-3.0",
+            "name": "Majirel 3.0 Dark Brown",
+            "brand": "L'Oréal Professionnel",
+            "price": 12.5
+          },
+          {
+            "code": "MAJ-4.0",
+            "name": "Majirel 4.0 Brown",
+            "brand": "L'Oréal Professionnel",
+            "price": 12.5
+          },
+          {
+            "code": "MAJ-5.0",
+            "name": "Majirel 5.0 Light Brown",
+            "brand": "L'Oréal Professionnel",
+            "price": 12.5
+          },
+          {
+            "code": "MAJ-5.35",
+            "name": "Majirel 5.35 Light Brown Gold Mahogany",
+            "brand": "L'Oréal Professionnel",
+            "price": 12.5
+          },
+          {
+            "code": "MAJ-5.4",
+            "name": "Majirel 5.4 Light Brown Copper",
+            "brand": "L'Oréal Professionnel",
+            "price": 12.5
+          },
+          {
+            "code": "MAJ-6.0",
+            "name": "Majirel 6.0 Dark Blonde",
+            "brand": "L'Oréal Professionnel",
+            "price": 12.5
+          },
+          {
+            "code": "MAJ-6.3",
+            "name": "Majirel 6.3 Dark Blonde Gold",
+            "brand": "L'Oréal Professionnel",
+            "price": 12.5
+          },
+          {
+            "code": "MAJ-6.66",
+            "name": "Majirel 6.66 Dark Blonde Deep Red",
+            "brand": "L'Oréal Professionnel",
+            "price": 12.5
+          },
+          {
+            "code": "MAJ-7.1",
+            "name": "Majirel 7.1 Medium Blonde Ash",
+            "brand": "L'Oréal Professionnel",
+            "price": 12.5
+          },
+          {
+            "code": "MAJ-7.31",
+            "name": "Majirel 7.31 Medium Blonde Gold Ash",
+            "brand": "L'Oréal Professionnel",
+            "price": 12.5
+          },
+          {
+            "code": "MAJ-7.44",
+            "name": "Majirel 7.44 Medium Blonde Deep Copper",
+            "brand": "L'Oréal Professionnel",
+            "price": 12.5
+          },
+          {
+            "code": "MAJ-8.1",
+            "name": "Majirel 8.1 Light Blonde Ash",
+            "brand": "L'Oréal Professionnel",
+            "price": 12.5
+          },
+          {
+            "code": "MAJ-8.34",
+            "name": "Majirel 8.34 Light Blonde Gold Copper",
+            "brand": "L'Oréal Professionnel",
+            "price": 12.5
+          },
+          {
+            "code": "MAJ-9.13",
+            "name": "Majirel 9.13 Very Light Blonde Ash Gold",
+            "brand": "L'Oréal Professionnel",
+            "price": 12.5
+          },
+          {
+            "code": "OLX-03",
+            "name": "Olaplex No. 3 Hair Perfector 100ml",
+            "brand": "Olaplex",
+            "price": 28.0
+          },
+          {
+            "code": "OLX-06",
+            "name": "Olaplex No. 6 Bond Smoother 100ml",
+            "brand": "Olaplex",
+            "price": 32.0
+          },
+          {
+            "code": "KER-DISC-BAIN",
+            "name": "Kérastase Discipline Bain Fluidealiste 250ml",
+            "brand": "Kérastase",
+            "price": 33.0
+          },
+          {
+            "code": "KER-DISC-MASK",
+            "name": "Kérastase Discipline Maskeratine 200ml",
+            "brand": "Kérastase",
+            "price": 68.0
+          },
+          {
+            "code": "KER-VOL",
+            "name": "Kérastase Volumifique Bain Volume 250ml",
+            "brand": "Kérastase",
+            "price": 32.0
+          },
+          {
+            "code": "KER-CURL",
+            "name": "Kérastase Curl Manifesto Crème de Jour 150ml",
+            "brand": "Kérastase",
+            "price": 36.0
+          },
+          {
+            "code": "RED-FRIZZ",
+            "name": "Redken Frizz Dismiss Instant Deflate 125ml",
+            "brand": "Redken",
+            "price": 31.0
+          },
+          {
+            "code": "RED-VOL",
+            "name": "Redken Volume Injection Shampoo 300ml",
+            "brand": "Redken",
+            "price": 26.0
+          },
+          {
+            "code": "RED-ABC",
+            "name": "Redken Acidic Bonding Concentrate Shampoo 300ml",
+            "brand": "Redken",
+            "price": 34.0
+          },
+          {
+            "code": "LOR-METAL",
+            "name": "L'Oréal Professionnel Metal Detox Shampoo 300ml",
+            "brand": "L'Oréal Professionnel",
+            "price": 30.0
+          },
+          {
+            "code": "SKC-CEF",
+            "name": "SkinCeuticals C E Ferulic 30ml",
+            "brand": "SkinCeuticals",
+            "price": 165.0
+          },
+          {
+            "code": "SKC-PHYTO",
+            "name": "SkinCeuticals Phyto Corrective Gel 30ml",
+            "brand": "SkinCeuticals",
+            "price": 72.0
+          },
+          {
+            "code": "SKC-RET",
+            "name": "SkinCeuticals Retinol 0.5 30ml",
+            "brand": "SkinCeuticals",
+            "price": 78.0
+          },
+          {
+            "code": "LRP-CICA",
+            "name": "La Roche-Posay Cicaplast Baume B5+ 40ml",
+            "brand": "La Roche-Posay",
+            "price": 15.0
+          },
+          {
+            "code": "LRP-EFF",
+            "name": "La Roche-Posay Effaclar Duo+ M 40ml",
+            "brand": "La Roche-Posay",
+            "price": 18.0
+          },
+          {
+            "code": "LRP-TOL",
+            "name": "La Roche-Posay Toleriane Dermallergo Crème 40ml",
+            "brand": "La Roche-Posay",
+            "price": 20.0
+          },
+          {
+            "code": "SVC-COLOR",
+            "name": "Colour service (Majirel)",
+            "brand": "Atelier Noor",
+            "price": 85.0
+          },
+          {
+            "code": "SVC-GLOSS",
+            "name": "Gloss",
+            "brand": "Atelier Noor",
+            "price": 45.0
+          },
+          {
+            "code": "SVC-SMOOTH",
+            "name": "Smoothing treatment",
+            "brand": "Atelier Noor",
+            "price": 120.0
+          },
+          {
+            "code": "SVC-VOLCUT",
+            "name": "Volume cut",
+            "brand": "Atelier Noor",
+            "price": 65.0
+          },
+          {
+            "code": "SVC-CURLCUT",
+            "name": "Curl cut",
+            "brand": "Atelier Noor",
+            "price": 70.0
+          },
+          {
+            "code": "SVC-CLARIFY",
+            "name": "Clarifying facial",
+            "brand": "Atelier Noor",
+            "price": 75.0
+          },
+          {
+            "code": "SVC-COLLAGEN",
+            "name": "Collagen LED facial",
+            "brand": "Atelier Noor",
+            "price": 95.0
+          },
+          {
+            "code": "SVC-SOOTHE",
+            "name": "Soothing facial",
+            "brand": "Atelier Noor",
+            "price": 70.0
+          },
+          {
+            "code": "SVC-BRIGHT",
+            "name": "Brightening facial",
+            "brand": "Atelier Noor",
+            "price": 80.0
+          },
+          {
+            "code": "SVC-BROWLAM",
+            "name": "Brow lamination",
+            "brand": "Atelier Noor",
+            "price": 55.0
+          },
+          {
+            "code": "SVC-BROWTINT",
+            "name": "Brow tint",
+            "brand": "Atelier Noor",
+            "price": 25.0
+          },
+          {
+            "code": "SVC-LASER",
+            "name": "Laser session (pigment or hair removal)",
+            "brand": "Atelier Noor",
+            "price": 110.0
+          }
+        ]
+      },
+      "metadata": {
+        "rows": [
+          {
+            "code": {
+              "bbox": {
+                "x": 60,
+                "y": 140,
+                "width": 92,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.95,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_140",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 60,
+                    "y": 140,
+                    "width": 92,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "name": {
+              "bbox": {
+                "x": 160,
+                "y": 140,
+                "width": 420,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.96,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_140",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 160,
+                    "y": 140,
+                    "width": 420,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "brand": {
+              "bbox": {
+                "x": 590,
+                "y": 140,
+                "width": 170,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.97,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_140",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 590,
+                    "y": 140,
+                    "width": 170,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "price": {
+              "bbox": {
+                "x": 780,
+                "y": 140,
+                "width": 70,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.98,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_140",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 780,
+                    "y": 140,
+                    "width": 70,
+                    "height": 22
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "code": {
+              "bbox": {
+                "x": 60,
+                "y": 178,
+                "width": 92,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.91,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_178",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 60,
+                    "y": 178,
+                    "width": 92,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "name": {
+              "bbox": {
+                "x": 160,
+                "y": 178,
+                "width": 420,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.92,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_178",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 160,
+                    "y": 178,
+                    "width": 420,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "brand": {
+              "bbox": {
+                "x": 590,
+                "y": 178,
+                "width": 170,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.93,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_178",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 590,
+                    "y": 178,
+                    "width": 170,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "price": {
+              "bbox": {
+                "x": 780,
+                "y": 178,
+                "width": 70,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.94,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_178",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 780,
+                    "y": 178,
+                    "width": 70,
+                    "height": 22
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "code": {
+              "bbox": {
+                "x": 60,
+                "y": 216,
+                "width": 92,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.98,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_216",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 60,
+                    "y": 216,
+                    "width": 92,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "name": {
+              "bbox": {
+                "x": 160,
+                "y": 216,
+                "width": 420,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.88,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_216",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 160,
+                    "y": 216,
+                    "width": 420,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "brand": {
+              "bbox": {
+                "x": 590,
+                "y": 216,
+                "width": 170,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.89,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_216",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 590,
+                    "y": 216,
+                    "width": 170,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "price": {
+              "bbox": {
+                "x": 780,
+                "y": 216,
+                "width": 70,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.9,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_216",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 780,
+                    "y": 216,
+                    "width": 70,
+                    "height": 22
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "code": {
+              "bbox": {
+                "x": 60,
+                "y": 254,
+                "width": 92,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.94,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_254",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 60,
+                    "y": 254,
+                    "width": 92,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "name": {
+              "bbox": {
+                "x": 160,
+                "y": 254,
+                "width": 420,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.95,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_254",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 160,
+                    "y": 254,
+                    "width": 420,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "brand": {
+              "bbox": {
+                "x": 590,
+                "y": 254,
+                "width": 170,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.96,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_254",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 590,
+                    "y": 254,
+                    "width": 170,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "price": {
+              "bbox": {
+                "x": 780,
+                "y": 254,
+                "width": 70,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.97,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_254",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 780,
+                    "y": 254,
+                    "width": 70,
+                    "height": 22
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "code": {
+              "bbox": {
+                "x": 60,
+                "y": 292,
+                "width": 92,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.9,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_292",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 60,
+                    "y": 292,
+                    "width": 92,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "name": {
+              "bbox": {
+                "x": 160,
+                "y": 292,
+                "width": 420,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.91,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_292",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 160,
+                    "y": 292,
+                    "width": 420,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "brand": {
+              "bbox": {
+                "x": 590,
+                "y": 292,
+                "width": 170,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.92,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_292",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 590,
+                    "y": 292,
+                    "width": 170,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "price": {
+              "bbox": {
+                "x": 780,
+                "y": 292,
+                "width": 70,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.93,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_292",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 780,
+                    "y": 292,
+                    "width": 70,
+                    "height": 22
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "code": {
+              "bbox": {
+                "x": 60,
+                "y": 330,
+                "width": 92,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.97,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_330",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 60,
+                    "y": 330,
+                    "width": 92,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "name": {
+              "bbox": {
+                "x": 160,
+                "y": 330,
+                "width": 420,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.98,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_330",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 160,
+                    "y": 330,
+                    "width": 420,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "brand": {
+              "bbox": {
+                "x": 590,
+                "y": 330,
+                "width": 170,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.88,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_330",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 590,
+                    "y": 330,
+                    "width": 170,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "price": {
+              "bbox": {
+                "x": 780,
+                "y": 330,
+                "width": 70,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.89,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_330",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 780,
+                    "y": 330,
+                    "width": 70,
+                    "height": 22
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "code": {
+              "bbox": {
+                "x": 60,
+                "y": 368,
+                "width": 92,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.93,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_368",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 60,
+                    "y": 368,
+                    "width": 92,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "name": {
+              "bbox": {
+                "x": 160,
+                "y": 368,
+                "width": 420,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.94,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_368",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 160,
+                    "y": 368,
+                    "width": 420,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "brand": {
+              "bbox": {
+                "x": 590,
+                "y": 368,
+                "width": 170,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.95,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_368",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 590,
+                    "y": 368,
+                    "width": 170,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "price": {
+              "bbox": {
+                "x": 780,
+                "y": 368,
+                "width": 70,
+                "height": 22
+              },
+              "match": "fuzzy_match",
+              "confidence": 0.62,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_368",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 780,
+                    "y": 368,
+                    "width": 70,
+                    "height": 22
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "code": {
+              "bbox": {
+                "x": 60,
+                "y": 406,
+                "width": 92,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.89,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_406",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 60,
+                    "y": 406,
+                    "width": 92,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "name": {
+              "bbox": {
+                "x": 160,
+                "y": 406,
+                "width": 420,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.9,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_406",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 160,
+                    "y": 406,
+                    "width": 420,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "brand": {
+              "bbox": {
+                "x": 590,
+                "y": 406,
+                "width": 170,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.91,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_406",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 590,
+                    "y": 406,
+                    "width": 170,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "price": {
+              "bbox": {
+                "x": 780,
+                "y": 406,
+                "width": 70,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.92,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_406",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 780,
+                    "y": 406,
+                    "width": 70,
+                    "height": 22
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "code": {
+              "bbox": {
+                "x": 60,
+                "y": 444,
+                "width": 92,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.96,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_444",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 60,
+                    "y": 444,
+                    "width": 92,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "name": {
+              "bbox": {
+                "x": 160,
+                "y": 444,
+                "width": 420,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.97,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_444",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 160,
+                    "y": 444,
+                    "width": 420,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "brand": {
+              "bbox": {
+                "x": 590,
+                "y": 444,
+                "width": 170,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.98,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_444",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 590,
+                    "y": 444,
+                    "width": 170,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "price": {
+              "bbox": {
+                "x": 780,
+                "y": 444,
+                "width": 70,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.88,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_444",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 780,
+                    "y": 444,
+                    "width": 70,
+                    "height": 22
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "code": {
+              "bbox": {
+                "x": 60,
+                "y": 482,
+                "width": 92,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.92,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_482",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 60,
+                    "y": 482,
+                    "width": 92,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "name": {
+              "bbox": {
+                "x": 160,
+                "y": 482,
+                "width": 420,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.93,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_482",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 160,
+                    "y": 482,
+                    "width": 420,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "brand": {
+              "bbox": {
+                "x": 590,
+                "y": 482,
+                "width": 170,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.94,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_482",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 590,
+                    "y": 482,
+                    "width": 170,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "price": {
+              "bbox": {
+                "x": 780,
+                "y": 482,
+                "width": 70,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.95,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_482",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 780,
+                    "y": 482,
+                    "width": 70,
+                    "height": 22
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "code": {
+              "bbox": {
+                "x": 60,
+                "y": 520,
+                "width": 92,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.88,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_520",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 60,
+                    "y": 520,
+                    "width": 92,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "name": {
+              "bbox": {
+                "x": 160,
+                "y": 520,
+                "width": 420,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.89,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_520",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 160,
+                    "y": 520,
+                    "width": 420,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "brand": {
+              "bbox": {
+                "x": 590,
+                "y": 520,
+                "width": 170,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.9,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_520",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 590,
+                    "y": 520,
+                    "width": 170,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "price": {
+              "bbox": {
+                "x": 780,
+                "y": 520,
+                "width": 70,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.91,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_520",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 780,
+                    "y": 520,
+                    "width": 70,
+                    "height": 22
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "code": {
+              "bbox": {
+                "x": 60,
+                "y": 558,
+                "width": 92,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.95,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_558",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 60,
+                    "y": 558,
+                    "width": 92,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "name": {
+              "bbox": {
+                "x": 160,
+                "y": 558,
+                "width": 420,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.96,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_558",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 160,
+                    "y": 558,
+                    "width": 420,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "brand": {
+              "bbox": {
+                "x": 590,
+                "y": 558,
+                "width": 170,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.97,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_558",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 590,
+                    "y": 558,
+                    "width": 170,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "price": {
+              "bbox": {
+                "x": 780,
+                "y": 558,
+                "width": 70,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.98,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_558",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 780,
+                    "y": 558,
+                    "width": 70,
+                    "height": 22
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "code": {
+              "bbox": {
+                "x": 60,
+                "y": 596,
+                "width": 92,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.91,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_596",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 60,
+                    "y": 596,
+                    "width": 92,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "name": {
+              "bbox": {
+                "x": 160,
+                "y": 596,
+                "width": 420,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.92,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_596",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 160,
+                    "y": 596,
+                    "width": 420,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "brand": {
+              "bbox": {
+                "x": 590,
+                "y": 596,
+                "width": 170,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.93,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_596",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 590,
+                    "y": 596,
+                    "width": 170,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "price": {
+              "bbox": {
+                "x": 780,
+                "y": 596,
+                "width": 70,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.94,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_596",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 780,
+                    "y": 596,
+                    "width": 70,
+                    "height": 22
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "code": {
+              "bbox": {
+                "x": 60,
+                "y": 634,
+                "width": 92,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.98,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_634",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 60,
+                    "y": 634,
+                    "width": 92,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "name": {
+              "bbox": {
+                "x": 160,
+                "y": 634,
+                "width": 420,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.88,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_634",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 160,
+                    "y": 634,
+                    "width": 420,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "brand": {
+              "bbox": {
+                "x": 590,
+                "y": 634,
+                "width": 170,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.89,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_634",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 590,
+                    "y": 634,
+                    "width": 170,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "price": {
+              "bbox": {
+                "x": 780,
+                "y": 634,
+                "width": 70,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.9,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_634",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 780,
+                    "y": 634,
+                    "width": 70,
+                    "height": 22
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "code": {
+              "bbox": {
+                "x": 60,
+                "y": 672,
+                "width": 92,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.94,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_672",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 60,
+                    "y": 672,
+                    "width": 92,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "name": {
+              "bbox": {
+                "x": 160,
+                "y": 672,
+                "width": 420,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.95,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_672",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 160,
+                    "y": 672,
+                    "width": 420,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "brand": {
+              "bbox": {
+                "x": 590,
+                "y": 672,
+                "width": 170,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.96,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_672",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 590,
+                    "y": 672,
+                    "width": 170,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "price": {
+              "bbox": {
+                "x": 780,
+                "y": 672,
+                "width": 70,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.97,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_672",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 780,
+                    "y": 672,
+                    "width": 70,
+                    "height": 22
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "code": {
+              "bbox": {
+                "x": 60,
+                "y": 710,
+                "width": 92,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.9,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_710",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 60,
+                    "y": 710,
+                    "width": 92,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "name": {
+              "bbox": {
+                "x": 160,
+                "y": 710,
+                "width": 420,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.91,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_710",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 160,
+                    "y": 710,
+                    "width": 420,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "brand": {
+              "bbox": {
+                "x": 590,
+                "y": 710,
+                "width": 170,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.92,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_710",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 590,
+                    "y": 710,
+                    "width": 170,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "price": {
+              "bbox": {
+                "x": 780,
+                "y": 710,
+                "width": 70,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.93,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_710",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 780,
+                    "y": 710,
+                    "width": 70,
+                    "height": 22
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "code": {
+              "bbox": {
+                "x": 60,
+                "y": 748,
+                "width": 92,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.97,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_748",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 60,
+                    "y": 748,
+                    "width": 92,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "name": {
+              "bbox": {
+                "x": 160,
+                "y": 748,
+                "width": 420,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.98,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_748",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 160,
+                    "y": 748,
+                    "width": 420,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "brand": {
+              "bbox": {
+                "x": 590,
+                "y": 748,
+                "width": 170,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.88,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_748",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 590,
+                    "y": 748,
+                    "width": 170,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "price": {
+              "bbox": {
+                "x": 780,
+                "y": 748,
+                "width": 70,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.89,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_748",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 780,
+                    "y": 748,
+                    "width": 70,
+                    "height": 22
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "code": {
+              "bbox": {
+                "x": 60,
+                "y": 786,
+                "width": 92,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.93,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_786",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 60,
+                    "y": 786,
+                    "width": 92,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "name": {
+              "bbox": {
+                "x": 160,
+                "y": 786,
+                "width": 420,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.94,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_786",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 160,
+                    "y": 786,
+                    "width": 420,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "brand": {
+              "bbox": {
+                "x": 590,
+                "y": 786,
+                "width": 170,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.95,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_786",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 590,
+                    "y": 786,
+                    "width": 170,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "price": {
+              "bbox": {
+                "x": 780,
+                "y": 786,
+                "width": 70,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.96,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_786",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 780,
+                    "y": 786,
+                    "width": 70,
+                    "height": 22
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "code": {
+              "bbox": {
+                "x": 60,
+                "y": 824,
+                "width": 92,
+                "height": 22
+              },
+              "match": "fuzzy_match",
+              "confidence": 0.71,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_824",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 60,
+                    "y": 824,
+                    "width": 92,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "name": {
+              "bbox": {
+                "x": 160,
+                "y": 824,
+                "width": 420,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.9,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_824",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 160,
+                    "y": 824,
+                    "width": 420,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "brand": {
+              "bbox": {
+                "x": 590,
+                "y": 824,
+                "width": 170,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.91,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_824",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 590,
+                    "y": 824,
+                    "width": 170,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "price": {
+              "bbox": {
+                "x": 780,
+                "y": 824,
+                "width": 70,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.92,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_824",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 780,
+                    "y": 824,
+                    "width": 70,
+                    "height": 22
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "code": {
+              "bbox": {
+                "x": 60,
+                "y": 862,
+                "width": 92,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.96,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_862",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 60,
+                    "y": 862,
+                    "width": 92,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "name": {
+              "bbox": {
+                "x": 160,
+                "y": 862,
+                "width": 420,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.97,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_862",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 160,
+                    "y": 862,
+                    "width": 420,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "brand": {
+              "bbox": {
+                "x": 590,
+                "y": 862,
+                "width": 170,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.98,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_862",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 590,
+                    "y": 862,
+                    "width": 170,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "price": {
+              "bbox": {
+                "x": 780,
+                "y": 862,
+                "width": 70,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.88,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_862",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 780,
+                    "y": 862,
+                    "width": 70,
+                    "height": 22
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "code": {
+              "bbox": {
+                "x": 60,
+                "y": 900,
+                "width": 92,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.92,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_900",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 60,
+                    "y": 900,
+                    "width": 92,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "name": {
+              "bbox": {
+                "x": 160,
+                "y": 900,
+                "width": 420,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.93,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_900",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 160,
+                    "y": 900,
+                    "width": 420,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "brand": {
+              "bbox": {
+                "x": 590,
+                "y": 900,
+                "width": 170,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.94,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_900",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 590,
+                    "y": 900,
+                    "width": 170,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "price": {
+              "bbox": {
+                "x": 780,
+                "y": 900,
+                "width": 70,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.95,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_900",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 780,
+                    "y": 900,
+                    "width": 70,
+                    "height": 22
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "code": {
+              "bbox": {
+                "x": 60,
+                "y": 938,
+                "width": 92,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.88,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_938",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 60,
+                    "y": 938,
+                    "width": 92,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "name": {
+              "bbox": {
+                "x": 160,
+                "y": 938,
+                "width": 420,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.89,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_938",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 160,
+                    "y": 938,
+                    "width": 420,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "brand": {
+              "bbox": {
+                "x": 590,
+                "y": 938,
+                "width": 170,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.9,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_938",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 590,
+                    "y": 938,
+                    "width": 170,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "price": {
+              "bbox": {
+                "x": 780,
+                "y": 938,
+                "width": 70,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.91,
+              "pageNumber": 1,
+              "pageIndex": 0,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_1_938",
+                  "pageIndex": 0,
+                  "bbox": {
+                    "x": 780,
+                    "y": 938,
+                    "width": 70,
+                    "height": 22
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "code": {
+              "bbox": {
+                "x": 60,
+                "y": 140,
+                "width": 92,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.95,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_140",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 60,
+                    "y": 140,
+                    "width": 92,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "name": {
+              "bbox": {
+                "x": 160,
+                "y": 140,
+                "width": 420,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.96,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_140",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 160,
+                    "y": 140,
+                    "width": 420,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "brand": {
+              "bbox": {
+                "x": 590,
+                "y": 140,
+                "width": 170,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.97,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_140",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 590,
+                    "y": 140,
+                    "width": 170,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "price": {
+              "bbox": {
+                "x": 780,
+                "y": 140,
+                "width": 70,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.98,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_140",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 780,
+                    "y": 140,
+                    "width": 70,
+                    "height": 22
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "code": {
+              "bbox": {
+                "x": 60,
+                "y": 178,
+                "width": 92,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.91,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_178",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 60,
+                    "y": 178,
+                    "width": 92,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "name": {
+              "bbox": {
+                "x": 160,
+                "y": 178,
+                "width": 420,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.92,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_178",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 160,
+                    "y": 178,
+                    "width": 420,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "brand": {
+              "bbox": {
+                "x": 590,
+                "y": 178,
+                "width": 170,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.93,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_178",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 590,
+                    "y": 178,
+                    "width": 170,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "price": {
+              "bbox": {
+                "x": 780,
+                "y": 178,
+                "width": 70,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.94,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_178",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 780,
+                    "y": 178,
+                    "width": 70,
+                    "height": 22
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "code": {
+              "bbox": {
+                "x": 60,
+                "y": 216,
+                "width": 92,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.98,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_216",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 60,
+                    "y": 216,
+                    "width": 92,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "name": {
+              "bbox": {
+                "x": 160,
+                "y": 216,
+                "width": 420,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.88,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_216",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 160,
+                    "y": 216,
+                    "width": 420,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "brand": {
+              "bbox": {
+                "x": 590,
+                "y": 216,
+                "width": 170,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.89,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_216",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 590,
+                    "y": 216,
+                    "width": 170,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "price": {
+              "bbox": {
+                "x": 780,
+                "y": 216,
+                "width": 70,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.9,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_216",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 780,
+                    "y": 216,
+                    "width": 70,
+                    "height": 22
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "code": {
+              "bbox": {
+                "x": 60,
+                "y": 254,
+                "width": 92,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.94,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_254",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 60,
+                    "y": 254,
+                    "width": 92,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "name": {
+              "bbox": {
+                "x": 160,
+                "y": 254,
+                "width": 420,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.95,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_254",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 160,
+                    "y": 254,
+                    "width": 420,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "brand": {
+              "bbox": {
+                "x": 590,
+                "y": 254,
+                "width": 170,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.96,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_254",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 590,
+                    "y": 254,
+                    "width": 170,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "price": {
+              "bbox": {
+                "x": 780,
+                "y": 254,
+                "width": 70,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.97,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_254",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 780,
+                    "y": 254,
+                    "width": 70,
+                    "height": 22
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "code": {
+              "bbox": {
+                "x": 60,
+                "y": 292,
+                "width": 92,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.9,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_292",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 60,
+                    "y": 292,
+                    "width": 92,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "name": {
+              "bbox": {
+                "x": 160,
+                "y": 292,
+                "width": 420,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.91,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_292",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 160,
+                    "y": 292,
+                    "width": 420,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "brand": {
+              "bbox": {
+                "x": 590,
+                "y": 292,
+                "width": 170,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.92,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_292",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 590,
+                    "y": 292,
+                    "width": 170,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "price": {
+              "bbox": {
+                "x": 780,
+                "y": 292,
+                "width": 70,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.93,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_292",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 780,
+                    "y": 292,
+                    "width": 70,
+                    "height": 22
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "code": {
+              "bbox": {
+                "x": 60,
+                "y": 330,
+                "width": 92,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.97,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_330",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 60,
+                    "y": 330,
+                    "width": 92,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "name": {
+              "bbox": {
+                "x": 160,
+                "y": 330,
+                "width": 420,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.98,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_330",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 160,
+                    "y": 330,
+                    "width": 420,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "brand": {
+              "bbox": {
+                "x": 590,
+                "y": 330,
+                "width": 170,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.88,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_330",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 590,
+                    "y": 330,
+                    "width": 170,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "price": {
+              "bbox": {
+                "x": 780,
+                "y": 330,
+                "width": 70,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.89,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_330",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 780,
+                    "y": 330,
+                    "width": 70,
+                    "height": 22
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "code": {
+              "bbox": {
+                "x": 60,
+                "y": 368,
+                "width": 92,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.93,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_368",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 60,
+                    "y": 368,
+                    "width": 92,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "name": {
+              "bbox": {
+                "x": 160,
+                "y": 368,
+                "width": 420,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.94,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_368",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 160,
+                    "y": 368,
+                    "width": 420,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "brand": {
+              "bbox": {
+                "x": 590,
+                "y": 368,
+                "width": 170,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.95,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_368",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 590,
+                    "y": 368,
+                    "width": 170,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "price": {
+              "bbox": {
+                "x": 780,
+                "y": 368,
+                "width": 70,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.96,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_368",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 780,
+                    "y": 368,
+                    "width": 70,
+                    "height": 22
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "code": {
+              "bbox": {
+                "x": 60,
+                "y": 406,
+                "width": 92,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.89,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_406",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 60,
+                    "y": 406,
+                    "width": 92,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "name": {
+              "bbox": {
+                "x": 160,
+                "y": 406,
+                "width": 420,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.9,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_406",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 160,
+                    "y": 406,
+                    "width": 420,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "brand": {
+              "bbox": {
+                "x": 590,
+                "y": 406,
+                "width": 170,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.91,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_406",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 590,
+                    "y": 406,
+                    "width": 170,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "price": {
+              "bbox": {
+                "x": 780,
+                "y": 406,
+                "width": 70,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.92,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_406",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 780,
+                    "y": 406,
+                    "width": 70,
+                    "height": 22
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "code": {
+              "bbox": {
+                "x": 60,
+                "y": 444,
+                "width": 92,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.96,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_444",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 60,
+                    "y": 444,
+                    "width": 92,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "name": {
+              "bbox": {
+                "x": 160,
+                "y": 444,
+                "width": 420,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.97,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_444",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 160,
+                    "y": 444,
+                    "width": 420,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "brand": {
+              "bbox": {
+                "x": 590,
+                "y": 444,
+                "width": 170,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.98,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_444",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 590,
+                    "y": 444,
+                    "width": 170,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "price": {
+              "bbox": {
+                "x": 780,
+                "y": 444,
+                "width": 70,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.88,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_444",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 780,
+                    "y": 444,
+                    "width": 70,
+                    "height": 22
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "code": {
+              "bbox": {
+                "x": 60,
+                "y": 482,
+                "width": 92,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.92,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_482",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 60,
+                    "y": 482,
+                    "width": 92,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "name": {
+              "bbox": {
+                "x": 160,
+                "y": 482,
+                "width": 420,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.93,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_482",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 160,
+                    "y": 482,
+                    "width": 420,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "brand": {
+              "bbox": {
+                "x": 590,
+                "y": 482,
+                "width": 170,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.94,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_482",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 590,
+                    "y": 482,
+                    "width": 170,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "price": {
+              "bbox": {
+                "x": 780,
+                "y": 482,
+                "width": 70,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.95,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_482",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 780,
+                    "y": 482,
+                    "width": 70,
+                    "height": 22
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "code": {
+              "bbox": {
+                "x": 60,
+                "y": 520,
+                "width": 92,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.88,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_520",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 60,
+                    "y": 520,
+                    "width": 92,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "name": {
+              "bbox": {
+                "x": 160,
+                "y": 520,
+                "width": 420,
+                "height": 22
+              },
+              "match": "fuzzy_match",
+              "confidence": 0.8,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_520",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 160,
+                    "y": 520,
+                    "width": 420,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "brand": {
+              "bbox": {
+                "x": 590,
+                "y": 520,
+                "width": 170,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.9,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_520",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 590,
+                    "y": 520,
+                    "width": 170,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "price": {
+              "bbox": {
+                "x": 780,
+                "y": 520,
+                "width": 70,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.91,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_520",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 780,
+                    "y": 520,
+                    "width": 70,
+                    "height": 22
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "code": {
+              "bbox": {
+                "x": 60,
+                "y": 558,
+                "width": 92,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.95,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_558",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 60,
+                    "y": 558,
+                    "width": 92,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "name": {
+              "bbox": {
+                "x": 160,
+                "y": 558,
+                "width": 420,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.96,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_558",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 160,
+                    "y": 558,
+                    "width": 420,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "brand": {
+              "bbox": {
+                "x": 590,
+                "y": 558,
+                "width": 170,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.97,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_558",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 590,
+                    "y": 558,
+                    "width": 170,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "price": {
+              "bbox": {
+                "x": 780,
+                "y": 558,
+                "width": 70,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.98,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_558",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 780,
+                    "y": 558,
+                    "width": 70,
+                    "height": 22
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "code": {
+              "bbox": {
+                "x": 60,
+                "y": 596,
+                "width": 92,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.91,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_596",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 60,
+                    "y": 596,
+                    "width": 92,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "name": {
+              "bbox": {
+                "x": 160,
+                "y": 596,
+                "width": 420,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.92,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_596",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 160,
+                    "y": 596,
+                    "width": 420,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "brand": {
+              "bbox": {
+                "x": 590,
+                "y": 596,
+                "width": 170,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.93,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_596",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 590,
+                    "y": 596,
+                    "width": 170,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "price": {
+              "bbox": {
+                "x": 780,
+                "y": 596,
+                "width": 70,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.94,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_596",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 780,
+                    "y": 596,
+                    "width": 70,
+                    "height": 22
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "code": {
+              "bbox": {
+                "x": 60,
+                "y": 634,
+                "width": 92,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.98,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_634",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 60,
+                    "y": 634,
+                    "width": 92,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "name": {
+              "bbox": {
+                "x": 160,
+                "y": 634,
+                "width": 420,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.88,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_634",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 160,
+                    "y": 634,
+                    "width": 420,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "brand": {
+              "bbox": {
+                "x": 590,
+                "y": 634,
+                "width": 170,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.89,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_634",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 590,
+                    "y": 634,
+                    "width": 170,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "price": {
+              "bbox": {
+                "x": 780,
+                "y": 634,
+                "width": 70,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.9,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_634",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 780,
+                    "y": 634,
+                    "width": 70,
+                    "height": 22
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "code": {
+              "bbox": {
+                "x": 60,
+                "y": 672,
+                "width": 92,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.94,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_672",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 60,
+                    "y": 672,
+                    "width": 92,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "name": {
+              "bbox": {
+                "x": 160,
+                "y": 672,
+                "width": 420,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.95,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_672",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 160,
+                    "y": 672,
+                    "width": 420,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "brand": {
+              "bbox": {
+                "x": 590,
+                "y": 672,
+                "width": 170,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.96,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_672",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 590,
+                    "y": 672,
+                    "width": 170,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "price": {
+              "bbox": {
+                "x": 780,
+                "y": 672,
+                "width": 70,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.97,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_672",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 780,
+                    "y": 672,
+                    "width": 70,
+                    "height": 22
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "code": {
+              "bbox": {
+                "x": 60,
+                "y": 710,
+                "width": 92,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.9,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_710",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 60,
+                    "y": 710,
+                    "width": 92,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "name": {
+              "bbox": {
+                "x": 160,
+                "y": 710,
+                "width": 420,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.91,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_710",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 160,
+                    "y": 710,
+                    "width": 420,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "brand": {
+              "bbox": {
+                "x": 590,
+                "y": 710,
+                "width": 170,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.92,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_710",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 590,
+                    "y": 710,
+                    "width": 170,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "price": {
+              "bbox": {
+                "x": 780,
+                "y": 710,
+                "width": 70,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.93,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_710",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 780,
+                    "y": 710,
+                    "width": 70,
+                    "height": 22
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "code": {
+              "bbox": {
+                "x": 60,
+                "y": 748,
+                "width": 92,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.97,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_748",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 60,
+                    "y": 748,
+                    "width": 92,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "name": {
+              "bbox": {
+                "x": 160,
+                "y": 748,
+                "width": 420,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.98,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_748",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 160,
+                    "y": 748,
+                    "width": 420,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "brand": {
+              "bbox": {
+                "x": 590,
+                "y": 748,
+                "width": 170,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.88,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_748",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 590,
+                    "y": 748,
+                    "width": 170,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "price": {
+              "bbox": {
+                "x": 780,
+                "y": 748,
+                "width": 70,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.89,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_748",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 780,
+                    "y": 748,
+                    "width": 70,
+                    "height": 22
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "code": {
+              "bbox": {
+                "x": 60,
+                "y": 786,
+                "width": 92,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.93,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_786",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 60,
+                    "y": 786,
+                    "width": 92,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "name": {
+              "bbox": {
+                "x": 160,
+                "y": 786,
+                "width": 420,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.94,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_786",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 160,
+                    "y": 786,
+                    "width": 420,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "brand": {
+              "bbox": {
+                "x": 590,
+                "y": 786,
+                "width": 170,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.95,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_786",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 590,
+                    "y": 786,
+                    "width": 170,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "price": {
+              "bbox": {
+                "x": 780,
+                "y": 786,
+                "width": 70,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.96,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_786",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 780,
+                    "y": 786,
+                    "width": 70,
+                    "height": 22
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "code": {
+              "bbox": {
+                "x": 60,
+                "y": 824,
+                "width": 92,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.89,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_824",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 60,
+                    "y": 824,
+                    "width": 92,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "name": {
+              "bbox": {
+                "x": 160,
+                "y": 824,
+                "width": 420,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.9,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_824",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 160,
+                    "y": 824,
+                    "width": 420,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "brand": {
+              "bbox": {
+                "x": 590,
+                "y": 824,
+                "width": 170,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.91,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_824",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 590,
+                    "y": 824,
+                    "width": 170,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "price": {
+              "bbox": {
+                "x": 780,
+                "y": 824,
+                "width": 70,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.92,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_824",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 780,
+                    "y": 824,
+                    "width": 70,
+                    "height": 22
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "code": {
+              "bbox": {
+                "x": 60,
+                "y": 862,
+                "width": 92,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.96,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_862",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 60,
+                    "y": 862,
+                    "width": 92,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "name": {
+              "bbox": {
+                "x": 160,
+                "y": 862,
+                "width": 420,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.97,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_862",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 160,
+                    "y": 862,
+                    "width": 420,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "brand": {
+              "bbox": {
+                "x": 590,
+                "y": 862,
+                "width": 170,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.98,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_862",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 590,
+                    "y": 862,
+                    "width": 170,
+                    "height": 22
+                  }
+                }
+              ]
+            },
+            "price": {
+              "bbox": {
+                "x": 780,
+                "y": 862,
+                "width": 70,
+                "height": 22
+              },
+              "match": "id_match",
+              "confidence": 0.88,
+              "pageNumber": 2,
+              "pageIndex": 1,
+              "source_bboxes": [
+                {
+                  "block_id": "blk_2_862",
+                  "pageIndex": 1,
+                  "bbox": {
+                    "x": 780,
+                    "y": 862,
+                    "width": 70,
+                    "height": 22
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "metrics": {
+      "processingTimeMs": 6480,
+      "pagesProcessed": 2
+    },
+    "configuration": {
+      "mode": "understand",
+      "includeCitations": true
+    }
+  },
+  "units": 1,
+  "latency_ms": 6512
+}

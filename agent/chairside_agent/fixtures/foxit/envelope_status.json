@@ -1,0 +1,16 @@
+{
+  "vendor": "foxit",
+  "primitive": "envelope_status",
+  "variant": "default",
+  "recorded_at": "2026-09-03T09:00:00+00:00",
+  "request": {
+    "envelope_id": "env-0001"
+  },
+  "response": {
+    "state": "human_reviewed",
+    "session_url": null,
+    "expires_at": null
+  },
+  "units": 0,
+  "latency_ms": 95
+}

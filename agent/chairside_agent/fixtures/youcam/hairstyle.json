@@ -1,0 +1,22 @@
+{
+  "vendor": "youcam",
+  "primitive": "hairstyle",
+  "variant": "default",
+  "recorded_at": "2026-09-03T09:00:00+00:00",
+  "request": {
+    "src_file_url": "https://fixtures.chairside.local/uploads/scan-camille-01.jpg",
+    "template_id": "oval_long_layers"
+  },
+  "response": {
+    "status": 200,
+    "data": {
+      "task_status": "success",
+      "error": null,
+      "results": {
+        "url": "https://fixtures.chairside.local/renders/hairstyle-long-layers.jpg"
+      }
+    }
+  },
+  "units": 2,
+  "latency_ms": 7910
+}

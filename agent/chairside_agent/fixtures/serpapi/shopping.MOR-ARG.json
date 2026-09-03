@@ -1,0 +1,121 @@
+{
+  "vendor": "serpapi",
+  "primitive": "shopping",
+  "variant": "MOR-ARG",
+  "recorded_at": "2026-09-03T08:30:00+00:00",
+  "request": {
+    "engine": "google_shopping",
+    "q": "Moroccanoil Treatment 100ml",
+    "gl": "fr",
+    "hl": "fr"
+  },
+  "response": {
+    "search_metadata": {
+      "id": "68b7f2b3d4e5f60718293a4f",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/68b7f2b3d4e5f60718293a4f.json",
+      "created_at": "2026-09-03 08:30:12 UTC",
+      "processed_at": "2026-09-03 08:30:12 UTC",
+      "total_time_taken": 2.41
+    },
+    "search_parameters": {
+      "engine": "google_shopping",
+      "q": "Moroccanoil Treatment 100ml",
+      "gl": "fr",
+      "hl": "fr",
+      "google_domain": "google.fr"
+    },
+    "search_information": {
+      "query_displayed": "Moroccanoil Treatment 100ml",
+      "shopping_results_state": "Results for exact spelling"
+    },
+    "shopping_results": [
+      {
+        "position": 1,
+        "title": "Moroccanoil Treatment Huile 100 ml",
+        "product_link": "https://www.sephora.fr/p/moroccanoil-treatment",
+        "product_id": "4780000000137",
+        "serpapi_product_api": "https://serpapi.com/search.json?engine=google_product&product_id=4780000000137&gl=fr&hl=fr",
+        "source": "Sephora",
+        "price": "44,50 €",
+        "extracted_price": 44.5,
+        "rating": 4.4,
+        "reviews": 157,
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9Gc68b7f2b31",
+        "delivery": "Livraison gratuite"
+      },
+      {
+        "position": 2,
+        "title": "Moroccanoil Treatment 100ml",
+        "product_link": "https://www.nocibe.fr/moroccanoil-treatment",
+        "product_id": "4780000000274",
+        "serpapi_product_api": "https://serpapi.com/search.json?engine=google_product&product_id=4780000000274&gl=fr&hl=fr",
+        "source": "Nocibé",
+        "price": "41,90 €",
+        "extracted_price": 41.9,
+        "rating": 4.5,
+        "reviews": 277,
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9Gc68b7f2b32",
+        "delivery": "Livraison 3,99 €"
+      },
+      {
+        "position": 3,
+        "title": "Moroccanoil Treatment 100 ml",
+        "product_link": "https://www.amazon.fr/dp/B003MORARG",
+        "product_id": "4780000000411",
+        "serpapi_product_api": "https://serpapi.com/search.json?engine=google_product&product_id=4780000000411&gl=fr&hl=fr",
+        "source": "Amazon.fr",
+        "price": "36,40 €",
+        "extracted_price": 36.4,
+        "rating": 4.6,
+        "reviews": 397,
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9Gc68b7f2b33",
+        "delivery": "Livraison gratuite"
+      },
+      {
+        "position": 4,
+        "title": "Moroccanoil Treatment 100ml",
+        "product_link": "https://www.lookfantastic.fr/moroccanoil-treatment",
+        "product_id": "4780000000548",
+        "serpapi_product_api": "https://serpapi.com/search.json?engine=google_product&product_id=4780000000548&gl=fr&hl=fr",
+        "source": "Lookfantastic",
+        "price": "42,75 €",
+        "extracted_price": 42.75,
+        "rating": 4.3,
+        "reviews": 517,
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9Gc68b7f2b34",
+        "delivery": "Livraison 3,99 €"
+      },
+      {
+        "position": 5,
+        "title": "Moroccanoil Treatment Original 100ml",
+        "product_link": "https://www.notino.fr/moroccanoil/treatment/",
+        "product_id": "4780000000685",
+        "serpapi_product_api": "https://serpapi.com/search.json?engine=google_product&product_id=4780000000685&gl=fr&hl=fr",
+        "source": "Notino",
+        "price": "35,90 €",
+        "extracted_price": 35.9,
+        "rating": 4.4,
+        "reviews": 637,
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9Gc68b7f2b35",
+        "delivery": "Livraison gratuite"
+      },
+      {
+        "position": 6,
+        "title": "Moroccanoil Treatment 100 ml",
+        "product_link": "https://www.marionnaud.fr/moroccanoil-treatment",
+        "product_id": "4780000000822",
+        "serpapi_product_api": "https://serpapi.com/search.json?engine=google_product&product_id=4780000000822&gl=fr&hl=fr",
+        "source": "Marionnaud",
+        "price": "44,90 €",
+        "extracted_price": 44.9,
+        "rating": 4.5,
+        "reviews": 757,
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9Gc68b7f2b36",
+        "delivery": "Livraison 3,99 €"
+      }
+    ]
+  },
+  "units": 1,
+  "latency_ms": 1834
+}

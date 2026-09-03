@@ -1,0 +1,85 @@
+{
+  "vendor": "namecom",
+  "primitive": "search",
+  "variant": "default",
+  "recorded_at": "2026-09-03T08:30:00+00:00",
+  "request": {
+    "method": "POST",
+    "path": "/core/v1/domains:search",
+    "body": {
+      "keyword": "atelier noor",
+      "tldFilter": [
+        "com",
+        "fr",
+        "paris"
+      ],
+      "purchaseType": "registration"
+    }
+  },
+  "response": {
+    "results": [
+      {
+        "domainName": "ateliernoor.com",
+        "sld": "ateliernoor",
+        "tld": "com",
+        "purchasable": true,
+        "premium": false,
+        "purchasePrice": 12.99,
+        "purchaseType": "registration",
+        "renewalPrice": 12.99
+      },
+      {
+        "domainName": "ateliernoor.fr",
+        "sld": "ateliernoor",
+        "tld": "fr",
+        "purchasable": true,
+        "premium": false,
+        "purchasePrice": 9.99,
+        "purchaseType": "registration",
+        "renewalPrice": 9.99
+      },
+      {
+        "domainName": "ateliernoor.paris",
+        "sld": "ateliernoor",
+        "tld": "paris",
+        "purchasable": true,
+        "premium": false,
+        "purchasePrice": 44.99,
+        "purchaseType": "registration",
+        "renewalPrice": 44.99
+      },
+      {
+        "domainName": "atelier-noor.com",
+        "sld": "atelier-noor",
+        "tld": "com",
+        "purchasable": true,
+        "premium": false,
+        "purchasePrice": 12.99,
+        "purchaseType": "registration",
+        "renewalPrice": 12.99
+      },
+      {
+        "domainName": "noorsalon.com",
+        "sld": "noorsalon",
+        "tld": "com",
+        "purchasable": true,
+        "premium": false,
+        "purchasePrice": 12.99,
+        "purchaseType": "registration",
+        "renewalPrice": 12.99
+      },
+      {
+        "domainName": "ateliernoorparis.com",
+        "sld": "ateliernoorparis",
+        "tld": "com",
+        "purchasable": true,
+        "premium": false,
+        "purchasePrice": 12.99,
+        "purchaseType": "registration",
+        "renewalPrice": 12.99
+      }
+    ]
+  },
+  "units": 0,
+  "latency_ms": 812
+}

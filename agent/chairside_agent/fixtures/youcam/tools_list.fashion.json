@@ -1,0 +1,31 @@
+{
+  "vendor": "youcam",
+  "primitive": "tools_list",
+  "variant": "fashion",
+  "recorded_at": "2026-09-03T09:00:00+00:00",
+  "request": {
+    "server": "mcp/fashion"
+  },
+  "response": {
+    "tools": [
+      "AI_Clothes_Virtual_Try_On",
+      "AI_Fabric_Virtual_Try_On",
+      "AI_Fabric_Virtual_Try_On_Templates",
+      "AI_Shoes_Virtual_Try_On",
+      "AI_Hat_Virtual_Try_On",
+      "AI_Scarf_Virtual_Try_On",
+      "AI_Bracelet_Virtual_Try_On",
+      "AI_Earrings_Virtual_Try_On",
+      "AI_Necklace_Virtual_Try_On",
+      "AI_Ring_Virtual_Try_On",
+      "AI_Watch_Virtual_Try_On",
+      "AI_Bag_Virtual_Try_On",
+      "File_Upload",
+      "Get_Running_Task_Status",
+      "Get_Upload_API_Info",
+      "Get_Feature_Cost"
+    ]
+  },
+  "units": 0,
+  "latency_ms": 280
+}

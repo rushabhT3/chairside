@@ -1,0 +1,16 @@
+{
+  "vendor": "foxit",
+  "primitive": "ocr",
+  "variant": "default",
+  "recorded_at": "2026-09-03T09:00:00+00:00",
+  "request": {
+    "sha256": "seed:intake-01"
+  },
+  "response": {
+    "resultDocumentId": "fx-ocr-000001",
+    "text": "CLIENT INTAKE - Atelier Noor\nName: Camille Roux\nAllergies: PPD (hair dye), nickel\nMedications: none\nPregnant: no\nScalp sensitivity: mild\nLast chemical service: balayage, 11 weeks ago\nSigned: C. Roux",
+    "_base64": "JVBERi0xLjQKMSAwIG9iago8PC9UeXBlL0NhdGFsb2cvUGFnZXMgMiAwIFI+PgplbmRvYmoKMiAwIG9iago8PC9UeXBlL1BhZ2VzL0tpZHNbMyAwIFJdL0NvdW50IDE+PgplbmRvYmoKMyAwIG9iago8PC9UeXBlL1BhZ2UvUGFyZW50IDIgMCBSL01lZGlhQm94WzAgMCA1OTUgODQyXS9Db250ZW50cyA0IDAgUi9SZXNvdXJjZXM8PC9Gb250PDwvRjEgNSAwIFI+Pj4+Pj4KZW5kb2JqCjQgMCBvYmoKPDwvTGVuZ3RoIDI5Nj4+c3RyZWFtCkJUCi9GMSAxNCBUZgo3MiA3NzAgVGQKMTYgVEwKKENMSUVOVCBJTlRBS0UgLSBBdGVsaWVyIE5vb3IpIFRqIFQqCihOYW1lOiBDYW1pbGxlIFJvdXgpIFRqIFQqCihBbGxlcmdpZXM6IFBQRCBcKGhhaXIgZHllXCksIG5pY2tlbCkgVGogVCoKKE1lZGljYXRpb25zOiBub25lKSBUaiBUKgooUHJlZ25hbnQ6IG5vKSBUaiBUKgooU2NhbHAgc2Vuc2l0aXZpdHk6IG1pbGQpIFRqIFQqCihMYXN0IGNoZW1pY2FsIHNlcnZpY2U6IGJhbGF5YWdlLCAxMSB3ZWVrcyBhZ28pIFRqIFQqCihTaWduZWQ6IEMuIFJvdXgpIFRqIFQqCkVUCmVuZHN0cmVhbQplbmRvYmoKNSAwIG9iago8PC9UeXBlL0ZvbnQvU3VidHlwZS9UeXBlMS9CYXNlRm9udC9IZWx2ZXRpY2E+PgplbmRvYmoKeHJlZgowIDYKMDAwMDAwMDAwMCA2NTUzNSBmIAowMDAwMDAwMDA5IDAwMDAwIG4gCjAwMDAwMDAwNTQgMDAwMDAgbiAKMDAwMDAwMDEwNSAwMDAwMCBuIAowMDAwMDAwMjE3IDAwMDAwIG4gCjAwMDAwMDA1NjEgMDAwMDAgbiAKdHJhaWxlcgo8PC9TaXplIDYvUm9vdCAxIDAgUj4+CnN0YXJ0eHJlZgo2MjQKJSVFT0YK"
+  },
+  "units": 1,
+  "latency_ms": 3980
+}

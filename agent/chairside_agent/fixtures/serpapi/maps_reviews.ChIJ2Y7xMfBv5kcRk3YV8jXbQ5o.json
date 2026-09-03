@@ -1,0 +1,188 @@
+{
+  "vendor": "serpapi",
+  "primitive": "maps_reviews",
+  "variant": "ChIJ2Y7xMfBv5kcRk3YV8jXbQ5o",
+  "recorded_at": "2026-09-03T08:30:00+00:00",
+  "request": {
+    "engine": "google_maps_reviews",
+    "place_id": "ChIJ2Y7xMfBv5kcRk3YV8jXbQ5o",
+    "hl": "fr",
+    "sort_by": "qualityScore",
+    "num": 20
+  },
+  "response": {
+    "search_metadata": {
+      "id": "68b7f5e6071829304b5c6d7f",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/68b7f5e6071829304b5c6d7f.json",
+      "created_at": "2026-09-03 08:30:12 UTC",
+      "processed_at": "2026-09-03 08:30:12 UTC",
+      "total_time_taken": 2.41
+    },
+    "search_parameters": {
+      "engine": "google_maps_reviews",
+      "place_id": "ChIJ2Y7xMfBv5kcRk3YV8jXbQ5o",
+      "hl": "fr",
+      "sort_by": "qualityScore",
+      "num": 20
+    },
+    "place_info": {
+      "title": "Maison Kaya Coiffure",
+      "address": "22 Rue de Bretagne, 75003 Paris",
+      "rating": 4.7,
+      "reviews": 312,
+      "type": "Salon de coiffure"
+    },
+    "topics": [
+      {
+        "keyword": "balayage",
+        "mentions": 41,
+        "id": "CAESBGJhbGF5YWdl"
+      },
+      {
+        "keyword": "couleur",
+        "mentions": 63,
+        "id": "CAESB2NvdWxldXI"
+      },
+      {
+        "keyword": "accueil",
+        "mentions": 28,
+        "id": "CAESB2FjY3VlaWw"
+      }
+    ],
+    "reviews": [
+      {
+        "position": 1,
+        "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChIJ2Y7xMfBv5kcRk3YV8jXbQ5o1",
+        "rating": 5,
+        "date": "il y a 1 semaines",
+        "iso_date": "2026-08-25T14:11:00Z",
+        "iso_date_of_last_edit": "2026-08-25T14:11:00Z",
+        "snippet": "Balayage sublime, très naturel, Kaya a pris le temps d'expliquer chaque étape. Cheveux doux après le soin Olaplex.",
+        "extracted_snippet": {
+          "original": "Balayage sublime, très naturel, Kaya a pris le temps d'expliquer chaque étape. Cheveux doux après le soin Olaplex."
+        },
+        "user": {
+          "name": "Sofia L.",
+          "link": "https://www.google.com/maps/contrib/110191817/reviews",
+          "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocSof=s120-c-rp-mo-br100",
+          "reviews": 13,
+          "photos": 1,
+          "local_guide": false
+        },
+        "likes": 5
+      },
+      {
+        "position": 2,
+        "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChIJ2Y7xMfBv5kcRk3YV8jXbQ5o2",
+        "rating": 4,
+        "date": "il y a 2 semaines",
+        "iso_date": "2026-08-22T14:12:00Z",
+        "iso_date_of_last_edit": "2026-08-22T14:12:00Z",
+        "snippet": "Bon balayage mais l'attente était longue, 40 minutes de retard sur le rendez-vous.",
+        "extracted_snippet": {
+          "original": "Bon balayage mais l'attente était longue, 40 minutes de retard sur le rendez-vous."
+        },
+        "user": {
+          "name": "Nadia B.",
+          "link": "https://www.google.com/maps/contrib/120292827/reviews",
+          "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocNad=s120-c-rp-mo-br100",
+          "reviews": 14,
+          "photos": 2,
+          "local_guide": true
+        },
+        "likes": 4
+      },
+      {
+        "position": 3,
+        "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChIJ2Y7xMfBv5kcRk3YV8jXbQ5o3",
+        "rating": 5,
+        "date": "il y a 3 semaines",
+        "iso_date": "2026-08-19T14:13:00Z",
+        "iso_date_of_last_edit": "2026-08-19T14:13:00Z",
+        "snippet": "Coupe précise et coloration parfaite, accueil chaleureux.",
+        "extracted_snippet": {
+          "original": "Coupe précise et coloration parfaite, accueil chaleureux."
+        },
+        "user": {
+          "name": "Camille R.",
+          "link": "https://www.google.com/maps/contrib/130393837/reviews",
+          "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocCam=s120-c-rp-mo-br100",
+          "reviews": 15,
+          "photos": 3,
+          "local_guide": false
+        },
+        "likes": 3
+      },
+      {
+        "position": 4,
+        "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChIJ2Y7xMfBv5kcRk3YV8jXbQ5o4",
+        "rating": 3,
+        "date": "il y a 4 semaines",
+        "iso_date": "2026-08-16T14:14:00Z",
+        "iso_date_of_last_edit": "2026-08-16T14:14:00Z",
+        "snippet": "Balayage un peu trop clair par rapport à ce que je voulais, mais correction faite gratuitement la semaine suivante.",
+        "extracted_snippet": {
+          "original": "Balayage un peu trop clair par rapport à ce que je voulais, mais correction faite gratuitement la semaine suivante."
+        },
+        "user": {
+          "name": "Julien M.",
+          "link": "https://www.google.com/maps/contrib/140494847/reviews",
+          "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJul=s120-c-rp-mo-br100",
+          "reviews": 16,
+          "photos": 4,
+          "local_guide": true
+        },
+        "likes": 2
+      },
+      {
+        "position": 5,
+        "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChIJ2Y7xMfBv5kcRk3YV8jXbQ5o5",
+        "rating": 5,
+        "date": "il y a 5 semaines",
+        "iso_date": "2026-07-13T14:15:00Z",
+        "iso_date_of_last_edit": "2026-07-13T14:15:00Z",
+        "snippet": "Le meilleur salon du Marais pour les cheveux bouclés.",
+        "extracted_snippet": {
+          "original": "Le meilleur salon du Marais pour les cheveux bouclés."
+        },
+        "user": {
+          "name": "Inès T.",
+          "link": "https://www.google.com/maps/contrib/150595857/reviews",
+          "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocInè=s120-c-rp-mo-br100",
+          "reviews": 17,
+          "photos": 5,
+          "local_guide": false
+        },
+        "likes": 1
+      },
+      {
+        "position": 6,
+        "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChIJ2Y7xMfBv5kcRk3YV8jXbQ5o6",
+        "rating": 4,
+        "date": "il y a 6 semaines",
+        "iso_date": "2026-07-10T14:16:00Z",
+        "iso_date_of_last_edit": "2026-07-10T14:16:00Z",
+        "snippet": "Prix élevés mais résultat pro. Le balayage tient bien après 2 mois.",
+        "extracted_snippet": {
+          "original": "Prix élevés mais résultat pro. Le balayage tient bien après 2 mois."
+        },
+        "user": {
+          "name": "Léa P.",
+          "link": "https://www.google.com/maps/contrib/160696867/reviews",
+          "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocLéa=s120-c-rp-mo-br100",
+          "reviews": 18,
+          "photos": 6,
+          "local_guide": true
+        },
+        "likes": 0
+      }
+    ],
+    "serpapi_pagination": {
+      "next_page_token": "CAESY0NBRVFDQXJH68b7f5",
+      "next": "https://serpapi.com/search.json?engine=google_maps_reviews&place_id=ChIJ2Y7xMfBv5kcRk3YV8jXbQ5o&hl=fr&next_page_token=CAESY0NBRVFDQXJH68b7f5"
+    }
+  },
+  "units": 1,
+  "latency_ms": 1911
+}

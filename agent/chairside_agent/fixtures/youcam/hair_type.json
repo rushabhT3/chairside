@@ -1,0 +1,24 @@
+{
+  "vendor": "youcam",
+  "primitive": "hair_type",
+  "variant": "default",
+  "recorded_at": "2026-09-03T09:00:00+00:00",
+  "request": {
+    "src_file_url": "https://fixtures.chairside.local/uploads/scan-camille-01.jpg"
+  },
+  "response": {
+    "status": 200,
+    "data": {
+      "task_status": "success",
+      "error": null,
+      "results": {
+        "hair_type": {
+          "mapping": "3a to 3b",
+          "term": "Curly"
+        }
+      }
+    }
+  },
+  "units": 2,
+  "latency_ms": 1620
+}

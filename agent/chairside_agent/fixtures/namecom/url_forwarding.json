@@ -1,0 +1,25 @@
+{
+  "vendor": "namecom",
+  "primitive": "url_forwarding",
+  "variant": "default",
+  "recorded_at": "2026-09-03T08:30:00+00:00",
+  "request": {
+    "method": "POST",
+    "path": "/core/v1/domains/ateliernoor.com/url/forwarding",
+    "body": {
+      "host": "www",
+      "forwardsTo": "https://ateliernoor.com",
+      "type": "redirect"
+    }
+  },
+  "response": {
+    "id": 5581207,
+    "domainName": "ateliernoor.com",
+    "host": "www",
+    "forwardsTo": "https://ateliernoor.com",
+    "type": "redirect",
+    "meta": null
+  },
+  "units": 0,
+  "latency_ms": 512
+}

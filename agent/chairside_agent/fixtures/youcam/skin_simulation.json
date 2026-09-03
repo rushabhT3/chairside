@@ -1,0 +1,27 @@
+{
+  "vendor": "youcam",
+  "primitive": "skin_simulation",
+  "variant": "default",
+  "recorded_at": "2026-09-03T09:00:00+00:00",
+  "request": {
+    "src_file_url": "https://fixtures.chairside.local/uploads/scan-camille-01.jpg",
+    "radiance": 1.0,
+    "spots": 0.8
+  },
+  "response": {
+    "status": 200,
+    "data": {
+      "task_status": "success",
+      "error": null,
+      "results": {
+        "output": [
+          {
+            "url": "https://fixtures.chairside.local/renders/skin-brightening.jpg"
+          }
+        ]
+      }
+    }
+  },
+  "units": 4,
+  "latency_ms": 6120
+}

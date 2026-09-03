@@ -1,0 +1,20 @@
+{
+  "vendor": "foxit",
+  "primitive": "request_envelope",
+  "variant": "default",
+  "recorded_at": "2026-09-03T09:00:00+00:00",
+  "request": {
+    "document_id": "doc-0001",
+    "signer": {
+      "name": "Noor Haddad",
+      "email": "noor@example.com"
+    },
+    "consultation_id": null
+  },
+  "response": {
+    "envelope_id": "env-0001",
+    "state": "draft"
+  },
+  "units": 0,
+  "latency_ms": 180
+}
